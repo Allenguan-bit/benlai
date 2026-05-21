@@ -2,6 +2,7 @@ baseURL = "https://benlai.me/"
 locale = "zh-cn"
 title = "本来"
 theme = "diary"
+publishDir = "docs"
 
 [author]
   name = "Allen"

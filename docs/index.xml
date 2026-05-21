@@ -1,0 +1,15 @@
+<?xml-stylesheet href="/rss.xsl" type="text/xsl"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>本来</title>
+    <link>https://benlai.me/</link>
+    <description>Recent content on 本来</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 21 May 2026 19:00:01 -0400</lastBuildDate>
+    
+        <atom:link href="https://benlai.me/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>
