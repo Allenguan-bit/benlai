@@ -10,6 +10,7 @@ publishDir = "docs"
 
 [params]
   description = "探索者的自留地"
+  mainSections = []
 
 [[menus.main]]
   name = "灵境"
