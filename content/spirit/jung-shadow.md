@@ -6,13 +6,13 @@ title = 'Jung Shadow'
 
 
 
-I AM a strange loop
+I am a strange loop
 
-![loop](/Image/image_2.jpg)
+![loop](/images/Image_2.jpg)
 
 It from bit \& Bit from it
 
-![bit](/Image/image_1.jpg)
+![bit](/images/Image_1.jpg)
 
 
 
