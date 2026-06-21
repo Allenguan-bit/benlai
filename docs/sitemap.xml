@@ -2,10 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://benlai.me/culture/wu-li-civilization/</loc>
-    <lastmod>2026-05-25T00:00:00+08:00</lastmod>
-  </url><url>
     <loc>https://benlai.me/</loc>
+    <lastmod>2026-05-29T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://benlai.me/spirit/reality_review_zhihu/</loc>
+    <lastmod>2026-05-29T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://benlai.me/culture/wu-li-civilization/</loc>
     <lastmod>2026-05-25T00:00:00+08:00</lastmod>
   </url><url>
     <loc>https://benlai.me/spirit/jung-shadow/</loc>
