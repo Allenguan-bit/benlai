@@ -31,3 +31,8 @@ publishDir = "docs"
   name = "书房"
   url = "/reading/"
   weight = 4
+
+[[menus.main]]
+  name = "算境"
+  url = "/ai/"
+  weight = 5
