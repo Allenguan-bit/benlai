@@ -1,0 +1,1190 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<title>我花了大半天，让Claude真正&#34;住进&#34;我的Obsidian知识库</title>
+
+
+
+
+<meta charset="utf-8">
+<meta name="X-UA-Compatible" content="IE=edge">
+<meta name="google-site-verification" content="">
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=5, user-scalable=5" name="viewport">
+<meta content="telephone=no" name="format-detection">
+<meta name="description" content="">
+<meta name="renderer" content="webkit">
+<meta name="theme-color" content="#ffffff">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+      <script src="/js/toc.js"></script>
+    
+    <link type="text/css" rel="stylesheet" href="/vendor/css/bootstrap.min.css">
+
+<link rel="stylesheet" href="/scss/dark-mode.min.6c9b4c2290542df75010d1640eac4339c754ccff3c9b43fc81a23c94e7e12eaf.css" integrity="sha256-bJtMIpBULfdQENFkDqxDOcdUzP88m0P8gaI8lOfhLq8=" media="screen">
+
+
+<link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Material+Icons">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<style>
+  .post-body img {
+    width: 100%;
+    border-radius: 5px;
+  }
+</style>
+
+
+</head>
+<body>
+    	<div id="app"><div class="single-column-drawer-container" id="drawer"
+     v-bind:class="{ 'single-column-drawer-container-active': isDrawerOpen }">
+    <div class="drawer-content">
+        <div class="drawer-menu">
+            
+            
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/spirit/">
+                    灵境
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/culture/">
+                    文化
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/travel/">
+                    行迹
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/reading/">
+                    书房
+                </a>
+                
+            
+                
+                
+                
+                    
+                
+                
+                
+                <a class="a-block drawer-menu-item active" href="/ai/">
+                    算境
+                </a>
+                
+            
+            
+            <div class="toc">
+
+
+	<div class="toc-content">
+	
+		
+		
+		
+		<center>- CATALOG -</center>
+		
+		
+		<ul>
+			
+				
+				
+					
+						
+						
+						
+						
+							
+								
+									<ul>
+								
+							
+						
+						
+							<li>
+								<a href="#%e5%85%88%e8%af%b4%e8%af%b4%e6%88%91%e6%98%af%e8%b0%81" class="nav-先说说我是谁">
+									先说说我是谁
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e4%b8%ba%e4%bb%80%e4%b9%88%e8%a6%81%e5%81%9a%e8%bf%99%e4%bb%b6%e4%ba%8b" class="nav-为什么要做这件事">
+									为什么要做这件事
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e5%85%88%e8%af%b4%e7%bb%93%e8%ae%ba" class="nav-先说结论">
+									先说结论
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e4%b8%a4%e7%a7%8d%e6%96%b9%e6%a1%88%e5%90%84%e6%9c%89%e7%94%a8%e5%a4%84" class="nav-两种方案各有用处">
+									两种方案，各有用处
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e7%ac%ac%e4%b8%80%e7%ab%a0%e6%96%b9%e6%a1%88a%e4%b8%89%e5%88%86%e9%92%9f%e6%90%9e%e5%ae%9a" class="nav-第一章方案a三分钟搞定">
+									第一章：方案A，三分钟搞定
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e7%ac%ac%e4%ba%8c%e7%ab%a0%e6%96%b9%e6%a1%88b%e5%bc%80%e5%a7%8b%e8%b8%a9%e5%9d%91" class="nav-第二章方案b开始踩坑">
+									第二章：方案B，开始踩坑
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+							
+								
+									<ul>
+								
+							
+						
+						
+							<li>
+								<a href="#%e5%9d%91%e4%b8%80%e9%85%8d%e7%bd%ae%e6%96%87%e4%bb%b6%e5%9c%a8%e5%93%aa%e9%87%8c" class="nav-坑一配置文件在哪里">
+									坑一：配置文件在哪里？
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e5%9d%91%e4%ba%8cpowershell-%e5%86%99%e5%85%a5%e4%b8%ad%e6%96%87%e8%b7%af%e5%be%84%e4%bc%9a%e4%b9%b1%e7%a0%81" class="nav-坑二powershell-写入中文路径会乱码">
+									坑二：PowerShell 写入中文路径会乱码
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e5%9d%91%e4%b8%89obsidian-mcp-%e4%b8%8d%e6%8e%a5%e5%8f%97%e7%8e%af%e5%a2%83%e5%8f%98%e9%87%8f%e4%bc%a0%e8%b7%af%e5%be%84" class="nav-坑三obsidian-mcp-不接受环境变量传路径">
+									坑三：obsidian-mcp 不接受环境变量传路径
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e5%9d%91%e5%9b%9b%e4%b8%ad%e6%96%87-vault-%e5%90%8d%e8%ae%a9-obsidian-mcp-%e7%bd%a2%e5%b7%a5" class="nav-坑四中文-vault-名让-obsidian-mcp-罢工">
+									坑四：中文 vault 名让 obsidian-mcp 罢工
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+							
+								</ul>
+							
+						
+						
+						
+							<li>
+								<a href="#%e7%ac%ac%e4%b8%89%e7%ab%a0vault-%e8%8b%b1%e6%96%87%e5%8c%96%e5%bc%95%e5%8f%91%e4%b8%89%e7%ab%af%e5%90%8c%e6%ad%a5%e6%b7%b7%e4%b9%b1" class="nav-第三章vault-英文化引发三端同步混乱">
+									第三章：vault 英文化，引发三端同步混乱
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+							
+								
+									<ul>
+								
+							
+						
+						
+							<li>
+								<a href="#%e5%9d%91%e4%ba%94%e4%b8%ad%e8%8b%b1%e6%96%87%e6%96%87%e4%bb%b6%e5%a4%b9%e5%b9%b6%e5%ad%98" class="nav-坑五中英文文件夹并存">
+									坑五：中英文文件夹并存
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e5%9d%91%e5%85%adremotely-save-%e6%8f%92%e4%bb%b6%e6%8a%8a%e4%b8%ad%e6%96%87%e6%96%87%e4%bb%b6%e5%a4%b9%e6%8e%a8%e5%9b%9e%e6%9d%a5" class="nav-坑六remotely-save-插件把中文文件夹推回来">
+									坑六：Remotely Save 插件把中文文件夹推回来
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+							
+								</ul>
+							
+						
+						
+						
+							<li>
+								<a href="#%e6%9c%80%e7%bb%88%e6%95%88%e6%9e%9c" class="nav-最终效果">
+									最终效果
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e5%87%a0%e4%b8%aa%e5%80%bc%e5%be%97%e8%ae%b0%e4%bd%8f%e7%9a%84%e6%95%99%e8%ae%ad" class="nav-几个值得记住的教训">
+									几个值得记住的教训
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e5%86%99%e5%9c%a8%e6%9c%80%e5%90%8e" class="nav-写在最后">
+									写在最后
+								</a>
+							</li>
+						
+						
+					
+				
+			
+		</ul>
+	</div>
+
+</div>
+            
+        </div>
+    </div>
+</div>
+<transition name="fade">
+    <div id="drawer-mask" v-bind:class="{ 'single-column-drawer-mask': mounted }" v-if="isDrawerOpen" v-on:click="toggleDrawer"></div>
+</transition>
+<nav id="navBar" class="navbar sticky-top navbar-light single-column-nav-container">
+    <div id="navBackground" class="nav-background"></div>
+    <div class="container container-narrow nav-content">
+        <button id="nav_dropdown_btn" class="nav-dropdown-toggle" type="button" v-on:click="toggleDrawer">
+            <i class="material-icons">
+                menu
+            </i>
+        </button>
+        <a id="navTitle" class="navbar-brand" href="https://benlai.me/">
+            本来
+        </a>
+        
+        <button type="button" class="nav-darkmode-toggle" id="darkModeToggleButton2">
+            <i class="material-icons" id="darkModeToggleIcon2">
+                dark_mode
+            </i>
+        </button>
+        
+    </div>
+</nav>
+<div class="single-column-header-container" id="pageHead"
+     v-bind:style="{ transform: 'translateZ(0px) translateY('+.3*scrollY+'px)', opacity: 1-navOpacity }">
+    <a href="https://benlai.me/">
+        <div class="single-column-header-title">本来</div>
+        
+
+    </a>
+</div>
+
+            <div id="content">
+                <div id="streamContainer" class="stream-container">
+
+    <div class="post-list-container post-list-container-shadow">
+        <div class="post">
+            
+            
+            
+
+            <div class="post-head-wrapper-text-only"
+                
+            >
+                <div class="post-title">
+                    我花了大半天，让Claude真正&#34;住进&#34;我的Obsidian知识库
+                    
+                    <div class="post-meta">
+                        
+                        <time itemprop="datePublished">
+                            2026-05-17 00:00
+                        </time>
+                        
+
+                        
+
+                        
+                        
+                    </div>
+                </div>
+            </div>
+            
+            <div class="post-body-wrapper">
+                
+                <div class="post-body" v-pre>
+                
+                    <p><em>——一个AI新手的真实踩坑记录</em></p>
+<hr>
+<h2 id="先说说我是谁">先说说我是谁</h2>
+<p>我不是IT背景，过去几年一直在关注AI相关的新闻，知道这东西很厉害，但始终停留在&quot;有概念、没动手&quot;的阶段。每次看到别人分享AI工作流，心里觉得很酷，但不知道从哪里下手。</p>
+<p>三周前，我遇到了极客教的王斗校长。他讲的一句话让我真正开了窍：<strong>AI agent 的时代已经到了，而且几乎不需要编程基础就能参与。</strong></p>
+<p>从那一刻起，我开始动手。三周下来，已经搭建跑通了几个AI智能体项目。今天才想着要开始跟大家分享这个过程——之前踩的坑、正在做的事、以及接下来的探索。</p>
+<p>这个系列，记录的就是我从零开始的真实路径。不是教程，不是攻略，是一个普通人真实的成长过程——包括卡壳的时刻，还有最终搞定时那种说不清楚的成就感。</p>
+<p>今天这篇，讲的是<strong>让Claude真正&quot;住进&quot;我的Obsidian知识库。</strong></p>
+<hr>
+<h2 id="为什么要做这件事">为什么要做这件事</h2>
+<p>开始折腾AI agent之后，我才知道了Obsidian这个工具。最初用的是网页版，收录了一部分个人资料。但后来发现桌面版更方便整理电脑里已有的笔记和资料，于是今天决定改用桌面版。</p>
+<p>就是这个&quot;改用桌面版&quot;的决定，让我掉进了一个接一个的坑。</p>
+<p>我想实现的是：让Claude直接读写我的Obsidian知识库，能搜索内容、发现笔记之间的关联、帮我整理。而不是每次都靠手动复制粘贴。</p>
+<hr>
+<h2 id="先说结论">先说结论</h2>
+<p>折腾了大半天，踩了将近十个坑，但最终实现了：</p>
+<ul>
+<li>Claude 可以直接读写我本地的 Obsidian vault</li>
+<li>支持中文笔记内容搜索</li>
+<li>电脑、OneDrive、手机三端同步正常</li>
+</ul>
+<p>值得吗？值得。</p>
+<hr>
+<h2 id="两种方案各有用处">两种方案，各有用处</h2>
+<p>连接 Claude 和 Obsidian，有两条路：</p>
+<p><strong>方案A：Filesystem 连接器</strong>
+Claude Desktop 内建的工具，直接授权一个本地文件夹路径。三分钟搞定，稳定可靠，适合文件读写操作。</p>
+<p><strong>方案B：obsidian-mcp</strong>
+通过 MCP（Model Context Protocol）安装的第三方服务器，支持按内容语义搜索、标签管理、笔记整理。功能更强，但配置更复杂。</p>
+<p>最终两个都装，分工合作：Filesystem 负责结构性操作，obsidian-mcp 负责内容搜索和笔记管理。</p>
+<hr>
+<h2 id="第一章方案a三分钟搞定">第一章：方案A，三分钟搞定</h2>
+<p>方案A非常简单：</p>
+<ol>
+<li>打开 Claude Desktop → Settings → Integrations</li>
+<li>找到 Filesystem 连接器</li>
+<li>添加路径：我的 vault 所在的本地文件夹</li>
+<li>完成</li>
+</ol>
+<p>测试一下，让Claude列出知识库的文件夹结构——秒出结果。</p>
+<pre tabindex="0"><code>[DIR] Cooked
+[DIR] Inbox  
+[DIR] Raw
+[DIR] Templates
+</code></pre><p>方案A通了。</p>
+<hr>
+<h2 id="第二章方案b开始踩坑">第二章：方案B，开始踩坑</h2>
+<p>方案B需要配置一个 JSON 文件，告诉 Claude Desktop 去哪里找 obsidian-mcp 服务器。</p>
+<h3 id="坑一配置文件在哪里">坑一：配置文件在哪里？</h3>
+<p>普通版 Claude Desktop 的配置文件在：</p>
+<pre tabindex="0"><code>C:\Users\[用户名]\AppData\Roaming\Claude\claude_desktop_config.json
+</code></pre><p>但我装的是 <strong>Microsoft Store 版</strong>，路径完全不同：</p>
+<pre tabindex="0"><code>C:\Users\[用户名]\AppData\Local\Packages\Claude_pzs8sxrjxfjjc\LocalCache\Roaming\Claude\claude_desktop_config.json
+</code></pre><p>找这个路径花了不少时间。</p>
+<h3 id="坑二powershell-写入中文路径会乱码">坑二：PowerShell 写入中文路径会乱码</h3>
+<p>我的知识库叫&quot;Allen的知识库&quot;，用 PowerShell 写入配置文件后，中文变成了 <code>????</code>。</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-json" data-lang="json"><span style="display:flex;"><span><span style="color:#e6db74">&#34;OBSIDIAN_VAULT_PATH&#34;</span><span style="color:#960050;background-color:#1e0010">:</span> <span style="color:#e6db74">&#34;C:\\Users\\...\\Allen????&#34;</span>
+</span></span></code></pre></div><p>解决方法：用记事本手动打开文件粘贴内容，保存时确认编码是 UTF-8。</p>
+<h3 id="坑三obsidian-mcp-不接受环境变量传路径">坑三：obsidian-mcp 不接受环境变量传路径</h3>
+<p>我最初把 vault 路径放在 <code>env</code> 里，结果 obsidian-mcp 每次启动就打印使用说明然后退出。原来它需要把路径作为<strong>命令行参数</strong>传入：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-json" data-lang="json"><span style="display:flex;"><span><span style="color:#e6db74">&#34;args&#34;</span><span style="color:#960050;background-color:#1e0010">:</span> [<span style="color:#e6db74">&#34;-y&#34;</span>, <span style="color:#e6db74">&#34;obsidian-mcp&#34;</span>, <span style="color:#e6db74">&#34;C:\\Users\\...\\Allen的知识库&#34;</span>]
+</span></span></code></pre></div><h3 id="坑四中文-vault-名让-obsidian-mcp-罢工">坑四：中文 vault 名让 obsidian-mcp 罢工</h3>
+<p>配置终于写对了，但搜索一直卡死。去看日志，发现：</p>
+<p>obsidian-mcp 会把 vault 名称转换成英文，中文字符全部丢弃。&ldquo;Allen的知识库&quot;被转成了 <code>d-note</code>——只剩下最后几个可识别的字母，搜索完全失效。</p>
+<p><strong>解决方案：把 vault 名改成英文。</strong></p>
+<hr>
+<h2 id="第三章vault-英文化引发三端同步混乱">第三章：vault 英文化，引发三端同步混乱</h2>
+<p>把知识库根目录从&quot;Allen的知识库&quot;改成&quot;Allen-Vault&rdquo;，同时把所有中文文件夹名改成英文：</p>
+<table>
+  <thead>
+      <tr>
+          <th>原来</th>
+          <th>改为</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>01-AI进化日志</td>
+          <td>01-AI-Log</td>
+      </tr>
+      <tr>
+          <td>02-投资知识库</td>
+          <td>02-Investment</td>
+      </tr>
+      <tr>
+          <td>03-碎片收藏</td>
+          <td>03-Fragments</td>
+      </tr>
+      <tr>
+          <td>随想</td>
+          <td>Journal</td>
+      </tr>
+      <tr>
+          <td>中医</td>
+          <td>TCM</td>
+      </tr>
+      <tr>
+          <td>&hellip;</td>
+          <td>&hellip;</td>
+      </tr>
+  </tbody>
+</table>
+<p>改完之后，obsidian-mcp 终于正常——vault 被识别为 <code>allen-vault</code>，搜索秒出结果。</p>
+<p>但新的问题出现了。</p>
+<h3 id="坑五中英文文件夹并存">坑五：中英文文件夹并存</h3>
+<p>改名操作失误，创建了新的英文文件夹，但旧的中文文件夹还在。vault 里同时存在两套结构。用 PowerShell 逐一删除才解决。</p>
+<h3 id="坑六remotely-save-插件把中文文件夹推回来">坑六：Remotely Save 插件把中文文件夹推回来</h3>
+<p>电脑端删干净了，但手机端 Obsidian 还有中文文件夹。我用的是 <strong>Remotely Save 插件</strong>做手机和电脑之间的同步——它会把手机本地文件 push 到 OneDrive，再同步到电脑。</p>
+<p>结果：电脑刚删完，手机的 Remotely Save 又把中文文件夹推回来了。</p>
+<p>理清这个三层结构之后才找到正确顺序：</p>
+<pre tabindex="0"><code>电脑 Obsidian（直接读写 OneDrive 文件夹）
+        ↕ OneDrive 自动同步
+      OneDrive 云端
+        ↕ Remotely Save 插件
+手机 Obsidian（手机本地存储）
+</code></pre><p><strong>正确操作顺序：</strong></p>
+<ol>
+<li>手机端 Remotely Save 改为 Pull only 模式</li>
+<li>电脑端删干净所有中文文件夹</li>
+<li>等 OneDrive 同步完成</li>
+<li>手机端手动触发 Pull</li>
+<li>手机本地残留中文文件夹手动删除</li>
+<li>恢复双向同步</li>
+</ol>
+<hr>
+<h2 id="最终效果">最终效果</h2>
+<p>配置完成后，我测试了一句话：</p>
+<blockquote>
+<p>&ldquo;搜索我笔记里关于意识的内容&rdquo;</p>
+</blockquote>
+<p>结果秒出：</p>
+<pre tabindex="0"><code>Found 5 matches in 5 files
+
+Cooked\Journal\2018-02-26 精神分裂症与神秘主义——纳什与意识的边界.md
+Cooked\Journal\2018-05-26 GEB——怪圈、意识与色即是空.md
+Cooked\Journal\2018-12-19 禅修诱导的濒死体验MI-NDE——意识的边界.md
+Cooked\Journal\2019-07-10 科学与无意识——原型意象与物理学的汇合.md
+Cooked\Journal\2022-08-24 Chico Xavier——巴西著名灵媒与意识的非还原性解释.md
+</code></pre><p>从2018年到2022年，横跨四年的思考痕迹，一秒浮现。</p>
+<p>这才是我想要的感觉。</p>
+<hr>
+<h2 id="几个值得记住的教训">几个值得记住的教训</h2>
+<p><strong>1. Store 版和普通版 Claude Desktop 配置路径不同</strong>
+用 PowerShell 查进程路径来判断自己装的是哪个版本。</p>
+<p><strong>2. obsidian-mcp 不支持中文 vault 名</strong>
+vault 根目录和所有文件夹名用英文，笔记内容是中文完全没问题。</p>
+<p><strong>3. 多端同步要先理清层次结构</strong>
+搞清楚&quot;谁同步谁&quot;，再决定操作顺序，否则会陷入反复覆盖的循环。</p>
+<p><strong>4. 先用 Filesystem，再用 obsidian-mcp</strong>
+Filesystem 简单稳定是基础，obsidian-mcp 是进阶。两个搭配使用效果最好。</p>
+<hr>
+<h2 id="写在最后">写在最后</h2>
+<p>三周前我还完全不知道从哪里下手。今天我让Claude真正读进了我的知识库。</p>
+<p>这不是我三周里做的第一件事，但是我决定开始分享的第一篇。接下来我会持续记录——之前做过的、正在做的、以及接下来要探索的。从最初的懵懵懂懂到逐渐找到节奏，都会在这里。</p>
+<p>如果你也是非IT背景，也在观望要不要开始，这个系列或许能给你一点参考。</p>
+<p><strong>工具搭好了，重头戏才刚开始。</strong></p>
+<hr>
+<p><em>极客教王斗校长是让我真正开始动手的引路人。</em></p>
+<p><em>这是我 AI agent 学习旅程系列的开篇。</em></p>
+
+                    
+                    <HR width="100%" id="EOF">
+		    <p style="color:#777;">Last modified on 2026-05-17</p>
+                    
+                </div>
+            </div>
+            
+            
+            <nav class="post-pagination">
+
+                
+                <a class="newer-posts" href="/spirit/first/">
+			Next<br>初识
+                </a>
+                
+                
+                
+                <a class="older-posts">
+			Previous<br>No older posts.
+                </a>
+                
+            </nav>
+            <div class="post-comment-wrapper">
+                
+
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+    </div>
+
+
+                    </div>
+            </div><div id="sideContainer" class="side-container">
+    
+    <a class="a-block nav-head false" href="https://benlai.me/">
+    
+        <div class="nav-title">
+            本来
+        </div>
+        
+    </a>
+
+    <div class="nav-link-list">
+        
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/spirit/">
+                灵境
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/culture/">
+                文化
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/travel/">
+                行迹
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/reading/">
+                书房
+            </a>
+            
+        
+            
+            
+            
+                
+            
+            
+            
+            <a class="a-block nav-link-item active" href="/ai/">
+                算境
+            </a>
+            
+        
+    </div>
+
+    
+
+    <div class="nav-footer">
+        
+Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> by <a href="https://risehere.net/">Rise</a>
+<br>
+Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopener">Makito</a>'s <a href="https://github.com/SumiMakito/hexo-theme-journal/" target="_blank" rel="noreferrer noopener">Journal.</a> <br>
+<br>
+
+&copy;
+	
+	2026 本来
+	
+
+    </div>
+    
+</div><div id="extraContainer" class="extra-container">
+    <div class="toc-wrapper">
+        
+
+        
+        <div class="toc">
+
+
+	<div class="toc-content">
+	
+		
+		
+		
+		<center>- CATALOG -</center>
+		
+		
+		<ul>
+			
+				
+				
+					
+						
+						
+						
+						
+							
+								
+									<ul>
+								
+							
+						
+						
+							<li>
+								<a href="#%e5%85%88%e8%af%b4%e8%af%b4%e6%88%91%e6%98%af%e8%b0%81" class="nav-先说说我是谁">
+									先说说我是谁
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e4%b8%ba%e4%bb%80%e4%b9%88%e8%a6%81%e5%81%9a%e8%bf%99%e4%bb%b6%e4%ba%8b" class="nav-为什么要做这件事">
+									为什么要做这件事
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e5%85%88%e8%af%b4%e7%bb%93%e8%ae%ba" class="nav-先说结论">
+									先说结论
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e4%b8%a4%e7%a7%8d%e6%96%b9%e6%a1%88%e5%90%84%e6%9c%89%e7%94%a8%e5%a4%84" class="nav-两种方案各有用处">
+									两种方案，各有用处
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e7%ac%ac%e4%b8%80%e7%ab%a0%e6%96%b9%e6%a1%88a%e4%b8%89%e5%88%86%e9%92%9f%e6%90%9e%e5%ae%9a" class="nav-第一章方案a三分钟搞定">
+									第一章：方案A，三分钟搞定
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e7%ac%ac%e4%ba%8c%e7%ab%a0%e6%96%b9%e6%a1%88b%e5%bc%80%e5%a7%8b%e8%b8%a9%e5%9d%91" class="nav-第二章方案b开始踩坑">
+									第二章：方案B，开始踩坑
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+							
+								
+									<ul>
+								
+							
+						
+						
+							<li>
+								<a href="#%e5%9d%91%e4%b8%80%e9%85%8d%e7%bd%ae%e6%96%87%e4%bb%b6%e5%9c%a8%e5%93%aa%e9%87%8c" class="nav-坑一配置文件在哪里">
+									坑一：配置文件在哪里？
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e5%9d%91%e4%ba%8cpowershell-%e5%86%99%e5%85%a5%e4%b8%ad%e6%96%87%e8%b7%af%e5%be%84%e4%bc%9a%e4%b9%b1%e7%a0%81" class="nav-坑二powershell-写入中文路径会乱码">
+									坑二：PowerShell 写入中文路径会乱码
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e5%9d%91%e4%b8%89obsidian-mcp-%e4%b8%8d%e6%8e%a5%e5%8f%97%e7%8e%af%e5%a2%83%e5%8f%98%e9%87%8f%e4%bc%a0%e8%b7%af%e5%be%84" class="nav-坑三obsidian-mcp-不接受环境变量传路径">
+									坑三：obsidian-mcp 不接受环境变量传路径
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e5%9d%91%e5%9b%9b%e4%b8%ad%e6%96%87-vault-%e5%90%8d%e8%ae%a9-obsidian-mcp-%e7%bd%a2%e5%b7%a5" class="nav-坑四中文-vault-名让-obsidian-mcp-罢工">
+									坑四：中文 vault 名让 obsidian-mcp 罢工
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+							
+								</ul>
+							
+						
+						
+						
+							<li>
+								<a href="#%e7%ac%ac%e4%b8%89%e7%ab%a0vault-%e8%8b%b1%e6%96%87%e5%8c%96%e5%bc%95%e5%8f%91%e4%b8%89%e7%ab%af%e5%90%8c%e6%ad%a5%e6%b7%b7%e4%b9%b1" class="nav-第三章vault-英文化引发三端同步混乱">
+									第三章：vault 英文化，引发三端同步混乱
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+							
+								
+									<ul>
+								
+							
+						
+						
+							<li>
+								<a href="#%e5%9d%91%e4%ba%94%e4%b8%ad%e8%8b%b1%e6%96%87%e6%96%87%e4%bb%b6%e5%a4%b9%e5%b9%b6%e5%ad%98" class="nav-坑五中英文文件夹并存">
+									坑五：中英文文件夹并存
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e5%9d%91%e5%85%adremotely-save-%e6%8f%92%e4%bb%b6%e6%8a%8a%e4%b8%ad%e6%96%87%e6%96%87%e4%bb%b6%e5%a4%b9%e6%8e%a8%e5%9b%9e%e6%9d%a5" class="nav-坑六remotely-save-插件把中文文件夹推回来">
+									坑六：Remotely Save 插件把中文文件夹推回来
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+							
+								</ul>
+							
+						
+						
+						
+							<li>
+								<a href="#%e6%9c%80%e7%bb%88%e6%95%88%e6%9e%9c" class="nav-最终效果">
+									最终效果
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e5%87%a0%e4%b8%aa%e5%80%bc%e5%be%97%e8%ae%b0%e4%bd%8f%e7%9a%84%e6%95%99%e8%ae%ad" class="nav-几个值得记住的教训">
+									几个值得记住的教训
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e5%86%99%e5%9c%a8%e6%9c%80%e5%90%8e" class="nav-写在最后">
+									写在最后
+								</a>
+							</li>
+						
+						
+					
+				
+			
+		</ul>
+	</div>
+
+</div>
+        
+    </div>
+    <div class="pagination">
+        <a id="globalBackToTop" class="pagination-action animated-visibility" href="#top"
+            :class="{ invisible: scrollY == 0 }">
+            <i class="material-icons pagination-action-icon">
+                keyboard_arrow_up
+            </i>
+        </a>
+        
+        <a type="button" class="pagination-action" id="darkModeToggleButton">
+            <span class="material-icons pagination-action-icon" id="darkModeToggleIcon">
+                dark_mode
+            </span>
+        </a>
+        
+        
+    </div>
+</div>
+
+<div id="single-column-footer">
+Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> by <a href="https://risehere.net/">Rise</a>
+<br>
+Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopener">Makito</a>'s <a href="https://github.com/SumiMakito/hexo-theme-journal/" target="_blank" rel="noreferrer noopener">Journal.</a> <br>
+<br>
+
+&copy;
+	
+	2026 本来
+	
+</div>
+            </div>
+    
+    <script src="/js/journal.js"></script></body>
+</html>
