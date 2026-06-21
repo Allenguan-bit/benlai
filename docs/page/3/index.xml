@@ -13,105 +13,171 @@
     
     
         <item>
-        <title>我在云端养了一个AI</title>
-        <link>https://benlai.me/ai/ai-in-the-cloud/</link>
-        <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
+        <title>我花了大半天，让Claude真正&#34;住进&#34;我的Obsidian知识库</title>
+        <link>https://benlai.me/ai/claude-obsidian/</link>
+        <pubDate>Sun, 17 May 2026 00:00:00 +0000</pubDate>
         
-        <guid>https://benlai.me/ai/ai-in-the-cloud/</guid>
-        <description>本来 https://benlai.me/ai/ai-in-the-cloud/ -&lt;p&gt;&lt;em&gt;2026年5月14日，多伦多，阴天&lt;/em&gt;&lt;/p&gt;
+        <guid>https://benlai.me/ai/claude-obsidian/</guid>
+        <description>本来 https://benlai.me/ai/claude-obsidian/ -&lt;p&gt;&lt;em&gt;——一个AI新手的真实踩坑记录&lt;/em&gt;&lt;/p&gt;
 &lt;hr&gt;
-&lt;p&gt;今天下午，多伦多飘着雨，气温11度。我坐在电脑前，做了一件一个月前还觉得遥不可及的事——在自己的服务器上，从零开始，搭建了一个完全属于自己的AI智能体。&lt;/p&gt;
-&lt;p&gt;没有订阅费。没有数据泄露的顾虑。没有哪家公司的服务器在背后偷看我的投资文件。&lt;/p&gt;
-&lt;p&gt;一切，都跑在我自己的机器上。&lt;/p&gt;
+&lt;h2 id=&#34;先说说我是谁&#34;&gt;先说说我是谁&lt;/h2&gt;
+&lt;p&gt;我不是IT背景，过去几年一直在关注AI相关的新闻，知道这东西很厉害，但始终停留在&amp;quot;有概念、没动手&amp;quot;的阶段。每次看到别人分享AI工作流，心里觉得很酷，但不知道从哪里下手。&lt;/p&gt;
+&lt;p&gt;三周前，我遇到了极客教的王斗校长。他讲的一句话让我真正开了窍：&lt;strong&gt;AI agent 的时代已经到了，而且几乎不需要编程基础就能参与。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;从那一刻起，我开始动手。三周下来，已经搭建跑通了几个AI智能体项目。今天才想着要开始跟大家分享这个过程——之前踩的坑、正在做的事、以及接下来的探索。&lt;/p&gt;
+&lt;p&gt;这个系列，记录的就是我从零开始的真实路径。不是教程，不是攻略，是一个普通人真实的成长过程——包括卡壳的时刻，还有最终搞定时那种说不清楚的成就感。&lt;/p&gt;
+&lt;p&gt;今天这篇，讲的是&lt;strong&gt;让Claude真正&amp;quot;住进&amp;quot;我的Obsidian知识库。&lt;/strong&gt;&lt;/p&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;起点一台在多伦多机房里沉睡的服务器&#34;&gt;起点：一台在多伦多机房里沉睡的服务器&lt;/h2&gt;
-&lt;p&gt;这一切都是我在Oracle Cloud上申请到一台ARM架构的云服务器开始的。&lt;/p&gt;
-&lt;p&gt;刚刚，我成功地在Oracle Cloud上申请了一台ARM架构的云服务器，规格不算差——4个CPU核心，24GB内存，装着Ubuntu 22.04。它有一个正式的名字：&lt;strong&gt;ai-agent-server&lt;/strong&gt;，公网IP是155.248.218.216，安静地待在多伦多的某个机房里。&lt;/p&gt;
-&lt;p&gt;Docker装好了，防火墙配好了，端口开着。一切就绪，现在开始一个真正的任务。&lt;/p&gt;
+&lt;h2 id=&#34;为什么要做这件事&#34;&gt;为什么要做这件事&lt;/h2&gt;
+&lt;p&gt;开始折腾AI agent之后，我才知道了Obsidian这个工具。最初用的是网页版，收录了一部分个人资料。但后来发现桌面版更方便整理电脑里已有的笔记和资料，于是今天决定改用桌面版。&lt;/p&gt;
+&lt;p&gt;就是这个&amp;quot;改用桌面版&amp;quot;的决定，让我掉进了一个接一个的坑。&lt;/p&gt;
+&lt;p&gt;我想实现的是：让Claude直接读写我的Obsidian知识库，能搜索内容、发现笔记之间的关联、帮我整理。而不是每次都靠手动复制粘贴。&lt;/p&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;第一步给服务器做个体检&#34;&gt;第一步：给服务器做个体检&lt;/h2&gt;
-&lt;p&gt;打开Windows的PowerShell，输入那行熟悉的命令：&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;ssh ubuntu@***.***.***.*** -i ~/.ssh/id_ed25519
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;屏幕上滚出一串欢迎文字。服务器还活着，内存使用率2%，磁盘只用了7%。像一个精力充沛却无事可做的员工，等着被分配工作。&lt;/p&gt;
-&lt;p&gt;先做系统更新。内核从1049升到了1050，重启，重新连接。一切正常。&lt;/p&gt;
-&lt;p&gt;体检通过。&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;第二步请一个会说话的大脑入驻&#34;&gt;第二步：请一个会说话的大脑入驻&lt;/h2&gt;
-&lt;p&gt;接下来要做的，是在这台服务器上安装一个本地大模型。&lt;/p&gt;
-&lt;p&gt;不是调用OpenAI的API，不是付费给某家云服务，而是把模型本身下载到自己的机器上，让它在自己的CPU上思考，用自己的内存呼吸。&lt;/p&gt;
-&lt;p&gt;工具叫&amp;quot;Ollama&amp;quot;。一行命令，官方安装脚本跑完，它就安静地住进了服务器。&lt;/p&gt;
-&lt;p&gt;然后是拉模型。我选的是Llama 3.1 8B Q4——Meta开源的大语言模型，80亿参数，经过4-bit量化压缩，体积约4.9GB。对于纯CPU推理来说，它是速度和质量最甜蜜的平衡点。24GB内存跑它，绰绰有余。&lt;/p&gt;
-&lt;p&gt;进度条慢慢走完。&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;success
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;一个字。但那一刻，服务器里有了第一个会思考的大脑。&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;第三步搭一个让ai工作的平台&#34;&gt;第三步：搭一个让AI工作的平台&lt;/h2&gt;
-&lt;p&gt;光有大脑还不够，还需要一个让它工作的环境。&lt;/p&gt;
-&lt;p&gt;这个环境叫Dify——一个开源的AI智能体平台，可以把大模型、知识库、工作流、对话界面全部整合在一起。它的后面跑着PostgreSQL存数据，Redis做缓存，Weaviate做向量搜索，Nginx做反向代理。&lt;/p&gt;
-&lt;p&gt;一条命令，12个Docker容器同时启动：&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;docker compose up -d
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;屏幕上滚出一行行&amp;quot;Started&amp;quot;。两分钟后，打开浏览器，输入服务器IP，出现了一个干净的注册页面。&lt;/p&gt;
-&lt;p&gt;我注册了管理员账号。&lt;/p&gt;
-&lt;p&gt;这台服务器，正式有了自己的AI控制台。&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;第四步让平台认识大脑&#34;&gt;第四步：让平台认识大脑&lt;/h2&gt;
-&lt;p&gt;Dify装好了，Ollama装好了，但它们还不认识彼此。&lt;/p&gt;
-&lt;p&gt;需要告诉Dify：去找那个地址，那里住着一个会说话的模型。&lt;/p&gt;
-&lt;p&gt;Docker容器和宿主机之间有一道网络的墙。我需要找到那道墙的门——Docker网关的IP地址，&lt;code&gt;***.**.*.*&lt;/code&gt;。但第一次连接失败了：防火墙挡住了。&lt;/p&gt;
-&lt;p&gt;加一条规则，重启Ollama，再试：&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Ollama is running
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;门打开了。&lt;/p&gt;
-&lt;p&gt;在Dify的插件市场里找到Ollama插件，安装，配置：模型名称&lt;code&gt;llama3.1:8b&lt;/code&gt;，地址&lt;code&gt;http://***.**.*.*:11434&lt;/code&gt;。保存。&lt;/p&gt;
-&lt;p&gt;界面上出现了一个绿色的开关，亮着。&lt;/p&gt;
-&lt;p&gt;两个系统，握手成功。&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;第五步给ai一个记忆&#34;&gt;第五步：给AI一个记忆&lt;/h2&gt;
-&lt;p&gt;一个没有记忆的AI，每次对话都是从零开始。它不知道你读过什么书，不知道你关注哪类投资产品，不知道你曾经写下过什么随想。&lt;/p&gt;
-&lt;p&gt;我需要给它一个记忆——一个知识库。&lt;/p&gt;
-&lt;p&gt;我的Obsidian笔记库里，存着多年积累的东西：读过的书目、碎片随想、投资产品的研究笔记。都是Claude帮我整理过的Markdown文件，结构清晰，标题层级分明。&lt;/p&gt;
-&lt;p&gt;还需要一个专门做向量化的小模型，把文字转成机器能检索的数字。&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;ollama pull nomic-embed-text
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;274MB。轻巧，专业。&lt;/p&gt;
-&lt;p&gt;模型就位后，在Dify里建了知识库，把文件一批批拖进去。系统开始向量化，把每一段文字变成高维空间里的一个点，等待被检索。&lt;/p&gt;
-&lt;p&gt;知识库有了。&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;第六步捏出一个助手&#34;&gt;第六步：捏出一个助手&lt;/h2&gt;
-&lt;p&gt;现在，材料全齐了：&lt;/p&gt;
+&lt;h2 id=&#34;先说结论&#34;&gt;先说结论&lt;/h2&gt;
+&lt;p&gt;折腾了大半天，踩了将近十个坑，但最终实现了：&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;一个会推理的大脑（llama3.1:8b）&lt;/li&gt;
-&lt;li&gt;一个会检索的记忆（知识库 + nomic-embed-text）&lt;/li&gt;
-&lt;li&gt;一个运行它们的平台（Dify）&lt;/li&gt;
+&lt;li&gt;Claude 可以直接读写我本地的 Obsidian vault&lt;/li&gt;
+&lt;li&gt;支持中文笔记内容搜索&lt;/li&gt;
+&lt;li&gt;电脑、OneDrive、手机三端同步正常&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;该捏出一个真正的助手了。&lt;/p&gt;
-&lt;p&gt;在Dify的Studio里，新建一个Chatflow，把节点一个个连起来：&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;用户提问 → 知识库检索 → LLM思考 → 输出回答
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;然后给它写了一段身份说明——System Prompt，告诉它自己是谁，该怎么工作：&lt;/p&gt;
+&lt;p&gt;值得吗？值得。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;两种方案各有用处&#34;&gt;两种方案，各有用处&lt;/h2&gt;
+&lt;p&gt;连接 Claude 和 Obsidian，有两条路：&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;方案A：Filesystem 连接器&lt;/strong&gt;
+Claude Desktop 内建的工具，直接授权一个本地文件夹路径。三分钟搞定，稳定可靠，适合文件读写操作。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;方案B：obsidian-mcp&lt;/strong&gt;
+通过 MCP（Model Context Protocol）安装的第三方服务器，支持按内容语义搜索、标签管理、笔记整理。功能更强，但配置更复杂。&lt;/p&gt;
+&lt;p&gt;最终两个都装，分工合作：Filesystem 负责结构性操作，obsidian-mcp 负责内容搜索和笔记管理。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;第一章方案a三分钟搞定&#34;&gt;第一章：方案A，三分钟搞定&lt;/h2&gt;
+&lt;p&gt;方案A非常简单：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;打开 Claude Desktop → Settings → Integrations&lt;/li&gt;
+&lt;li&gt;找到 Filesystem 连接器&lt;/li&gt;
+&lt;li&gt;添加路径：我的 vault 所在的本地文件夹&lt;/li&gt;
+&lt;li&gt;完成&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;测试一下，让Claude列出知识库的文件夹结构——秒出结果。&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;[DIR] Cooked
+[DIR] Inbox  
+[DIR] Raw
+[DIR] Templates
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;方案A通了。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;第二章方案b开始踩坑&#34;&gt;第二章：方案B，开始踩坑&lt;/h2&gt;
+&lt;p&gt;方案B需要配置一个 JSON 文件，告诉 Claude Desktop 去哪里找 obsidian-mcp 服务器。&lt;/p&gt;
+&lt;h3 id=&#34;坑一配置文件在哪里&#34;&gt;坑一：配置文件在哪里？&lt;/h3&gt;
+&lt;p&gt;普通版 Claude Desktop 的配置文件在：&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;C:\Users\[用户名]\AppData\Roaming\Claude\claude_desktop_config.json
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;但我装的是 &lt;strong&gt;Microsoft Store 版&lt;/strong&gt;，路径完全不同：&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;C:\Users\[用户名]\AppData\Local\Packages\Claude_pzs8sxrjxfjjc\LocalCache\Roaming\Claude\claude_desktop_config.json
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;找这个路径花了不少时间。&lt;/p&gt;
+&lt;h3 id=&#34;坑二powershell-写入中文路径会乱码&#34;&gt;坑二：PowerShell 写入中文路径会乱码&lt;/h3&gt;
+&lt;p&gt;我的知识库叫&amp;quot;Allen的知识库&amp;quot;，用 PowerShell 写入配置文件后，中文变成了 &lt;code&gt;????&lt;/code&gt;。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-json&#34; data-lang=&#34;json&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;OBSIDIAN_VAULT_PATH&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;C:\\Users\\...\\Allen????&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;解决方法：用记事本手动打开文件粘贴内容，保存时确认编码是 UTF-8。&lt;/p&gt;
+&lt;h3 id=&#34;坑三obsidian-mcp-不接受环境变量传路径&#34;&gt;坑三：obsidian-mcp 不接受环境变量传路径&lt;/h3&gt;
+&lt;p&gt;我最初把 vault 路径放在 &lt;code&gt;env&lt;/code&gt; 里，结果 obsidian-mcp 每次启动就打印使用说明然后退出。原来它需要把路径作为&lt;strong&gt;命令行参数&lt;/strong&gt;传入：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-json&#34; data-lang=&#34;json&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;args&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;:&lt;/span&gt; [&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;-y&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;obsidian-mcp&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;C:\\Users\\...\\Allen的知识库&amp;#34;&lt;/span&gt;]
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;坑四中文-vault-名让-obsidian-mcp-罢工&#34;&gt;坑四：中文 vault 名让 obsidian-mcp 罢工&lt;/h3&gt;
+&lt;p&gt;配置终于写对了，但搜索一直卡死。去看日志，发现：&lt;/p&gt;
+&lt;p&gt;obsidian-mcp 会把 vault 名称转换成英文，中文字符全部丢弃。&amp;ldquo;Allen的知识库&amp;quot;被转成了 &lt;code&gt;d-note&lt;/code&gt;——只剩下最后几个可识别的字母，搜索完全失效。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;解决方案：把 vault 名改成英文。&lt;/strong&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;第三章vault-英文化引发三端同步混乱&#34;&gt;第三章：vault 英文化，引发三端同步混乱&lt;/h2&gt;
+&lt;p&gt;把知识库根目录从&amp;quot;Allen的知识库&amp;quot;改成&amp;quot;Allen-Vault&amp;rdquo;，同时把所有中文文件夹名改成英文：&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;原来&lt;/th&gt;
+          &lt;th&gt;改为&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;01-AI进化日志&lt;/td&gt;
+          &lt;td&gt;01-AI-Log&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;02-投资知识库&lt;/td&gt;
+          &lt;td&gt;02-Investment&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;03-碎片收藏&lt;/td&gt;
+          &lt;td&gt;03-Fragments&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;随想&lt;/td&gt;
+          &lt;td&gt;Journal&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;中医&lt;/td&gt;
+          &lt;td&gt;TCM&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&amp;hellip;&lt;/td&gt;
+          &lt;td&gt;&amp;hellip;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;改完之后，obsidian-mcp 终于正常——vault 被识别为 &lt;code&gt;allen-vault&lt;/code&gt;，搜索秒出结果。&lt;/p&gt;
+&lt;p&gt;但新的问题出现了。&lt;/p&gt;
+&lt;h3 id=&#34;坑五中英文文件夹并存&#34;&gt;坑五：中英文文件夹并存&lt;/h3&gt;
+&lt;p&gt;改名操作失误，创建了新的英文文件夹，但旧的中文文件夹还在。vault 里同时存在两套结构。用 PowerShell 逐一删除才解决。&lt;/p&gt;
+&lt;h3 id=&#34;坑六remotely-save-插件把中文文件夹推回来&#34;&gt;坑六：Remotely Save 插件把中文文件夹推回来&lt;/h3&gt;
+&lt;p&gt;电脑端删干净了，但手机端 Obsidian 还有中文文件夹。我用的是 &lt;strong&gt;Remotely Save 插件&lt;/strong&gt;做手机和电脑之间的同步——它会把手机本地文件 push 到 OneDrive，再同步到电脑。&lt;/p&gt;
+&lt;p&gt;结果：电脑刚删完，手机的 Remotely Save 又把中文文件夹推回来了。&lt;/p&gt;
+&lt;p&gt;理清这个三层结构之后才找到正确顺序：&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;电脑 Obsidian（直接读写 OneDrive 文件夹）
+        ↕ OneDrive 自动同步
+      OneDrive 云端
+        ↕ Remotely Save 插件
+手机 Obsidian（手机本地存储）
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;正确操作顺序：&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;手机端 Remotely Save 改为 Pull only 模式&lt;/li&gt;
+&lt;li&gt;电脑端删干净所有中文文件夹&lt;/li&gt;
+&lt;li&gt;等 OneDrive 同步完成&lt;/li&gt;
+&lt;li&gt;手机端手动触发 Pull&lt;/li&gt;
+&lt;li&gt;手机本地残留中文文件夹手动删除&lt;/li&gt;
+&lt;li&gt;恢复双向同步&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;最终效果&#34;&gt;最终效果&lt;/h2&gt;
+&lt;p&gt;配置完成后，我测试了一句话：&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;你是 Allen 的私人知识助理和投资分析伙伴。在回答时优先引用知识库中的具体内容。熟悉一级市场投资逻辑，包括 Private Equity、私募基金、另类资产。直接、精准，不废话。&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;搜索我笔记里关于意识的内容&amp;rdquo;&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;按下Preview。&lt;/p&gt;
-&lt;p&gt;输入一个问题，关于知识库里的某个投资产品。&lt;/p&gt;
-&lt;p&gt;它回答了。引用了正确的文件内容，分析有条理，语气简洁。&lt;/p&gt;
+&lt;p&gt;结果秒出：&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Found 5 matches in 5 files
+
+Cooked\Journal\2018-02-26 精神分裂症与神秘主义——纳什与意识的边界.md
+Cooked\Journal\2018-05-26 GEB——怪圈、意识与色即是空.md
+Cooked\Journal\2018-12-19 禅修诱导的濒死体验MI-NDE——意识的边界.md
+Cooked\Journal\2019-07-10 科学与无意识——原型意象与物理学的汇合.md
+Cooked\Journal\2022-08-24 Chico Xavier——巴西著名灵媒与意识的非还原性解释.md
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;从2018年到2022年，横跨四年的思考痕迹，一秒浮现。&lt;/p&gt;
+&lt;p&gt;这才是我想要的感觉。&lt;/p&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;结尾今天之后&#34;&gt;结尾：今天之后&lt;/h2&gt;
-&lt;p&gt;晚上九点，窗外多伦多的雨还在下。&lt;/p&gt;
-&lt;p&gt;我看着浏览器里那个刚刚发布的聊天页面——Allen&amp;rsquo;s Assistant，想到以后随时可以用手机打开它，问它&amp;quot;我对某类资产的看法是什么&amp;quot;，或者&amp;quot;我读过哪些关于不确定性的书&amp;quot;，它会从我自己的笔记里找答案，用我熟悉的方式说出来。&lt;/p&gt;
-&lt;p&gt;这不是什么遥远的科技。&lt;/p&gt;
-&lt;p&gt;是一台ARM服务器，24GB内存，一个开源模型，一个开源平台，一个下午。&lt;/p&gt;
-&lt;p&gt;数据在自己手里。思考在自己的机器上。&lt;/p&gt;
-&lt;p&gt;这就够了。&lt;/p&gt;
+&lt;h2 id=&#34;几个值得记住的教训&#34;&gt;几个值得记住的教训&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;1. Store 版和普通版 Claude Desktop 配置路径不同&lt;/strong&gt;
+用 PowerShell 查进程路径来判断自己装的是哪个版本。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;2. obsidian-mcp 不支持中文 vault 名&lt;/strong&gt;
+vault 根目录和所有文件夹名用英文，笔记内容是中文完全没问题。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;3. 多端同步要先理清层次结构&lt;/strong&gt;
+搞清楚&amp;quot;谁同步谁&amp;quot;，再决定操作顺序，否则会陷入反复覆盖的循环。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;4. 先用 Filesystem，再用 obsidian-mcp&lt;/strong&gt;
+Filesystem 简单稳定是基础，obsidian-mcp 是进阶。两个搭配使用效果最好。&lt;/p&gt;
 &lt;hr&gt;
-&lt;p&gt;&lt;em&gt;下一步：配置HTTPS，把更多投资研究文件喂进知识库，让它越来越了解我在想什么。&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id=&#34;写在最后&#34;&gt;写在最后&lt;/h2&gt;
+&lt;p&gt;三周前我还完全不知道从哪里下手。今天我让Claude真正读进了我的知识库。&lt;/p&gt;
+&lt;p&gt;这不是我三周里做的第一件事，但是我决定开始分享的第一篇。接下来我会持续记录——之前做过的、正在做的、以及接下来要探索的。从最初的懵懵懂懂到逐渐找到节奏，都会在这里。&lt;/p&gt;
+&lt;p&gt;如果你也是非IT背景，也在观望要不要开始，这个系列或许能给你一点参考。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;工具搭好了，重头戏才刚开始。&lt;/strong&gt;&lt;/p&gt;
 &lt;hr&gt;
-&lt;p&gt;&lt;strong&gt;技术栈备注&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;服务器：Oracle Cloud ARM Ubuntu 22.04，4 OCPU / 24GB RAM&lt;/li&gt;
-&lt;li&gt;大模型：Ollama + Llama 3.1 8B Q4&lt;/li&gt;
-&lt;li&gt;Embedding：nomic-embed-text&lt;/li&gt;
-&lt;li&gt;平台：Dify 1.14.1（Docker部署）&lt;/li&gt;
-&lt;li&gt;向量数据库：Weaviate&lt;/li&gt;
-&lt;/ul&gt;
-- https://benlai.me/ai/ai-in-the-cloud/ - </description>
+&lt;p&gt;&lt;em&gt;极客教王斗校长是让我真正开始动手的引路人。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;这是我 AI agent 学习旅程系列的开篇。&lt;/em&gt;&lt;/p&gt;
+- https://benlai.me/ai/claude-obsidian/ - </description>
         </item>
     
     
