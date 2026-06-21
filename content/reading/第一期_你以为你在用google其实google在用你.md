@@ -6,7 +6,7 @@ title = "《跟我一起读书吧》第一期"
 
 ## "你以为你在用Google，其实Google在用你"
 
-![](/images/Image_book cover.jpg)
+![](/images/Image_book_cover.jpg)
 
 ---
 
