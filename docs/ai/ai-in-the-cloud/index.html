@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<title>我在云端养了一个AI</title>
+
+
+
+
+<meta charset="utf-8">
+<meta name="X-UA-Compatible" content="IE=edge">
+<meta name="google-site-verification" content="">
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=5, user-scalable=5" name="viewport">
+<meta content="telephone=no" name="format-detection">
+<meta name="description" content="">
+<meta name="renderer" content="webkit">
+<meta name="theme-color" content="#ffffff">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+      <script src="/js/toc.js"></script>
+    
+    <link type="text/css" rel="stylesheet" href="/vendor/css/bootstrap.min.css">
+
+<link rel="stylesheet" href="/scss/dark-mode.min.6c9b4c2290542df75010d1640eac4339c754ccff3c9b43fc81a23c94e7e12eaf.css" integrity="sha256-bJtMIpBULfdQENFkDqxDOcdUzP88m0P8gaI8lOfhLq8=" media="screen">
+
+
+<link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Material+Icons">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<style>
+  .post-body img {
+    width: 100%;
+    border-radius: 5px;
+  }
+</style>
+
+
+</head>
+<body>
+    	<div id="app"><div class="single-column-drawer-container" id="drawer"
+     v-bind:class="{ 'single-column-drawer-container-active': isDrawerOpen }">
+    <div class="drawer-content">
+        <div class="drawer-menu">
+            
+            
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/spirit/">
+                    灵境
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/culture/">
+                    文化
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/travel/">
+                    行迹
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/reading/">
+                    书房
+                </a>
+                
+            
+                
+                
+                
+                    
+                
+                
+                
+                <a class="a-block drawer-menu-item active" href="/ai/">
+                    算境
+                </a>
+                
+            
+            
+            <div class="toc">
+
+
+	<div class="toc-content">
+	
+		
+		
+		
+		<center>- CATALOG -</center>
+		
+		
+		<ul>
+			
+				
+				
+					
+						
+						
+						
+						
+							
+								
+									<ul>
+								
+							
+						
+						
+							<li>
+								<a href="#%e8%b5%b7%e7%82%b9%e4%b8%80%e5%8f%b0%e5%9c%a8%e5%a4%9a%e4%bc%a6%e5%a4%9a%e6%9c%ba%e6%88%bf%e9%87%8c%e6%b2%89%e7%9d%a1%e7%9a%84%e6%9c%8d%e5%8a%a1%e5%99%a8" class="nav-起点一台在多伦多机房里沉睡的服务器">
+									起点：一台在多伦多机房里沉睡的服务器
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e7%ac%ac%e4%b8%80%e6%ad%a5%e7%bb%99%e6%9c%8d%e5%8a%a1%e5%99%a8%e5%81%9a%e4%b8%aa%e4%bd%93%e6%a3%80" class="nav-第一步给服务器做个体检">
+									第一步：给服务器做个体检
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e7%ac%ac%e4%ba%8c%e6%ad%a5%e8%af%b7%e4%b8%80%e4%b8%aa%e4%bc%9a%e8%af%b4%e8%af%9d%e7%9a%84%e5%a4%a7%e8%84%91%e5%85%a5%e9%a9%bb" class="nav-第二步请一个会说话的大脑入驻">
+									第二步：请一个会说话的大脑入驻
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e7%ac%ac%e4%b8%89%e6%ad%a5%e6%90%ad%e4%b8%80%e4%b8%aa%e8%ae%a9ai%e5%b7%a5%e4%bd%9c%e7%9a%84%e5%b9%b3%e5%8f%b0" class="nav-第三步搭一个让ai工作的平台">
+									第三步：搭一个让AI工作的平台
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e7%ac%ac%e5%9b%9b%e6%ad%a5%e8%ae%a9%e5%b9%b3%e5%8f%b0%e8%ae%a4%e8%af%86%e5%a4%a7%e8%84%91" class="nav-第四步让平台认识大脑">
+									第四步：让平台认识大脑
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e7%ac%ac%e4%ba%94%e6%ad%a5%e7%bb%99ai%e4%b8%80%e4%b8%aa%e8%ae%b0%e5%bf%86" class="nav-第五步给ai一个记忆">
+									第五步：给AI一个记忆
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e7%ac%ac%e5%85%ad%e6%ad%a5%e6%8d%8f%e5%87%ba%e4%b8%80%e4%b8%aa%e5%8a%a9%e6%89%8b" class="nav-第六步捏出一个助手">
+									第六步：捏出一个助手
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e7%bb%93%e5%b0%be%e4%bb%8a%e5%a4%a9%e4%b9%8b%e5%90%8e" class="nav-结尾今天之后">
+									结尾：今天之后
+								</a>
+							</li>
+						
+						
+					
+				
+			
+		</ul>
+	</div>
+
+</div>
+            
+        </div>
+    </div>
+</div>
+<transition name="fade">
+    <div id="drawer-mask" v-bind:class="{ 'single-column-drawer-mask': mounted }" v-if="isDrawerOpen" v-on:click="toggleDrawer"></div>
+</transition>
+<nav id="navBar" class="navbar sticky-top navbar-light single-column-nav-container">
+    <div id="navBackground" class="nav-background"></div>
+    <div class="container container-narrow nav-content">
+        <button id="nav_dropdown_btn" class="nav-dropdown-toggle" type="button" v-on:click="toggleDrawer">
+            <i class="material-icons">
+                menu
+            </i>
+        </button>
+        <a id="navTitle" class="navbar-brand" href="https://benlai.me/">
+            本来
+        </a>
+        
+        <button type="button" class="nav-darkmode-toggle" id="darkModeToggleButton2">
+            <i class="material-icons" id="darkModeToggleIcon2">
+                dark_mode
+            </i>
+        </button>
+        
+    </div>
+</nav>
+<div class="single-column-header-container" id="pageHead"
+     v-bind:style="{ transform: 'translateZ(0px) translateY('+.3*scrollY+'px)', opacity: 1-navOpacity }">
+    <a href="https://benlai.me/">
+        <div class="single-column-header-title">本来</div>
+        
+
+    </a>
+</div>
+
+            <div id="content">
+                <div id="streamContainer" class="stream-container">
+
+    <div class="post-list-container post-list-container-shadow">
+        <div class="post">
+            
+            
+            
+
+            <div class="post-head-wrapper-text-only"
+                
+            >
+                <div class="post-title">
+                    我在云端养了一个AI
+                    
+                    <div class="post-meta">
+                        
+                        <time itemprop="datePublished">
+                            2026-05-14 00:00
+                        </time>
+                        
+
+                        
+
+                        
+                        
+                    </div>
+                </div>
+            </div>
+            
+            <div class="post-body-wrapper">
+                
+                <div class="post-body" v-pre>
+                
+                    <p><em>2026年5月14日，多伦多，阴天</em></p>
+<hr>
+<p>今天下午，多伦多飘着雨，气温11度。我坐在电脑前，做了一件一个月前还觉得遥不可及的事——在自己的服务器上，从零开始，搭建了一个完全属于自己的AI智能体。</p>
+<p>没有订阅费。没有数据泄露的顾虑。没有哪家公司的服务器在背后偷看我的投资文件。</p>
+<p>一切，都跑在我自己的机器上。</p>
+<hr>
+<h2 id="起点一台在多伦多机房里沉睡的服务器">起点：一台在多伦多机房里沉睡的服务器</h2>
+<p>这一切都是我在Oracle Cloud上申请到一台ARM架构的云服务器开始的。</p>
+<p>刚刚，我成功地在Oracle Cloud上申请了一台ARM架构的云服务器，规格不算差——4个CPU核心，24GB内存，装着Ubuntu 22.04。它有一个正式的名字：<strong>ai-agent-server</strong>，公网IP是155.248.218.216，安静地待在多伦多的某个机房里。</p>
+<p>Docker装好了，防火墙配好了，端口开着。一切就绪，现在开始一个真正的任务。</p>
+<hr>
+<h2 id="第一步给服务器做个体检">第一步：给服务器做个体检</h2>
+<p>打开Windows的PowerShell，输入那行熟悉的命令：</p>
+<pre tabindex="0"><code>ssh ubuntu@***.***.***.*** -i ~/.ssh/id_ed25519
+</code></pre><p>屏幕上滚出一串欢迎文字。服务器还活着，内存使用率2%，磁盘只用了7%。像一个精力充沛却无事可做的员工，等着被分配工作。</p>
+<p>先做系统更新。内核从1049升到了1050，重启，重新连接。一切正常。</p>
+<p>体检通过。</p>
+<hr>
+<h2 id="第二步请一个会说话的大脑入驻">第二步：请一个会说话的大脑入驻</h2>
+<p>接下来要做的，是在这台服务器上安装一个本地大模型。</p>
+<p>不是调用OpenAI的API，不是付费给某家云服务，而是把模型本身下载到自己的机器上，让它在自己的CPU上思考，用自己的内存呼吸。</p>
+<p>工具叫&quot;Ollama&quot;。一行命令，官方安装脚本跑完，它就安静地住进了服务器。</p>
+<p>然后是拉模型。我选的是Llama 3.1 8B Q4——Meta开源的大语言模型，80亿参数，经过4-bit量化压缩，体积约4.9GB。对于纯CPU推理来说，它是速度和质量最甜蜜的平衡点。24GB内存跑它，绰绰有余。</p>
+<p>进度条慢慢走完。</p>
+<pre tabindex="0"><code>success
+</code></pre><p>一个字。但那一刻，服务器里有了第一个会思考的大脑。</p>
+<hr>
+<h2 id="第三步搭一个让ai工作的平台">第三步：搭一个让AI工作的平台</h2>
+<p>光有大脑还不够，还需要一个让它工作的环境。</p>
+<p>这个环境叫Dify——一个开源的AI智能体平台，可以把大模型、知识库、工作流、对话界面全部整合在一起。它的后面跑着PostgreSQL存数据，Redis做缓存，Weaviate做向量搜索，Nginx做反向代理。</p>
+<p>一条命令，12个Docker容器同时启动：</p>
+<pre tabindex="0"><code>docker compose up -d
+</code></pre><p>屏幕上滚出一行行&quot;Started&quot;。两分钟后，打开浏览器，输入服务器IP，出现了一个干净的注册页面。</p>
+<p>我注册了管理员账号。</p>
+<p>这台服务器，正式有了自己的AI控制台。</p>
+<hr>
+<h2 id="第四步让平台认识大脑">第四步：让平台认识大脑</h2>
+<p>Dify装好了，Ollama装好了，但它们还不认识彼此。</p>
+<p>需要告诉Dify：去找那个地址，那里住着一个会说话的模型。</p>
+<p>Docker容器和宿主机之间有一道网络的墙。我需要找到那道墙的门——Docker网关的IP地址，<code>***.**.*.*</code>。但第一次连接失败了：防火墙挡住了。</p>
+<p>加一条规则，重启Ollama，再试：</p>
+<pre tabindex="0"><code>Ollama is running
+</code></pre><p>门打开了。</p>
+<p>在Dify的插件市场里找到Ollama插件，安装，配置：模型名称<code>llama3.1:8b</code>，地址<code>http://***.**.*.*:11434</code>。保存。</p>
+<p>界面上出现了一个绿色的开关，亮着。</p>
+<p>两个系统，握手成功。</p>
+<hr>
+<h2 id="第五步给ai一个记忆">第五步：给AI一个记忆</h2>
+<p>一个没有记忆的AI，每次对话都是从零开始。它不知道你读过什么书，不知道你关注哪类投资产品，不知道你曾经写下过什么随想。</p>
+<p>我需要给它一个记忆——一个知识库。</p>
+<p>我的Obsidian笔记库里，存着多年积累的东西：读过的书目、碎片随想、投资产品的研究笔记。都是Claude帮我整理过的Markdown文件，结构清晰，标题层级分明。</p>
+<p>还需要一个专门做向量化的小模型，把文字转成机器能检索的数字。</p>
+<pre tabindex="0"><code>ollama pull nomic-embed-text
+</code></pre><p>274MB。轻巧，专业。</p>
+<p>模型就位后，在Dify里建了知识库，把文件一批批拖进去。系统开始向量化，把每一段文字变成高维空间里的一个点，等待被检索。</p>
+<p>知识库有了。</p>
+<hr>
+<h2 id="第六步捏出一个助手">第六步：捏出一个助手</h2>
+<p>现在，材料全齐了：</p>
+<ul>
+<li>一个会推理的大脑（llama3.1:8b）</li>
+<li>一个会检索的记忆（知识库 + nomic-embed-text）</li>
+<li>一个运行它们的平台（Dify）</li>
+</ul>
+<p>该捏出一个真正的助手了。</p>
+<p>在Dify的Studio里，新建一个Chatflow，把节点一个个连起来：</p>
+<pre tabindex="0"><code>用户提问 → 知识库检索 → LLM思考 → 输出回答
+</code></pre><p>然后给它写了一段身份说明——System Prompt，告诉它自己是谁，该怎么工作：</p>
+<blockquote>
+<p>你是 Allen 的私人知识助理和投资分析伙伴。在回答时优先引用知识库中的具体内容。熟悉一级市场投资逻辑，包括 Private Equity、私募基金、另类资产。直接、精准，不废话。</p>
+</blockquote>
+<p>按下Preview。</p>
+<p>输入一个问题，关于知识库里的某个投资产品。</p>
+<p>它回答了。引用了正确的文件内容，分析有条理，语气简洁。</p>
+<hr>
+<h2 id="结尾今天之后">结尾：今天之后</h2>
+<p>晚上九点，窗外多伦多的雨还在下。</p>
+<p>我看着浏览器里那个刚刚发布的聊天页面——Allen&rsquo;s Assistant，想到以后随时可以用手机打开它，问它&quot;我对某类资产的看法是什么&quot;，或者&quot;我读过哪些关于不确定性的书&quot;，它会从我自己的笔记里找答案，用我熟悉的方式说出来。</p>
+<p>这不是什么遥远的科技。</p>
+<p>是一台ARM服务器，24GB内存，一个开源模型，一个开源平台，一个下午。</p>
+<p>数据在自己手里。思考在自己的机器上。</p>
+<p>这就够了。</p>
+<hr>
+<p><em>下一步：配置HTTPS，把更多投资研究文件喂进知识库，让它越来越了解我在想什么。</em></p>
+<hr>
+<p><strong>技术栈备注</strong></p>
+<ul>
+<li>服务器：Oracle Cloud ARM Ubuntu 22.04，4 OCPU / 24GB RAM</li>
+<li>大模型：Ollama + Llama 3.1 8B Q4</li>
+<li>Embedding：nomic-embed-text</li>
+<li>平台：Dify 1.14.1（Docker部署）</li>
+<li>向量数据库：Weaviate</li>
+</ul>
+
+                    
+                    <HR width="100%" id="EOF">
+		    <p style="color:#777;">Last modified on 2026-05-14</p>
+                    
+                </div>
+            </div>
+            
+            
+            <nav class="post-pagination">
+
+                
+                <a class="newer-posts" href="/ai/claude-obsidian/">
+			Next<br>我花了大半天，让Claude真正&#34;住进&#34;我的Obsidian知识库
+                </a>
+                
+                
+                
+                <a class="older-posts">
+			Previous<br>No older posts.
+                </a>
+                
+            </nav>
+            <div class="post-comment-wrapper">
+                
+
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+    </div>
+
+
+                    </div>
+            </div><div id="sideContainer" class="side-container">
+    
+    <a class="a-block nav-head false" href="https://benlai.me/">
+    
+        <div class="nav-title">
+            本来
+        </div>
+        
+    </a>
+
+    <div class="nav-link-list">
+        
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/spirit/">
+                灵境
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/culture/">
+                文化
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/travel/">
+                行迹
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/reading/">
+                书房
+            </a>
+            
+        
+            
+            
+            
+                
+            
+            
+            
+            <a class="a-block nav-link-item active" href="/ai/">
+                算境
+            </a>
+            
+        
+    </div>
+
+    
+
+    <div class="nav-footer">
+        
+Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> by <a href="https://risehere.net/">Rise</a>
+<br>
+Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopener">Makito</a>'s <a href="https://github.com/SumiMakito/hexo-theme-journal/" target="_blank" rel="noreferrer noopener">Journal.</a> <br>
+<br>
+
+&copy;
+	
+	2026 本来
+	
+
+    </div>
+    
+</div><div id="extraContainer" class="extra-container">
+    <div class="toc-wrapper">
+        
+
+        
+        <div class="toc">
+
+
+	<div class="toc-content">
+	
+		
+		
+		
+		<center>- CATALOG -</center>
+		
+		
+		<ul>
+			
+				
+				
+					
+						
+						
+						
+						
+							
+								
+									<ul>
+								
+							
+						
+						
+							<li>
+								<a href="#%e8%b5%b7%e7%82%b9%e4%b8%80%e5%8f%b0%e5%9c%a8%e5%a4%9a%e4%bc%a6%e5%a4%9a%e6%9c%ba%e6%88%bf%e9%87%8c%e6%b2%89%e7%9d%a1%e7%9a%84%e6%9c%8d%e5%8a%a1%e5%99%a8" class="nav-起点一台在多伦多机房里沉睡的服务器">
+									起点：一台在多伦多机房里沉睡的服务器
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e7%ac%ac%e4%b8%80%e6%ad%a5%e7%bb%99%e6%9c%8d%e5%8a%a1%e5%99%a8%e5%81%9a%e4%b8%aa%e4%bd%93%e6%a3%80" class="nav-第一步给服务器做个体检">
+									第一步：给服务器做个体检
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e7%ac%ac%e4%ba%8c%e6%ad%a5%e8%af%b7%e4%b8%80%e4%b8%aa%e4%bc%9a%e8%af%b4%e8%af%9d%e7%9a%84%e5%a4%a7%e8%84%91%e5%85%a5%e9%a9%bb" class="nav-第二步请一个会说话的大脑入驻">
+									第二步：请一个会说话的大脑入驻
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e7%ac%ac%e4%b8%89%e6%ad%a5%e6%90%ad%e4%b8%80%e4%b8%aa%e8%ae%a9ai%e5%b7%a5%e4%bd%9c%e7%9a%84%e5%b9%b3%e5%8f%b0" class="nav-第三步搭一个让ai工作的平台">
+									第三步：搭一个让AI工作的平台
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e7%ac%ac%e5%9b%9b%e6%ad%a5%e8%ae%a9%e5%b9%b3%e5%8f%b0%e8%ae%a4%e8%af%86%e5%a4%a7%e8%84%91" class="nav-第四步让平台认识大脑">
+									第四步：让平台认识大脑
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e7%ac%ac%e4%ba%94%e6%ad%a5%e7%bb%99ai%e4%b8%80%e4%b8%aa%e8%ae%b0%e5%bf%86" class="nav-第五步给ai一个记忆">
+									第五步：给AI一个记忆
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e7%ac%ac%e5%85%ad%e6%ad%a5%e6%8d%8f%e5%87%ba%e4%b8%80%e4%b8%aa%e5%8a%a9%e6%89%8b" class="nav-第六步捏出一个助手">
+									第六步：捏出一个助手
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e7%bb%93%e5%b0%be%e4%bb%8a%e5%a4%a9%e4%b9%8b%e5%90%8e" class="nav-结尾今天之后">
+									结尾：今天之后
+								</a>
+							</li>
+						
+						
+					
+				
+			
+		</ul>
+	</div>
+
+</div>
+        
+    </div>
+    <div class="pagination">
+        <a id="globalBackToTop" class="pagination-action animated-visibility" href="#top"
+            :class="{ invisible: scrollY == 0 }">
+            <i class="material-icons pagination-action-icon">
+                keyboard_arrow_up
+            </i>
+        </a>
+        
+        <a type="button" class="pagination-action" id="darkModeToggleButton">
+            <span class="material-icons pagination-action-icon" id="darkModeToggleIcon">
+                dark_mode
+            </span>
+        </a>
+        
+        
+    </div>
+</div>
+
+<div id="single-column-footer">
+Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> by <a href="https://risehere.net/">Rise</a>
+<br>
+Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopener">Makito</a>'s <a href="https://github.com/SumiMakito/hexo-theme-journal/" target="_blank" rel="noreferrer noopener">Journal.</a> <br>
+<br>
+
+&copy;
+	
+	2026 本来
+	
+</div>
+            </div>
+    
+    <script src="/js/journal.js"></script></body>
+</html>
