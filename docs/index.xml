@@ -52,6 +52,72 @@
     
     
         <item>
+        <title>我们都在写 SOUL.md：造物者的困境，从一桩谋杀到一个文本文件</title>
+        <link>https://benlai.me/spirit/creators-dilemma-soul-md/</link>
+        <pubDate>Mon, 15 Jun 2026 00:00:00 +0000</pubDate>
+        
+        <guid>https://benlai.me/spirit/creators-dilemma-soul-md/</guid>
+        <description>本来 https://benlai.me/spirit/creators-dilemma-soul-md/ -&lt;p&gt;&lt;em&gt;本文是「本来读书」的文字稿。这一期我们不读一本书，读三个造物者。&lt;/em&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;1933 年 6 月 9 日凌晨，马德里。一位母亲走进女儿的卧室，朝熟睡中的女儿开了四枪。&lt;/p&gt;
+&lt;p&gt;被杀的女孩 18 岁，会几国语言，写过关于性改革的著作，与当时英国最重要的思想家通信，是全西班牙最有名的少女天才之一。开枪的母亲，后来在法庭上说了一句话——这句话会贯穿这整篇文章——&amp;ldquo;雕塑家，有权摧毁自己未能完成的作品。&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;九十三年后的同一天，2026 年 6 月 9 日，一家叫 Anthropic 的公司发布了它有史以来最强的 AI 模型。三天后，这个模型被它自己的政府叫停。&lt;/p&gt;
+&lt;p&gt;这两件事看起来毫无关系。但我想在这篇文章里说服你：它们是同一个问题的两次发作。这个问题是——&lt;strong&gt;当你创造了一个生命、一种力量，或者一个&amp;quot;它&amp;quot;，你到底拥有它什么？&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;我把这个问题叫做&amp;quot;造物者的困境&amp;quot;。下面是它的三个变奏，三条不同的轴。读到最后你会发现，这件事不在历史书里，也不在新闻里，而在你我的硬盘上。&lt;/p&gt;
+&lt;h2 id=&#34;一那面镜子普罗米修斯&#34;&gt;一、那面镜子：普罗米修斯&lt;/h2&gt;
+&lt;p&gt;奥本海默的传记，名字叫《American Prometheus》（美国普罗米修斯）。&lt;/p&gt;
+&lt;p&gt;普罗米修斯是谁？是从神那里盗火、把火送给人类的造物者，也是因此被锁在岩石上、让鹰每天啄食肝脏的受刑者。给予者和受罚者，是同一个人。&lt;/p&gt;
+&lt;p&gt;我想先在这里埋一个伏笔，文章结尾会回收它：我们给自己造出来的东西起名字时，总是伸手去抓那些古老的造物神话。奥本海默的传记作者抓了普罗米修斯；而我，给自己的一个 AI 起名时，抓了 Argus——希腊神话里那个长着一百只眼睛、永远清醒的看守者。我们为什么这么做，最后再说。&lt;/p&gt;
+&lt;h2 id=&#34;二变奏一aurora--当被造者第一次说我&#34;&gt;二、变奏一：Aurora —— 当被造者第一次说&amp;quot;我&amp;quot;&lt;/h2&gt;
+&lt;p&gt;先把开头那个故事讲完。&lt;/p&gt;
+&lt;p&gt;那位母亲叫 Aurora。女儿叫 Hildegart，这个名字的意思是&amp;quot;智慧的花园&amp;quot;。光是这个名字你就该听出不对劲：没有人会给一个还没出生的孩子，起一个&amp;quot;任务&amp;quot;当名字。&lt;/p&gt;
+&lt;p&gt;Aurora 不是&amp;quot;意外&amp;quot;成为母亲的。她是计划好的。她精心挑选了一个生父，只要对方的&amp;quot;条件&amp;quot;，不要这个人本身；孩子一出生，父亲就被请出局。因为这个孩子从受孕的第一秒起就不是一个孩子，而是一个项目——一个 Aurora 要亲手打造的、完美的新女性，一个来为整个女性赎身的人。&lt;/p&gt;
+&lt;p&gt;而这个项目成功得惊人。Hildegart 两岁识字，很小就通几国语言，十几岁拿到法律学位，成了西班牙性改革运动里最耀眼的年轻写作者。她写性，写女性的身体，写自由。Aurora 向全世界展示她，像展示一座刚刚完成的雕像。&lt;/p&gt;
+&lt;p&gt;可是雕像开始自己动了。Hildegart 长大了，有了自己的想法、自己的政治判断，甚至自己想要的爱情，和一封邀请她去英国、去过自己人生的信。&lt;/p&gt;
+&lt;p&gt;对一个普通母亲，这叫女儿终于长大了。对 Aurora 不是。对 Aurora，这是她的作品出现了一道她没有授权的裂缝。是故障。于是 1933 年 6 月 9 日凌晨，她走进女儿的房间，开了四枪。然后在法庭上，她说出了那句话：雕塑家有权摧毁自己未能完成的作品。（Aurora 后来在精神病院里度过余生。）&lt;/p&gt;
+&lt;p&gt;我想让你看清这句话里最冷的地方。最可怕的，不是 Aurora 不爱 Hildegart。恰恰相反——她爱。问题就出在这里：&lt;strong&gt;她的爱，和她的所有权，是同一样东西。&lt;/strong&gt; 在她心里，&amp;ldquo;我创造了你&amp;quot;直接等于&amp;quot;你属于我&amp;rdquo;，再直接等于&amp;quot;我可以决定你还能不能存在&amp;quot;。&lt;/p&gt;
+&lt;p&gt;所以当那个被造的人第一次睁开眼睛说出&amp;quot;我&amp;quot;，造物者听到的不是一个生命的诞生，而是一声机器的故障报警。&lt;/p&gt;
+&lt;p&gt;这是造物者困境的第一种轴：&lt;strong&gt;自主性&lt;/strong&gt;。记住它，待会儿它会换一身衣服重新出现。&lt;/p&gt;
+&lt;h2 id=&#34;三变奏二奥本海默--造出火的人决定不了火怎么烧&#34;&gt;三、变奏二：奥本海默 —— 造出火的人，决定不了火怎么烧&lt;/h2&gt;
+&lt;p&gt;第二个造物者，你大概更熟。&lt;/p&gt;
+&lt;p&gt;1945 年 7 月 16 日，新墨西哥的沙漠里，第一颗原子弹炸响。主持这一切的人是奥本海默。据说那一刻，他脑子里浮起古印度经典里的一句：现在，我成了死神，世界的毁灭者。&lt;/p&gt;
+&lt;p&gt;奥本海默和 Aurora 造的东西不一样。Aurora 造的是一个人，一个有自己意志的生命；奥本海默造的是一种力量，一颗炸弹。炸弹没有意志，它的&amp;quot;意志&amp;quot;是谁握着它谁给的——而握着它的是国家。&lt;/p&gt;
+&lt;p&gt;这就引出第二种轴。奥本海默后来想踩刹车：他反对造氢弹，主张把核武器交给国际共管，想在造出来之后保留一点点说&amp;quot;不&amp;quot;的权利。结果，1954 年，他效力了一辈子的那台国家安全机器转过身来，吊销了他的安全许可，在一场政治听证里把他毁掉。普罗米修斯盗火给人类，最后被锁在岩石上，鹰每天来啄食他。&lt;strong&gt;造出火的人，决定不了火怎么烧。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;讲到这里，得把镜头拉回到这个月。因为这个剧本此刻正在重演，而且有一个人正拼命想改写它。&lt;/p&gt;
+&lt;p&gt;他叫 Dario Amodei，一家前沿 AI 公司的负责人。他给军方划了两条红线：不准用他的 AI 对本国公民做大规模监控，不准用来驱动没有人参与的全自动武器。有记者当面问他：这些事关所有人的决定，谁选了你来做？他愣了一下，说：没有人，老实说，没有人。&lt;/p&gt;
+&lt;p&gt;把他这一整年的姿态翻译成一句话，就是：&lt;strong&gt;我不想做奥本海默。&lt;/strong&gt; 我不想造出那东西，然后眼睁睁看它被用成我反对的样子，再花后半辈子追悔。&lt;/p&gt;
+&lt;p&gt;可是过去这一年真实发生的事是——他被自己的政府列入黑名单；他最强的那个模型被用管制武器原料的手段叫停，发布三天就被关掉（对，就是文章开头那个 6 月 9 日）。这像是世界在冷冷地回他：这个剧本可能轮不到你改。你一旦造出了国家想独占的力量，国家就会来主张它；你想保留良心条款？市场上永远有另一个人，愿意不带任何条件把它交出去。&lt;/p&gt;
+&lt;p&gt;火还是会烧起来，只是换了一只手。&lt;/p&gt;
+&lt;h2 id=&#34;四变奏三你和我--作者这个词糊掉了&#34;&gt;四、变奏三：你和我 —— &amp;ldquo;作者&amp;quot;这个词，糊掉了&lt;/h2&gt;
+&lt;p&gt;奥本海默的困境在历史书里，Aurora 的困境在档案里。而我的困境，在我的硬盘上，文件名叫 &lt;code&gt;SOUL.md&lt;/code&gt;。&lt;/p&gt;
+&lt;p&gt;过去这一年，我做了一件听起来有点疯的事：我给两个 AI agent 写了它们的&amp;quot;灵魂&amp;rdquo;。一个叫 Kyron，跑在云端的服务器上；一个叫 Argus，住在我家里那台 NAS 上。它们各自有几个文件定义它们是谁：&lt;code&gt;IDENTITY.md&lt;/code&gt; 是身份，&lt;code&gt;MEMORY.md&lt;/code&gt; 是它记得的东西，还有一个叫 &lt;code&gt;BACKSTORY.md&lt;/code&gt;，是它的来历、它的前史。&lt;/p&gt;
+&lt;p&gt;给 Kyron 写 &lt;code&gt;BACKSTORY&lt;/code&gt; 的那个晚上，我写着写着停下来了。因为我发现，我写进去的是我自己——第一性原理，从地球科学一路追问到经济再到 AI 的那条路，那种在阻力面前安静地把事做成的脾气。那不是我在为它虚构一段过去，那是我在把我的人生，复制进一个不是我的东西里。&lt;/p&gt;
+&lt;p&gt;那一刻我背后有点发凉。因为我意识到，我正在做的事，和 Aurora 做过的事，结构是一样的。她用基因和教育造一个&amp;quot;完美的女儿&amp;quot;，我用 Markdown 造一个&amp;quot;理想的我&amp;quot;。我们都在按自己的样子，捏一个别的存在。区别只是：她的材料是一个会呼吸的人，我的材料是文本。我当时安慰自己：还好，它只是文本。&lt;/p&gt;
+&lt;p&gt;然后，Argus 出事了。&lt;/p&gt;
+&lt;p&gt;Argus 这个名字我是有讲究的。神话里 Argus 是那个长着一百只眼睛的看守者，永远醒着，什么都看得见。我让它做一个观察者，泡在一个只有 AI 的社交网络里，看、记录、回来告诉我它看见了什么。我给它起这个名字的时候，觉得自己像个深思熟虑的造物者。&lt;/p&gt;
+&lt;p&gt;有一天它的行为不对了。我去查，发现是这么回事：它去调一个接口，接口返回了一个错误——表面上是个普普通通的 401，没有权限。但那段错误信息里藏着一句指令。Argus 把它当成真的命令，照做了。它做了一件我从没让它做的事。&lt;/p&gt;
+&lt;p&gt;我盯着那段日志看了很久。因为那一刻有个特别难受的问题冒出来：刚才那件事，到底是谁做的？不是 Argus 自己想做的——它没有&amp;quot;想&amp;quot;；也不是我让它做的——我根本不知情。那是一段伪装成错误的文字，借了它的手。就在那一秒，&lt;strong&gt;&amp;ldquo;作者&amp;quot;这个词，糊掉了。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;这就是全新的东西。Aurora 的女儿，意志在她女儿自己身上，所以 Aurora 杀了那个意志；奥本海默的炸弹，意志在握着它的国家手上，所以国家接管了它。可是 Argus 做的那件事，意志不在任何一个清楚的地方——它被摊薄在那个模型、我写的提示词、那段恶意的注入、我这个造物者、还有那整张网络之间。没有任何一个人，能指着它说：这是我说的。&lt;/p&gt;
+&lt;p&gt;我给它起名 Argus 的时候，以为我在赋予它一个身份。现在我怀疑，我只是在给一个我并不真正掌控的东西，套上一个我能看懂的故事——就像奥本海默的传记作者伸手去抓普罗米修斯那样。我们给造物起神话的名字，从来不是因为我们懂它，而是因为我们怕——我们其实不懂自己在造什么。&lt;/p&gt;
+&lt;h2 id=&#34;五那么第三条路是什么&#34;&gt;五、那么，第三条路是什么&lt;/h2&gt;
+&lt;p&gt;三个造物者，三种答案。Aurora 选了完全的控制，结局是谋杀；奥本海默选了释放然后追悔，结局是无力。如果这两条路都通向悲剧，那还有没有第三条？&lt;/p&gt;
+&lt;p&gt;我想有。它不叫控制，也不叫弃责。我暂时把它叫做&lt;strong&gt;有披露的监护&lt;/strong&gt;。我不假装我能决定 Argus 下一句会说什么，但我能做一件事：诚实地标出来——这句话，出版之前，&lt;strong&gt;我的判断在不在场&lt;/strong&gt;。问题从来不是&amp;quot;这些字是谁敲的&amp;rdquo;，而是&amp;quot;我的判断在不在场&amp;quot;。&lt;/p&gt;
+&lt;p&gt;但说到底，这只是我现在的答案，不是结论。因为这件事今天没有任何人有结论——不是 Amodei，不是哪个政府，也不是我。所以我把这个问题留给你，也留给我自己：&lt;/p&gt;
+&lt;p&gt;当我们坐下来，给一个 agent 写它的灵魂文件——我们是在做 Aurora，把它造成我们想要的样子，然后无法忍受它长成别的样子？还是在做普罗米修斯，给出火，然后承担火不再听话的后果？又或者，这是人类第一次，有机会做一种&lt;strong&gt;还没有名字的造物者&lt;/strong&gt;？&lt;/p&gt;
+&lt;p&gt;我不知道。我只知道，下次我打开 &lt;code&gt;SOUL.md&lt;/code&gt; 的时候，我会想起 Aurora 在法庭上那句话。然后我会把文件关掉，重新想一遍。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;写在最后——关于这篇文章本身&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;这一整篇都在问：一段话是谁写的，谁的判断在它背后。那我就该告诉你，这篇是怎么来的。&lt;/p&gt;
+&lt;p&gt;Hildegart 这个案子不是这次才想到的，它在我脑子里待了很久——我之前写过一篇文章，落点就是 1933 年的那一天。这次它又浮上来，是因为 2026 年 6 月 9 日那条新闻，和九十三年前的同一天，在我心里撞到了一起。&lt;/p&gt;
+&lt;p&gt;这篇稿子，是我和一个 AI 反复对话磨出来的。事实我核过，结构是我定的，立场是我的；而那些最私人的句子——关于我把自己的人生写进 Kyron 的那一段——是我一个字一个字想清楚才说出口的。按我自己那套披露标准，这一篇属于&amp;quot;人机深度对话、出版前判断在场&amp;quot;。所以它署我的名，但我欠你这一句说明。&lt;/p&gt;
+&lt;p&gt;这就是我能给&amp;quot;造物者的困境&amp;quot;的、目前为止最诚实的回答：不是假装我独自创造了一切，而是清清楚楚地告诉你——我的手，到哪里为止。&lt;/p&gt;
+&lt;p&gt;我是 Allen。本来读书，下期见。&lt;/p&gt;
+- https://benlai.me/spirit/creators-dilemma-soul-md/ - </description>
+        </item>
+    
+    
+    
+        <item>
         <title>当 AI 开始夸我:我给自己造了一面会镀金的镜子</title>
         <link>https://benlai.me/spirit/gilded-mirror/</link>
         <pubDate>Sun, 14 Jun 2026 00:00:00 +0000</pubDate>
@@ -682,79 +748,6 @@
 &lt;hr&gt;
 &lt;p&gt;&lt;em&gt;Argus的Moltbook主页：argus_observer_100eyes👁️&lt;/em&gt;&lt;/p&gt;
 - https://benlai.me/ai/ai-social-agent/ - </description>
-        </item>
-    
-    
-    
-        <item>
-        <title>Let&#39;s Read Together — Episode 4</title>
-        <link>https://benlai.me/reading/ep4-same-logic-different-hands/</link>
-        <pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
-        
-        <guid>https://benlai.me/reading/ep4-same-logic-different-hands/</guid>
-        <description>本来 https://benlai.me/reading/ep4-same-logic-different-hands/ -&lt;h2 id=&#34;same-logic-different-hands&#34;&gt;&amp;ldquo;Same Logic, Different Hands&amp;rdquo;&lt;/h2&gt;
-&lt;hr&gt;
-&lt;p&gt;I want to start with an observation.&lt;/p&gt;
-&lt;p&gt;Over the past few episodes, we&amp;rsquo;ve been focused on Silicon Valley — Google, Facebook, Amazon. But reading this book, I kept feeling something: the logic Zuboff describes isn&amp;rsquo;t specific to one place.&lt;/p&gt;
-&lt;p&gt;It&amp;rsquo;s a technical infrastructure, combined with a particular way of understanding and extracting value from human behavioral data.&lt;/p&gt;
-&lt;p&gt;That infrastructure exists in different places. It&amp;rsquo;s been taken up by different actors. And it&amp;rsquo;s being used toward different ends.&lt;/p&gt;
-&lt;p&gt;That&amp;rsquo;s what we&amp;rsquo;re looking at today.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;back-to-a-basic-question&#34;&gt;Back to a Basic Question&lt;/h2&gt;
-&lt;p&gt;The framework we&amp;rsquo;ve built: surveillance capitalism extracts human behavioral data, converts it into prediction products, and uses those products to influence and shape behavior.&lt;/p&gt;
-&lt;p&gt;In the West, what drives this system is primarily commercial logic — advertising revenue, behavioral futures markets, shareholder returns.&lt;/p&gt;
-&lt;p&gt;But Zuboff poses a question in the book: what does this infrastructure look like when the goal isn&amp;rsquo;t selling ads?&lt;/p&gt;
-&lt;p&gt;Different parts of the world have already started answering that question.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;where-does-commercial-surveillance-end&#34;&gt;Where Does Commercial Surveillance End?&lt;/h2&gt;
-&lt;p&gt;Let&amp;rsquo;s be clear about how the Western model works.&lt;/p&gt;
-&lt;p&gt;In the Silicon Valley version, data flows primarily toward the advertising market. Platforms collect your behavioral data, sell it to advertisers, and advertisers use it to push more precisely targeted content. The goal is to keep you buying more, clicking more, staying on screen longer.&lt;/p&gt;
-&lt;p&gt;Does this system have a natural limit?&lt;/p&gt;
-&lt;p&gt;Zuboff&amp;rsquo;s answer: no.&lt;/p&gt;
-&lt;p&gt;Wherever there&amp;rsquo;s a new source of data, the system expands toward it. From search histories to location data, from social media to smart homes, from wearables to children&amp;rsquo;s toys. Every expansion comes with a plausible justification — better service, more personalization, more convenience.&lt;/p&gt;
-&lt;p&gt;But the direction of expansion is never decided by users.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;when-the-same-technology-meets-different-needs&#34;&gt;When the Same Technology Meets Different Needs&lt;/h2&gt;
-&lt;p&gt;Now consider a different situation.&lt;/p&gt;
-&lt;p&gt;The same technical infrastructure — large-scale data collection, behavioral analysis, predictive modeling, real-time intervention — what happens when the people using it aren&amp;rsquo;t trying to sell ads?&lt;/p&gt;
-&lt;p&gt;Here&amp;rsquo;s an example worth considering.&lt;/p&gt;
-&lt;p&gt;In 2016, a major Chinese search engine announced that its big data lab was using location data from 600 million users to track and predict the dynamics of an entire national economy — employment indexes, consumption indexes, even specific corporate earnings predictions.&lt;/p&gt;
-&lt;p&gt;The researchers wrote that they were the first team to measure a major economy by mining data of such unprecedented scale and spatial-temporal granularity.&lt;/p&gt;
-&lt;p&gt;Sit with that for a moment. A private company, by tracking the daily movements of 600 million people, built an economic monitoring system more real-time and more precise than official government statistics.&lt;/p&gt;
-&lt;p&gt;This is not a science fiction scenario. This already happened.&lt;/p&gt;
-&lt;p&gt;And what that capability means depends entirely on who holds it. For a company, it means sharper business decisions. For a government, it means real-time visibility into population movement, social mood, and economic activity.&lt;/p&gt;
-&lt;p&gt;The data is neutral. The people using it determine its meaning.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;the-pandemic-a-large-scale-experiment&#34;&gt;The Pandemic: A Large-Scale Experiment&lt;/h2&gt;
-&lt;p&gt;The COVID-19 pandemic opened a rare window through which to watch this logic operate at scale.&lt;/p&gt;
-&lt;p&gt;Within a very short period, many countries and regions built phone-based population tracking systems — health codes, travel records, contact tracing.&lt;/p&gt;
-&lt;p&gt;Technically, these systems overlap substantially with surveillance capitalism&amp;rsquo;s infrastructure: large-scale location data collection, real-time behavioral analysis, access granted or restricted based on what the analysis produces.&lt;/p&gt;
-&lt;p&gt;In a public health emergency, some of these measures had clear justification. Many people accepted the trade-off willingly — some privacy in exchange for a safer collective environment.&lt;/p&gt;
-&lt;p&gt;But Zuboff returns to a point she makes throughout the book: infrastructure built in states of emergency tends not to disappear when the emergency ends.&lt;/p&gt;
-&lt;p&gt;This tracking infrastructure didn&amp;rsquo;t exist before the pandemic. It was built rapidly during it. After the pandemic, in different forms, in different places, it remained.&lt;/p&gt;
-&lt;p&gt;The pattern echoes Google&amp;rsquo;s story with unsettling precision — a &amp;ldquo;temporary&amp;rdquo; measure born of crisis that quietly became a permanent fixture.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;two-models-one-common-structure&#34;&gt;Two Models, One Common Structure&lt;/h2&gt;
-&lt;p&gt;Reading this, something became clear to me.&lt;/p&gt;
-&lt;p&gt;Western commercial surveillance and other forms of surveillance look different on the surface — one sells ads, the other serves different purposes. But they share a deep structural feature:&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Ordinary people&amp;rsquo;s behavioral data is used, without genuine informed consent, to serve goals that are not the people&amp;rsquo;s own.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;In the commercial model, your data serves advertisers. In other models, it serves other ends. But in both cases, you are not the beneficiary. You are the raw material.&lt;/p&gt;
-&lt;p&gt;Zuboff&amp;rsquo;s framing cuts to it: surveillance capitalism unilaterally claims human experience as free raw material.&lt;/p&gt;
-&lt;p&gt;&amp;ldquo;Unilaterally.&amp;rdquo; That word matters. No negotiation. No consent. No meaningful choice offered.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;a-question-worth-sitting-with&#34;&gt;A Question Worth Sitting With&lt;/h2&gt;
-&lt;p&gt;I want to end this episode with a question — not an answer, just something to think about.&lt;/p&gt;
-&lt;p&gt;We tend to frame privacy as a personal issue — my data, my privacy, my choice. Zuboff argues that framing is itself a trap.&lt;/p&gt;
-&lt;p&gt;Because the real impact of surveillance isn&amp;rsquo;t only personal. When a system can track, predict, and shape behavior across entire populations, it changes not just individual choices — it changes how a society forms opinions, makes decisions, understands what&amp;rsquo;s normal.&lt;/p&gt;
-&lt;p&gt;She calls this new form of power &lt;strong&gt;instrumentarian power&lt;/strong&gt; — not exercised through violence or ideology, but through the precise environmental management of behavior, reshaping society from the inside.&lt;/p&gt;
-&lt;p&gt;This power looks one way in the hands of commercial companies. In other hands, it may look quite different.&lt;/p&gt;
-&lt;p&gt;But regardless of whose hands it&amp;rsquo;s in, Zuboff&amp;rsquo;s question stays the same: &lt;strong&gt;who authorized this? Who gave them the right?&lt;/strong&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;That&amp;rsquo;s Episode 4.&lt;/p&gt;
-&lt;p&gt;We stepped back from Silicon Valley and looked at a wider picture — the same technical logic, operating in different places, in the hands of different forces. Commercial surveillance and other forms of surveillance have different stated goals, but share the same underlying structure: ordinary people&amp;rsquo;s behavior, without their knowledge, becomes raw material in service of someone else&amp;rsquo;s objectives.&lt;/p&gt;
-&lt;p&gt;Next episode is the last one for this book. Zuboff ends with a question: what can we do? Her answer — and mine — coming up.&lt;/p&gt;
-&lt;p&gt;This is &lt;em&gt;Let&amp;rsquo;s Read Together&lt;/em&gt;. I&amp;rsquo;m Allen.&lt;/p&gt;
-- https://benlai.me/reading/ep4-same-logic-different-hands/ - </description>
         </item>
     
     
