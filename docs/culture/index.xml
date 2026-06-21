@@ -6,8 +6,15 @@
     <description>Recent content in 文化 on 本来</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 13 Jun 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 18 Jun 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://benlai.me/culture/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2025–2026 应用下载榜：AI 登顶之外，四张榜单藏着四个平行的数字世界</title>
+      <link>https://benlai.me/culture/app-download-charts-2025-2026/</link>
+      <pubDate>Thu, 18 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://benlai.me/culture/app-download-charts-2025-2026/</guid>
+      <description>&lt;p&gt;2025 年的应用下载榜，最容易被一句话带过——「ChatGPT 第一」。但把美国、欧洲、中国、加拿大四地的 Top 10 并排摊开，真正有价值的信息不在榜首，而在四张榜单彼此之间的差异里。而且这不是一个已经翻篇的旧故事——写下这篇时已是 2026 年 6 月，趋势不但没掉头，还在加速。&lt;/p&gt;&#xA;&lt;h2 id=&#34;一ai-登顶而且-2026-年还在加速&#34;&gt;一、AI 登顶，而且 2026 年还在加速&lt;/h2&gt;&#xA;&lt;p&gt;ChatGPT 在美、欧、加三地全部第一，Google Gemini 三地都进前十。这是应用商店历史上第一次，一个 AI 助手把社交、视频、地图、邮箱这些刚需全压在身下。对比两年前——2023 年榜首还是购物应用 Temu，2024 年 ChatGPT 才挤进第四。&lt;/p&gt;&#xA;&lt;p&gt;关键是 2026 年的数据证明这不是一次性现象：ChatGPT 自 2025 年 2 月起连续每月全球下载第一，从未让位；2 月「同样 7 个 App 锁定前七，纹丝不动」；4 月，全球下载榜前十首次同时出现 3 个 AI（ChatGPT、Gemini、Claude）；到 6 月，ChatGPT 月活突破 10 亿，是历史上最快达成这一里程碑的 App（Google Maps 当年用了约 5 年）。注意力的迁移已经结构化了。&lt;/p&gt;&#xA;&lt;h2 id=&#34;二中国为什么没有下载量只有月活&#34;&gt;二、中国为什么没有「下载量」，只有「月活」&lt;/h2&gt;&#xA;&lt;p&gt;这是我做图时刻意标注、也最值得单独讲的一点。中国的数据口径和其余三地根本不同。&lt;/p&gt;&#xA;&lt;p&gt;西方三地用「全年下载量」（ChatGPT 量级在几千万次），中国榜单普遍用「月活跃用户 MAU」（微信 10.75 亿）。为什么不统一成下载量？因为统计不出来：&lt;/p&gt;&#xA;&lt;p&gt;Sensor Tower、Appfigures、AppMagic 这些西方数据商，只覆盖 iOS App Store + Google Play。而中国安卓手机不装 Google Play——装机量走华为、小米、OPPO、vivo、应用宝等第三方商店，这些数据西方工具完全看不到。能查到的「中国下载量」永远只是 iOS 那半边（2025 年中国 iOS 约 42 亿次安装，同比还在下滑），覆盖不了真实大盘。&lt;/p&gt;</description>
+    </item>
     <item>
       <title>这篇文章该署谁的名？——一个 AI 实践者的署名困境</title>
       <link>https://benlai.me/culture/ai-attribution-ethics/</link>
