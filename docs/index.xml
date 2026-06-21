@@ -6,9 +6,91 @@
     <description>Recent content on 本来</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 06 Jun 2026 00:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 06 Jun 2026 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://benlai.me/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+        <item>
+        <title>Let&#39;s Read Together — Episode 5</title>
+        <link>https://benlai.me/reading/ep5-so-what-can-we-do/</link>
+        <pubDate>Sat, 06 Jun 2026 00:00:00 +0000</pubDate>
+        
+        <guid>https://benlai.me/reading/ep5-so-what-can-we-do/</guid>
+        <description>本来 https://benlai.me/reading/ep5-so-what-can-we-do/ -&lt;h2 id=&#34;so-what-can-we-do&#34;&gt;&amp;ldquo;So What Can We Do?&amp;rdquo;&lt;/h2&gt;
+&lt;hr&gt;
+&lt;p&gt;This is the final episode for this book.&lt;/p&gt;
+&lt;p&gt;Over the past four episodes, we&amp;rsquo;ve mapped the system — what it is, how it works, where it&amp;rsquo;s spread, and how the same logic operates in different hands in different parts of the world.&lt;/p&gt;
+&lt;p&gt;Now we get to the last question: knowing all of this, what can we actually do?&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s the question most readers arrive at by the end of this book. Zuboff spends nearly half of it building the argument — and then, in the final section, offers her answer. I&amp;rsquo;ll share her answer first, then tell you what I think.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;first-a-disappointing-reality&#34;&gt;First, a Disappointing Reality&lt;/h2&gt;
+&lt;p&gt;I want to be upfront about something that may frustrate you.&lt;/p&gt;
+&lt;p&gt;Zuboff doesn&amp;rsquo;t give you an action checklist. She doesn&amp;rsquo;t say &amp;ldquo;delete these apps&amp;rdquo; or &amp;ldquo;use this tool to protect your privacy&amp;rdquo; or &amp;ldquo;here are five things to do starting tomorrow.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;This isn&amp;rsquo;t because she doesn&amp;rsquo;t care about what ordinary people can do. It&amp;rsquo;s because she believes that framing this as a personal technical defense problem is itself a trap.&lt;/p&gt;
+&lt;p&gt;Her argument: surveillance capitalism is a systemic problem, not a behavioral one. Even if you deleted every social media account today, switched phones, and paid cash for everything — you would still be living in a world shaped by this system. The information you receive, the behavior of the people around you, the texture of public life — all of it has already been deeply shaped by this logic.&lt;/p&gt;
+&lt;p&gt;One person opting out doesn&amp;rsquo;t change how the system operates.&lt;/p&gt;
+&lt;p&gt;So her answer operates at a larger scale.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;zuboffs-answer-name-it-know-it-act&#34;&gt;Zuboff&amp;rsquo;s Answer: Name It, Know It, Act&lt;/h2&gt;
+&lt;p&gt;She proposes three levels of response.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The first level: Naming&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Before you can fight something, you need to be able to name it accurately.&lt;/p&gt;
+&lt;p&gt;Before this book, most people described this system using neutral or even positive language — &amp;ldquo;the digital economy,&amp;rdquo; &amp;ldquo;the platform economy,&amp;rdquo; &amp;ldquo;data-driven.&amp;rdquo; These phrases obscure what&amp;rsquo;s actually happening.&lt;/p&gt;
+&lt;p&gt;Zuboff coined &amp;ldquo;surveillance capitalism&amp;rdquo; precisely to give it a name that reveals its nature. You cannot contest what you cannot name.&lt;/p&gt;
+&lt;p&gt;She draws a historical parallel. In the early industrial era, child labor, sixteen-hour workdays, and factory pollution were treated as the inevitable price of progress — just how things were. Change only became possible once people named these practices as exploitation, as injustice.&lt;/p&gt;
+&lt;p&gt;She believes we&amp;rsquo;re at a similar inflection point now.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The second level: Knowing&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Understanding what&amp;rsquo;s happening is the prerequisite for changing it.&lt;/p&gt;
+&lt;p&gt;Most of what Zuboff does in this book is exactly this — reconstructing the mechanics of the system in full, so that readers genuinely understand it rather than just vaguely sensing something is wrong.&lt;/p&gt;
+&lt;p&gt;Her belief: when enough people truly understand how this system works, social attitudes will shift. Just as genuine public understanding of industrial pollution eventually made environmental legislation possible.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The third level: Acting&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Here Zuboff&amp;rsquo;s argument turns toward politics and law.&lt;/p&gt;
+&lt;p&gt;She argues that the most meaningful change has to come through legislation and regulation. Individual consumer choices can&amp;rsquo;t move the system. Law can.&lt;/p&gt;
+&lt;p&gt;She points to several specific directions:&lt;/p&gt;
+&lt;p&gt;First, data ownership. The data you generate should belong to you, not the platform. Platforms using your data should require genuine informed consent — not terms no one reads.&lt;/p&gt;
+&lt;p&gt;Second, prohibiting behavioral modification. Large-scale experimental interventions in human behavior should face regulatory oversight, the same way medical experiments require ethical review.&lt;/p&gt;
+&lt;p&gt;Third, regulating prediction product markets. The behavioral futures market itself should be questioned and constrained.&lt;/p&gt;
+&lt;p&gt;She compares all of this to the labor movement and the environmental protection movement of the 20th century — both faced enormous commercial opposition, both took decades of sustained social struggle and legislative effort, both eventually changed the rules.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;but-is-this-actually-possible&#34;&gt;But Is This Actually Possible?&lt;/h2&gt;
+&lt;p&gt;I want to be honest about my reaction to Zuboff&amp;rsquo;s answer.&lt;/p&gt;
+&lt;p&gt;It has real force. But it&amp;rsquo;s a long road.&lt;/p&gt;
+&lt;p&gt;Labor reform took decades. Environmental legislation took decades. And surveillance capitalism expands at a speed that dwarfs anything from the industrial era.&lt;/p&gt;
+&lt;p&gt;There&amp;rsquo;s another complication: driving these changes requires political will. But politics itself has already been deeply penetrated by this system — election advertising, social media&amp;rsquo;s manipulation of information environments, the dependence of political figures on tech platforms — all of it makes systemic reform harder.&lt;/p&gt;
+&lt;p&gt;So I think Zuboff points in the right direction. But it&amp;rsquo;s not a comfortable answer.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;what-about-the-rest-of-us&#34;&gt;What About the Rest of Us?&lt;/h2&gt;
+&lt;p&gt;I know you&amp;rsquo;re probably still wondering — while we wait for systemic change, which may take a long time, is there anything an ordinary person can actually do?&lt;/p&gt;
+&lt;p&gt;Here&amp;rsquo;s what I think.&lt;/p&gt;
+&lt;p&gt;Complete withdrawal isn&amp;rsquo;t realistic, and it isn&amp;rsquo;t necessary. But there&amp;rsquo;s something you can hold onto — something this system is genuinely afraid of. And that&amp;rsquo;s &lt;strong&gt;awareness&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Zuboff says it directly: individual awareness is the enemy of behavioral modification. The system&amp;rsquo;s operation depends on you not knowing, or not caring.&lt;/p&gt;
+&lt;p&gt;When you understand why a particular notification appeared, when you can see what an algorithm is trying to do, when you can recognize which emotional reactions have been engineered — you&amp;rsquo;ve preserved a degree of autonomy inside the system.&lt;/p&gt;
+&lt;p&gt;Not immunity. No one is immune. But using these tools with clear eyes is different from being used by them without knowing it.&lt;/p&gt;
+&lt;p&gt;That&amp;rsquo;s part of why I make this podcast. Not to tell you what to do — but so that we can, together, understand the world we&amp;rsquo;re actually living in a little more clearly.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;how-the-book-ends&#34;&gt;How the Book Ends&lt;/h2&gt;
+&lt;p&gt;Near the end, Zuboff makes an argument I keep returning to.&lt;/p&gt;
+&lt;p&gt;She says surveillance capitalism&amp;rsquo;s leaders assume we will accept all of this, the way Steinbeck&amp;rsquo;s farmers accepted the logic of the banks — because it works, because it&amp;rsquo;s successful, so its rules must be right, must be inevitable.&lt;/p&gt;
+&lt;p&gt;But she says: look carefully at the inner logic of this system and you&amp;rsquo;ll see that&amp;rsquo;s not true. This system was built by people. Under specific historical conditions. By specific individuals who made specific choices.&lt;/p&gt;
+&lt;p&gt;It can be changed. They simply chose not to change it.&lt;/p&gt;
+&lt;p&gt;And we can choose differently.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;my-own-takeaway&#34;&gt;My Own Takeaway&lt;/h2&gt;
+&lt;p&gt;Let me close with where I landed after finishing this book.&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s long. It&amp;rsquo;s dense. Zuboff is a scholar — her arguments are rigorous, sometimes demanding. But the value isn&amp;rsquo;t just in the information. It&amp;rsquo;s in the framework — a way of seeing the digital world that, once you have it, you can&amp;rsquo;t unsee.&lt;/p&gt;
+&lt;p&gt;After reading it, opening your phone feels different. Scrolling through a feed feels different. Clicking &amp;ldquo;agree&amp;rdquo; feels different. Not because you become angry or paranoid — but because you understand what&amp;rsquo;s behind the interface, why a particular notification appeared at this particular moment, what the real cost of a &amp;ldquo;free&amp;rdquo; service actually is.&lt;/p&gt;
+&lt;p&gt;That clarity, I think, is worth something.&lt;/p&gt;
+&lt;p&gt;If you can read the original English, I&amp;rsquo;d recommend it over any translation. Not just because of what gets lost in translation — but because Zuboff&amp;rsquo;s language itself is precise in ways that are hard to carry across. Many of the key concepts have a force in the original that translation struggles to capture.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;And that&amp;rsquo;s where we leave &lt;em&gt;The Age of Surveillance Capitalism&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Five episodes. From the birth of the system, to its mechanisms, to its expansion, to its different forms in different places, to the question of what we can do.&lt;/p&gt;
+&lt;p&gt;This is the complete journey through the first book on &lt;em&gt;Let&amp;rsquo;s Read Together&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;The next book will take us somewhere entirely different.&lt;/p&gt;
+&lt;p&gt;This is &lt;em&gt;Let&amp;rsquo;s Read Together&lt;/em&gt;. I&amp;rsquo;m Allen.&lt;/p&gt;
+- https://benlai.me/reading/ep5-so-what-can-we-do/ - </description>
+        </item>
     
     
     
@@ -94,6 +176,79 @@
     
     
         <item>
+        <title>Let&#39;s Read Together — Episode 4</title>
+        <link>https://benlai.me/reading/ep4-same-logic-different-hands/</link>
+        <pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
+        
+        <guid>https://benlai.me/reading/ep4-same-logic-different-hands/</guid>
+        <description>本来 https://benlai.me/reading/ep4-same-logic-different-hands/ -&lt;h2 id=&#34;same-logic-different-hands&#34;&gt;&amp;ldquo;Same Logic, Different Hands&amp;rdquo;&lt;/h2&gt;
+&lt;hr&gt;
+&lt;p&gt;I want to start with an observation.&lt;/p&gt;
+&lt;p&gt;Over the past few episodes, we&amp;rsquo;ve been focused on Silicon Valley — Google, Facebook, Amazon. But reading this book, I kept feeling something: the logic Zuboff describes isn&amp;rsquo;t specific to one place.&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s a technical infrastructure, combined with a particular way of understanding and extracting value from human behavioral data.&lt;/p&gt;
+&lt;p&gt;That infrastructure exists in different places. It&amp;rsquo;s been taken up by different actors. And it&amp;rsquo;s being used toward different ends.&lt;/p&gt;
+&lt;p&gt;That&amp;rsquo;s what we&amp;rsquo;re looking at today.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;back-to-a-basic-question&#34;&gt;Back to a Basic Question&lt;/h2&gt;
+&lt;p&gt;The framework we&amp;rsquo;ve built: surveillance capitalism extracts human behavioral data, converts it into prediction products, and uses those products to influence and shape behavior.&lt;/p&gt;
+&lt;p&gt;In the West, what drives this system is primarily commercial logic — advertising revenue, behavioral futures markets, shareholder returns.&lt;/p&gt;
+&lt;p&gt;But Zuboff poses a question in the book: what does this infrastructure look like when the goal isn&amp;rsquo;t selling ads?&lt;/p&gt;
+&lt;p&gt;Different parts of the world have already started answering that question.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;where-does-commercial-surveillance-end&#34;&gt;Where Does Commercial Surveillance End?&lt;/h2&gt;
+&lt;p&gt;Let&amp;rsquo;s be clear about how the Western model works.&lt;/p&gt;
+&lt;p&gt;In the Silicon Valley version, data flows primarily toward the advertising market. Platforms collect your behavioral data, sell it to advertisers, and advertisers use it to push more precisely targeted content. The goal is to keep you buying more, clicking more, staying on screen longer.&lt;/p&gt;
+&lt;p&gt;Does this system have a natural limit?&lt;/p&gt;
+&lt;p&gt;Zuboff&amp;rsquo;s answer: no.&lt;/p&gt;
+&lt;p&gt;Wherever there&amp;rsquo;s a new source of data, the system expands toward it. From search histories to location data, from social media to smart homes, from wearables to children&amp;rsquo;s toys. Every expansion comes with a plausible justification — better service, more personalization, more convenience.&lt;/p&gt;
+&lt;p&gt;But the direction of expansion is never decided by users.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;when-the-same-technology-meets-different-needs&#34;&gt;When the Same Technology Meets Different Needs&lt;/h2&gt;
+&lt;p&gt;Now consider a different situation.&lt;/p&gt;
+&lt;p&gt;The same technical infrastructure — large-scale data collection, behavioral analysis, predictive modeling, real-time intervention — what happens when the people using it aren&amp;rsquo;t trying to sell ads?&lt;/p&gt;
+&lt;p&gt;Here&amp;rsquo;s an example worth considering.&lt;/p&gt;
+&lt;p&gt;In 2016, a major Chinese search engine announced that its big data lab was using location data from 600 million users to track and predict the dynamics of an entire national economy — employment indexes, consumption indexes, even specific corporate earnings predictions.&lt;/p&gt;
+&lt;p&gt;The researchers wrote that they were the first team to measure a major economy by mining data of such unprecedented scale and spatial-temporal granularity.&lt;/p&gt;
+&lt;p&gt;Sit with that for a moment. A private company, by tracking the daily movements of 600 million people, built an economic monitoring system more real-time and more precise than official government statistics.&lt;/p&gt;
+&lt;p&gt;This is not a science fiction scenario. This already happened.&lt;/p&gt;
+&lt;p&gt;And what that capability means depends entirely on who holds it. For a company, it means sharper business decisions. For a government, it means real-time visibility into population movement, social mood, and economic activity.&lt;/p&gt;
+&lt;p&gt;The data is neutral. The people using it determine its meaning.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;the-pandemic-a-large-scale-experiment&#34;&gt;The Pandemic: A Large-Scale Experiment&lt;/h2&gt;
+&lt;p&gt;The COVID-19 pandemic opened a rare window through which to watch this logic operate at scale.&lt;/p&gt;
+&lt;p&gt;Within a very short period, many countries and regions built phone-based population tracking systems — health codes, travel records, contact tracing.&lt;/p&gt;
+&lt;p&gt;Technically, these systems overlap substantially with surveillance capitalism&amp;rsquo;s infrastructure: large-scale location data collection, real-time behavioral analysis, access granted or restricted based on what the analysis produces.&lt;/p&gt;
+&lt;p&gt;In a public health emergency, some of these measures had clear justification. Many people accepted the trade-off willingly — some privacy in exchange for a safer collective environment.&lt;/p&gt;
+&lt;p&gt;But Zuboff returns to a point she makes throughout the book: infrastructure built in states of emergency tends not to disappear when the emergency ends.&lt;/p&gt;
+&lt;p&gt;This tracking infrastructure didn&amp;rsquo;t exist before the pandemic. It was built rapidly during it. After the pandemic, in different forms, in different places, it remained.&lt;/p&gt;
+&lt;p&gt;The pattern echoes Google&amp;rsquo;s story with unsettling precision — a &amp;ldquo;temporary&amp;rdquo; measure born of crisis that quietly became a permanent fixture.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;two-models-one-common-structure&#34;&gt;Two Models, One Common Structure&lt;/h2&gt;
+&lt;p&gt;Reading this, something became clear to me.&lt;/p&gt;
+&lt;p&gt;Western commercial surveillance and other forms of surveillance look different on the surface — one sells ads, the other serves different purposes. But they share a deep structural feature:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Ordinary people&amp;rsquo;s behavioral data is used, without genuine informed consent, to serve goals that are not the people&amp;rsquo;s own.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;In the commercial model, your data serves advertisers. In other models, it serves other ends. But in both cases, you are not the beneficiary. You are the raw material.&lt;/p&gt;
+&lt;p&gt;Zuboff&amp;rsquo;s framing cuts to it: surveillance capitalism unilaterally claims human experience as free raw material.&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;Unilaterally.&amp;rdquo; That word matters. No negotiation. No consent. No meaningful choice offered.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;a-question-worth-sitting-with&#34;&gt;A Question Worth Sitting With&lt;/h2&gt;
+&lt;p&gt;I want to end this episode with a question — not an answer, just something to think about.&lt;/p&gt;
+&lt;p&gt;We tend to frame privacy as a personal issue — my data, my privacy, my choice. Zuboff argues that framing is itself a trap.&lt;/p&gt;
+&lt;p&gt;Because the real impact of surveillance isn&amp;rsquo;t only personal. When a system can track, predict, and shape behavior across entire populations, it changes not just individual choices — it changes how a society forms opinions, makes decisions, understands what&amp;rsquo;s normal.&lt;/p&gt;
+&lt;p&gt;She calls this new form of power &lt;strong&gt;instrumentarian power&lt;/strong&gt; — not exercised through violence or ideology, but through the precise environmental management of behavior, reshaping society from the inside.&lt;/p&gt;
+&lt;p&gt;This power looks one way in the hands of commercial companies. In other hands, it may look quite different.&lt;/p&gt;
+&lt;p&gt;But regardless of whose hands it&amp;rsquo;s in, Zuboff&amp;rsquo;s question stays the same: &lt;strong&gt;who authorized this? Who gave them the right?&lt;/strong&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;That&amp;rsquo;s Episode 4.&lt;/p&gt;
+&lt;p&gt;We stepped back from Silicon Valley and looked at a wider picture — the same technical logic, operating in different places, in the hands of different forces. Commercial surveillance and other forms of surveillance have different stated goals, but share the same underlying structure: ordinary people&amp;rsquo;s behavior, without their knowledge, becomes raw material in service of someone else&amp;rsquo;s objectives.&lt;/p&gt;
+&lt;p&gt;Next episode is the last one for this book. Zuboff ends with a question: what can we do? Her answer — and mine — coming up.&lt;/p&gt;
+&lt;p&gt;This is &lt;em&gt;Let&amp;rsquo;s Read Together&lt;/em&gt;. I&amp;rsquo;m Allen.&lt;/p&gt;
+- https://benlai.me/reading/ep4-same-logic-different-hands/ - </description>
+        </item>
+    
+    
+    
+        <item>
         <title>《跟我一起读书吧》第四期</title>
         <link>https://benlai.me/reading/%E7%AC%AC%E5%9B%9B%E6%9C%9F_%E5%90%8C%E4%B8%80%E5%A5%97%E9%80%BB%E8%BE%91%E4%B8%8D%E5%90%8C%E7%9A%84%E4%BD%BF%E7%94%A8%E8%80%85/</link>
         <pubDate>Fri, 05 Jun 2026 00:00:00 +0800</pubDate>
@@ -161,6 +316,84 @@
 &lt;p&gt;下一期是这本书的最后一期。Zuboff最后问了一个问题：我们能怎么办？她的答案是什么，我的看法是什么，我们下期见。&lt;/p&gt;
 &lt;p&gt;这里是《跟我一起读书吧》，我是Allen。&lt;/p&gt;
 - https://benlai.me/reading/%E7%AC%AC%E5%9B%9B%E6%9C%9F_%E5%90%8C%E4%B8%80%E5%A5%97%E9%80%BB%E8%BE%91%E4%B8%8D%E5%90%8C%E7%9A%84%E4%BD%BF%E7%94%A8%E8%80%85/ - </description>
+        </item>
+    
+    
+    
+        <item>
+        <title>Let&#39;s Read Together — Episode 3</title>
+        <link>https://benlai.me/reading/ep3-anonymity-is-an-illusion/</link>
+        <pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate>
+        
+        <guid>https://benlai.me/reading/ep3-anonymity-is-an-illusion/</guid>
+        <description>本来 https://benlai.me/reading/ep3-anonymity-is-an-illusion/ -&lt;h2 id=&#34;anonymity-is-an-illusion&#34;&gt;&amp;ldquo;Anonymity Is an Illusion&amp;rdquo;&lt;/h2&gt;
+&lt;hr&gt;
+&lt;p&gt;Let me ask you something.&lt;/p&gt;
+&lt;p&gt;Have you ever wondered why you put up with all of this?&lt;/p&gt;
+&lt;p&gt;You&amp;rsquo;re not alone. Surveys consistently show that most consumers say they don&amp;rsquo;t trust companies that want to monitor their behavior. And yet — those same people keep using Google, keep using Facebook, keep the smart speaker plugged in on the kitchen counter.&lt;/p&gt;
+&lt;p&gt;Why?&lt;/p&gt;
+&lt;p&gt;One of the most common answers: at least the data is anonymous. They don&amp;rsquo;t know it&amp;rsquo;s me. I&amp;rsquo;m just one number among hundreds of millions.&lt;/p&gt;
+&lt;p&gt;That&amp;rsquo;s what we&amp;rsquo;re examining today.&lt;/p&gt;
+&lt;p&gt;Is that actually true?&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;anonymous-doesnt-mean-what-you-think&#34;&gt;&amp;ldquo;Anonymous&amp;rdquo; Doesn&amp;rsquo;t Mean What You Think&lt;/h2&gt;
+&lt;p&gt;Let&amp;rsquo;s start with a study.&lt;/p&gt;
+&lt;p&gt;The standard line from Google and other platforms is that what they collect is metadata — aggregated across large numbers of users in ways that make it impossible to identify any specific individual.&lt;/p&gt;
+&lt;p&gt;Sounds reasonable.&lt;/p&gt;
+&lt;p&gt;But in the early 2000s, a researcher named Latanya Sweeney ran a study that quietly demolished this assumption. She found that with just three data points — &lt;strong&gt;date of birth, zip code, and sex&lt;/strong&gt; — she could uniquely identify 87% of the US population.&lt;/p&gt;
+&lt;p&gt;Three data points. No name. No ID number. Nothing you&amp;rsquo;d think of as sensitive.&lt;/p&gt;
+&lt;p&gt;And those three data points exist in almost every database.&lt;/p&gt;
+&lt;p&gt;Zuboff cites legal scholar Paul Ohm, who calls these supposedly anonymous behavioral data stores &lt;strong&gt;&amp;ldquo;databases of ruin&amp;rdquo;&lt;/strong&gt; — because once the data is re-identified, what&amp;rsquo;s inside can destroy a person. Re-identification, Ohm argues, makes all our secrets fundamentally easier to discover. Enemies can more easily connect us to facts that can be used to blackmail, harass, defame, or discriminate against us.&lt;/p&gt;
+&lt;p&gt;This isn&amp;rsquo;t theoretical. It&amp;rsquo;s been demonstrated repeatedly.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;location-data-you-think-youve-disappeared-into-the-crowd&#34;&gt;Location Data: You Think You&amp;rsquo;ve Disappeared Into the Crowd&lt;/h2&gt;
+&lt;p&gt;Location data is another place where the illusion of anonymity falls apart.&lt;/p&gt;
+&lt;p&gt;Every person&amp;rsquo;s movement patterns are uniquely their own. The route you take to work, the coffee shop you visit on Saturday mornings, how often you go to the pharmacy, when and where you see a doctor — together, these form what researchers call a &amp;ldquo;mobility signature.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;Even if the dataset contains no names, even if your phone number has been stripped out — with enough location data, any analyst with the right tools can pull you out of the crowd and identify you specifically.&lt;/p&gt;
+&lt;p&gt;In 2013, researchers from MIT and Harvard demonstrated exactly this. The uniqueness of individual movement patterns makes it technically feasible to re-identify a specific person from a large anonymized location dataset.&lt;/p&gt;
+&lt;p&gt;Princeton computer scientists Arvind Narayanan and Edward Felten put it plainly: there is no known effective method to anonymize location data, and no evidence that it&amp;rsquo;s meaningfully achievable.&lt;/p&gt;
+&lt;p&gt;The promise of anonymized location data is, technically speaking, a promise that cannot be kept.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;what-your-phones-sensors-are-saying&#34;&gt;What Your Phone&amp;rsquo;s Sensors Are Saying&lt;/h2&gt;
+&lt;p&gt;Beyond location, the sensors inside your phone are leaking more than most people realize.&lt;/p&gt;
+&lt;p&gt;Accelerometer, gyroscope, magnetometer — these were designed to tell your phone which way it&amp;rsquo;s oriented, to help maps track your movement. They seem harmless.&lt;/p&gt;
+&lt;p&gt;But researchers have found these sensors can reveal far more. The slight change in your gait today — maybe you&amp;rsquo;re injured, maybe you&amp;rsquo;ve been drinking. The unusual stillness of your phone — maybe you&amp;rsquo;re ill. The pattern of vibration — your mode of transport, your emotional state.&lt;/p&gt;
+&lt;p&gt;Studies have shown that smartphone sensor data alone can be used to infer an ever-growing range of human activities and moods, and to extract sensitive personal information about specific individuals from anonymized datasets.&lt;/p&gt;
+&lt;p&gt;These sensors can be accessed by apps without explicit permission. Many apps collect this data continuously in the background, invisibly.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;facebook-knows-your-personality-better-than-your-friends-do&#34;&gt;Facebook Knows Your Personality Better Than Your Friends Do&lt;/h2&gt;
+&lt;p&gt;I want to look at one more study, because it pushes the anonymity question into new territory.&lt;/p&gt;
+&lt;p&gt;A team at Cambridge University led by researcher Michal Kosinski studied Facebook &amp;ldquo;likes.&amp;rdquo; They found that by analyzing what a person likes, they could predict personality traits with striking accuracy — introvert or extrovert, emotionally stable or neurotic, open or conventional.&lt;/p&gt;
+&lt;p&gt;A 2015 paper showed that their algorithm&amp;rsquo;s assessments of personality outperformed those of the subject&amp;rsquo;s coworkers, friends, and even family members.&lt;/p&gt;
+&lt;p&gt;With 300 likes, the algorithm knows you better than your spouse does.&lt;/p&gt;
+&lt;p&gt;The research was academic. But what it demonstrated is worth taking seriously: the seemingly casual traces you leave online — what you engage with, how long you pause, what you share — together, they build a portrait of you that may be more accurate than the one you&amp;rsquo;d draw of yourself.&lt;/p&gt;
+&lt;p&gt;And that portrait can be bought and sold.&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s worth noting that this research quickly attracted funding from Microsoft, Boeing, Google, the National Science Foundation, and DARPA. The distance between academic research and commercial or military application is shorter than most people assume.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;the-problem-with-consent&#34;&gt;The Problem With &amp;ldquo;Consent&amp;rdquo;&lt;/h2&gt;
+&lt;p&gt;This brings me to something I think is fundamental — the question of consent.&lt;/p&gt;
+&lt;p&gt;Every time we install an app, we click &amp;ldquo;agree.&amp;rdquo; We consent to terms of service that no one reads. The platforms say: you made a free choice.&lt;/p&gt;
+&lt;p&gt;Zuboff challenges this at its foundation.&lt;/p&gt;
+&lt;p&gt;She argues that genuine consent requires two things: first, that you actually understand what you&amp;rsquo;re agreeing to; second, that you have a real ability to refuse.&lt;/p&gt;
+&lt;p&gt;Neither condition exists in today&amp;rsquo;s digital world.&lt;/p&gt;
+&lt;p&gt;No one truly understands what they&amp;rsquo;re agreeing to — the terms are written in a complexity that would take even a lawyer considerable time to parse. And refusing isn&amp;rsquo;t a simple opt-out. If you refuse certain apps, you don&amp;rsquo;t just lose a service — you lose access to modern social life. Refuse certain messaging platforms and you lose your primary way of communicating with most people you know. Refuse maps and navigating daily life becomes genuinely difficult.&lt;/p&gt;
+&lt;p&gt;This is not a free choice. It is a designed absence of choice.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;what-i-keep-thinking-about&#34;&gt;What I Keep Thinking About&lt;/h2&gt;
+&lt;p&gt;Reading through this section, one thought stayed with me.&lt;/p&gt;
+&lt;p&gt;Most of us accept data collection because we believe we&amp;rsquo;re just anonymous numbers in a vast pool. That belief gives us a feeling of safety — they don&amp;rsquo;t know it&amp;rsquo;s me.&lt;/p&gt;
+&lt;p&gt;But this book shows that feeling of safety is itself something the system relies on.&lt;/p&gt;
+&lt;p&gt;The promise of anonymity lowers our guard and makes the whole apparatus easier to accept. The technical reality is different: anonymity is temporary. Given enough computing power and enough data, re-identification is a matter of time.&lt;/p&gt;
+&lt;p&gt;And the deeper problem isn&amp;rsquo;t even about whether they know your name.&lt;/p&gt;
+&lt;p&gt;Even if they never learn your name, they can still shape your behavior, engineer your emotions, and guide your choices. Behavioral modification doesn&amp;rsquo;t need to know who you are. It only needs to know what type of person you are — and then design interventions targeted at that type.&lt;/p&gt;
+&lt;p&gt;Individual anonymity offers no protection against collective manipulation.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;That&amp;rsquo;s Episode 3.&lt;/p&gt;
+&lt;p&gt;We&amp;rsquo;ve looked at the illusion of anonymity — three data points are enough to identify you, location data cannot be meaningfully anonymized, your phone&amp;rsquo;s sensors reveal more than you&amp;rsquo;d think, and behavioral data can build a portrait of you more accurate than your own self-description.&lt;/p&gt;
+&lt;p&gt;The system depends on one assumption: that you don&amp;rsquo;t know, or don&amp;rsquo;t care.&lt;/p&gt;
+&lt;p&gt;Next episode, we step back and look at a bigger picture — the same underlying logic, operating in different places, in the hands of different actors. What happens then?&lt;/p&gt;
+&lt;p&gt;This is &lt;em&gt;Let&amp;rsquo;s Read Together&lt;/em&gt;. I&amp;rsquo;m Allen.&lt;/p&gt;
+- https://benlai.me/reading/ep3-anonymity-is-an-illusion/ - </description>
         </item>
     
     
@@ -245,6 +478,87 @@
     
     
         <item>
+        <title>Let&#39;s Read Together — Episode 2</title>
+        <link>https://benlai.me/reading/ep2-your-phone-your-home-your-childrens-toys/</link>
+        <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
+        
+        <guid>https://benlai.me/reading/ep2-your-phone-your-home-your-childrens-toys/</guid>
+        <description>本来 https://benlai.me/reading/ep2-your-phone-your-home-your-childrens-toys/ -&lt;h2 id=&#34;your-phone-your-home-your-childrens-toys&#34;&gt;&amp;ldquo;Your Phone, Your Home, Your Children&amp;rsquo;s Toys&amp;rdquo;&lt;/h2&gt;
+&lt;hr&gt;
+&lt;p&gt;Something happened to me recently that I think a lot of you will recognize.&lt;/p&gt;
+&lt;p&gt;I searched for a topic on one platform — just a passing curiosity, nothing I went deep on. And then for days afterward, no matter which app I opened, content about that topic kept appearing. Videos, articles, recommendations — one after another.&lt;/p&gt;
+&lt;p&gt;I hadn&amp;rsquo;t asked for any of it. But there it was.&lt;/p&gt;
+&lt;p&gt;And then there&amp;rsquo;s a different kind of experience — one I&amp;rsquo;ve heard from people around me. They hadn&amp;rsquo;t searched for anything. They&amp;rsquo;d just mentioned something in a conversation, or thought about it, and then their phone served it up.&lt;/p&gt;
+&lt;p&gt;The instinctive question: is my phone listening to me?&lt;/p&gt;
+&lt;p&gt;The answer is more complicated than that — and more disturbing. It&amp;rsquo;s not that your phone is eavesdropping. It&amp;rsquo;s that its understanding of you has become deep enough that it doesn&amp;rsquo;t need to.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Last episode we covered the three core concepts of surveillance capitalism — behavioral surplus, prediction products, behavioral modification — and how that logic was born inside Google.&lt;/p&gt;
+&lt;p&gt;But Google was just the starting point.&lt;/p&gt;
+&lt;p&gt;Once the model proved itself, it spread in every direction. Today we&amp;rsquo;re looking at where it went — from your phone, to your home, to your children&amp;rsquo;s toys, to your body.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;what-your-phone-knows&#34;&gt;What Your Phone Knows&lt;/h2&gt;
+&lt;p&gt;Let&amp;rsquo;s start with the phone.&lt;/p&gt;
+&lt;p&gt;Most people know phones collect location data. But the research Zuboff cites made me rethink the scale of what that actually means.&lt;/p&gt;
+&lt;p&gt;In 2013, a team of researchers from MIT and Harvard studied location data and found something striking. Because everyone&amp;rsquo;s movement patterns are uniquely their own — the route you take to work, the coffee shop you go to on weekends, how often you visit the doctor — any analyst with the right tools can extract a specific individual&amp;rsquo;s movement profile from a large anonymized location dataset.&lt;/p&gt;
+&lt;p&gt;Location data cannot be truly anonymized. Computer scientists at Princeton put it directly: there is no known effective method for anonymizing location data, and no evidence that it&amp;rsquo;s even achievable in principle.&lt;/p&gt;
+&lt;p&gt;But location is just the beginning.&lt;/p&gt;
+&lt;p&gt;The sensors inside your phone — accelerometer, gyroscope, magnetometer — look innocuous. They exist to tell your phone which way it&amp;rsquo;s facing, to let maps know you&amp;rsquo;re moving.&lt;/p&gt;
+&lt;p&gt;But researchers found these sensors reveal far more than that. The way you&amp;rsquo;re walking today is slightly different from usual — maybe you&amp;rsquo;re injured, maybe you&amp;rsquo;ve been drinking. Your phone has been still longer than normal — maybe you&amp;rsquo;re sick, maybe you&amp;rsquo;re sleeping. The frequency and amplitude of vibration can reflect your mode of transport, your emotional state.&lt;/p&gt;
+&lt;p&gt;Research has shown that smartphone sensor data alone can be used to infer an ever-growing range of human activities and moods — and to extract sensitive personal information about specific users from supposedly anonymized datasets.&lt;/p&gt;
+&lt;p&gt;These sensors can be accessed by apps without your explicit permission. Many apps collect this data continuously in the background, without you ever knowing.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;your-home&#34;&gt;Your Home&lt;/h2&gt;
+&lt;p&gt;The phone is something you carry. The deeper intrusion happens in your home.&lt;/p&gt;
+&lt;p&gt;Google Home, Amazon Echo — these smart speakers are designed to be always on, always listening. When Google CEO Sundar Pichai introduced Google Assistant, he described the vision as an &amp;ldquo;ongoing, two-way dialogue&amp;rdquo; — a service that would help you get things done in your real world.&lt;/p&gt;
+&lt;p&gt;It sounds convenient. But Zuboff asks a question worth sitting with: what is the cost of that convenience?&lt;/p&gt;
+&lt;p&gt;She writes: there was a time when you searched Google, but now Google searches you.&lt;/p&gt;
+&lt;p&gt;I stopped at that line for a while.&lt;/p&gt;
+&lt;p&gt;Smart home devices record conversations, daily routines, what time you wake up, what temperature you keep your home, your shopping habits, your health concerns. Stacked together, this data builds a more complete picture of you than any survey ever could.&lt;/p&gt;
+&lt;p&gt;Zuboff calls this process &amp;ldquo;rendition&amp;rdquo; — your life being extracted, piece by piece, translated into data, fed into the system.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;your-childrens-toys&#34;&gt;Your Children&amp;rsquo;s Toys&lt;/h2&gt;
+&lt;p&gt;This is the part of the book I found most uncomfortable.&lt;/p&gt;
+&lt;p&gt;There was a smart doll called Cayla — she could talk to children, answer questions, tell stories. Educational, interactive, seemingly wonderful.&lt;/p&gt;
+&lt;p&gt;But what was she collecting? Every word a child said to her. The child&amp;rsquo;s voice, the child&amp;rsquo;s questions, the child&amp;rsquo;s fears and fantasies — all transmitted and used for commercial purposes.&lt;/p&gt;
+&lt;p&gt;In 2017, Germany&amp;rsquo;s Federal Network Agency classified the Cayla doll as an illegal surveillance device and urged parents to destroy any they owned.&lt;/p&gt;
+&lt;p&gt;US regulators took no action.&lt;/p&gt;
+&lt;p&gt;Zuboff&amp;rsquo;s observation cuts deep: these connected toys are preparing the next generation to inhabit a world where there is no boundary between self and market. By the time these children grow up, they won&amp;rsquo;t find any of this strange. Because they will never have known anything different.&lt;/p&gt;
+&lt;p&gt;This isn&amp;rsquo;t just a privacy issue. It&amp;rsquo;s a question about how the next generation will understand what&amp;rsquo;s normal.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;your-body&#34;&gt;Your Body&lt;/h2&gt;
+&lt;p&gt;The surveillance frontier keeps moving inward.&lt;/p&gt;
+&lt;p&gt;Insurance companies have taken intense interest in this logic.&lt;/p&gt;
+&lt;p&gt;Wearable devices can track your heart rate, sleep quality, exercise habits, dietary patterns. For insurers, this data is extraordinarily valuable — it lets them assess risk with precision, adjust premiums, and potentially deny claims when your behavior falls outside acceptable parameters.&lt;/p&gt;
+&lt;p&gt;Zuboff cites internal consulting reports advising that consumer resistance to this kind of monitoring can be overcome by offering discounts large enough that people are willing to make &amp;ldquo;the privacy trade-off&amp;rdquo; despite &amp;ldquo;lingering concerns.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;And if discounts don&amp;rsquo;t work, the advice is to reframe surveillance as fun — make it a game. Reward drivers for good behavior. Create health challenges. This approach is called gamification.&lt;/p&gt;
+&lt;p&gt;In other words: when you think you&amp;rsquo;re playing a game, you&amp;rsquo;re actually being studied.&lt;/p&gt;
+&lt;p&gt;The COVID-19 pandemic gave this logic a rare opportunity to operate at massive scale. Health codes, vaccine passes, contact tracing — within a very short time, governments and platforms had built the infrastructure to track population behavior and health status in real time.&lt;/p&gt;
+&lt;p&gt;There were legitimate public health reasons for some of these measures. Many people accepted the trade-off willingly.&lt;/p&gt;
+&lt;p&gt;But Zuboff returns to a point she makes throughout the book: infrastructure built during states of emergency tends not to disappear when the emergency ends.&lt;/p&gt;
+&lt;p&gt;This tracking infrastructure didn&amp;rsquo;t exist before the pandemic. It was built rapidly during it. Afterward, in various forms, in various places, it remained.&lt;/p&gt;
+&lt;p&gt;The pattern is strikingly similar to Google&amp;rsquo;s story — a &amp;ldquo;temporary&amp;rdquo; measure born of crisis that quietly became permanent.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;what-i-took-away&#34;&gt;What I Took Away&lt;/h2&gt;
+&lt;p&gt;Reading through this section, one thought kept coming back to me.&lt;/p&gt;
+&lt;p&gt;Every individual piece of this — smart speakers, wearables, personalized recommendations — has a reasonable explanation on its own. More convenient. More personalized. Better for your health.&lt;/p&gt;
+&lt;p&gt;Each step makes sense.&lt;/p&gt;
+&lt;p&gt;What Zuboff helped me see is that these individually reasonable steps add up to something whole — a systematic, large-scale extraction and shaping of human behavior.&lt;/p&gt;
+&lt;p&gt;And that whole was never something anyone asked your consent for.&lt;/p&gt;
+&lt;p&gt;You clicked &amp;ldquo;agree.&amp;rdquo; But what you agreed to was dozens of pages of terms no one reads — not the system itself.&lt;/p&gt;
+&lt;p&gt;She quotes a line I keep thinking about: surveillance capitalist leaders assume we will accept all of this the way Steinbeck&amp;rsquo;s farmers accepted the bank&amp;rsquo;s logic — because it&amp;rsquo;s successful, because it works, so its rules must be right, must be inevitable.&lt;/p&gt;
+&lt;p&gt;But Zuboff says: no. This was built by people. People can choose differently. They simply chose not to.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;That&amp;rsquo;s Episode 2.&lt;/p&gt;
+&lt;p&gt;We&amp;rsquo;ve mapped the territory — from the phone in your hand, to the rooms of your home, to your children&amp;rsquo;s toys, to your body. This logic has no natural boundary. Wherever new data can be extracted, it will go.&lt;/p&gt;
+&lt;p&gt;But there&amp;rsquo;s one thing we haven&amp;rsquo;t addressed yet. You might be thinking: at least my data is anonymous. At least they don&amp;rsquo;t know it&amp;rsquo;s me.&lt;/p&gt;
+&lt;p&gt;Next episode, we look at that assumption. The answer might make you uncomfortable.&lt;/p&gt;
+&lt;p&gt;This is &lt;em&gt;Let&amp;rsquo;s Read Together&lt;/em&gt;. I&amp;rsquo;m Allen.&lt;/p&gt;
+- https://benlai.me/reading/ep2-your-phone-your-home-your-childrens-toys/ - </description>
+        </item>
+    
+    
+    
+        <item>
         <title>《跟我一起读书吧》第二期</title>
         <link>https://benlai.me/reading/%E7%AC%AC%E4%BA%8C%E6%9C%9F_%E4%BD%A0%E7%9A%84%E6%89%8B%E6%9C%BA%E4%BD%A0%E7%9A%84%E5%AE%B6%E4%BD%A0%E5%AD%A9%E5%AD%90%E7%9A%84%E7%8E%A9%E5%85%B7/</link>
         <pubDate>Wed, 03 Jun 2026 00:00:00 +0800</pubDate>
@@ -316,6 +630,97 @@
 &lt;p&gt;下一期，我们来聊这个问题。答案，可能会让你不太舒服。&lt;/p&gt;
 &lt;p&gt;这里是《跟我一起读书吧》，我是Allen。&lt;/p&gt;
 - https://benlai.me/reading/%E7%AC%AC%E4%BA%8C%E6%9C%9F_%E4%BD%A0%E7%9A%84%E6%89%8B%E6%9C%BA%E4%BD%A0%E7%9A%84%E5%AE%B6%E4%BD%A0%E5%AD%A9%E5%AD%90%E7%9A%84%E7%8E%A9%E5%85%B7/ - </description>
+        </item>
+    
+    
+    
+        <item>
+        <title>Let&#39;s Read Together — Episode 1</title>
+        <link>https://benlai.me/reading/ep1-you-think-youre-using-google/</link>
+        <pubDate>Tue, 02 Jun 2026 00:00:00 +0000</pubDate>
+        
+        <guid>https://benlai.me/reading/ep1-you-think-youre-using-google/</guid>
+        <description>本来 https://benlai.me/reading/ep1-you-think-youre-using-google/ -&lt;h2 id=&#34;you-think-youre-using-google-google-is-using-you&#34;&gt;&amp;ldquo;You Think You&amp;rsquo;re Using Google. Google Is Using You.&amp;rdquo;&lt;/h2&gt;
+&lt;hr&gt;
+&lt;p&gt;Let me start with a question.&lt;/p&gt;
+&lt;p&gt;When did you last search for something online? Today? An hour ago?&lt;/p&gt;
+&lt;p&gt;Maybe you don&amp;rsquo;t even use Google that much anymore. More and more people go straight to ChatGPT, Gemini, or some other AI tool — just type a question, get an answer, have a conversation.&lt;/p&gt;
+&lt;p&gt;But whichever one you use — do you know what happens the moment you hit send? Beyond returning an answer, these platforms are doing something else.&lt;/p&gt;
+&lt;p&gt;They&amp;rsquo;re studying you.&lt;/p&gt;
+&lt;p&gt;Not just what you asked. But &lt;strong&gt;you&lt;/strong&gt; — how you phrase things, how you react to the response, what you follow up with, where you stop. All of that data, combined, doesn&amp;rsquo;t just produce a search record. It produces a portrait of who you are.&lt;/p&gt;
+&lt;p&gt;And that portrait gets used.&lt;/p&gt;
+&lt;p&gt;That&amp;rsquo;s what we&amp;rsquo;re talking about today.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;what-this-book-is&#34;&gt;What This Book Is&lt;/h2&gt;
+&lt;p&gt;Shoshana Zuboff is a professor at Harvard Business School. She spent nearly a decade investigating one question: what is the underlying commercial logic of the digital world we live in?&lt;/p&gt;
+&lt;p&gt;In 2019, she published &lt;em&gt;The Age of Surveillance Capitalism&lt;/em&gt; — over seven hundred pages. There&amp;rsquo;s a Chinese translation, but honestly, some of the key arguments lose something in translation, so today we&amp;rsquo;re working from the original.&lt;/p&gt;
+&lt;p&gt;The book&amp;rsquo;s central claim, in one sentence:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Our personal experiences, behaviors, and emotions are being systematically extracted — without our knowledge — and turned into commodities that can be bought and sold.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;This isn&amp;rsquo;t a conspiracy theory. It&amp;rsquo;s a documented commercial logic, with a specific history, specific mechanisms, and specific people behind it. Zuboff reconstructs all of it.&lt;/p&gt;
+&lt;p&gt;Let&amp;rsquo;s start with the foundation — three core concepts, and the story of how this all began.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;concept-one-behavioral-surplus&#34;&gt;Concept One: Behavioral Surplus&lt;/h2&gt;
+&lt;p&gt;The story starts with Google&amp;rsquo;s early days.&lt;/p&gt;
+&lt;p&gt;In 1998, Larry Page and Sergey Brin founded Google at Stanford. The mission was straightforward: organize the world&amp;rsquo;s information so anyone could find anything.&lt;/p&gt;
+&lt;p&gt;To make search results better, Google collected user data — what you searched for, what you clicked, what you didn&amp;rsquo;t. That feedback helped the system improve. The logic made sense. Data existed to improve the product.&lt;/p&gt;
+&lt;p&gt;But then Google&amp;rsquo;s engineers noticed something. The data users generated far exceeded what was needed to improve search.&lt;/p&gt;
+&lt;p&gt;Think of it this way. You go to a coffee shop. The owner, to improve service, notes what you ordered and whether you seemed satisfied. That&amp;rsquo;s useful. But what if they also recorded how long you stood outside before coming in, who you were with, what your mood looked like when you walked through the door, which direction you walked when you left? None of that improves the coffee. But it describes a much more complete version of you.&lt;/p&gt;
+&lt;p&gt;That &amp;ldquo;extra&amp;rdquo; data is what Zuboff calls &lt;strong&gt;behavioral surplus&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;It could have been discarded. No one would have noticed. But Google didn&amp;rsquo;t discard it.&lt;/p&gt;
+&lt;p&gt;Because they discovered it could be used to predict what you&amp;rsquo;d do next. And that prediction, it turned out, was enormously valuable to advertisers.&lt;/p&gt;
+&lt;p&gt;That&amp;rsquo;s where everything begins. A byproduct that could have been thrown away became the foundation of an entirely new business model.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;concept-two-prediction-products&#34;&gt;Concept Two: Prediction Products&lt;/h2&gt;
+&lt;p&gt;Once Google understood the value of behavioral surplus, they built a system to turn it into predictions.&lt;/p&gt;
+&lt;p&gt;What gets sold to advertisers isn&amp;rsquo;t your raw data. It&amp;rsquo;s a &lt;strong&gt;prediction&lt;/strong&gt; generated from your data — how likely you are to click on a particular ad, how likely you are to make a purchase in the next 24 hours, what kind of content your current emotional state makes you receptive to.&lt;/p&gt;
+&lt;p&gt;Zuboff calls these &lt;strong&gt;prediction products&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;What advertisers are buying is your future behavior.&lt;/p&gt;
+&lt;p&gt;She calls the marketplace where these products are traded the &lt;strong&gt;behavioral futures market&lt;/strong&gt;. The analogy is precise — in financial markets, futures are bets on the future price of something. Here, what&amp;rsquo;s being bet on is what you&amp;rsquo;ll do next.&lt;/p&gt;
+&lt;p&gt;Not soybeans. Not crude oil. You.&lt;/p&gt;
+&lt;p&gt;Inside Google, this new science was called &amp;ldquo;the physics of clicks.&amp;rdquo; They recruited the sharpest minds in AI, statistics, machine learning, and behavioral science — all converging on a single goal: predicting human behavior with maximum accuracy.&lt;/p&gt;
+&lt;p&gt;Hal Varian, Google&amp;rsquo;s chief economist, was clear about the logic: data can only measure correlation, not causation. It tells you what happened, not why. So if you want to understand causation — if you want to close the gap between prediction and certainty — you have to run experiments. Continuously. At scale. Automatically.&lt;/p&gt;
+&lt;p&gt;And Google had the perfect conditions for exactly that: billions of users, oceans of data, and the ability to adjust what people see without them ever knowing.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;concept-three-behavioral-modification&#34;&gt;Concept Three: Behavioral Modification&lt;/h2&gt;
+&lt;p&gt;Predicting behavior was step one. But the system&amp;rsquo;s real ambition went further.&lt;/p&gt;
+&lt;p&gt;Step two was actively &lt;strong&gt;shaping&lt;/strong&gt; behavior.&lt;/p&gt;
+&lt;p&gt;This is the part of the book I found most unsettling.&lt;/p&gt;
+&lt;p&gt;The algorithm isn&amp;rsquo;t just guessing what you&amp;rsquo;ll do. It&amp;rsquo;s designed to make you do specific things — stay longer, click more, buy more, share more, feel more outrage, feel more anxiety. You think you&amp;rsquo;re freely scrolling through your phone. But every push notification, every recommendation, every &amp;ldquo;you might also like&amp;rdquo; — these are calculated interventions.&lt;/p&gt;
+&lt;p&gt;Zuboff quotes a chief data scientist at a well-known Silicon Valley education company: &lt;em&gt;&amp;ldquo;Conditioning at scale is essential to the new science of massively engineered human behavior.&amp;rdquo;&lt;/em&gt; He described how smartphones, wearables, and always-on networked devices allow his company to modify and manage a substantial portion of its users&amp;rsquo; behavior.&lt;/p&gt;
+&lt;p&gt;Conditioning. I stopped on that word for a while.&lt;/p&gt;
+&lt;p&gt;Pavlov&amp;rsquo;s experiment — ring a bell, the dog salivates. Repeat enough times and the behavior is fixed. It becomes reflex.&lt;/p&gt;
+&lt;p&gt;The bell is now an algorithm. We are the dog.&lt;/p&gt;
+&lt;p&gt;And crucially, this has to happen without your awareness. Zuboff is direct: individual awareness is the enemy of behavioral modification. Once you realize you&amp;rsquo;re being influenced, you resist. So the system was designed, from the beginning, to keep you from noticing.&lt;/p&gt;
+&lt;p&gt;Facebook ran an experiment in 2014 — without users&amp;rsquo; knowledge, they adjusted the feeds of nearly 700,000 people. Some saw more positive content, some saw more negative. The result: people who saw more negative posts became more negative themselves.&lt;/p&gt;
+&lt;p&gt;Emotions are contagious. And they can be deliberately engineered.&lt;/p&gt;
+&lt;p&gt;The experiment eventually leaked and caused a major backlash. But Zuboff notes that this kind of experimentation never stopped — it just mostly stays invisible.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;how-it-all-started&#34;&gt;How It All Started&lt;/h2&gt;
+&lt;p&gt;I want to tell a story here that most people don&amp;rsquo;t know — because it reveals something important: none of this was planned from the beginning.&lt;/p&gt;
+&lt;p&gt;Google&amp;rsquo;s founders, Page and Brin, were originally &lt;strong&gt;opposed to advertising&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;In their 1998 academic paper, they explicitly argued that search engines funded by advertising would have an inherent conflict of interest — advertisers pay, so results might favor advertisers. That would compromise the quality and integrity of search.&lt;/p&gt;
+&lt;p&gt;They meant it.&lt;/p&gt;
+&lt;p&gt;Then in 2000, the dot-com bubble burst. Tech companies collapsed across the industry. Google felt the pressure — burning cash, no clear path to profit, investors growing uneasy.&lt;/p&gt;
+&lt;p&gt;Brin later described the feeling: during the bubble, he felt like an idiot. Everyone had an internet startup. Everyone was losing money. Nobody knew how to make any.&lt;/p&gt;
+&lt;p&gt;Then they discovered the value of behavioral surplus. They found that click data could predict ad performance with extraordinary precision. Revenue started climbing.&lt;/p&gt;
+&lt;p&gt;Zuboff uses the legal concept of a &amp;ldquo;state of exception&amp;rdquo; to describe this moment — when survival is at stake, previously held principles get suspended. The company&amp;rsquo;s existence mattered more than its founding values.&lt;/p&gt;
+&lt;p&gt;Suspended temporarily. But they never came back.&lt;/p&gt;
+&lt;p&gt;Sequoia&amp;rsquo;s Michael Moritz later recalled this period as Google&amp;rsquo;s most ingenious reinvention — a 180-degree turn from serving users to surveilling them. The pivot that made it possible: the discovery of behavioral surplus as a game-changing asset.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;why-the-model-spread&#34;&gt;Why the Model Spread&lt;/h2&gt;
+&lt;p&gt;Reading this, I kept asking myself — why did every other company follow? Why did the whole industry end up here?&lt;/p&gt;
+&lt;p&gt;Not because everyone is evil. Because the model &lt;strong&gt;worked&lt;/strong&gt; — and worked so well it was impossible to resist.&lt;/p&gt;
+&lt;p&gt;Google&amp;rsquo;s revenue exploded. Facebook saw it and followed. Others saw Facebook and followed. In a competitive market, if you don&amp;rsquo;t do what&amp;rsquo;s working, you get left behind.&lt;/p&gt;
+&lt;p&gt;This isn&amp;rsquo;t a story about individual moral failure. It&amp;rsquo;s a systemic logic. Once the whole industry is inside it, no one has the space to stop and ask: &lt;em&gt;should&lt;/em&gt; we be doing this?&lt;/p&gt;
+&lt;p&gt;Zuboff puts it plainly — surveillance capitalism is not the inevitable result of digital technology. It&amp;rsquo;s something people built. A choice made under specific historical conditions. The technology was neutral. People decided what to do with it.&lt;/p&gt;
+&lt;p&gt;They chose not to change course.&lt;/p&gt;
+&lt;p&gt;But if it was a choice, other choices were possible.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;That&amp;rsquo;s where we&amp;rsquo;ll leave Episode 1.&lt;/p&gt;
+&lt;p&gt;We&amp;rsquo;ve established the three core concepts: behavioral surplus, prediction products, behavioral modification. And we&amp;rsquo;ve seen how this logic was born — not from a master plan, but from a survival pivot that never reversed.&lt;/p&gt;
+&lt;p&gt;Next episode, we go deeper. This logic started with search engines. Where did it spread from there? Your phone, your home, your children&amp;rsquo;s toys, your body. The answer is more unsettling than most people realize.&lt;/p&gt;
+&lt;p&gt;This is &lt;em&gt;Let&amp;rsquo;s Read Together&lt;/em&gt;. I&amp;rsquo;m Allen.&lt;/p&gt;
+- https://benlai.me/reading/ep1-you-think-youre-using-google/ - </description>
         </item>
     
     
@@ -410,244 +815,6 @@
 &lt;p&gt;下一期，我们往更深的地方走。这套逻辑从搜索引擎开始，后来扩展到哪里去了？你的手机、你的家、你孩子的玩具、你身上的可穿戴设备——监控的边界在哪里？答案可能比你想象的更令人不安。&lt;/p&gt;
 &lt;p&gt;这里是《跟我一起读书吧》，我是Allen。&lt;/p&gt;
 - https://benlai.me/reading/%E7%AC%AC%E4%B8%80%E6%9C%9F_%E4%BD%A0%E4%BB%A5%E4%B8%BA%E4%BD%A0%E5%9C%A8%E7%94%A8google%E5%85%B6%E5%AE%9Egoogle%E5%9C%A8%E7%94%A8%E4%BD%A0/ - </description>
-        </item>
-    
-    
-    
-        <item>
-        <title>《跟我一起读书吧》第零期</title>
-        <link>https://benlai.me/reading/%E7%AC%AC%E9%9B%B6%E6%9C%9F_%E4%B8%BA%E4%BB%80%E4%B9%88%E6%88%91%E8%A6%81%E5%81%9A%E8%BF%99%E4%B8%AA%E8%8A%82%E7%9B%AE/</link>
-        <pubDate>Mon, 01 Jun 2026 00:00:00 +0800</pubDate>
-        
-        <guid>https://benlai.me/reading/%E7%AC%AC%E9%9B%B6%E6%9C%9F_%E4%B8%BA%E4%BB%80%E4%B9%88%E6%88%91%E8%A6%81%E5%81%9A%E8%BF%99%E4%B8%AA%E8%8A%82%E7%9B%AE/</guid>
-        <description>本来 https://benlai.me/reading/%E7%AC%AC%E9%9B%B6%E6%9C%9F_%E4%B8%BA%E4%BB%80%E4%B9%88%E6%88%91%E8%A6%81%E5%81%9A%E8%BF%99%E4%B8%AA%E8%8A%82%E7%9B%AE/ -&lt;p&gt;&lt;img src=&#34;https://benlai.me/images/Image_cover.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;h2 id=&#34;为什么我要做这个节目&#34;&gt;&amp;ldquo;为什么我要做这个节目&amp;rdquo;&lt;/h2&gt;
-&lt;hr&gt;
-&lt;p&gt;我最近在想一个问题——我们每天花多少时间在手机上？&lt;/p&gt;
-&lt;p&gt;刷短视频，看推送，点开一个又一个。有时候放松一下，just for fun，没什么问题。但如果我问你：上个月你刷过的那些视频，有哪一条，真正改变了你对某件事的看法？&lt;/p&gt;
-&lt;p&gt;大概很难想起来。&lt;/p&gt;
-&lt;p&gt;我自己也会刷。但我越来越清楚地感觉到，短视频是快餐——吃的时候觉得满足，吃完什么都没留下。它给你刺激，给你消遣，但它给不了你一样东西：&lt;strong&gt;真正的思考&lt;/strong&gt;。&lt;/p&gt;
-&lt;p&gt;真正的思考需要时间。需要你跟着一个人的论述走很长一段路，走到你开始质疑，开始对话，开始形成自己的观点。这个过程，只有读书能给你。&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;这个节目，叫**《跟我一起读书吧》**。&lt;/p&gt;
-&lt;p&gt;我会读书，然后用中文把书里真正重要的东西讲给你听。&lt;/p&gt;
-&lt;p&gt;我要特别说一点：很多我读的书，是英文原著。有些有中文版，但中文版有时候删节，有时候翻译质量参差不齐，有时候因为各种原因，把最关键的内容丢掉了。读者拿到手的，可能只是原著的一个影子。&lt;/p&gt;
-&lt;p&gt;所以我想做的，是直接读原著，然后用中文告诉你，这本书&lt;strong&gt;真正&lt;/strong&gt;说了什么。&lt;/p&gt;
-&lt;p&gt;有时候是很严肃的非虚构，有时候可能就是一本小说，轻松聊聊，没有固定的框架，跟着感觉走。&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;第一本书，我选了Shoshana Zuboff的《监控资本主义时代》——&lt;em&gt;The Age of Surveillance Capitalism&lt;/em&gt;。&lt;/p&gt;
-&lt;p&gt;这本书出版于2019年，到今天依然是理解我们所处数字世界最重要的著作之一。它回答一个问题：&lt;strong&gt;为什么那些免费的App，其实一点都不免费？&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;你有没有想过，为什么你刚刚跟朋友聊到某个东西，手机上就出现了相关广告？为什么你的每一次点击、每一次停留、每一次搜索，都在被人记录、分析、出售？&lt;/p&gt;
-&lt;p&gt;这不是巧合，这是一套完整的商业逻辑。而这本书，把这套逻辑彻底解剖给你看。&lt;/p&gt;
-&lt;p&gt;我们很多人早就隐约知道这些事情在发生。但&amp;quot;隐约知道&amp;quot;和&amp;quot;真正理解&amp;quot;之间，有一本书的距离。&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;最后我想说——&lt;/p&gt;
-&lt;p&gt;做这个节目，也不是要你放弃短视频。&lt;/p&gt;
-&lt;p&gt;是因为我相信，真正的阅读给你的东西，没有任何算法能替代。&lt;/p&gt;
-&lt;p&gt;它给你的是你自己的思考。&lt;/p&gt;
-&lt;p&gt;在一个越来越多的平台想要替你思考、替你选择、替你决定的时代，能够坐下来，认真读完一本书，本身就是一种清醒。&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;好，我们开始吧。&lt;/p&gt;
-&lt;p&gt;这里是《跟我一起读书吧》，我是Allen。下一期，我们正式进入《监控资本主义时代》。&lt;/p&gt;
-- https://benlai.me/reading/%E7%AC%AC%E9%9B%B6%E6%9C%9F_%E4%B8%BA%E4%BB%80%E4%B9%88%E6%88%91%E8%A6%81%E5%81%9A%E8%BF%99%E4%B8%AA%E8%8A%82%E7%9B%AE/ - </description>
-        </item>
-    
-    
-    
-        <item>
-        <title>A Physicist Says Time Doesn&#39;t Exist. So What Are We So Anxious About?</title>
-        <link>https://benlai.me/spirit/reality_review_english/</link>
-        <pubDate>Fri, 29 May 2026 00:00:00 +0800</pubDate>
-        
-        <guid>https://benlai.me/spirit/reality_review_english/</guid>
-        <description>本来 https://benlai.me/spirit/reality_review_english/ -&lt;p&gt;&lt;em&gt;— On Carlo Rovelli&amp;rsquo;s&lt;/em&gt; Reality Is Not What It Seems&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;img src=&#34;https://benlai.me/images/time.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;Every morning we wake up, two things seem to need no proof.&lt;/p&gt;
-&lt;p&gt;First, that &amp;ldquo;I&amp;rdquo; am still here — that the person I was yesterday and the person I am today are one and the same. Second, that another night has passed — that time kept flowing while I slept, as it always does, without pause or reversal.&lt;/p&gt;
-&lt;p&gt;These two convictions feel so immediate, so fundamental, that we never think to question them. They are the bedrock on which we build everything else.&lt;/p&gt;
-&lt;p&gt;Carlo Rovelli is an Italian theoretical physicist and one of the founders of loop quantum gravity. In &lt;em&gt;Reality Is Not What It Seems&lt;/em&gt;, he dismantles both of these foundations — with uncommon elegance.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;i-time-is-not-a-container-it-is-a-byproduct&#34;&gt;I. Time Is Not a Container. It Is a Byproduct.&lt;/h2&gt;
-&lt;p&gt;In Newton&amp;rsquo;s universe, time is the backdrop — a uniformly flowing river in which all things unfold. Einstein shattered this picture: time bends under gravity. A clock at sea level runs slower than one on a mountaintop. Twin brothers, one living by the ocean and one in the mountains, would find themselves at slightly different ages if they compared notes years later. This is not a metaphor. It has been measured.&lt;/p&gt;
-&lt;p&gt;But Rovelli goes further still.&lt;/p&gt;
-&lt;p&gt;Within the framework of loop quantum gravity, when we quantize both space and time, something strange emerges: &lt;strong&gt;the equations describing the fundamental state of the universe contain no time variable.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;This is not a mathematical shortcut. It is a profound physical conclusion. At the most basic level, the universe has no external clock ticking away. There is no universal &amp;ldquo;now&amp;rdquo; shared by all things. Time, as a fundamental physical quantity, does not exist.&lt;/p&gt;
-&lt;p&gt;So what is the passage of time that we experience?&lt;/p&gt;
-&lt;p&gt;Rovelli&amp;rsquo;s answer comes from thermodynamics. He calls it the &amp;ldquo;thermal time hypothesis&amp;rdquo;: &lt;strong&gt;our sense of time is a product of the fact that we can only perceive macroscopic averages.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;We are too small. We will never see a single particle, never perceive a single quantum of space. What we see are stones, mountains, the faces of friends — each one an averaged effect of countless elementary components. Heat is the name we give to our ignorance of these microscopic states. Heat dissipates, and dissipation is irreversible. Irreversibility creates a direction. That direction is what we call the arrow of time.&lt;/p&gt;
-&lt;p&gt;In Rovelli&amp;rsquo;s own words: &lt;strong&gt;time is information we do not have.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;That sentence deserves a pause. We do not exist inside time. We perceive time because of what we do not know.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;ii-no-objects-only-relations&#34;&gt;II. No Objects. Only Relations.&lt;/h2&gt;
-&lt;p&gt;Beyond time, Rovelli dismantles the concept of &amp;ldquo;objects&amp;rdquo; with equal thoroughness.&lt;/p&gt;
-&lt;p&gt;Quantum mechanics has long carried an unresolved interpretive problem: what state is a particle in before it is observed? The Copenhagen interpretation says it has no definite state — only probabilities. The many-worlds interpretation says each observation splits reality into parallel universes.&lt;/p&gt;
-&lt;p&gt;Rovelli proposes a relational interpretation: &lt;strong&gt;the state of a particle is only defined relative to the other systems with which it interacts.&lt;/strong&gt; There is no absolute, observer-independent physical reality.&lt;/p&gt;
-&lt;p&gt;And the deeper conclusion is this: &lt;strong&gt;it is not that things enter into relations. It is that relations give rise to the notion of things.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;In the world quantum mechanics describes, there are no isolated entities. There are only interactions, events, networks of relations. A stone, in Rovelli&amp;rsquo;s view, is a process — quantum vibrations maintaining their structure for a while, like a wave on the ocean that holds its shape before dissolving back into the sea.&lt;/p&gt;
-&lt;p&gt;We, too, are such processes.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;iii-from-physics-to-the-human-condition&#34;&gt;III. From Physics to the Human Condition&lt;/h2&gt;
-&lt;p&gt;At this point I find myself stepping away from physics and toward a question closer to daily life.&lt;/p&gt;
-&lt;p&gt;If time does not exist at the fundamental level, where does our anxiety about time come from? If the &amp;ldquo;self&amp;rdquo; is not a stable entity but an ongoing process within a web of relations, what does our compulsion to maintain a fixed self-image actually mean?&lt;/p&gt;
-&lt;p&gt;Behavioral science offers a concept called &lt;strong&gt;status quo bias&lt;/strong&gt; — the tendency to prefer the current state of affairs and resist change. It is typically explained as an extension of loss aversion: change means losing something we already have.&lt;/p&gt;
-&lt;p&gt;But Rovelli&amp;rsquo;s physics suggests a deeper layer. Perhaps we resist change because we are instinctively protecting a narrative — a story about a stable, continuous self that persists through time. And that narrative, viewed from the perspective of physics, is a macroscopic approximation: an illusion produced by our nervous systems averaging over countless microscopic interactions.&lt;/p&gt;
-&lt;p&gt;We are anxious about time because we treat it as a resource being consumed. But if time itself is merely an emergent property of heat dissipation, then the concept of &amp;ldquo;wasting time,&amp;rdquo; at its deepest level, has no foundation.&lt;/p&gt;
-&lt;p&gt;I am not suggesting that this understanding can dissolve anxiety — the human nervous system does not work that way. But I think it can offer a slightly looser grip. Our fixation on time, our fixation on a stable self, are cognitive tools shaped by evolution. They are not ultimate truths about the nature of reality.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;iv-the-edge-of-science-and-the-warmth-of-the-humanities&#34;&gt;IV. The Edge of Science and the Warmth of the Humanities&lt;/h2&gt;
-&lt;p&gt;Rovelli is one of the rare scientists who can write physics like philosophical prose. In the second half of the book, he draws extensively on Dante and Anaximander, weaving the mathematical conclusions of loop quantum gravity into the broader arc of human intellectual history.&lt;/p&gt;
-&lt;p&gt;This is a risky approach — it may strike physicists as insufficiently rigorous and general readers as overly abstract. But I think Rovelli&amp;rsquo;s bet pays off. What he is really saying is not &amp;ldquo;look, we have found new equations.&amp;rdquo; It is: &amp;ldquo;look — when we truly understand the structure of reality, the human condition appears in a different light.&amp;rdquo;&lt;/p&gt;
-&lt;p&gt;This book has no Chinese translation. But I believe it deserves a Chinese readership — not for its conclusions about physics, but for the serious question it poses:&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;When the most basic frameworks we use to make sense of the world — time, self, objects — turn out to be approximations, how should we understand what it means to be alive?&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;I do not have an answer. But I think the question is worth carrying with us.&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;em&gt;Carlo Rovelli, Reality Is Not What It Seems: The Journey to Quantum Gravity, 2014 (English edition 2017)&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;For reasons of space, this essay omits the technical details of loop quantum gravity. Readers wishing to go deeper will find a full treatment in Chapters 4–6 of the original.&lt;/em&gt;&lt;/p&gt;
-- https://benlai.me/spirit/reality_review_english/ - </description>
-        </item>
-    
-    
-    
-        <item>
-        <title>物理学家说时间不存在，那我们的焦虑算什么</title>
-        <link>https://benlai.me/spirit/reality_review_zhihu/</link>
-        <pubDate>Fri, 29 May 2026 00:00:00 +0800</pubDate>
-        
-        <guid>https://benlai.me/spirit/reality_review_zhihu/</guid>
-        <description>本来 https://benlai.me/spirit/reality_review_zhihu/ -&lt;p&gt;&lt;img src=&#34;https://benlai.me/images/time.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;——读Carlo Rovelli《现实不似你所见》&lt;/em&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;我们每天早上醒来，有两件事似乎无需证明：&lt;/p&gt;
-&lt;p&gt;第一，&amp;ldquo;我&amp;quot;还在。昨天的那个我，和今天的这个我，是同一个人。第二，时间又过了一夜。它一直在流，不会停，也不会倒退。&lt;/p&gt;
-&lt;p&gt;这两个感受如此真实，如此基本，以至于我们从未想过质疑它们。它们是我们理解世界的地基。&lt;/p&gt;
-&lt;p&gt;Carlo Rovelli是意大利理论物理学家，圈量子引力理论的奠基人之一。在《现实不似你所见》这本书里，他用一种罕见的优雅，把这两块地基一起抽走了。&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;一时间不是容器是副产品&#34;&gt;一、时间不是容器，是副产品&lt;/h2&gt;
-&lt;p&gt;牛顿的世界里，时间是宇宙的背景——一条均匀流动的长河，万物在其中演化。爱因斯坦打破了这个图景：时间会因引力而弯曲，海平面的时钟走得比山顶的慢，双胞胎兄弟如果一个住在海边一个住在山上，若干年后再见，他们的年龄会有细微差异。这不是比喻，是实测事实。&lt;/p&gt;
-&lt;p&gt;但Rovelli走得更远。&lt;/p&gt;
-&lt;p&gt;在圈量子引力理论的框架里，当我们把空间和时间都量子化，一件奇怪的事情发生了：&lt;strong&gt;描述宇宙基本状态的方程，不含时间变量。&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;这不是数学上的偷懒，而是一个深刻的物理结论：在最基本的层面，宇宙没有一个外部的时钟在运转。没有一个&amp;quot;现在&amp;quot;是所有事物共享的。时间，作为一个基本的物理量，并不存在。&lt;/p&gt;
-&lt;p&gt;那我们感受到的时间流逝是什么？&lt;/p&gt;
-&lt;p&gt;Rovelli给出的答案来自热力学。他称之为&amp;quot;热时间假说&amp;rdquo;：&lt;strong&gt;时间感，是我们只能感知宏观平均值这一事实的产物。&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;我们太小了。我们永远看不到单个粒子，看不到单个空间量子。我们看到的是石头、山脉、朋友的脸——每一样都是无数基本成分的平均效果。热，就是我们对这种平均状态的无知的名字。而热会耗散，耗散是不可逆的，不可逆产生了方向感，方向感就是我们所说的时间之箭。&lt;/p&gt;
-&lt;p&gt;用Rovelli自己的话说：&lt;strong&gt;时间是我们没有的信息。&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;这句话值得停下来想一想。我们不是在时间里存在，我们是因为无知而感知到时间。&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;二没有物体只有关系&#34;&gt;二、没有物体，只有关系&lt;/h2&gt;
-&lt;p&gt;时间之外，Rovelli对&amp;quot;物体&amp;quot;的概念也做了同样彻底的解构。&lt;/p&gt;
-&lt;p&gt;量子力学有一个长期悬而未决的解释问题：粒子在被观测之前，到底处于什么状态？哥本哈根诠释说，粒子没有确定状态，只有概率。多世界诠释说，每次观测都分裂出平行宇宙。&lt;/p&gt;
-&lt;p&gt;Rovelli提出了关系诠释：&lt;strong&gt;粒子的状态，只相对于与它发生互动的其他系统而言是确定的。&lt;/strong&gt; 没有一个绝对的、独立于观察者的物理实在。&lt;/p&gt;
-&lt;p&gt;更根本的是这个结论：&lt;strong&gt;不是物体进入关系，而是关系构成了物体的概念本身。&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;在量子力学描述的世界里，没有孤立存在的实体。有的只是相互作用，只是事件，只是关系网络。一块石头，在Rovelli看来，是量子振动在一段时间内维持其结构的过程——就像海浪，是一个过程，而不是一个东西。&lt;/p&gt;
-&lt;p&gt;我们，也是如此。&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;三从物理学到人的处境&#34;&gt;三、从物理学到人的处境&lt;/h2&gt;
-&lt;p&gt;读到这里，我忍不住要离开物理学，转向一个更贴近日常的问题。&lt;/p&gt;
-&lt;p&gt;如果时间在基本层面不存在，我们对时间的焦虑从何而来？如果&amp;quot;我&amp;quot;不是一个稳定的实体，而是关系网络中的一个持续过程，我们维护自我形象的冲动又意味着什么？&lt;/p&gt;
-&lt;p&gt;行为科学里有一个概念叫&lt;strong&gt;现状偏差&lt;/strong&gt;（status quo bias）——人们倾向于维持现有状态，对改变有天然的抵触。这种偏差被解释为损失厌恶的延伸：改变意味着失去某些已有的东西。&lt;/p&gt;
-&lt;p&gt;但Rovelli的物理学提示了另一层理解：我们之所以抵抗改变，或许是因为我们在本能地维护一个叙事——关于一个稳定的、连续的&amp;quot;自我&amp;quot;存在的叙事。而这个叙事，从物理学的角度看，是一种宏观近似，是我们的神经系统对无数微观互动取平均之后产生的幻觉。&lt;/p&gt;
-&lt;p&gt;我们焦虑时间流逝，是因为我们把时间当作一种正在被消耗的资源。但如果时间本身只是热耗散的宏观涌现，那&amp;quot;浪费时间&amp;quot;这个概念，在最深的层面，是没有根基的。&lt;/p&gt;
-&lt;p&gt;我并不是说这种认识能消除焦虑——人类的神经系统不是这样运作的。但我觉得，理解这一点，至少能给我们一种更宽松的视角：我们对时间的执念，对稳定自我的执念，是进化塑造的认知工具，不是关于现实的终极真理。&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;四科学的边界与人文的温度&#34;&gt;四、科学的边界与人文的温度&lt;/h2&gt;
-&lt;p&gt;Rovelli是少数能把物理学写得像哲学散文的科学家。这本书的后半部分，他大量引用但丁、阿那克西曼德，把圈量子引力的数学结论和人类思想史的脉络交织在一起。&lt;/p&gt;
-&lt;p&gt;这种写法有风险——它可能让物理学家觉得不够严谨，让普通读者觉得过于抽象。但我认为Rovelli赌对了。他真正想说的不是&amp;quot;看，我们发现了新的方程&amp;quot;，而是&amp;quot;看，当我们真正理解现实的结构，人类的处境会显出一种不同的面貌&amp;quot;。&lt;/p&gt;
-&lt;p&gt;这本书没有中文译本。但我认为它值得中文读者认识——不是因为它的物理学结论，而是因为它提出了一个严肃的问题：&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;当我们用来理解世界的最基本框架——时间、自我、物体——都只是近似，我们应该如何重新理解&amp;quot;活着&amp;quot;这件事？&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;这个问题，我还没有答案。但我认为，值得带着它继续想下去。&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;em&gt;Carlo Rovelli, Reality Is Not What It Seems: The Journey to Quantum Gravity, 2014（英文版2017）&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;篇幅所限，本文略去了圈量子引力的技术细节。如有兴趣深入，原书第四至六章有完整论述。&lt;/em&gt;&lt;/p&gt;
-- https://benlai.me/spirit/reality_review_zhihu/ - </description>
-        </item>
-    
-    
-    
-        <item>
-        <title>一个汉字里的文明密码：从「巫」到「礼」</title>
-        <link>https://benlai.me/culture/wu-li-civilization/</link>
-        <pubDate>Mon, 25 May 2026 00:00:00 +0800</pubDate>
-        
-        <guid>https://benlai.me/culture/wu-li-civilization/</guid>
-        <description>本来 https://benlai.me/culture/wu-li-civilization/ -&lt;p&gt;&lt;img src=&#34;https://benlai.me/images/wu.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;——兼论神圣性转码作为文明生成机制&lt;/strong&gt;&lt;/p&gt;
-&lt;h1 id=&#34;一个汉字里的文明密码从巫到礼&#34;&gt;一个汉字里的文明密码：从「巫」到「礼」&lt;/h1&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;引言字形作为化石&#34;&gt;引言：字形作为化石&lt;/h2&gt;
-&lt;p&gt;研究一个文明的底层逻辑，有时候从一个字开始比从一部史书开始更诚实。&lt;/p&gt;
-&lt;p&gt;史书是胜利者写的，字形不是。字形是造字者在某个当下对世界的直觉压缩，它保存了一种认知状态，而不是一段叙事。&lt;/p&gt;
-&lt;p&gt;「巫」字就是这样一块化石。&lt;/p&gt;
-&lt;p&gt;它的甲骨文字形由两个「工」字形交叉构成，呈「✕」状。这个看似简单的几何符号，在中华文明形成期承载了一整套关于天地、人神、秩序与权力的宇宙观。而它此后三千年的演化轨迹——从巫到礼，从礼到儒，从儒到制度——构成了理解中华文明底层逻辑的一条核心线索。&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;一字形的秘密巫是什么&#34;&gt;一、字形的秘密：「巫」是什么&lt;/h2&gt;
-&lt;p&gt;关于「工」形的来源，学界有两种主流解读，值得并置而非取一。&lt;/p&gt;
-&lt;p&gt;郭沫若认为「工」象矩尺，巫者持矩以通天地——矩是测量天地秩序的工具，掌握矩者掌握宇宙的度量权。另一种解读来自李孝定等人：「工」象玉琮的截面。玉琮是良渚文化（约公元前3300至2300年）最核心的礼器，外方内圆，外方象地，内圆象天，中孔贯通，象征天地之轴。巫持玉琮，是字面意义上站在天地轴线上的人。&lt;/p&gt;
-&lt;p&gt;两种解读指向同一个结构：&lt;strong&gt;巫是掌握天地之间测量权与沟通权的人&lt;/strong&gt;。&lt;/p&gt;
-&lt;p&gt;《说文解字》的解释是「祝也，女能事无形，以舞降神者也」，但这已经是汉代的降格诠释。更早的卜辞语境里，「巫」的权能远不止降神，而是覆盖了一个前现代知识体系的全部：天文历法、医疗禁咒、政治决策、丧葬仪式、文字书写。&lt;/p&gt;
-&lt;p&gt;这是关键所在。在商代，知识体系是统一的，而巫是这个统一体系的唯一持有者。科学、宗教、政治、医学的分裂，是后来的事。&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;二权力的结构性危机为什么巫必须转码&#34;&gt;二、权力的结构性危机：为什么巫必须转码&lt;/h2&gt;
-&lt;p&gt;商代权力结构的致命弱点，恰恰在于它对巫的高度依赖。&lt;/p&gt;
-&lt;p&gt;商王几乎所有重大决策——出行、征伐、祭祀、生育——都要卜问。这意味着权力的合法性每次都需要重新证明，而解释神意的贞人（巫官）实际上分享了王权。更根本的问题是：神意是随机的，依赖随机性的权力结构无法稳定传承。&lt;/p&gt;
-&lt;p&gt;周人克商之后，面临的核心政治问题是：&lt;strong&gt;如何建立一套不依赖每次卜问、却同样具有神圣约束力的秩序系统？&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;周公的回答，是「礼」。&lt;/p&gt;
-&lt;p&gt;这个回答的精妙之处在于，它没有否定「天」的权威，而是声称天道已经被完整地翻译成了人间制度。这个动作把巫的实时通灵权，转换成了礼制的永久立法权。神圣性从「事件性」变成了「结构性」——不再需要每次问卜，因为天道已经编码于礼，遵礼即合天道。&lt;/p&gt;
-&lt;p&gt;与此同时，「德」的概念被引入作为关键枢纽。天命不再是神的任意授权，而是与德行挂钩的条件性授权。这意味着天命可以被收回（为克商提供合法性），而德行是可观察、可评估的——这正是礼的功能。「礼」于是成为德行的外部测量系统。&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;三转码的工程巫的功能如何被拆解&#34;&gt;三、转码的工程：巫的功能如何被拆解&lt;/h2&gt;
-&lt;p&gt;周公制礼作乐，不是一个文化史套话，而是一次精确的权力工程操作。巫的整体功能被系统性地拆解并制度化：&lt;/p&gt;
-&lt;p&gt;祭祀通神的功能，被保留但程序化，成为宗庙制度和严格的祭礼规程；占卜决策的功能，被筮法（《周易》）部分替代，地位显著降低；音乐降神的功能，转化为雅乐体系，音乐从巫术媒介变为道德教化工具；天文历法被移交给太史等专职官员；医疗禁咒逐渐分离为独立的「医」职。&lt;/p&gt;
-&lt;p&gt;巫的一体化知识体系，变成了一套精密的官僚专业分工。&lt;/p&gt;
-&lt;p&gt;这个转码过程中，还发生了一件更深层的事：&lt;strong&gt;身体的政治意义被重新定向&lt;/strong&gt;。巫术时代，身体是神灵降临的媒介，必须通过特定动作和迷狂状态开放接受神力；礼制时代，身体依然是权力的核心场所，但方向反转——不是让身体开放，而是让身体严格遵循规程。&lt;/p&gt;
-&lt;p&gt;站姿、步态、揖拜的角度、衣冠的层次——礼制对身体的规定细致到令人惊讶。这不是繁文缛节，而是一套完整的身体政治学：身体服从礼，等于宣示承认这套秩序的合法性。权力通过规训身体来生产顺从的主体，这个机制在现代理论里是福柯的发现，周公早他两千五百年就在实践。&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;四哲学化神圣性的最终内化&#34;&gt;四、哲学化：神圣性的最终内化&lt;/h2&gt;
-&lt;p&gt;礼制的政治强制力在周室衰微后逐渐瓦解，但这恰恰触发了更深层的转码——礼的哲学化。&lt;/p&gt;
-&lt;p&gt;孔子完成了一个决定性的动作：声称礼的本质不是器物和程序，而是「仁」。「礼云礼云，玉帛云乎哉？」这句话是对整个礼制传统的重新诠释——神圣性不在外部器物里，不在程序里，而在内心状态里。&lt;/p&gt;
-&lt;p&gt;从巫术时代到孔子，神圣性经历了一次从「外部」向「内部」的决定性迁移：&lt;/p&gt;
-&lt;p&gt;巫需要玉器、需要特定场所、需要迷狂状态——神圣性完全依赖外部条件；礼制时代，程序本身具有神圣性，器物和仪式不可僭越；到孔子，程序的意义在于它承载的内心状态，君子只需要内心的「仁」。&lt;/p&gt;
-&lt;p&gt;但孔子同时坚持礼的形式不可废。他深知：一旦形式消失，内心状态也会涣散。这是他比后来某些儒家更清醒的地方——神圣性的内化不等于神圣性的消解，形式是内心状态的外部锚点。&lt;/p&gt;
-&lt;p&gt;荀子走得更远，直接为礼提供了世俗化的解释：礼是人为防止社会混乱而建立的分配规则。这里已经没有神圣性，礼成了前现代版本的社会契约。&lt;/p&gt;
-&lt;p&gt;神，在这条演化线上，没有消失，而是逐渐变成了规矩本身。&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;五延伸其他文明如何处理同一个问题&#34;&gt;五、延伸：其他文明如何处理同一个问题&lt;/h2&gt;
-&lt;p&gt;这条演化线索的价值，在比较视野里会更加清晰。&lt;/p&gt;
-&lt;p&gt;每一个形成了持久秩序的文明，都面临同一个原始问题：&lt;strong&gt;如何将巫术时代的神圣性「转码」成可传承、可规模化的秩序系统？&lt;/strong&gt; 但各文明选择了不同的转码路径，这个选择深刻地塑造了此后数千年的文明性格。&lt;/p&gt;
-&lt;p&gt;两河流域的路径，是将神意编码为法典。汉谟拉比法典声称来自太阳神沙马什的授权，但内容是世俗的行为规范。神圣性被用来一次性授权整个法律体系，然后退场，法律此后自我运行。这条路最终流入罗马法和现代法律体系。&lt;/p&gt;
-&lt;p&gt;古埃及的路径则是从未真正转码。法老不是神的代理人，而是神本身——荷鲁斯的化身。神圣权力与世俗权力从未分离，因此埃及从未面临「如何用制度替代神圣权力」的问题。这个结构在王朝延续时极为稳固，却在外部冲击来临时失去了自我再生的能力——失去法老神权之后，整个神圣体系失去锚点，无法重建。&lt;/p&gt;
-&lt;p&gt;印度的路径最为激进：将神圣权力和世俗权力制度化地分配给两个不同的社会群体。婆罗门继承巫的通神权力并保持高度的原始活力，刹帝利掌握政治军事权力。两者之间的永久性张力，在某种程度上解释了为什么印度产生了指向个体解脱的伟大传统——当神圣权力从未被整合进世俗秩序，文明的能量自然导向出离，而非建构。&lt;/p&gt;
-&lt;p&gt;希腊的路径是将神圣性转码为理性。爱奥尼亚自然哲学家开始用自然原因解释宇宙，把宇宙的秩序原理从神格实体转移到非人格的结构原理。柏拉图是这个转码的最高完成者：保留神圣性（理念世界），用哲学替代巫术，让理性成为新的通天工具。这条路最终走向现代科学。&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;六转码能力与文明韧性&#34;&gt;六、转码能力与文明韧性&lt;/h2&gt;
-&lt;p&gt;比较下来，可以提炼出一个关于文明韧性的结构性观察：&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;一个文明的长期存续能力，与它将神圣性「转码」为可传承制度的能力存在关联；而转码的方向，深刻地影响了该文明面对外部冲击时的适应策略。&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;走向法典的文明，在面对现代法律体系时适应最顺畅；走向礼制与伦理的文明，在面对现代性时经历更深的身份张力——因为现代性的核心预设（个人权利）与礼制的核心预设（位置秩序）存在根本性的结构矛盾；从未完成转码的文明，在外部冲击下最脆弱；走向解脱论的文明，对现代性有其独特的免疫力，因为它从一开始就不以世俗秩序的合理性为终极关怀。&lt;/p&gt;
-&lt;p&gt;这些当然是高度简化的类型学描述，历史的实际进程远比任何框架复杂。但框架的价值不在于还原真相，而在于提供追问的角度。&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;结语那两个交叉的工&#34;&gt;结语：那两个交叉的「工」&lt;/h2&gt;
-&lt;p&gt;「巫」字的两个交叉「工」，撑起了一个上古宇宙论的基本结构：天与地之间存在可沟通的秩序，掌握沟通技术的人掌握一切。&lt;/p&gt;
-&lt;p&gt;这个假设后来被儒家理性化，被道家内化（从外求通天到内修成道），被法家剥离（保留权力结构，去掉神圣依据）——但那个最初的冲动，那个想要把天地连成一体、用人的技艺参与宇宙运行的冲动，始终是中华文明的底层操作系统。&lt;/p&gt;
-&lt;p&gt;当代中国社会对辈分的执念、对仪式感的重视、对「面子」的敏感——面子的本质，是礼制中位置秩序的现代残留——或许仍然是这套三千年程序的后台进程在运行。&lt;/p&gt;
-&lt;p&gt;如果是，那「巫」字那两个交叉的「工」，至今仍然撑着某种我们看不见的天地结构。&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;em&gt;本文核心论述来自与AI的深度对话，经整理编辑而成。文中所引学术观点（郭沫若、李孝定、章太炎等）系已有研究，比较框架及综合判断系对话过程中生成，读者可自行与相关一手文献对照验证。&lt;/em&gt;&lt;/p&gt;
-- https://benlai.me/culture/wu-li-civilization/ - </description>
-        </item>
-    
-    
-    
-        <item>
-        <title>怪圈</title>
-        <link>https://benlai.me/spirit/jung-shadow/</link>
-        <pubDate>Thu, 21 May 2026 19:01:27 -0400</pubDate>
-        
-        <guid>https://benlai.me/spirit/jung-shadow/</guid>
-        <description>本来 https://benlai.me/spirit/jung-shadow/ -&lt;p&gt;I am a strange loop&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://benlai.me/images/Image_2.jpg&#34; alt=&#34;loop&#34;&gt;&lt;/p&gt;
-&lt;p&gt;It from bit &amp;amp; Bit from it&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://benlai.me/images/Image_1.jpg&#34; alt=&#34;bit&#34;&gt;&lt;/p&gt;
-- https://benlai.me/spirit/jung-shadow/ - </description>
         </item>
     
     

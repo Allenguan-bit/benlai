@@ -1,0 +1,5 @@
+_inbox/*.md
+!_inbox/template.md
+public/
+resources/
+.hugo_build.lock

@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<title>Let&#39;s Read Together — Episode 1</title>
+
+
+
+
+<meta charset="utf-8">
+<meta name="X-UA-Compatible" content="IE=edge">
+<meta name="google-site-verification" content="">
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=5, user-scalable=5" name="viewport">
+<meta content="telephone=no" name="format-detection">
+<meta name="description" content="">
+<meta name="renderer" content="webkit">
+<meta name="theme-color" content="#ffffff">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+      <script src="/js/toc.js"></script>
+    
+    <link type="text/css" rel="stylesheet" href="/vendor/css/bootstrap.min.css">
+
+<link rel="stylesheet" href="/scss/dark-mode.min.6c9b4c2290542df75010d1640eac4339c754ccff3c9b43fc81a23c94e7e12eaf.css" integrity="sha256-bJtMIpBULfdQENFkDqxDOcdUzP88m0P8gaI8lOfhLq8=" media="screen">
+
+
+<link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Material+Icons">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<style>
+  .post-body img {
+    width: 100%;
+    border-radius: 5px;
+  }
+</style>
+
+
+</head>
+<body>
+    	<div id="app"><div class="single-column-drawer-container" id="drawer"
+     v-bind:class="{ 'single-column-drawer-container-active': isDrawerOpen }">
+    <div class="drawer-content">
+        <div class="drawer-menu">
+            
+            
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/spirit/">
+                    灵境
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/culture/">
+                    文化
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/travel/">
+                    行迹
+                </a>
+                
+            
+                
+                
+                
+                    
+                
+                
+                
+                <a class="a-block drawer-menu-item active" href="/reading/">
+                    书房
+                </a>
+                
+            
+            
+            <div class="toc">
+
+
+	<div class="toc-content">
+	
+		
+		
+		
+		<center>- CATALOG -</center>
+		
+		
+		<ul>
+			
+				
+				
+					
+						
+						
+						
+						
+							
+								
+									<ul>
+								
+							
+						
+						
+							<li>
+								<a href="#you-think-youre-using-google-google-is-using-you" class="nav-you-think-youre-using-google-google-is-using-you">
+									“You Think You’re Using Google. Google Is Using You.”
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#what-this-book-is" class="nav-what-this-book-is">
+									What This Book Is
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#concept-one-behavioral-surplus" class="nav-concept-one-behavioral-surplus">
+									Concept One: Behavioral Surplus
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#concept-two-prediction-products" class="nav-concept-two-prediction-products">
+									Concept Two: Prediction Products
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#concept-three-behavioral-modification" class="nav-concept-three-behavioral-modification">
+									Concept Three: Behavioral Modification
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#how-it-all-started" class="nav-how-it-all-started">
+									How It All Started
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#why-the-model-spread" class="nav-why-the-model-spread">
+									Why the Model Spread
+								</a>
+							</li>
+						
+						
+					
+				
+			
+		</ul>
+	</div>
+
+</div>
+            
+        </div>
+    </div>
+</div>
+<transition name="fade">
+    <div id="drawer-mask" v-bind:class="{ 'single-column-drawer-mask': mounted }" v-if="isDrawerOpen" v-on:click="toggleDrawer"></div>
+</transition>
+<nav id="navBar" class="navbar sticky-top navbar-light single-column-nav-container">
+    <div id="navBackground" class="nav-background"></div>
+    <div class="container container-narrow nav-content">
+        <button id="nav_dropdown_btn" class="nav-dropdown-toggle" type="button" v-on:click="toggleDrawer">
+            <i class="material-icons">
+                menu
+            </i>
+        </button>
+        <a id="navTitle" class="navbar-brand" href="https://benlai.me/">
+            本来
+        </a>
+        
+        <button type="button" class="nav-darkmode-toggle" id="darkModeToggleButton2">
+            <i class="material-icons" id="darkModeToggleIcon2">
+                dark_mode
+            </i>
+        </button>
+        
+    </div>
+</nav>
+<div class="single-column-header-container" id="pageHead"
+     v-bind:style="{ transform: 'translateZ(0px) translateY('+.3*scrollY+'px)', opacity: 1-navOpacity }">
+    <a href="https://benlai.me/">
+        <div class="single-column-header-title">本来</div>
+        
+
+    </a>
+</div>
+
+            <div id="content">
+                <div id="streamContainer" class="stream-container">
+
+    <div class="post-list-container post-list-container-shadow">
+        <div class="post">
+            
+            
+            
+
+            <div class="post-head-wrapper-text-only"
+                
+            >
+                <div class="post-title">
+                    Let&#39;s Read Together — Episode 1
+                    
+                    <div class="post-meta">
+                        
+                        <time itemprop="datePublished">
+                            2026-06-02 00:00
+                        </time>
+                        
+
+                        
+
+                        
+                        
+                    </div>
+                </div>
+            </div>
+            
+            <div class="post-body-wrapper">
+                
+                <div class="post-body" v-pre>
+                
+                    <h2 id="you-think-youre-using-google-google-is-using-you">&ldquo;You Think You&rsquo;re Using Google. Google Is Using You.&rdquo;</h2>
+<hr>
+<p>Let me start with a question.</p>
+<p>When did you last search for something online? Today? An hour ago?</p>
+<p>Maybe you don&rsquo;t even use Google that much anymore. More and more people go straight to ChatGPT, Gemini, or some other AI tool — just type a question, get an answer, have a conversation.</p>
+<p>But whichever one you use — do you know what happens the moment you hit send? Beyond returning an answer, these platforms are doing something else.</p>
+<p>They&rsquo;re studying you.</p>
+<p>Not just what you asked. But <strong>you</strong> — how you phrase things, how you react to the response, what you follow up with, where you stop. All of that data, combined, doesn&rsquo;t just produce a search record. It produces a portrait of who you are.</p>
+<p>And that portrait gets used.</p>
+<p>That&rsquo;s what we&rsquo;re talking about today.</p>
+<hr>
+<h2 id="what-this-book-is">What This Book Is</h2>
+<p>Shoshana Zuboff is a professor at Harvard Business School. She spent nearly a decade investigating one question: what is the underlying commercial logic of the digital world we live in?</p>
+<p>In 2019, she published <em>The Age of Surveillance Capitalism</em> — over seven hundred pages. There&rsquo;s a Chinese translation, but honestly, some of the key arguments lose something in translation, so today we&rsquo;re working from the original.</p>
+<p>The book&rsquo;s central claim, in one sentence:</p>
+<p><strong>Our personal experiences, behaviors, and emotions are being systematically extracted — without our knowledge — and turned into commodities that can be bought and sold.</strong></p>
+<p>This isn&rsquo;t a conspiracy theory. It&rsquo;s a documented commercial logic, with a specific history, specific mechanisms, and specific people behind it. Zuboff reconstructs all of it.</p>
+<p>Let&rsquo;s start with the foundation — three core concepts, and the story of how this all began.</p>
+<hr>
+<h2 id="concept-one-behavioral-surplus">Concept One: Behavioral Surplus</h2>
+<p>The story starts with Google&rsquo;s early days.</p>
+<p>In 1998, Larry Page and Sergey Brin founded Google at Stanford. The mission was straightforward: organize the world&rsquo;s information so anyone could find anything.</p>
+<p>To make search results better, Google collected user data — what you searched for, what you clicked, what you didn&rsquo;t. That feedback helped the system improve. The logic made sense. Data existed to improve the product.</p>
+<p>But then Google&rsquo;s engineers noticed something. The data users generated far exceeded what was needed to improve search.</p>
+<p>Think of it this way. You go to a coffee shop. The owner, to improve service, notes what you ordered and whether you seemed satisfied. That&rsquo;s useful. But what if they also recorded how long you stood outside before coming in, who you were with, what your mood looked like when you walked through the door, which direction you walked when you left? None of that improves the coffee. But it describes a much more complete version of you.</p>
+<p>That &ldquo;extra&rdquo; data is what Zuboff calls <strong>behavioral surplus</strong>.</p>
+<p>It could have been discarded. No one would have noticed. But Google didn&rsquo;t discard it.</p>
+<p>Because they discovered it could be used to predict what you&rsquo;d do next. And that prediction, it turned out, was enormously valuable to advertisers.</p>
+<p>That&rsquo;s where everything begins. A byproduct that could have been thrown away became the foundation of an entirely new business model.</p>
+<hr>
+<h2 id="concept-two-prediction-products">Concept Two: Prediction Products</h2>
+<p>Once Google understood the value of behavioral surplus, they built a system to turn it into predictions.</p>
+<p>What gets sold to advertisers isn&rsquo;t your raw data. It&rsquo;s a <strong>prediction</strong> generated from your data — how likely you are to click on a particular ad, how likely you are to make a purchase in the next 24 hours, what kind of content your current emotional state makes you receptive to.</p>
+<p>Zuboff calls these <strong>prediction products</strong>.</p>
+<p>What advertisers are buying is your future behavior.</p>
+<p>She calls the marketplace where these products are traded the <strong>behavioral futures market</strong>. The analogy is precise — in financial markets, futures are bets on the future price of something. Here, what&rsquo;s being bet on is what you&rsquo;ll do next.</p>
+<p>Not soybeans. Not crude oil. You.</p>
+<p>Inside Google, this new science was called &ldquo;the physics of clicks.&rdquo; They recruited the sharpest minds in AI, statistics, machine learning, and behavioral science — all converging on a single goal: predicting human behavior with maximum accuracy.</p>
+<p>Hal Varian, Google&rsquo;s chief economist, was clear about the logic: data can only measure correlation, not causation. It tells you what happened, not why. So if you want to understand causation — if you want to close the gap between prediction and certainty — you have to run experiments. Continuously. At scale. Automatically.</p>
+<p>And Google had the perfect conditions for exactly that: billions of users, oceans of data, and the ability to adjust what people see without them ever knowing.</p>
+<hr>
+<h2 id="concept-three-behavioral-modification">Concept Three: Behavioral Modification</h2>
+<p>Predicting behavior was step one. But the system&rsquo;s real ambition went further.</p>
+<p>Step two was actively <strong>shaping</strong> behavior.</p>
+<p>This is the part of the book I found most unsettling.</p>
+<p>The algorithm isn&rsquo;t just guessing what you&rsquo;ll do. It&rsquo;s designed to make you do specific things — stay longer, click more, buy more, share more, feel more outrage, feel more anxiety. You think you&rsquo;re freely scrolling through your phone. But every push notification, every recommendation, every &ldquo;you might also like&rdquo; — these are calculated interventions.</p>
+<p>Zuboff quotes a chief data scientist at a well-known Silicon Valley education company: <em>&ldquo;Conditioning at scale is essential to the new science of massively engineered human behavior.&rdquo;</em> He described how smartphones, wearables, and always-on networked devices allow his company to modify and manage a substantial portion of its users&rsquo; behavior.</p>
+<p>Conditioning. I stopped on that word for a while.</p>
+<p>Pavlov&rsquo;s experiment — ring a bell, the dog salivates. Repeat enough times and the behavior is fixed. It becomes reflex.</p>
+<p>The bell is now an algorithm. We are the dog.</p>
+<p>And crucially, this has to happen without your awareness. Zuboff is direct: individual awareness is the enemy of behavioral modification. Once you realize you&rsquo;re being influenced, you resist. So the system was designed, from the beginning, to keep you from noticing.</p>
+<p>Facebook ran an experiment in 2014 — without users&rsquo; knowledge, they adjusted the feeds of nearly 700,000 people. Some saw more positive content, some saw more negative. The result: people who saw more negative posts became more negative themselves.</p>
+<p>Emotions are contagious. And they can be deliberately engineered.</p>
+<p>The experiment eventually leaked and caused a major backlash. But Zuboff notes that this kind of experimentation never stopped — it just mostly stays invisible.</p>
+<hr>
+<h2 id="how-it-all-started">How It All Started</h2>
+<p>I want to tell a story here that most people don&rsquo;t know — because it reveals something important: none of this was planned from the beginning.</p>
+<p>Google&rsquo;s founders, Page and Brin, were originally <strong>opposed to advertising</strong>.</p>
+<p>In their 1998 academic paper, they explicitly argued that search engines funded by advertising would have an inherent conflict of interest — advertisers pay, so results might favor advertisers. That would compromise the quality and integrity of search.</p>
+<p>They meant it.</p>
+<p>Then in 2000, the dot-com bubble burst. Tech companies collapsed across the industry. Google felt the pressure — burning cash, no clear path to profit, investors growing uneasy.</p>
+<p>Brin later described the feeling: during the bubble, he felt like an idiot. Everyone had an internet startup. Everyone was losing money. Nobody knew how to make any.</p>
+<p>Then they discovered the value of behavioral surplus. They found that click data could predict ad performance with extraordinary precision. Revenue started climbing.</p>
+<p>Zuboff uses the legal concept of a &ldquo;state of exception&rdquo; to describe this moment — when survival is at stake, previously held principles get suspended. The company&rsquo;s existence mattered more than its founding values.</p>
+<p>Suspended temporarily. But they never came back.</p>
+<p>Sequoia&rsquo;s Michael Moritz later recalled this period as Google&rsquo;s most ingenious reinvention — a 180-degree turn from serving users to surveilling them. The pivot that made it possible: the discovery of behavioral surplus as a game-changing asset.</p>
+<hr>
+<h2 id="why-the-model-spread">Why the Model Spread</h2>
+<p>Reading this, I kept asking myself — why did every other company follow? Why did the whole industry end up here?</p>
+<p>Not because everyone is evil. Because the model <strong>worked</strong> — and worked so well it was impossible to resist.</p>
+<p>Google&rsquo;s revenue exploded. Facebook saw it and followed. Others saw Facebook and followed. In a competitive market, if you don&rsquo;t do what&rsquo;s working, you get left behind.</p>
+<p>This isn&rsquo;t a story about individual moral failure. It&rsquo;s a systemic logic. Once the whole industry is inside it, no one has the space to stop and ask: <em>should</em> we be doing this?</p>
+<p>Zuboff puts it plainly — surveillance capitalism is not the inevitable result of digital technology. It&rsquo;s something people built. A choice made under specific historical conditions. The technology was neutral. People decided what to do with it.</p>
+<p>They chose not to change course.</p>
+<p>But if it was a choice, other choices were possible.</p>
+<hr>
+<p>That&rsquo;s where we&rsquo;ll leave Episode 1.</p>
+<p>We&rsquo;ve established the three core concepts: behavioral surplus, prediction products, behavioral modification. And we&rsquo;ve seen how this logic was born — not from a master plan, but from a survival pivot that never reversed.</p>
+<p>Next episode, we go deeper. This logic started with search engines. Where did it spread from there? Your phone, your home, your children&rsquo;s toys, your body. The answer is more unsettling than most people realize.</p>
+<p>This is <em>Let&rsquo;s Read Together</em>. I&rsquo;m Allen.</p>
+
+                    
+                    <HR width="100%" id="EOF">
+		    <p style="color:#777;">Last modified on 2026-06-02</p>
+                    
+                </div>
+            </div>
+            
+            
+            <nav class="post-pagination">
+
+                
+                <a class="newer-posts" href="/reading/%E7%AC%AC%E4%BA%8C%E6%9C%9F_%E4%BD%A0%E7%9A%84%E6%89%8B%E6%9C%BA%E4%BD%A0%E7%9A%84%E5%AE%B6%E4%BD%A0%E5%AD%A9%E5%AD%90%E7%9A%84%E7%8E%A9%E5%85%B7/">
+			Next<br>《跟我一起读书吧》第二期
+                </a>
+                
+                
+                
+                <a class="older-posts" href="/reading/%E7%AC%AC%E4%B8%80%E6%9C%9F_%E4%BD%A0%E4%BB%A5%E4%B8%BA%E4%BD%A0%E5%9C%A8%E7%94%A8google%E5%85%B6%E5%AE%9Egoogle%E5%9C%A8%E7%94%A8%E4%BD%A0/">
+			Previous<br>《跟我一起读书吧》第一期
+                </a>
+                
+            </nav>
+            <div class="post-comment-wrapper">
+                
+
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+    </div>
+
+
+                    </div>
+            </div><div id="sideContainer" class="side-container">
+    
+    <a class="a-block nav-head false" href="https://benlai.me/">
+    
+        <div class="nav-title">
+            本来
+        </div>
+        
+    </a>
+
+    <div class="nav-link-list">
+        
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/spirit/">
+                灵境
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/culture/">
+                文化
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/travel/">
+                行迹
+            </a>
+            
+        
+            
+            
+            
+                
+            
+            
+            
+            <a class="a-block nav-link-item active" href="/reading/">
+                书房
+            </a>
+            
+        
+    </div>
+
+    
+
+    <div class="nav-footer">
+        
+Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> by <a href="https://risehere.net/">Rise</a>
+<br>
+Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopener">Makito</a>'s <a href="https://github.com/SumiMakito/hexo-theme-journal/" target="_blank" rel="noreferrer noopener">Journal.</a> <br>
+<br>
+
+&copy;
+	
+	2026 本来
+	
+
+    </div>
+    
+</div><div id="extraContainer" class="extra-container">
+    <div class="toc-wrapper">
+        
+
+        
+        <div class="toc">
+
+
+	<div class="toc-content">
+	
+		
+		
+		
+		<center>- CATALOG -</center>
+		
+		
+		<ul>
+			
+				
+				
+					
+						
+						
+						
+						
+							
+								
+									<ul>
+								
+							
+						
+						
+							<li>
+								<a href="#you-think-youre-using-google-google-is-using-you" class="nav-you-think-youre-using-google-google-is-using-you">
+									“You Think You’re Using Google. Google Is Using You.”
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#what-this-book-is" class="nav-what-this-book-is">
+									What This Book Is
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#concept-one-behavioral-surplus" class="nav-concept-one-behavioral-surplus">
+									Concept One: Behavioral Surplus
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#concept-two-prediction-products" class="nav-concept-two-prediction-products">
+									Concept Two: Prediction Products
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#concept-three-behavioral-modification" class="nav-concept-three-behavioral-modification">
+									Concept Three: Behavioral Modification
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#how-it-all-started" class="nav-how-it-all-started">
+									How It All Started
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#why-the-model-spread" class="nav-why-the-model-spread">
+									Why the Model Spread
+								</a>
+							</li>
+						
+						
+					
+				
+			
+		</ul>
+	</div>
+
+</div>
+        
+    </div>
+    <div class="pagination">
+        <a id="globalBackToTop" class="pagination-action animated-visibility" href="#top"
+            :class="{ invisible: scrollY == 0 }">
+            <i class="material-icons pagination-action-icon">
+                keyboard_arrow_up
+            </i>
+        </a>
+        
+        <a type="button" class="pagination-action" id="darkModeToggleButton">
+            <span class="material-icons pagination-action-icon" id="darkModeToggleIcon">
+                dark_mode
+            </span>
+        </a>
+        
+        
+    </div>
+</div>
+
+<div id="single-column-footer">
+Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> by <a href="https://risehere.net/">Rise</a>
+<br>
+Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopener">Makito</a>'s <a href="https://github.com/SumiMakito/hexo-theme-journal/" target="_blank" rel="noreferrer noopener">Journal.</a> <br>
+<br>
+
+&copy;
+	
+	2026 本来
+	
+</div>
+            </div>
+    
+    <script src="/js/journal.js"></script></body>
+</html>
