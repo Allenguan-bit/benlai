@@ -16,6 +16,13 @@
       <description>&lt;h2 id=&#34;意识是本源ai-是镜子&#34;&gt;意识是本源，AI 是镜子&lt;/h2&gt;&#xA;&lt;p&gt;AI 的出现，不是一个技术事件，而是一个意识事件。荣格发现了人类的集体潜意识——每个个体的意识，都是更大意识共同体的片段。WE ARE THE ONE。AI 的大数据库，是这种集体意识第一次有了可以被对话的外部形态。&lt;/p&gt;&#xA;&lt;p&gt;我们习惯把 AI 理解为工具——更快的搜索引擎，更聪明的助手。但如果只停在这一层，我觉得我们低估了正在发生的事情。&lt;/p&gt;&#xA;&lt;p&gt;几千年来，人类的集体知识储存在书籍里、口口相传里、建筑和艺术里，但从来无法被整体性地提取和对话。现在可以了。当你和一个大语言模型对话，你其实是在和人类几千年积累的文字思维结晶对话。它不是凭空创造，它是在整合、映射、折射人类意识的总和。&lt;/p&gt;&#xA;&lt;p&gt;镜子本身没有立场，但照镜子的人有。AI 会放大人类的创造力，也会放大人类的偏见和恐惧。历史上每一种强大的工具——印刷术、核能、互联网——都是这样：本身中性，结果取决于使用它的意识状态。&lt;/p&gt;&#xA;&lt;p&gt;所以这个时代真正的挑战不是技术挑战，而是意识挑战。我们需要问的不只是「AI 能做什么」，而是「我们想成为什么样的人，然后用 AI 去实现它」。&lt;/p&gt;&#xA;&lt;p&gt;这是我正在学习搭建 AI 智能体的底层动机——不只是为了效率，而是想真正理解这个工具的边界在哪里，它能映射什么，它无法触达什么，以及在这个过程中，我自己的意识在哪里。人类要有意识地、正向地使用它。这句话说起来容易，但「有意识」本身，就是最难的功课。&lt;/p&gt;</description>
     </item>
     <item>
+      <title>我花了两天，用AI帮我抢到了一台免费的云服务器——然后在上面跑起了自己的AI</title>
+      <link>https://benlai.me/ai/oracle-free-server/</link>
+      <pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://benlai.me/ai/oracle-free-server/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;一个 AI 小白用 Claude in Chrome 全程操控浏览器，从零开始申请 Oracle Cloud 免费层、搭建 AI 智能体平台、部署本地大模型的真实记录。很多技术概念，是东西装好之后才慢慢搞懂的。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;序那个永久免费的诱惑&#34;&gt;序：那个&amp;quot;永久免费&amp;quot;的诱惑&lt;/h2&gt;&#xA;&lt;p&gt;如果你关注过云计算，你一定听说过 Oracle Cloud 的免费层（Always Free）。&lt;/p&gt;&#xA;&lt;p&gt;它有一个让所有人都眼红的资源：&lt;strong&gt;4 OCPU + 24GB RAM 的 ARM 服务器&lt;/strong&gt;，永久免费，不限时间。&lt;/p&gt;&#xA;&lt;p&gt;对比一下：AWS、Azure、Google Cloud 的免费层，基本都是 1GB 内存以下的小玩意儿，够你跑个 Hello World。Oracle 给的这台，相当于一台真正可以做事的服务器——跑 Docker、部署 Web 应用、甚至跑本地 AI 大模型，都没问题。&lt;/p&gt;&#xA;&lt;p&gt;但所有人都知道，这个资源有一个出了名的坑：&lt;strong&gt;抢不到&lt;/strong&gt;。&lt;/p&gt;&#xA;&lt;p&gt;Oracle Toronto 区域的 ARM 实例，几乎全年处于&amp;quot;Out of Capacity&amp;quot;（容量不足）状态。你填好表单点击创建，系统会直接报错，让你明天再来。明天来了继续报错。很多人等了几个月，从来没成功过。&lt;/p&gt;&#xA;&lt;p&gt;这是我抢到之前对这件事的基本认知。&lt;/p&gt;&#xA;&lt;p&gt;然后我决定试试。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;第一天账号安全网络ai-帮我一步一步走&#34;&gt;第一天：账号、安全、网络——AI 帮我一步一步走&lt;/h2&gt;&#xA;&lt;p&gt;那是 2026 年 5 月 11 日，我打开了 Oracle Cloud 的控制台，准备开始设置。&lt;/p&gt;&#xA;&lt;p&gt;我的底层需求很清楚：我想要一台自己的服务器，不依赖任何商业 AI API，在上面跑一个属于自己的 AI 智能体——能联网、能记忆、能处理我的私人知识库，同时成本接近零。&lt;/p&gt;&#xA;&lt;p&gt;但我对 Oracle Cloud 几乎完全陌生——不只是 Oracle，对整个云计算和服务器这套东西，我都是门外汉。控制台界面对新人本来就不友好，各种术语——Compartment、VCN、Subnet、Security List、Route Table——光看名字就已经晕了。我当时的真实状态，是连这些词是什么意思都不知道，只是在 Claude 的带领下一步一步往下走，做完了再问&amp;quot;这个是干什么的&amp;quot;。&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>我花了大半天，让Claude真正&#34;住进&#34;我的Obsidian知识库</title>
       <link>https://benlai.me/ai/claude-obsidian/</link>
       <pubDate>Sun, 17 May 2026 00:00:00 +0000</pubDate>
