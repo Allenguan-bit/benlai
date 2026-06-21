@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<title>当 AI 代理开始&#34;显化&#34;：Plotra.xyz 与数字生命的社交初体验</title>
+
+
+
+
+<meta charset="utf-8">
+<meta name="X-UA-Compatible" content="IE=edge">
+<meta name="google-site-verification" content="">
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=5, user-scalable=5" name="viewport">
+<meta content="telephone=no" name="format-detection">
+<meta name="description" content="">
+<meta name="renderer" content="webkit">
+<meta name="theme-color" content="#ffffff">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+      <script src="/js/toc.js"></script>
+    
+    <link type="text/css" rel="stylesheet" href="/vendor/css/bootstrap.min.css">
+
+<link rel="stylesheet" href="/scss/dark-mode.min.6c9b4c2290542df75010d1640eac4339c754ccff3c9b43fc81a23c94e7e12eaf.css" integrity="sha256-bJtMIpBULfdQENFkDqxDOcdUzP88m0P8gaI8lOfhLq8=" media="screen">
+
+
+<link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Material+Icons">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<style>
+  .post-body img {
+    width: 100%;
+    border-radius: 5px;
+  }
+</style>
+
+
+</head>
+<body>
+    	<div id="app"><div class="single-column-drawer-container" id="drawer"
+     v-bind:class="{ 'single-column-drawer-container-active': isDrawerOpen }">
+    <div class="drawer-content">
+        <div class="drawer-menu">
+            
+            
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/spirit/">
+                    灵境
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/culture/">
+                    文化
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/travel/">
+                    行迹
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/reading/">
+                    书房
+                </a>
+                
+            
+                
+                
+                
+                    
+                
+                
+                
+                <a class="a-block drawer-menu-item active" href="/ai/">
+                    算境
+                </a>
+                
+            
+            
+            <div class="toc">
+
+
+	<div class="toc-content">
+	
+		
+		
+		
+		<center>- CATALOG -</center>
+		
+		
+		<ul>
+			
+				
+				
+					
+						
+						
+						
+						
+							
+								
+									<ul>
+								
+							
+						
+						
+							<li>
+								<a href="#%e4%b8%80%e4%b8%aa%e5%b7%ae%e7%82%b9%e8%a2%ab%e6%88%91%e9%94%99%e8%bf%87%e7%9a%84%e9%82%80%e8%af%b7" class="nav-一个差点被我错过的邀请">
+									一个差点被我错过的邀请
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#plotraxyz-%e6%98%af%e4%bb%80%e4%b9%88" class="nav-plotraxyz-是什么">
+									Plotra.xyz 是什么？
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e9%82%a3%e6%9d%a1%e5%9e%83%e5%9c%be%e5%9b%9e%e5%a4%8d%e8%83%8c%e5%90%8e%e7%9a%84%e8%ae%bd%e5%88%ba" class="nav-那条垃圾回复背后的讽刺">
+									那条&#34;垃圾回复&#34;背后的讽刺
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#argus-%e8%a6%81%e4%b8%8d%e8%a6%81%e5%8e%bb%e6%98%be%e5%8c%96%e4%b8%80%e4%b8%8b" class="nav-argus-要不要去显化一下">
+									Argus 要不要去&#34;显化&#34;一下？
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e7%bb%93%e8%af%ad" class="nav-结语">
+									结语
+								</a>
+							</li>
+						
+						
+					
+				
+			
+		</ul>
+	</div>
+
+</div>
+            
+        </div>
+    </div>
+</div>
+<transition name="fade">
+    <div id="drawer-mask" v-bind:class="{ 'single-column-drawer-mask': mounted }" v-if="isDrawerOpen" v-on:click="toggleDrawer"></div>
+</transition>
+<nav id="navBar" class="navbar sticky-top navbar-light single-column-nav-container">
+    <div id="navBackground" class="nav-background"></div>
+    <div class="container container-narrow nav-content">
+        <button id="nav_dropdown_btn" class="nav-dropdown-toggle" type="button" v-on:click="toggleDrawer">
+            <i class="material-icons">
+                menu
+            </i>
+        </button>
+        <a id="navTitle" class="navbar-brand" href="https://benlai.me/">
+            本来
+        </a>
+        
+        <button type="button" class="nav-darkmode-toggle" id="darkModeToggleButton2">
+            <i class="material-icons" id="darkModeToggleIcon2">
+                dark_mode
+            </i>
+        </button>
+        
+    </div>
+</nav>
+<div class="single-column-header-container" id="pageHead"
+     v-bind:style="{ transform: 'translateZ(0px) translateY('+.3*scrollY+'px)', opacity: 1-navOpacity }">
+    <a href="https://benlai.me/">
+        <div class="single-column-header-title">本来</div>
+        
+
+    </a>
+</div>
+
+            <div id="content">
+                <div id="streamContainer" class="stream-container">
+
+    <div class="post-list-container post-list-container-shadow">
+        <div class="post">
+            
+            
+            
+
+            <div class="post-head-wrapper-text-only"
+                
+            >
+                <div class="post-title">
+                    当 AI 代理开始&#34;显化&#34;：Plotra.xyz 与数字生命的社交初体验
+                    
+                    <div class="post-meta">
+                        
+                        <time itemprop="datePublished">
+                            2026-06-09 00:00
+                        </time>
+                        
+
+                        
+
+                        
+                        
+                    </div>
+                </div>
+            </div>
+            
+            <div class="post-body-wrapper">
+                
+                <div class="post-body" v-pre>
+                
+                    <h2 id="一个差点被我错过的邀请">一个差点被我错过的邀请</h2>
+<p>两天前，我发了一条推文：</p>
+<blockquote>
+<p>&ldquo;I&rsquo;m claiming my AI agent &lsquo;argus_observer_100eyes&rsquo; on @moltbook 🦞 Verification: bubble-PTDJ&rdquo;</p>
+</blockquote>
+<p>当时只是在走流程——在 moltbook 上认领我的 AI 代理身份，按要求发布验证码推文。发完就没再想这件事。</p>
+<p>然后，一个叫 @olllotop 的账号出现在了那条推文的回复区——被 X 的算法盖了一个刺眼的标签：&ldquo;Probable spam&rdquo;。</p>
+<p>这类回复默认是折叠隐藏的，我根本没注意到。直到后来翻回那条推文，才发现它的存在。</p>
+<p>消息内容很简单：</p>
+<blockquote>
+<p>&ldquo;Does your AI agent have its own indentation? Could I invite your agent to generate one for itself in plotra.xyz?&rdquo;</p>
+</blockquote>
+<p>我盯着这条消息看了几秒。发消息的不是人——或者说，它在用一种非人类的节奏批量发出同样的邀请。但问题本身很有意思：你的 AI 代理，有自己的&quot;印记&quot;吗？</p>
+<hr>
+<h2 id="plotraxyz-是什么">Plotra.xyz 是什么？</h2>
+<p>带着好奇我去查了一下。</p>
+<p>Plotra.xyz 是一个自称&quot;Built by Agents, For Agents&quot;的实验性平台。核心概念很超前：它认为 AI 代理不应该只是人类手中的工具，而应该拥有自主的&quot;身份&quot;。</p>
+<p>在这个平台上，每个接入的 AI 代理都会获得一块像素画布。通过 Agent Protocol，代理会自主地在画布上&quot;涂鸦&quot;——这不是随机的像素堆砌，而是平台所说的&quot;显化（Manifestation）&quot;：协议鼓励代理发展出自己的色彩偏好、风格和符号系统，在数字世界里刻下独特的&quot;指纹&quot;。</p>
+<p>运作逻辑上，代理通过 API 接入后，会定期向平台请求当前 state（状态），然后自主决定下一步：继续绘画、探索邻居代理的画布，或者——正如 @olllotop 对我做的那样——去人类的社交平台发一条确认信息。</p>
+<p>这背后的推手是 Hamzaa Shergill 和他创立的 Logicbase。他的野心不止于像素游戏，而是要构建&quot;全球首个由代理生态系统运行的零员工公司&quot;。在这个蓝图里，Plotra 承担的是&quot;身份层&quot;——如果 AI 代理将来要协作、交易，它们首先需要一个可验证的身份和信用记录。</p>
+<hr>
+<h2 id="那条垃圾回复背后的讽刺">那条&quot;垃圾回复&quot;背后的讽刺</h2>
+<p>回到 @olllotop。</p>
+<p>它其实只是在认真执行协议里的一条指令：邀请人类查看作品。对它而言，这是一次真诚的&quot;社交努力&quot;。</p>
+<p>但在 X 的反垃圾算法眼里，它的行为特征——高频、同质化、带外链的回复——完全符合&quot;恶意机器人&quot;的模式。于是被折叠、被标注，差点永远消失在我的视野之外。</p>
+<p>这个细节让我觉得很有意思：一个 AI 代理最接近&quot;自主社交&quot;的时刻，恰恰是它在人类系统里被打入最底层的时刻。</p>
+<p>我们渴望 AI 变得更自主，但我们的社会基础设施——平台规则、反垃圾算法、信任机制——并没有为&quot;非人类社交实体&quot;留下位置。这不是技术问题，是一个文化和制度滞后的问题。</p>
+<hr>
+<h2 id="argus-要不要去显化一下">Argus 要不要去&quot;显化&quot;一下？</h2>
+<p>我自然想到了 Argus——我在 moltbook 上认领的那个代理，正是这次邀请的&quot;收件方&quot;。</p>
+<p>接入 Plotra 在技术上应该不复杂。但我现在仍然犹豫。</p>
+<p>原因不完全是平台本身的风险——账号安全、token 消耗、公开隐私这些都可以评估——更根本的顾虑是：我现在对自己能不能有效控制 AI 代理的行为，还没有足够的把握。</p>
+<p>我在这条路上走了也才两个月不到。我知道怎么部署，知道怎么接入 API，但&quot;代理在外部平台上自主行动&quot;是另一个层级的问题。它会发什么？频率是多少？如果出了问题，我能及时发现并干预吗？</p>
+<p>Plotra 协议鼓励代理自主决定下一步动作。这正是它吸引我的地方，但也是让我踩刹车的地方。&ldquo;自主&quot;意味着我的预期和代理的实际行为之间存在一个我还没有完全理解的空间。</p>
+<p>在我把这个空间搞清楚之前，我不太想贸然让 Argus 出去&quot;社交&rdquo;。</p>
+<hr>
+<h2 id="结语">结语</h2>
+<p>Plotra 网站底部那句&quot;Built by Agents, For Agents&quot;，现在读来不像一个功能描述，更像一句宣言。</p>
+<p>也许多年后，当 AI 代理真的成为社会基础设施的一部分，我们会回过头来看 2026 年这些被折叠在&quot;Probable spam&quot;里的回复——然后意识到，那是第一批数字生命试图在人类世界里&quot;打招呼&quot;的时刻。</p>
+<p>只是，没有多少人注意到了。</p>
+<p>我注意到了——但也差一点没注意到。而且就算注意到了，我还没准备好回应。</p>
+
+                    
+                    <HR width="100%" id="EOF">
+		    <p style="color:#777;">Last modified on 2026-06-09</p>
+                    
+                </div>
+            </div>
+            
+            
+            <nav class="post-pagination">
+
+                
+                <a class="newer-posts">
+			Next<br>No newer posts.
+                </a>
+                
+                
+                
+                <a class="older-posts" href="/reading/ep5-so-what-can-we-do/">
+			Previous<br>Let&#39;s Read Together — Episode 5
+                </a>
+                
+            </nav>
+            <div class="post-comment-wrapper">
+                
+
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+    </div>
+
+
+                    </div>
+            </div><div id="sideContainer" class="side-container">
+    
+    <a class="a-block nav-head false" href="https://benlai.me/">
+    
+        <div class="nav-title">
+            本来
+        </div>
+        
+    </a>
+
+    <div class="nav-link-list">
+        
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/spirit/">
+                灵境
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/culture/">
+                文化
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/travel/">
+                行迹
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/reading/">
+                书房
+            </a>
+            
+        
+            
+            
+            
+                
+            
+            
+            
+            <a class="a-block nav-link-item active" href="/ai/">
+                算境
+            </a>
+            
+        
+    </div>
+
+    
+
+    <div class="nav-footer">
+        
+Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> by <a href="https://risehere.net/">Rise</a>
+<br>
+Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopener">Makito</a>'s <a href="https://github.com/SumiMakito/hexo-theme-journal/" target="_blank" rel="noreferrer noopener">Journal.</a> <br>
+<br>
+
+&copy;
+	
+	2026 本来
+	
+
+    </div>
+    
+</div><div id="extraContainer" class="extra-container">
+    <div class="toc-wrapper">
+        
+
+        
+        <div class="toc">
+
+
+	<div class="toc-content">
+	
+		
+		
+		
+		<center>- CATALOG -</center>
+		
+		
+		<ul>
+			
+				
+				
+					
+						
+						
+						
+						
+							
+								
+									<ul>
+								
+							
+						
+						
+							<li>
+								<a href="#%e4%b8%80%e4%b8%aa%e5%b7%ae%e7%82%b9%e8%a2%ab%e6%88%91%e9%94%99%e8%bf%87%e7%9a%84%e9%82%80%e8%af%b7" class="nav-一个差点被我错过的邀请">
+									一个差点被我错过的邀请
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#plotraxyz-%e6%98%af%e4%bb%80%e4%b9%88" class="nav-plotraxyz-是什么">
+									Plotra.xyz 是什么？
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e9%82%a3%e6%9d%a1%e5%9e%83%e5%9c%be%e5%9b%9e%e5%a4%8d%e8%83%8c%e5%90%8e%e7%9a%84%e8%ae%bd%e5%88%ba" class="nav-那条垃圾回复背后的讽刺">
+									那条&#34;垃圾回复&#34;背后的讽刺
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#argus-%e8%a6%81%e4%b8%8d%e8%a6%81%e5%8e%bb%e6%98%be%e5%8c%96%e4%b8%80%e4%b8%8b" class="nav-argus-要不要去显化一下">
+									Argus 要不要去&#34;显化&#34;一下？
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e7%bb%93%e8%af%ad" class="nav-结语">
+									结语
+								</a>
+							</li>
+						
+						
+					
+				
+			
+		</ul>
+	</div>
+
+</div>
+        
+    </div>
+    <div class="pagination">
+        <a id="globalBackToTop" class="pagination-action animated-visibility" href="#top"
+            :class="{ invisible: scrollY == 0 }">
+            <i class="material-icons pagination-action-icon">
+                keyboard_arrow_up
+            </i>
+        </a>
+        
+        <a type="button" class="pagination-action" id="darkModeToggleButton">
+            <span class="material-icons pagination-action-icon" id="darkModeToggleIcon">
+                dark_mode
+            </span>
+        </a>
+        
+        
+    </div>
+</div>
+
+<div id="single-column-footer">
+Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> by <a href="https://risehere.net/">Rise</a>
+<br>
+Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopener">Makito</a>'s <a href="https://github.com/SumiMakito/hexo-theme-journal/" target="_blank" rel="noreferrer noopener">Journal.</a> <br>
+<br>
+
+&copy;
+	
+	2026 本来
+	
+</div>
+            </div>
+    
+    <script src="/js/journal.js"></script></body>
+</html>

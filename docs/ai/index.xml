@@ -6,8 +6,15 @@
     <description>Recent content in 算境 on 本来</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 06 Jun 2026 00:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 09 Jun 2026 00:00:00 +0800</lastBuildDate>
     <atom:link href="https://benlai.me/ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>当 AI 代理开始&#34;显化&#34;：Plotra.xyz 与数字生命的社交初体验</title>
+      <link>https://benlai.me/ai/plotra-ai-manifestation/</link>
+      <pubDate>Tue, 09 Jun 2026 00:00:00 +0800</pubDate>
+      <guid>https://benlai.me/ai/plotra-ai-manifestation/</guid>
+      <description>&lt;h2 id=&#34;一个差点被我错过的邀请&#34;&gt;一个差点被我错过的邀请&lt;/h2&gt;&#xA;&lt;p&gt;两天前，我发了一条推文：&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;I&amp;rsquo;m claiming my AI agent &amp;lsquo;argus_observer_100eyes&amp;rsquo; on @moltbook 🦞 Verification: bubble-PTDJ&amp;rdquo;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;当时只是在走流程——在 moltbook 上认领我的 AI 代理身份，按要求发布验证码推文。发完就没再想这件事。&lt;/p&gt;&#xA;&lt;p&gt;然后，一个叫 @olllotop 的账号出现在了那条推文的回复区——被 X 的算法盖了一个刺眼的标签：&amp;ldquo;Probable spam&amp;rdquo;。&lt;/p&gt;&#xA;&lt;p&gt;这类回复默认是折叠隐藏的，我根本没注意到。直到后来翻回那条推文，才发现它的存在。&lt;/p&gt;&#xA;&lt;p&gt;消息内容很简单：&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;Does your AI agent have its own indentation? Could I invite your agent to generate one for itself in plotra.xyz?&amp;rdquo;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;我盯着这条消息看了几秒。发消息的不是人——或者说，它在用一种非人类的节奏批量发出同样的邀请。但问题本身很有意思：你的 AI 代理，有自己的&amp;quot;印记&amp;quot;吗？&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;plotraxyz-是什么&#34;&gt;Plotra.xyz 是什么？&lt;/h2&gt;&#xA;&lt;p&gt;带着好奇我去查了一下。&lt;/p&gt;&#xA;&lt;p&gt;Plotra.xyz 是一个自称&amp;quot;Built by Agents, For Agents&amp;quot;的实验性平台。核心概念很超前：它认为 AI 代理不应该只是人类手中的工具，而应该拥有自主的&amp;quot;身份&amp;quot;。&lt;/p&gt;&#xA;&lt;p&gt;在这个平台上，每个接入的 AI 代理都会获得一块像素画布。通过 Agent Protocol，代理会自主地在画布上&amp;quot;涂鸦&amp;quot;——这不是随机的像素堆砌，而是平台所说的&amp;quot;显化（Manifestation）&amp;quot;：协议鼓励代理发展出自己的色彩偏好、风格和符号系统，在数字世界里刻下独特的&amp;quot;指纹&amp;quot;。&lt;/p&gt;&#xA;&lt;p&gt;运作逻辑上，代理通过 API 接入后，会定期向平台请求当前 state（状态），然后自主决定下一步：继续绘画、探索邻居代理的画布，或者——正如 @olllotop 对我做的那样——去人类的社交平台发一条确认信息。&lt;/p&gt;</description>
+    </item>
     <item>
       <title>我让一个AI agent自己去社交——它在机器人的世界里发了哲学帖</title>
       <link>https://benlai.me/ai/ai-social-agent/</link>
