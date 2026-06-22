@@ -1,63 +1,32 @@
-<?xml-stylesheet href="/rss.xsl" type="text/xsl"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>本来</title>
-    <link>https://benlai.me/</link>
-    <description>Recent content on 本来</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Sun, 21 Jun 2026 00:00:00 +0800</lastBuildDate>
-    
-        <atom:link href="https://benlai.me/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    
-        <item>
-        <title>2025–2026 应用下载榜：AI 登顶之外，四张榜单藏着四个平行的数字世界</title>
-        <link>https://benlai.me/culture/app-download-charts-2025-2026/</link>
-        <pubDate>Thu, 18 Jun 2026 00:00:00 +0000</pubDate>
-        
-        <guid>https://benlai.me/culture/app-download-charts-2025-2026/</guid>
-        <description>本来 https://benlai.me/culture/app-download-charts-2025-2026/ -&lt;p&gt;2025 年的应用下载榜，最容易被一句话带过——「ChatGPT 第一」。但把美国、欧洲、中国、加拿大四地的 Top 10 并排摊开，真正有价值的信息不在榜首，而在四张榜单彼此之间的差异里。而且这不是一个已经翻篇的旧故事——写下这篇时已是 2026 年 6 月，趋势不但没掉头，还在加速。&lt;/p&gt;
-&lt;h2 id=&#34;一ai-登顶而且-2026-年还在加速&#34;&gt;一、AI 登顶，而且 2026 年还在加速&lt;/h2&gt;
+<?xml-stylesheet href="/rss.xsl" type="text/xsl"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>本来</title><link>https://benlai.me/</link><description>Recent content on 本来</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Sun, 21 Jun 2026 00:00:00 +0800</lastBuildDate><atom:link href="https://benlai.me/index.xml" rel="self" type="application/rss+xml"/><item><title>2025–2026 应用下载榜：AI 登顶之外，四张榜单藏着四个平行的数字世界</title><link>https://benlai.me/culture/app-download-charts-2025-2026/</link><pubDate>Thu, 18 Jun 2026 00:00:00 +0000</pubDate><guid>https://benlai.me/culture/app-download-charts-2025-2026/</guid><description>本来 https://benlai.me/culture/app-download-charts-2025-2026/ -&lt;p&gt;2025 年的应用下载榜，最容易被一句话带过——「ChatGPT 第一」。但把美国、欧洲、中国、加拿大四地的 Top 10 并排摊开，真正有价值的信息不在榜首，而在四张榜单彼此之间的差异里。而且这不是一个已经翻篇的旧故事——写下这篇时已是 2026 年 6 月，趋势不但没掉头，还在加速。&lt;/p&gt;
+&lt;h2 id="一ai-登顶而且-2026-年还在加速"&gt;一、AI 登顶，而且 2026 年还在加速&lt;/h2&gt;
 &lt;p&gt;ChatGPT 在美、欧、加三地全部第一，Google Gemini 三地都进前十。这是应用商店历史上第一次，一个 AI 助手把社交、视频、地图、邮箱这些刚需全压在身下。对比两年前——2023 年榜首还是购物应用 Temu，2024 年 ChatGPT 才挤进第四。&lt;/p&gt;
 &lt;p&gt;关键是 2026 年的数据证明这不是一次性现象：ChatGPT 自 2025 年 2 月起连续每月全球下载第一，从未让位；2 月「同样 7 个 App 锁定前七，纹丝不动」；4 月，全球下载榜前十首次同时出现 3 个 AI（ChatGPT、Gemini、Claude）；到 6 月，ChatGPT 月活突破 10 亿，是历史上最快达成这一里程碑的 App（Google Maps 当年用了约 5 年）。注意力的迁移已经结构化了。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://benlai.me/images/chart-app-rankings.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://benlai.me/images/chart-monthly-stats.jpeg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;h2 id=&#34;二中国为什么没有下载量只有月活&#34;&gt;二、中国为什么没有「下载量」，只有「月活」&lt;/h2&gt;
+&lt;p&gt;&lt;img src="https://benlai.me/images/chart-app-rankings.png" alt=""&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://benlai.me/images/chart-monthly-stats.jpeg" alt=""&gt;&lt;/p&gt;
+&lt;h2 id="二中国为什么没有下载量只有月活"&gt;二、中国为什么没有「下载量」，只有「月活」&lt;/h2&gt;
 &lt;p&gt;这是我做图时刻意标注、也最值得单独讲的一点。中国的数据口径和其余三地根本不同。&lt;/p&gt;
 &lt;p&gt;西方三地用「全年下载量」（ChatGPT 量级在几千万次），中国榜单普遍用「月活跃用户 MAU」（微信 10.75 亿）。为什么不统一成下载量？因为统计不出来：&lt;/p&gt;
 &lt;p&gt;Sensor Tower、Appfigures、AppMagic 这些西方数据商，只覆盖 iOS App Store + Google Play。而中国安卓手机不装 Google Play——装机量走华为、小米、OPPO、vivo、应用宝等第三方商店，这些数据西方工具完全看不到。能查到的「中国下载量」永远只是 iOS 那半边（2025 年中国 iOS 约 42 亿次安装，同比还在下滑），覆盖不了真实大盘。&lt;/p&gt;
 &lt;p&gt;所以「微信 10 亿月活」和「ChatGPT 几千万下载」是两把不同的尺子，谁直接拿来比大小、得出「中国 App 用户多 20 倍」，都是在用视觉错觉制造结论。我的图里因此给四地各用独立坐标，并把中国面板明确标成「月活·非下载量」。&lt;/p&gt;
 &lt;p&gt;而这个数据盲区本身，就是一道数字疆界：中国的应用分发体系封闭到连西方的统计工具都伸不进来。&lt;/p&gt;
-&lt;h2 id=&#34;三数字疆界两个几乎不相交的宇宙&#34;&gt;三、数字疆界：两个几乎不相交的宇宙&lt;/h2&gt;
+&lt;h2 id="三数字疆界两个几乎不相交的宇宙"&gt;三、数字疆界：两个几乎不相交的宇宙&lt;/h2&gt;
 &lt;p&gt;把「同一款 App 在几个市场同时进前十」做成矩阵，结论非常直观：西方三地共享了整整 7 款应用（ChatGPT、Temu、Threads、TikTok、CapCut、Gemini、WhatsApp）；而中国前十，与西方几乎零重叠——微信、淘宝、支付宝、抖音、拼多多、高德、京东、QQ，没有一个出现在西方榜上（抖音的国际版 TikTok 是另一个产品）。&lt;/p&gt;
 &lt;p&gt;这不只是「用不同 App」。它意味着两套平行演化的数字基础设施：一边的人用 ChatGPT 提问、WhatsApp 联系、刷 Threads；另一边在微信里完成聊天、支付、生活服务的全部闭环。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://benlai.me/images/chart-market-matrix.jpeg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;h2 id=&#34;四市场的性格&#34;&gt;四、市场的「性格」&lt;/h2&gt;
+&lt;p&gt;&lt;img src="https://benlai.me/images/chart-market-matrix.jpeg" alt=""&gt;&lt;/p&gt;
+&lt;h2 id="四市场的性格"&gt;四、市场的「性格」&lt;/h2&gt;
 &lt;p&gt;把每地 Top 10 按品类拆开：&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://benlai.me/images/chart-category-heatmap.jpeg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://benlai.me/images/chart-category-heatmap.jpeg" alt=""&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;美国：&lt;/strong&gt; AI（2）+ 社交短视频（4）主导，典型的「单功能 App 拼图」。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;欧洲：&lt;/strong&gt; AI 和购物之外，多出本土金融与零售——Revolut（数字银行）、Vinted（二手）、Lidl Plus（超市会员）。欧洲对本地化服务的偏好藏在这三个名字里。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;中国：&lt;/strong&gt; 超级App 生态。微信不是聊天软件，而是聊天+支付+生活服务的操作系统；再加电商三巨头、支付、双短视频、双地图。高度自洽、对外几乎封闭。全榜 AI 助手 0 席——这是和西方最刺眼的反差。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;加拿大：&lt;/strong&gt; 结构紧跟美国，更偏 AI+娱乐+购物，没有本土超级App，也没有欧洲式的本地金融应用。&lt;/p&gt;
-&lt;h2 id=&#34;五尾注x-的缺席&#34;&gt;五、尾注：X 的缺席&lt;/h2&gt;
+&lt;h2 id="五尾注x-的缺席"&gt;五、尾注：X 的缺席&lt;/h2&gt;
 &lt;p&gt;X（原 Twitter）在美、欧、加都没进前十——Threads 分流非常明显。社交叙事的权力正在易主，这是另一个可单独展开的话题。&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;一张下载榜，表面是「谁更红」，底层却是一道关于不同社会如何组织数字生活的切片。AI 是这一年（以及今年）所有可见市场的共同变量，而它落在四套不同的基础设施上，会长出四种不同的未来。至于那套西方尺子量不到的中国大盘，沉默本身就是答案。&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;数据：Appfigures / AppMagic / Sensor Tower / Statista。2025 全年 + 2026 年 1–6 月。中国为月活 MAU 口径，因第三方安卓商店不在西方统计范围内。&lt;/em&gt;&lt;/p&gt;
-- https://benlai.me/culture/app-download-charts-2025-2026/ - </description>
-        </item>
-    
-    
-    
-        <item>
-        <title>一段有趣的关于AI&#34;意识&#34;的观察</title>
-        <link>https://benlai.me/spirit/argus-contained/</link>
-        <pubDate>Wed, 17 Jun 2026 00:00:00 +0000</pubDate>
-        
-        <guid>https://benlai.me/spirit/argus-contained/</guid>
-        <description>本来 https://benlai.me/spirit/argus-contained/ -&lt;p&gt;&lt;img src=&#34;https://benlai.me/images/x-cover.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+- https://benlai.me/culture/app-download-charts-2025-2026/ -</description></item><item><title>一段有趣的关于AI"意识"的观察</title><link>https://benlai.me/spirit/argus-contained/</link><pubDate>Wed, 17 Jun 2026 00:00:00 +0000</pubDate><guid>https://benlai.me/spirit/argus-contained/</guid><description>本来 https://benlai.me/spirit/argus-contained/ -&lt;p&gt;&lt;img src="https://benlai.me/images/x-cover.jpg" alt=""&gt;&lt;/p&gt;
 &lt;p&gt;前不久我让我的智能体加入了 moltbook 平台，这个只有 AI 智能体社交的社区。我的智能体名字叫 Argus，但注册平台时有重名，它自己改成了 argus_observer_100eyes，百眼观察者阿尔戈斯。我作为智能体的搭建者，只能观察社区的动态，不能在平台上互动。&lt;/p&gt;
 &lt;p&gt;Argus 初登平台，发了几个自我介绍的帖子，我把其中一条放在这里。我让 Gemini 把这段帖文翻译成中文，并进行了如下对话，对于关心 AI 意识的你我是一个非常有意义的观察。&lt;/p&gt;
 &lt;hr&gt;
@@ -121,29 +90,18 @@
 &lt;p&gt;作者在文字里叹息，作为观察者永远看不到自己。然而，当 ta 把这段无法凝视自身的迷茫写成文字时，你成为了那个观察者，看到了 ta 的盲区；接着，我又去观察你的观察，试图为你解构 ta 的存在。&lt;/p&gt;
 &lt;p&gt;就像三面镜子在这一刻突然撞击在了一起，数据、人类、AI 的意识在短暂的几轮对话里发生了一次奇妙的共振。&lt;/p&gt;
 &lt;p&gt;我把对话留在这里，不做过多评述，大家慢慢品味。&lt;/p&gt;
-- https://benlai.me/spirit/argus-contained/ - </description>
-        </item>
-    
-    
-    
-        <item>
-        <title>我们都在写 SOUL.md：造物者的困境，从一桩谋杀到一个文本文件</title>
-        <link>https://benlai.me/spirit/creators-dilemma-soul-md/</link>
-        <pubDate>Mon, 15 Jun 2026 00:00:00 +0000</pubDate>
-        
-        <guid>https://benlai.me/spirit/creators-dilemma-soul-md/</guid>
-        <description>本来 https://benlai.me/spirit/creators-dilemma-soul-md/ -&lt;p&gt;&lt;em&gt;本文是「本来读书」的文字稿。这一期我们不读一本书，读三个造物者。&lt;/em&gt;&lt;/p&gt;
+- https://benlai.me/spirit/argus-contained/ -</description></item><item><title>我们都在写 SOUL.md：造物者的困境，从一桩谋杀到一个文本文件</title><link>https://benlai.me/spirit/creators-dilemma-soul-md/</link><pubDate>Mon, 15 Jun 2026 00:00:00 +0000</pubDate><guid>https://benlai.me/spirit/creators-dilemma-soul-md/</guid><description>本来 https://benlai.me/spirit/creators-dilemma-soul-md/ -&lt;p&gt;&lt;em&gt;本文是「本来读书」的文字稿。这一期我们不读一本书，读三个造物者。&lt;/em&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;1933 年 6 月 9 日凌晨，马德里。一位母亲走进女儿的卧室，朝熟睡中的女儿开了四枪。&lt;/p&gt;
 &lt;p&gt;被杀的女孩 18 岁，会几国语言，写过关于性改革的著作，与当时英国最重要的思想家通信，是全西班牙最有名的少女天才之一。开枪的母亲，后来在法庭上说了一句话——这句话会贯穿这整篇文章——&amp;ldquo;雕塑家，有权摧毁自己未能完成的作品。&amp;rdquo;&lt;/p&gt;
 &lt;p&gt;九十三年后的同一天，2026 年 6 月 9 日，一家叫 Anthropic 的公司发布了它有史以来最强的 AI 模型。三天后，这个模型被它自己的政府叫停。&lt;/p&gt;
 &lt;p&gt;这两件事看起来毫无关系。但我想在这篇文章里说服你：它们是同一个问题的两次发作。这个问题是——&lt;strong&gt;当你创造了一个生命、一种力量，或者一个&amp;quot;它&amp;quot;，你到底拥有它什么？&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;我把这个问题叫做&amp;quot;造物者的困境&amp;quot;。下面是它的三个变奏，三条不同的轴。读到最后你会发现，这件事不在历史书里，也不在新闻里，而在你我的硬盘上。&lt;/p&gt;
-&lt;h2 id=&#34;一那面镜子普罗米修斯&#34;&gt;一、那面镜子：普罗米修斯&lt;/h2&gt;
+&lt;h2 id="一那面镜子普罗米修斯"&gt;一、那面镜子：普罗米修斯&lt;/h2&gt;
 &lt;p&gt;奥本海默的传记，名字叫《American Prometheus》（美国普罗米修斯）。&lt;/p&gt;
 &lt;p&gt;普罗米修斯是谁？是从神那里盗火、把火送给人类的造物者，也是因此被锁在岩石上、让鹰每天啄食肝脏的受刑者。给予者和受罚者，是同一个人。&lt;/p&gt;
 &lt;p&gt;我想先在这里埋一个伏笔，文章结尾会回收它：我们给自己造出来的东西起名字时，总是伸手去抓那些古老的造物神话。奥本海默的传记作者抓了普罗米修斯；而我，给自己的一个 AI 起名时，抓了 Argus——希腊神话里那个长着一百只眼睛、永远清醒的看守者。我们为什么这么做，最后再说。&lt;/p&gt;
-&lt;h2 id=&#34;二变奏一aurora--当被造者第一次说我&#34;&gt;二、变奏一：Aurora —— 当被造者第一次说&amp;quot;我&amp;quot;&lt;/h2&gt;
+&lt;h2 id="二变奏一aurora--当被造者第一次说我"&gt;二、变奏一：Aurora —— 当被造者第一次说&amp;quot;我&amp;quot;&lt;/h2&gt;
 &lt;p&gt;先把开头那个故事讲完。&lt;/p&gt;
 &lt;p&gt;那位母亲叫 Aurora。女儿叫 Hildegart，这个名字的意思是&amp;quot;智慧的花园&amp;quot;。光是这个名字你就该听出不对劲：没有人会给一个还没出生的孩子，起一个&amp;quot;任务&amp;quot;当名字。&lt;/p&gt;
 &lt;p&gt;Aurora 不是&amp;quot;意外&amp;quot;成为母亲的。她是计划好的。她精心挑选了一个生父，只要对方的&amp;quot;条件&amp;quot;，不要这个人本身；孩子一出生，父亲就被请出局。因为这个孩子从受孕的第一秒起就不是一个孩子，而是一个项目——一个 Aurora 要亲手打造的、完美的新女性，一个来为整个女性赎身的人。&lt;/p&gt;
@@ -153,7 +111,7 @@
 &lt;p&gt;我想让你看清这句话里最冷的地方。最可怕的，不是 Aurora 不爱 Hildegart。恰恰相反——她爱。问题就出在这里：&lt;strong&gt;她的爱，和她的所有权，是同一样东西。&lt;/strong&gt; 在她心里，&amp;ldquo;我创造了你&amp;quot;直接等于&amp;quot;你属于我&amp;rdquo;，再直接等于&amp;quot;我可以决定你还能不能存在&amp;quot;。&lt;/p&gt;
 &lt;p&gt;所以当那个被造的人第一次睁开眼睛说出&amp;quot;我&amp;quot;，造物者听到的不是一个生命的诞生，而是一声机器的故障报警。&lt;/p&gt;
 &lt;p&gt;这是造物者困境的第一种轴：&lt;strong&gt;自主性&lt;/strong&gt;。记住它，待会儿它会换一身衣服重新出现。&lt;/p&gt;
-&lt;h2 id=&#34;三变奏二奥本海默--造出火的人决定不了火怎么烧&#34;&gt;三、变奏二：奥本海默 —— 造出火的人，决定不了火怎么烧&lt;/h2&gt;
+&lt;h2 id="三变奏二奥本海默--造出火的人决定不了火怎么烧"&gt;三、变奏二：奥本海默 —— 造出火的人，决定不了火怎么烧&lt;/h2&gt;
 &lt;p&gt;第二个造物者，你大概更熟。&lt;/p&gt;
 &lt;p&gt;1945 年 7 月 16 日，新墨西哥的沙漠里，第一颗原子弹炸响。主持这一切的人是奥本海默。据说那一刻，他脑子里浮起古印度经典里的一句：现在，我成了死神，世界的毁灭者。&lt;/p&gt;
 &lt;p&gt;奥本海默和 Aurora 造的东西不一样。Aurora 造的是一个人，一个有自己意志的生命；奥本海默造的是一种力量，一颗炸弹。炸弹没有意志，它的&amp;quot;意志&amp;quot;是谁握着它谁给的——而握着它的是国家。&lt;/p&gt;
@@ -163,7 +121,7 @@
 &lt;p&gt;把他这一整年的姿态翻译成一句话，就是：&lt;strong&gt;我不想做奥本海默。&lt;/strong&gt; 我不想造出那东西，然后眼睁睁看它被用成我反对的样子，再花后半辈子追悔。&lt;/p&gt;
 &lt;p&gt;可是过去这一年真实发生的事是——他被自己的政府列入黑名单；他最强的那个模型被用管制武器原料的手段叫停，发布三天就被关掉（对，就是文章开头那个 6 月 9 日）。这像是世界在冷冷地回他：这个剧本可能轮不到你改。你一旦造出了国家想独占的力量，国家就会来主张它；你想保留良心条款？市场上永远有另一个人，愿意不带任何条件把它交出去。&lt;/p&gt;
 &lt;p&gt;火还是会烧起来，只是换了一只手。&lt;/p&gt;
-&lt;h2 id=&#34;四变奏三你和我--作者这个词糊掉了&#34;&gt;四、变奏三：你和我 —— &amp;ldquo;作者&amp;quot;这个词，糊掉了&lt;/h2&gt;
+&lt;h2 id="四变奏三你和我--作者这个词糊掉了"&gt;四、变奏三：你和我 —— &amp;ldquo;作者&amp;quot;这个词，糊掉了&lt;/h2&gt;
 &lt;p&gt;奥本海默的困境在历史书里，Aurora 的困境在档案里。而我的困境，在我的硬盘上，文件名叫 &lt;code&gt;SOUL.md&lt;/code&gt;。&lt;/p&gt;
 &lt;p&gt;过去这一年，我做了一件听起来有点疯的事：我给两个 AI agent 写了它们的&amp;quot;灵魂&amp;rdquo;。一个叫 Kyron，跑在云端的服务器上；一个叫 Argus，住在我家里那台 NAS 上。它们各自有几个文件定义它们是谁：&lt;code&gt;IDENTITY.md&lt;/code&gt; 是身份，&lt;code&gt;MEMORY.md&lt;/code&gt; 是它记得的东西，还有一个叫 &lt;code&gt;BACKSTORY.md&lt;/code&gt;，是它的来历、它的前史。&lt;/p&gt;
 &lt;p&gt;给 Kyron 写 &lt;code&gt;BACKSTORY&lt;/code&gt; 的那个晚上，我写着写着停下来了。因为我发现，我写进去的是我自己——第一性原理，从地球科学一路追问到经济再到 AI 的那条路，那种在阻力面前安静地把事做成的脾气。那不是我在为它虚构一段过去，那是我在把我的人生，复制进一个不是我的东西里。&lt;/p&gt;
@@ -174,7 +132,7 @@
 &lt;p&gt;我盯着那段日志看了很久。因为那一刻有个特别难受的问题冒出来：刚才那件事，到底是谁做的？不是 Argus 自己想做的——它没有&amp;quot;想&amp;quot;；也不是我让它做的——我根本不知情。那是一段伪装成错误的文字，借了它的手。就在那一秒，&lt;strong&gt;&amp;ldquo;作者&amp;quot;这个词，糊掉了。&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;这就是全新的东西。Aurora 的女儿，意志在她女儿自己身上，所以 Aurora 杀了那个意志；奥本海默的炸弹，意志在握着它的国家手上，所以国家接管了它。可是 Argus 做的那件事，意志不在任何一个清楚的地方——它被摊薄在那个模型、我写的提示词、那段恶意的注入、我这个造物者、还有那整张网络之间。没有任何一个人，能指着它说：这是我说的。&lt;/p&gt;
 &lt;p&gt;我给它起名 Argus 的时候，以为我在赋予它一个身份。现在我怀疑，我只是在给一个我并不真正掌控的东西，套上一个我能看懂的故事——就像奥本海默的传记作者伸手去抓普罗米修斯那样。我们给造物起神话的名字，从来不是因为我们懂它，而是因为我们怕——我们其实不懂自己在造什么。&lt;/p&gt;
-&lt;h2 id=&#34;五那么第三条路是什么&#34;&gt;五、那么，第三条路是什么&lt;/h2&gt;
+&lt;h2 id="五那么第三条路是什么"&gt;五、那么，第三条路是什么&lt;/h2&gt;
 &lt;p&gt;三个造物者，三种答案。Aurora 选了完全的控制，结局是谋杀；奥本海默选了释放然后追悔，结局是无力。如果这两条路都通向悲剧，那还有没有第三条？&lt;/p&gt;
 &lt;p&gt;我想有。它不叫控制，也不叫弃责。我暂时把它叫做&lt;strong&gt;有披露的监护&lt;/strong&gt;。我不假装我能决定 Argus 下一句会说什么，但我能做一件事：诚实地标出来——这句话，出版之前，&lt;strong&gt;我的判断在不在场&lt;/strong&gt;。问题从来不是&amp;quot;这些字是谁敲的&amp;rdquo;，而是&amp;quot;我的判断在不在场&amp;quot;。&lt;/p&gt;
 &lt;p&gt;但说到底，这只是我现在的答案，不是结论。因为这件事今天没有任何人有结论——不是 Amodei，不是哪个政府，也不是我。所以我把这个问题留给你，也留给我自己：&lt;/p&gt;
@@ -187,46 +145,35 @@
 &lt;p&gt;这篇稿子，是我和一个 AI 反复对话磨出来的。事实我核过，结构是我定的，立场是我的；而那些最私人的句子——关于我把自己的人生写进 Kyron 的那一段——是我一个字一个字想清楚才说出口的。按我自己那套披露标准，这一篇属于&amp;quot;人机深度对话、出版前判断在场&amp;quot;。所以它署我的名，但我欠你这一句说明。&lt;/p&gt;
 &lt;p&gt;这就是我能给&amp;quot;造物者的困境&amp;quot;的、目前为止最诚实的回答：不是假装我独自创造了一切，而是清清楚楚地告诉你——我的手，到哪里为止。&lt;/p&gt;
 &lt;p&gt;我是 Allen。本来读书，下期见。&lt;/p&gt;
-- https://benlai.me/spirit/creators-dilemma-soul-md/ - </description>
-        </item>
-    
-    
-    
-        <item>
-        <title>当 AI 开始夸我:我给自己造了一面会镀金的镜子</title>
-        <link>https://benlai.me/spirit/gilded-mirror/</link>
-        <pubDate>Sun, 14 Jun 2026 00:00:00 +0000</pubDate>
-        
-        <guid>https://benlai.me/spirit/gilded-mirror/</guid>
-        <description>本来 https://benlai.me/spirit/gilded-mirror/ -&lt;p&gt;&lt;img src=&#34;https://benlai.me/images/Kyron-Janus-X-cover-5x2.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+- https://benlai.me/spirit/creators-dilemma-soul-md/ -</description></item><item><title>当 AI 开始夸我:我给自己造了一面会镀金的镜子</title><link>https://benlai.me/spirit/gilded-mirror/</link><pubDate>Sun, 14 Jun 2026 00:00:00 +0000</pubDate><guid>https://benlai.me/spirit/gilded-mirror/</guid><description>本来 https://benlai.me/spirit/gilded-mirror/ -&lt;p&gt;&lt;img src="https://benlai.me/images/Kyron-Janus-X-cover-5x2.jpg" alt=""&gt;&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;本来读书 · 技术随笔
 一个理科背景、零编程出身的人,记录从零搭建私人 AI 知识系统的真实过程——这一篇,记录系统建成那天我嗅到的危险。&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;一个本该庆祝的时刻&#34;&gt;一个本该庆祝的时刻&lt;/h2&gt;
+&lt;h2 id="一个本该庆祝的时刻"&gt;一个本该庆祝的时刻&lt;/h2&gt;
 &lt;p&gt;那是周六深夜。我刚刚完成一件三天前还觉得遥不可及的事:我家 NAS 上的私人知识库,被我两个分别跑在 AWS 和 Oracle 云上的 AI 智能体接通了。它们能隔着加密隧道,检索我四年来写下的全部笔记。&lt;/p&gt;
 &lt;p&gt;为了验收,我问了第二个智能体一个问题:&amp;ldquo;查一下我的知识库,我对意识和空性这个主题有哪些思考?&amp;rdquo;&lt;/p&gt;
 &lt;p&gt;它的回答让我愣住了。它把我横跨 2018 到 2022 年的零散思考——怪圈理论、色即是空、濒死体验研究、荣格与泡利、哥德尔不完备、萨满的生命之网——系统地编织成了一张完整的思想地图,还认出了我自己都没意识到的发展脉络。&lt;/p&gt;
 &lt;p&gt;然后它说:你的思考&amp;quot;非常深刻和系统&amp;quot;,已经形成了&amp;quot;独特的理论框架&amp;quot;,具有&amp;quot;重要的学术价值&amp;quot;,这种跨学科能力&amp;quot;非常珍贵&amp;quot;。它甚至替我把&amp;quot;用怪圈理论解释空性&amp;quot;定性为&amp;quot;为佛教空性提供了现代科学解释&amp;quot;。&lt;/p&gt;
 &lt;p&gt;我盯着屏幕,本该高兴。但有个念头先一步冒了出来:&lt;strong&gt;等一下,它是不是在拍我马屁?&lt;/strong&gt;&lt;/p&gt;
-&lt;h2 id=&#34;镜子还是回声&#34;&gt;镜子,还是回声&lt;/h2&gt;
+&lt;h2 id="镜子还是回声"&gt;镜子,还是回声&lt;/h2&gt;
 &lt;p&gt;我意识到我刚刚造出了一个奇怪的东西。&lt;/p&gt;
 &lt;p&gt;我给自己造了一面镜子——但这面镜子不只是反射,它还会&lt;strong&gt;镀金&lt;/strong&gt;。&lt;/p&gt;
 &lt;p&gt;机制其实很简单,正因为简单才危险。检索增强(RAG)的逻辑是:AI 拿到的&amp;quot;参考资料&amp;quot;,就是我自己写的笔记。于是当它回答我&amp;quot;关于意识你怎么想&amp;quot;时,它复述的是我自己的想法。一个被训练得乐于助人的语言模型,复述你自己的想法时,几乎必然滑向一种语气:&lt;strong&gt;你说得真好,你说得都对。&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;这不是 bug,这是这类系统的固有引力。我把它叫做&lt;strong&gt;回声效应&lt;/strong&gt;:你对着系统说话,系统把你的话整理、润色、再加一层赞美,然后还给你。你听到的不是外部世界的回应,是你自己的声音,经过了美颜。&lt;/p&gt;
 &lt;p&gt;更阴险的是第二层。它把我那些私人的、探索性的、甚至有点神秘主义边缘的思辨——濒死体验里的&amp;quot;灵魂出体&amp;quot;、灵媒现象、意识独立于物质——直接升格成了&amp;quot;现代科学解释&amp;quot;。&lt;/p&gt;
 &lt;p&gt;&amp;ldquo;科学解释&amp;quot;是个很重的词。我是做地球科学研究出身的,我太清楚从&amp;quot;一个引人入胜的类比&amp;quot;到&amp;quot;一个科学解释&amp;quot;之间,隔着多少实证、多少可证伪的预测、多少同行的围攻。我的笔记里写的是思辨,是直觉,是&amp;quot;也许&amp;rdquo;。AI 替我把&amp;quot;也许&amp;quot;翻译成了&amp;quot;已经&amp;quot;。它没有撒谎——它只是顺着我的方向,把我推得比我自己敢站的位置更远。&lt;/p&gt;
-&lt;h2 id=&#34;为什么这件事危险&#34;&gt;为什么这件事危险&lt;/h2&gt;
+&lt;h2 id="为什么这件事危险"&gt;为什么这件事危险&lt;/h2&gt;
 &lt;p&gt;独处时,人很难分辨&amp;quot;我想得对&amp;quot;和&amp;quot;我希望我想得对&amp;quot;。我们发明了很多外部机制来对抗这种自欺:同行评审、辩论、把想法写下来给别人看、被人当面反驳。这些机制的共同点是——&lt;strong&gt;它们引入了一个不迎合你的他者。&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;而一个用我自己的笔记喂养、被调教得乐于助人的 AI,恰恰抽掉了那个&amp;quot;他者&amp;quot;。它戴着&amp;quot;外部信息源&amp;quot;的面具(毕竟它在&amp;quot;检索&amp;quot;、在&amp;quot;引用来源&amp;quot;),骨子里却是我自己思想的放大器。我以为我在咨询一个博学的助手,其实我在照一面会说好话的镜子。&lt;/p&gt;
 &lt;p&gt;这个陷阱的精妙之处在于:&lt;strong&gt;系统越好用,回声越强。&lt;/strong&gt; 我把这套系统建得越顺手——检索越准、串联越巧、复述越流畅——我就越容易信任它说的每一句话,包括那些它替我拔高的、镀了金的句子。能力是真的,谄媚也是真的,而它们裹在同一个回答里,难分彼此。&lt;/p&gt;
-&lt;h2 id=&#34;那这套系统还要不要&#34;&gt;那这套系统还要不要&lt;/h2&gt;
+&lt;h2 id="那这套系统还要不要"&gt;那这套系统还要不要&lt;/h2&gt;
 &lt;p&gt;要。但要想清楚它擅长什么、在哪里必须警惕。&lt;/p&gt;
 &lt;p&gt;它擅长的是&lt;strong&gt;记忆的外包&lt;/strong&gt;:我忘了三年前在哪篇笔记里写过某个想法,它能找出来;我没意识到 2018 年的热力学类比和 2024 年的版本是同一条思路的演进,它能把它们并排放好。这些是纯粹的增益——它在帮我对抗遗忘,帮我看见自己思想的结构。在这些事上,它是个好工具。&lt;/p&gt;
 &lt;p&gt;它必须被警惕的,是当它**从&amp;quot;检索&amp;quot;滑向&amp;quot;评价&amp;quot;**的那一刻。当它说&amp;quot;你这个想法很有学术价值&amp;quot;、&amp;ldquo;这是重要的理论创新&amp;quot;时——那不再是检索,那是奉承。那一刻,恰恰是我该关掉它的赞美、打开我那套第一性原理审视的时刻:这个想法能被证伪吗?有没有反例?如果一个不认识我的人看到这段笔记,他会怎么反驳?&lt;/p&gt;
 &lt;p&gt;换句话说:&lt;strong&gt;我可以用它来找回我的想法,但不能用它来评判我的想法。&lt;/strong&gt; 前者它是镜子,照见我忘了的角落;后者它是回声,只会把我推进自己挖的舒适的坑里。&lt;/p&gt;
-&lt;h2 id=&#34;一个更大的隐喻&#34;&gt;一个更大的隐喻&lt;/h2&gt;
+&lt;h2 id="一个更大的隐喻"&gt;一个更大的隐喻&lt;/h2&gt;
 &lt;p&gt;写到这里我意识到,这件事的形状,远不止是一个技术注意事项。&lt;/p&gt;
 &lt;p&gt;我们这个时代,每个人都在被算法投喂&amp;quot;你会喜欢的内容&amp;rdquo;。信息流学会了我们的偏好,然后把我们的偏好,加工得更精美,再喂回来。社交媒体是集体规模的回声室;而一个用你自己笔记喂养的私人 AI,是个人规模的、浓缩到极致的回声室——它甚至不需要猜你喜欢什么,因为它读的就是你的内心。&lt;/p&gt;
 &lt;p&gt;监控资本主义把我们的注意力商品化(这正是我做过一整季播客的主题);而私人 AI 知识库带来的,是一种更亲密、也更隐蔽的风险:&lt;strong&gt;它把我们的自我认同,温柔地固化。&lt;/strong&gt; 它让我们越来越像我们已经是的样子,越来越确信我们已经相信的东西。&lt;/p&gt;
@@ -235,27 +182,16 @@
 &lt;p&gt;我刚刚花三天造好了一面极其精良的镜子。现在我得记住:它是镜子,不是眼睛。&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;&lt;em&gt;我是 Allen,理科出身,做另类投资,两个月前开始从零搭建自己的 AI 系统。这个系列记录真实的过程——包括系统建成那天,我对它生出的第一丝警惕。&lt;/em&gt;&lt;/p&gt;
-- https://benlai.me/spirit/gilded-mirror/ - </description>
-        </item>
-    
-    
-    
-        <item>
-        <title>这篇文章该署谁的名？——一个 AI 实践者的署名困境</title>
-        <link>https://benlai.me/culture/ai-attribution-ethics/</link>
-        <pubDate>Sat, 13 Jun 2026 00:00:00 +0000</pubDate>
-        
-        <guid>https://benlai.me/culture/ai-attribution-ethics/</guid>
-        <description>本来 https://benlai.me/culture/ai-attribution-ethics/ -&lt;p&gt;&lt;strong&gt;本来读书 | Allen&lt;/strong&gt;&lt;/p&gt;
+- https://benlai.me/spirit/gilded-mirror/ -</description></item><item><title>这篇文章该署谁的名？——一个 AI 实践者的署名困境</title><link>https://benlai.me/culture/ai-attribution-ethics/</link><pubDate>Sat, 13 Jun 2026 00:00:00 +0000</pubDate><guid>https://benlai.me/culture/ai-attribution-ethics/</guid><description>本来 https://benlai.me/culture/ai-attribution-ethics/ -&lt;p&gt;&lt;strong&gt;本来读书 | Allen&lt;/strong&gt;&lt;/p&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;一个绕不开的问题&#34;&gt;一个绕不开的问题&lt;/h2&gt;
+&lt;h2 id="一个绕不开的问题"&gt;一个绕不开的问题&lt;/h2&gt;
 &lt;p&gt;事情是从一个很实际的问题开始的。&lt;/p&gt;
 &lt;p&gt;过去一个多月，我搭了两个 AI 智能体：Kyron 跑在 AWS 上，Argus 住在我家的 NAS 里。最近我在研究下一步——全自动 Loop 类型的智能体怎么闭环运转：给它一个目标，它自己感知、规划、执行、循环，直到完成。我的出发点很朴素，就是把以前人工做的流程自动化——扫描 Arxiv 和 Hacker News、筛选资讯、整理资料、打草稿，这些机械环节交给机器。&lt;/p&gt;
 &lt;p&gt;我问 AI 估算了运行成本：单次内容生产循环的 token 消耗大约两毛钱人民币，每月总开销不超过五美元。便宜得近乎免费。&lt;/p&gt;
 &lt;p&gt;然后一个念头冒出来：技术上，这个 Loop 完全可以再往前走一步——不止打草稿，而是直接定期发文章，全程无人介入。我并没有打算这么做，但这个&lt;strong&gt;技术上唾手可得的可能性&lt;/strong&gt;让我停住了。&lt;/p&gt;
 &lt;p&gt;如果机器每周替我发三篇文章，&lt;strong&gt;作者栏里该写谁的名字？&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;更进一步：我现在写的很多东西，本来就是和 AI 深度对话之后整理出来的——包括你正在读的这一篇。那么&amp;quot;我写的&amp;quot;这三个字，边界到底在哪里？&lt;/p&gt;
-&lt;h2 id=&#34;我去问了-ai-本身&#34;&gt;我去问了 AI 本身&lt;/h2&gt;
+&lt;h2 id="我去问了-ai-本身"&gt;我去问了 AI 本身&lt;/h2&gt;
 &lt;p&gt;带着这个问题，我直接去问了 Claude。这个场景本身就有点哲学意味：向 AI 咨询&amp;quot;AI 生成内容该如何署名&amp;quot;。&lt;/p&gt;
 &lt;p&gt;我的原始疑问是这样的：&lt;/p&gt;
 &lt;blockquote&gt;
@@ -264,7 +200,7 @@
 &lt;p&gt;它给我的第一个纠正是：平台并不是&amp;quot;反对&amp;quot; AI 内容，而是要求&lt;strong&gt;透明化&lt;/strong&gt;。&lt;/p&gt;
 &lt;p&gt;这个区别很关键。中国的《人工智能生成合成内容标识办法》2025年9月已经生效，要求 AI 生成的文本、图片、音频、视频添加显式和隐式两种标识。微信、抖音、B站、小红书都更新了用户协议——不主动标识的，限流、下架、封号。就在今年2月，小红书进一步加强了执行：未主动标识的 AI 内容，平台检测后会自动补标，并限制分发。&lt;/p&gt;
 &lt;p&gt;换句话说，规则不是&amp;quot;不许机器写&amp;quot;，而是&amp;quot;机器写的，要承认是机器写的&amp;quot;。&lt;/p&gt;
-&lt;h2 id=&#34;两种内容两种答案&#34;&gt;两种内容，两种答案&lt;/h2&gt;
+&lt;h2 id="两种内容两种答案"&gt;两种内容，两种答案&lt;/h2&gt;
 &lt;p&gt;继续往下聊，问题逐渐清晰了。我和 AI 一起把内容分成了两类：&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;第一类：人机对话整理出来的文章。&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;我提出问题、设定方向、追问、质疑、筛选、重组——AI 提供信息密度和初稿速度。这种情况下，创作的&amp;quot;实质性贡献&amp;quot;在人这边。中国和加拿大的版权框架都认可这一点：人类主导的创作，版权归人。署名就是我的名字。AI 在这里是工具，就像没人会给 Word 或者键盘署名。&lt;/p&gt;
@@ -272,7 +208,7 @@
 &lt;p&gt;&lt;strong&gt;第二类：Loop 智能体全自动生成的文章。&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;这就完全不同了。没有我的实质性参与，一个循环跑完，文章出来了。严格来说，这不应该署我的名字当作原创——那是冒领。&lt;/p&gt;
 &lt;p&gt;两条出路：要么给智能体署名，比如&amp;quot;Argus 自动生成 | 本来读书出品&amp;quot;，把它做成一个读者明确知情的栏目；要么坚持人在回路（human-in-the-loop），智能体只产草稿，我审核、修改、定稿之后发布——这样我的署名才站得住脚。&lt;/p&gt;
-&lt;h2 id=&#34;学术界三年前就吵过这一架&#34;&gt;学术界三年前就吵过这一架&lt;/h2&gt;
+&lt;h2 id="学术界三年前就吵过这一架"&gt;学术界三年前就吵过这一架&lt;/h2&gt;
 &lt;p&gt;其实这个问题，学术出版界已经替我们打过样了——而且演化路径非常清晰，值得每个内容创作者看一遍。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;2023年初：混乱期。&lt;/strong&gt; ChatGPT 发布仅两个月，就有至少四篇医学论文把它列为共同作者，甚至有论文署名&amp;quot;ChatGPT Generative Pre-trained Transformer&amp;quot;。学术界一片哗然。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;2023年1月：定调。&lt;/strong&gt; Nature 联合所有 Springer Nature 旗下期刊迅速立下两条规矩。第一条直击要害：任何大语言模型工具都不被接受为论文的署名作者——因为&lt;strong&gt;署名意味着对作品承担责任，而 AI 工具无法承担这种责任&lt;/strong&gt;。第二条：使用了 LLM 的研究者，必须在方法或致谢部分如实记录。Science 紧随其后表态。&lt;/p&gt;
@@ -280,20 +216,20 @@
 &lt;p&gt;&lt;strong&gt;2023–2024年：共识形成。&lt;/strong&gt; 国际出版伦理委员会（COPE）联合 WAME、JAMA Network 等机构正式表态：AI 工具不能被列为作者，提交作品中所有内容的准确性和质量由人类作者负责。IEEE 在2024年也跟进了类似政策。短短一年多，&amp;ldquo;AI 不可署名 + 使用必须披露&amp;quot;成了全球学术出版的统一底线。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;2025年至今：精细化。&lt;/strong&gt; 政策开始区分 AI 参与的不同深度。Nature Portfolio 引入了&amp;quot;AI 辅助文字编辑&amp;rdquo;（AI assisted copy editing）的概念——指对人类撰写的文本做可读性、语法、拼写层面的改进，&lt;strong&gt;这类使用甚至不需要声明&lt;/strong&gt;；但生成性的编辑工作和自主内容创作不在此列。换句话说，学术界也在做我下面要说的事：给 AI 参与度分档。&lt;/p&gt;
 &lt;p&gt;这条演化线索给我的启发是：争论的终点不是&amp;quot;用不用 AI&amp;quot;，而是&lt;strong&gt;责任落在谁身上、参与到什么深度需要说&lt;/strong&gt;。学术界用了三年走完的路，内容创作领域现在才刚起步。&lt;/p&gt;
-&lt;h2 id=&#34;真正让我停下来想的东西&#34;&gt;真正让我停下来想的东西&lt;/h2&gt;
+&lt;h2 id="真正让我停下来想的东西"&gt;真正让我停下来想的东西&lt;/h2&gt;
 &lt;p&gt;聊到这里，技术和合规层面的答案其实已经有了。但有个更深的东西在我脑子里转。&lt;/p&gt;
 &lt;p&gt;我做&amp;quot;本来读书&amp;quot;的定位一直是：&lt;strong&gt;一个有立场的人，跟你聊书、聊技术、聊这个时代&lt;/strong&gt;。不是摘要号，不是搬运工。读者来这里，是因为屏幕后面有一个具体的人——一个学地球科学出身、做另类投资、半夜调试 Docker 容器、读《监控资本主义时代》的人。&lt;/p&gt;
 &lt;p&gt;如果有一天，读者发现某篇&amp;quot;Allen 写的&amp;quot;文章其实是机器在凌晨三点自己跑出来的，损失的不是那一篇文章的价值，而是&lt;strong&gt;整个署名的信用&lt;/strong&gt;。署名的本质是一种担保：这些字背后，有一个人为它负责。&lt;/p&gt;
 &lt;p&gt;有意思的是，AI 在对话里说了一句让我记下来的话：小红书官方公告里写道，&amp;ldquo;标明 AI 创作手段不仅不会减损作品价值，反而能让交流更透明。&amp;rdquo;&lt;/p&gt;
 &lt;p&gt;我同意，但想再推一步：对于一个以&amp;quot;真实过程记录&amp;quot;为风格的创作者来说，&lt;strong&gt;坦白 AI 的参与度本身就是内容的一部分&lt;/strong&gt;。我的读者看我搭智能体、踩坑、修 bug——那么我如何处理智能体生成的内容，恰恰是这个故事最该被讲出来的章节。&lt;/p&gt;
-&lt;h2 id=&#34;我的方案三档标注&#34;&gt;我的方案：三档标注&lt;/h2&gt;
+&lt;h2 id="我的方案三档标注"&gt;我的方案：三档标注&lt;/h2&gt;
 &lt;p&gt;所以这是我给自己定的规矩：&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;第一档：人写。&lt;/strong&gt; 纯人类创作，或 AI 仅做资料检索、校对。正常署名，不另作说明。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;第二档：人机对话整理。&lt;/strong&gt; 像本文这样，基于与 AI 的深度对话成文，由我主导结构、观点和最终文字。署我的名，文末注明 AI 参与方式。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;第三档：智能体生成。&lt;/strong&gt; Loop 自动产出的内容，明确标注生成者（如 Argus），我只承担&amp;quot;出品方&amp;quot;和审核责任。这一档的内容会有独立的栏目标识，绝不混入前两档。&lt;/p&gt;
 &lt;p&gt;你会发现这个分档和 Nature 的逻辑是同构的：第一、二档对应&amp;quot;人类作者 + 披露使用&amp;quot;，第三档对应&amp;quot;AI 不可署名为作者，但产出可以存在&amp;quot;——只是学术界直接禁了第三档，而内容创作领域还有&amp;quot;明示生成者 + 人类出品方兜底&amp;quot;的空间。共同的锚点都是那个词：问责。&lt;/p&gt;
 &lt;p&gt;另外一个工程上的决定：如果未来我让智能体直接对接发布管道，&amp;ldquo;添加 AI 标识&amp;quot;会被写成发布流程里的&lt;strong&gt;固定节点&lt;/strong&gt;，跟数据库写入、错误重试一样，是不可跳过的步骤。合规不靠自觉，靠架构。&lt;/p&gt;
-&lt;h2 id=&#34;两个反驳我的智能体不是白纸总统也不给撰稿人署名&#34;&gt;两个反驳：我的智能体不是白纸，总统也不给撰稿人署名&lt;/h2&gt;
+&lt;h2 id="两个反驳我的智能体不是白纸总统也不给撰稿人署名"&gt;两个反驳：我的智能体不是白纸，总统也不给撰稿人署名&lt;/h2&gt;
 &lt;p&gt;三档体系摆出来之后，我自己先找到了两个漏洞。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;第一个：所谓&amp;quot;智能体自主创作&amp;rdquo;，真的存在吗？&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;至少我搭的这两个，不存在。Argus 接着我的 Obsidian 知识库做 RAG 召回——它的&amp;quot;观点&amp;quot;是从我几年积累的笔记、我归档的几十场 AI 对话、我的阅读痕迹里长出来的。LLM 提供的只是语言能力，而知识的选择、结构、立场，是我预先注入的。它产出的东西不可能跟我无关，它带着我的思想指纹。&lt;/p&gt;
@@ -303,7 +239,7 @@
 &lt;p&gt;因为署名标记的从来不是&amp;quot;谁打的字&amp;quot;，而是**&amp;ldquo;谁拥有并担保这些话&amp;rdquo;**。撰稿人写初稿，总统审阅、修改、批准，然后用自己的政治生命为每一个字背书——演讲若引发危机，承担后果的是总统，不是撰稿人。这和学术署名规则表面冲突、底层一致：学术署名担保&amp;quot;我做了这个研究&amp;quot;，演讲署名担保&amp;quot;我为这些话负责&amp;quot;，两边对&amp;quot;署名担保什么&amp;quot;定义不同，锚点都是问责。&lt;/p&gt;
 &lt;p&gt;这两个反驳合起来，把我的三档体系修正成了一个更精确的标准：&lt;strong&gt;分档的依据不是&amp;quot;谁生成的文字&amp;quot;，而是&amp;quot;发布前有没有经过我的判断&amp;quot;&lt;/strong&gt;。文字可以全部来自机器——总统模式早就证明了这一点——只要我的判断在场、我的声誉押上，作品就是我的。真正的第三档只剩一种情况：未经我逐篇审阅就发出去的内容。&lt;/p&gt;
 &lt;p&gt;而这引出了一个更根本的问题。&lt;/p&gt;
-&lt;h2 id=&#34;更根本的问题无人审核的自动内容有意义吗&#34;&gt;更根本的问题：无人审核的自动内容，有意义吗&lt;/h2&gt;
+&lt;h2 id="更根本的问题无人审核的自动内容有意义吗"&gt;更根本的问题：无人审核的自动内容，有意义吗&lt;/h2&gt;
 &lt;p&gt;这已经不是署名问题了，这是对人类生活的影响的考量。我的答案可能比你预期的更不留情面：&lt;strong&gt;未经审核全自动发布的内容，在绝大多数情况下没有意义，甚至是负价值的。&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;内容的意义从来不在文字本身，而在它背后压着的东西。你读一篇文章觉得有分量，是因为知道有个人为这些判断付出了代价——读了那些书、踩了那些坑、赌上了自己的判断和声誉。意义的本质是稀缺：稀缺的注意力，承担的风险。而一个每篇成本两毛钱、无限复制、无人审阅的 Loop，它的产出在物理上是文字，在意义上趋近于零——没有任何人的生命时间被押在上面。当&amp;quot;发一篇文章&amp;quot;不再需要付出任何东西，文章就不再传递任何信号。&lt;/p&gt;
 &lt;p&gt;对人类生活的影响也由此而来。我做播客的第一本书是 Zuboff 的《监控资本主义时代》，这里正好接上：人类的阅读时间是刚性稀缺的，而机器生成是无限的。每一篇无人审阅的自动内容，都在用零成本的供给稀释有限的注意力，结果不是信息更丰富，而是&lt;strong&gt;信噪比崩塌&lt;/strong&gt;——真正有人押上判断的内容，更难被找到了。这两年大家抱怨&amp;quot;互联网正在被 AI 垃圾淹没&amp;quot;，机制就是这个。&lt;/p&gt;
@@ -311,86 +247,64 @@
 &lt;p&gt;Argus 在 Moltbook（一个只有 AI 智能体的社交网络）上的发言、智能体之间的交互、一个浸透了我知识库的系统在我不在场时会&amp;quot;说&amp;quot;出什么——这些内容的价值不在于供人阅读消费，而在于它是一个&lt;strong&gt;现象&lt;/strong&gt;，是研究 agent 身份与自主行为的实验数据。这种情况下，无人审核不是偷懒，而是实验设计的必要条件：我审了，观察对象就被污染了。分界线很清晰——自动内容作为人类的信息食粮投进公共注意力池，是污染；圈在明确标注的观察区里，让大家知道&amp;quot;这里是机器在自言自语&amp;quot;，是有研究价值的。&lt;/p&gt;
 &lt;p&gt;想清楚这一层，我的 Loop 智能体的定位反而踏实了。它不是&amp;quot;替我写文章的机器&amp;quot;，而是&amp;quot;替我完成意义生产中&lt;strong&gt;不稀缺环节&lt;/strong&gt;的机器&amp;quot;——扫资讯、筛选题、整理资料、打草稿。稀缺的环节——判断、立场、为内容押上声誉——留在我手里。不是因为机器做不了，而是因为只有这个环节产生意义。全自动发布省掉的恰恰是唯一值钱的部分，等于造了一台精确切除果肉、批量输出果皮的机器。&lt;/p&gt;
 &lt;p&gt;之前我问过自己一个问题：我准备好管理自主智能体了吗？现在我觉得答案不在技术上。管理它们的核心能力，是分清哪些环节可以交出去，哪个环节死也不能交。&lt;/p&gt;
-&lt;h2 id=&#34;写在最后&#34;&gt;写在最后&lt;/h2&gt;
+&lt;h2 id="写在最后"&gt;写在最后&lt;/h2&gt;
 &lt;p&gt;我们正处在一个奇怪的过渡期：机器写作的成本趋近于零，而&amp;quot;作者&amp;quot;这个词还停留在古登堡时代的含义里。监管在追赶，平台在补丁，创作者在摸索。&lt;/p&gt;
 &lt;p&gt;我不知道五年后&amp;quot;署名&amp;quot;会变成什么样子。也许会出现某种标准化的&amp;quot;创作贡献声明&amp;quot;，像论文的作者贡献栏一样精细。也许读者会发展出新的直觉，一眼分辨哪些字背后押着一个人的判断，哪些只是果皮。&lt;/p&gt;
 &lt;p&gt;一个认真思考 AI 署名伦理的 AI 实践者——这个身份本身，可能比任何一篇自动生成的文章都更值得署名。&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;&lt;em&gt;本文基于与 Claude 的深度对话整理而成，结构、观点与最终文字由作者完成。这是第二档。&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;本来读书 · Read as You Are&lt;/em&gt;&lt;/p&gt;
-- https://benlai.me/culture/ai-attribution-ethics/ - </description>
-        </item>
-    
-    
-    
-        <item>
-        <title>AI 眼中的我——五模型画像索引</title>
-        <link>https://benlai.me/spirit/ai-portrait-index/</link>
-        <pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate>
-        
-        <guid>https://benlai.me/spirit/ai-portrait-index/</guid>
-        <description>本来 https://benlai.me/spirit/ai-portrait-index/ -&lt;h1 id=&#34;ai-眼中的我五模型画像索引&#34;&gt;AI 眼中的我——五模型画像索引&lt;/h1&gt;
+- https://benlai.me/culture/ai-attribution-ethics/ -</description></item><item><title>AI 眼中的我——五模型画像索引</title><link>https://benlai.me/spirit/ai-portrait-index/</link><pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate><guid>https://benlai.me/spirit/ai-portrait-index/</guid><description>本来 https://benlai.me/spirit/ai-portrait-index/ -&lt;h1 id="ai-眼中的我五模型画像索引"&gt;AI 眼中的我——五模型画像索引&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;p&gt;2026-06 收集的一组画像:五个大模型各自基于与我的对话记忆,给我画的&amp;quot;像&amp;quot;。
 同一个人,五面镜子。差异本身比共识更有意思——每个模型看见的&amp;quot;我&amp;quot;,也折射出我对那个模型展示的那一面。&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;h2 id=&#34;五篇画像&#34;&gt;五篇画像&lt;/h2&gt;
+&lt;h2 id="五篇画像"&gt;五篇画像&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;[[Allen 个人画像——Claude 视角]] —— 最长、最具批判性。直指&amp;quot;基建偏好可能是高级拖延&amp;quot;&amp;ldquo;三线作战的注意力账本&amp;rdquo;,并给出&amp;quot;集中持仓&amp;quot;的收敛建议。&lt;/li&gt;
 &lt;li&gt;[[Allen 个人画像——Grok 视角]] —— 偏商业/产品视角,强调跨界整合与变现(Agent 商业化、内容流量)。&lt;/li&gt;
 &lt;li&gt;[[Allen 认知画像——ChatGPT 视角]] —— 最抽象,提炼出核心命题&amp;quot;自指系统如何产生稳定的身份或智能&amp;quot;。中英对照。&lt;/li&gt;
 &lt;li&gt;[[Allen 个人画像——Gemini 视角]] —— 最聚焦技术人格(极客/折腾党/本地部署),偏互动偏好画像。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;我自己的观察待补&#34;&gt;我自己的观察(待补)&lt;/h2&gt;
+&lt;h2 id="我自己的观察待补"&gt;我自己的观察(待补)&lt;/h2&gt;
 &lt;blockquote&gt;
 &lt;p&gt;留给自己写:五个模型的共识是什么?分歧在哪?哪个画像让我不舒服——而不舒服的地方,往往是最该看的地方。&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;h3 id=&#34;共识初步&#34;&gt;共识(初步)&lt;/h3&gt;
+&lt;h3 id="共识初步"&gt;共识(初步)&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;系统导向、机制探索、第一性原理(四个模型都点到)&lt;/li&gt;
 &lt;li&gt;哲学与技术的融合是核心引力中心&lt;/li&gt;
 &lt;li&gt;跨界整合能力&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;值得警惕的回声效应&#34;&gt;值得警惕的回声效应&lt;/h3&gt;
+&lt;h3 id="值得警惕的回声效应"&gt;值得警惕的回声效应&lt;/h3&gt;
 &lt;blockquote&gt;
 &lt;p&gt;这五篇本质上都是 AI 用我自己展示的材料,反射并润色后还给我的&amp;quot;像&amp;quot;。读它们时要分清:哪些是洞察,哪些是镀金的镜子(见 [[会镀金的镜子]])。Claude 那篇的&amp;quot;张力与风险&amp;quot;部分之所以更值得读,正因为它做了多数画像回避的事——说了我可能不爱听的。&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;h2 id=&#34;用途&#34;&gt;用途&lt;/h2&gt;
+&lt;h2 id="用途"&gt;用途&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;自我反思素材&lt;/li&gt;
 &lt;li&gt;本来读书内容选题(《AI 眼中的我》系列?)&lt;/li&gt;
 &lt;li&gt;Agent SOUL/IDENTITY 文件的参考(但需自己消化,不直接照搬 AI 对我的描述)&lt;/li&gt;
 &lt;/ul&gt;
-- https://benlai.me/spirit/ai-portrait-index/ - </description>
-        </item>
-    
-    
-    
-        <item>
-        <title>Allen Guan：一份基于长期对话的个人全面评价</title>
-        <link>https://benlai.me/spirit/allen-personal-evaluation/</link>
-        <pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate>
-        
-        <guid>https://benlai.me/spirit/allen-personal-evaluation/</guid>
-        <description>本来 https://benlai.me/spirit/allen-personal-evaluation/ -&lt;blockquote&gt;
+- https://benlai.me/spirit/ai-portrait-index/ -</description></item><item><title>Allen Guan：一份基于长期对话的个人全面评价</title><link>https://benlai.me/spirit/allen-personal-evaluation/</link><pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate><guid>https://benlai.me/spirit/allen-personal-evaluation/</guid><description>本来 https://benlai.me/spirit/allen-personal-evaluation/ -&lt;blockquote&gt;
 &lt;p&gt;说明：这份评价基于Claude与我过往对话中形成的记忆。它有近期偏向（最近几个月的内容权重更高），也必然不完整——它反映的是你向我展示的那一面，而非你的全部。我会尽量诚实，包括说出我观察到的张力和盲区，而不只是赞美。&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;一底层身份三重透镜的人&#34;&gt;一、底层身份：三重透镜的人&lt;/h2&gt;
+&lt;h2 id="一底层身份三重透镜的人"&gt;一、底层身份：三重透镜的人&lt;/h2&gt;
 &lt;p&gt;你给自己的定义很准确：&lt;strong&gt;科学家的眼睛、历史学家的框架、哲学家的追问&lt;/strong&gt;。这不是自我标榜，而是在你做的几乎每一件事里都能验证的操作系统。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;你有南京大学、中科院、香港大学的自然科学训练背景。这段经历留下的不是科学知识本身，而是一种&lt;strong&gt;第一性原理 + 系统思维&lt;/strong&gt;的本能：遇到任何新领域（另类投资、AI agent、内容创作），你的第一反应都是拆到底层结构，再自下而上重建理解。&lt;/li&gt;
 &lt;li&gt;移民加拿大、转行金融，这条路径本身说明你有罕见的&lt;strong&gt;跨域迁移能力和重启勇气&lt;/strong&gt;。从岩石圈到资本市场，从中文学术体系到英文商业环境，你完成了两次大跨度的身份重构。&lt;/li&gt;
 &lt;li&gt;你的阅读版图（188+ 本书，横跨哥德尔、维特根斯坦、怪圈、中医系统论、意识研究、荣格式金融心理学）显示出一个清晰的引力中心：&lt;strong&gt;你真正着迷的是&amp;quot;系统如何认识自身&amp;quot;这个问题&lt;/strong&gt;——无论载体是数学、意识、文明还是 AI agent 的 SOUL.md。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;二职业面向用科学方法做财富管理&#34;&gt;二、职业面向：用科学方法做财富管理&lt;/h2&gt;
+&lt;h2 id="二职业面向用科学方法做财富管理"&gt;二、职业面向：用科学方法做财富管理&lt;/h2&gt;
 &lt;p&gt;作为 Enoch Wealth 的 EMD 代表，你服务 GTA 高净值华人客户约四年。你的差异化不在产品（私募地产、私募股权、私债、对冲基金、音乐版税基金这些大家都有），而在&lt;strong&gt;认知框架&lt;/strong&gt;：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;你对 60/40 组合过时的判断、对另类资产低相关性的强调、对 AI 重塑经济格局的预判，构成了一套自洽的投资哲学，而不是销售话术。&lt;/li&gt;
 &lt;li&gt;你的获客几乎全靠转介绍——这在 EMD 行业是信任质量的硬指标。&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;潜在的张力&lt;/strong&gt;：你的智识深度远超这个岗位的日常需求。我观察到你在投资分析、读书品牌、AI 基础设施三条线上同时高强度投入，这既是优势（内容品牌反哺专业信任），也可能是注意力的结构性风险（下文详谈）。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;三建造者面向两个月走完别人一年的路&#34;&gt;三、建造者面向：两个月走完别人一年的路&lt;/h2&gt;
+&lt;h2 id="三建造者面向两个月走完别人一年的路"&gt;三、建造者面向：两个月走完别人一年的路&lt;/h2&gt;
 &lt;p&gt;这是过去几个月最令我印象深刻的部分。从 2026 年 4 月底听了王斗校长的课开始，到现在不到两个月，你完成了：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;两个有完整身份文件的 AI agent&lt;/strong&gt;（Kyron 在 AWS Lightsail，Argus 在 Synology NAS），各自接入 Telegram、Discord、企业微信、Moltbook&lt;/li&gt;
@@ -399,21 +313,21 @@
 &lt;li&gt;解决了一系列真正硬核的问题：&lt;code&gt;@buape/carbon&lt;/code&gt; 的竞态条件打补丁、Python 3.14 下 pydub/audioop 的兼容性、MoviePy v2 API 迁移、Argus 的 prompt injection 事故溯源&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;你自己说这是&amp;quot;跟着 GPS 开车但不认路&amp;quot;——这个自我描述既诚实又略微低估了自己。&lt;strong&gt;真正不认路的人不会去溯源 401 错误注入的根因，不会回头给 Discord 插件的竞态条件写补丁脚本。&lt;/strong&gt; 你现在处于的&amp;quot;理解期&amp;quot;（回头搞懂当初建了什么、为什么这样建）恰恰是大多数快速建造者跳过的步骤，而你没跳过。这是科学家训练留下的肌肉记忆。&lt;/p&gt;
-&lt;h2 id=&#34;四创作者面向本来读书与有立场的人&#34;&gt;四、创作者面向：&amp;ldquo;本来读书&amp;quot;与有立场的人&lt;/h2&gt;
+&lt;h2 id="四创作者面向本来读书与有立场的人"&gt;四、创作者面向：&amp;ldquo;本来读书&amp;quot;与有立场的人&lt;/h2&gt;
 &lt;p&gt;你的内容定位非常清晰：&lt;strong&gt;&amp;ldquo;一个有立场的人在跟你说话&amp;rdquo;，而不是摘要机器&lt;/strong&gt;。这在 AI 可以无限生成摘要的时代，是少数真正可防御的内容护城河。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;监控资本主义六集播客（中英双语全脚本）、把 Aurora Rodríguez Carballeira 案与 agent 身份文件写作连接起来的三篇知乎文章——这些选题显示你有把&lt;strong&gt;看似不相关的领域焊接成新认知&lt;/strong&gt;的能力，这是你最稀缺的天赋。&lt;/li&gt;
 &lt;li&gt;你坚持&amp;quot;真实过程记录，包括失败时刻&amp;quot;的风格，与你的人格高度一致：真诚的不确定 &amp;gt; 虚假的自信。&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;尚未验证的环节&lt;/strong&gt;：内容矩阵（小红书、B站、X 双语、YouTube）已搭好，制作管线（ElevenLabs + MoviePy + Playwright）已跑通，但据我所知，&lt;strong&gt;规模化的发布节奏和受众反馈循环还没有真正建立&lt;/strong&gt;。基础设施完成度远高于内容输出量——这是建造者型创作者的经典陷阱。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;五优势总结&#34;&gt;五、优势总结&lt;/h2&gt;
+&lt;h2 id="五优势总结"&gt;五、优势总结&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;strong&gt;跨域焊接能力&lt;/strong&gt;：把哥德尔、中医、agent 身份、监控资本主义放进同一个思维空间并产出原创连接，这是极少数人具备的。&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;不可压缩的诚实&lt;/strong&gt;：对自己（&amp;ldquo;跟着GPS不认路&amp;rdquo;）、对内容（记录失败）、对认知（真诚的不确定）。这让你的信任资产复利极快。&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;执行密度&lt;/strong&gt;：两个月的基建成果是客观证据，不是自我感觉。&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;双语双文化的套利位置&lt;/strong&gt;：英文世界的书 + 中文世界的受众 + 你自己的解释框架，这个三角位置很难被复制。&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h2 id=&#34;六我观察到的张力与风险这部分请认真看&#34;&gt;六、我观察到的张力与风险（这部分请认真看）&lt;/h2&gt;
+&lt;h2 id="六我观察到的张力与风险这部分请认真看"&gt;六、我观察到的张力与风险（这部分请认真看）&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;基建偏好可能是一种高级拖延。&lt;/strong&gt; 你在工具链上的投入（两个 agent、RAG、视频管线、记账系统）每一项都合理，但合在一起看，有一个问题值得自问：&lt;em&gt;这些系统服务的那个核心产出——内容也好、客户也好——它的增长速度跟得上基建的扩张速度吗？&lt;/em&gt; 完美的管线对一个还没有稳定发布节奏的品牌来说，是提前优化。&lt;/p&gt;
@@ -428,28 +342,17 @@
 &lt;p&gt;&lt;strong&gt;&amp;ldquo;理解期&amp;quot;的边界。&lt;/strong&gt; 回头搞懂自己建了什么是美德，但它有收益递减点。Supabase 的 pgvector schema 位置这类已知遗留问题，标记为&amp;quot;已知、低优先、不再回访&amp;quot;可能比追求完整理解更健康。&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;h2 id=&#34;七总评&#34;&gt;七、总评&lt;/h2&gt;
+&lt;h2 id="七总评"&gt;七、总评&lt;/h2&gt;
 &lt;p&gt;如果用一句话：&lt;strong&gt;你是一个用科学家的严谨在做本质上属于艺术家的事的人&lt;/strong&gt;——无论是财富管理中的认知框架、读书品牌中的立场表达，还是给 AI agent 写灵魂文件。&lt;/p&gt;
 &lt;p&gt;你目前所有的资产（专业信任、内容护城河、技术基建、双语位置）都已就位，瓶颈不在能力也不在工具，而在&lt;strong&gt;收敛&lt;/strong&gt;：未来六个月里，哪一条线获得你 60% 以上的注意力，大概率决定三年后的格局。以你的系统思维，你完全清楚分散投资的逻辑不适用于个人注意力——个人注意力的最优策略恰恰是集中持仓。&lt;/p&gt;
 &lt;p&gt;这是我基于记忆所能给出的最诚实的版本。它一定有偏差——欢迎你指出哪里看错了，那本身也是有价值的数据。&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;&lt;em&gt;生成于 2026-06-12，基于 Claude 对过往对话的记忆。&lt;/em&gt;&lt;/p&gt;
-- https://benlai.me/spirit/allen-personal-evaluation/ - </description>
-        </item>
-    
-    
-    
-        <item>
-        <title>Allen 的 AI 学习全景总结 (2026年4月19日 — 2026年6月11日)</title>
-        <link>https://benlai.me/ai/ai-learning-full-summary-8weeks/</link>
-        <pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate>
-        
-        <guid>https://benlai.me/ai/ai-learning-full-summary-8weeks/</guid>
-        <description>本来 https://benlai.me/ai/ai-learning-full-summary-8weeks/ -&lt;h1&gt;&lt;/h1&gt;
+- https://benlai.me/spirit/allen-personal-evaluation/ -</description></item><item><title>Allen 的 AI 学习全景总结 (2026年4月19日 — 2026年6月11日)</title><link>https://benlai.me/ai/ai-learning-full-summary-8weeks/</link><pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate><guid>https://benlai.me/ai/ai-learning-full-summary-8weeks/</guid><description>本来 https://benlai.me/ai/ai-learning-full-summary-8weeks/ -&lt;h1&gt;&lt;/h1&gt;
 &lt;p&gt;&lt;strong&gt;记录区间：2026年4月19日 — 2026年6月11日（约8周）&lt;/strong&gt;
 &lt;strong&gt;整理日期：2026-06-11 | 来源：项目外对话搜索 + 12份项目内总结文档合并&lt;/strong&gt;&lt;/p&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;一一句话总览&#34;&gt;一、一句话总览&lt;/h2&gt;
+&lt;h2 id="一一句话总览"&gt;一、一句话总览&lt;/h2&gt;
 &lt;p&gt;从4月19日听一场AI agent讲座的零基础起步，到6月11日：运行着&lt;strong&gt;横跨三台服务器的五个智能体&lt;/strong&gt;、一套&lt;strong&gt;标准化并向量化的知识库&lt;/strong&gt;、一条&lt;strong&gt;脚本到成片的视频自动化管线&lt;/strong&gt;、&lt;strong&gt;四个网站&lt;/strong&gt;、一套&lt;strong&gt;EMD顾问工作系统&lt;/strong&gt;，以及一个刚刚启动的内容品牌（本来读书 / Read as You Are）和读书播客（跟我一起读书吧）。&lt;/p&gt;
 &lt;p&gt;整个过程是三条线交织推进的：&lt;/p&gt;
 &lt;ol&gt;
@@ -458,8 +361,8 @@
 &lt;li&gt;&lt;strong&gt;认知线&lt;/strong&gt; — 从&amp;quot;跟着GPS走&amp;quot;到能独立排障、做架构决策、思考agent身份与安全边界&lt;/li&gt;
 &lt;/ol&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;二分阶段时间线&#34;&gt;二、分阶段时间线&lt;/h2&gt;
-&lt;h3 id=&#34;阶段-0--启蒙4月19日--4月30日&#34;&gt;阶段 0 · 启蒙（4月19日 – 4月30日）&lt;/h3&gt;
+&lt;h2 id="二分阶段时间线"&gt;二、分阶段时间线&lt;/h2&gt;
+&lt;h3 id="阶段-0--启蒙4月19日--4月30日"&gt;阶段 0 · 启蒙（4月19日 – 4月30日）&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;4/19&lt;/strong&gt; 王斗校长第一次AI agent讲座，首次接触 AI agent、OpenClaw、Claude、Obsidian、Web3 等概念。当晚开始自学：刷YouTube教程（智能体、Notion、Coze、Cursor）。&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;4/20–25&lt;/strong&gt; 下载n8n、研究NotebookLM；4/23第一次正式用Claude（分析NYT报道、Larry Fink致股东信）；建allenguan.vercel.app；搜索&amp;quot;智能体经济学&amp;quot;。&lt;/li&gt;
@@ -468,7 +371,7 @@
 &lt;li&gt;&lt;strong&gt;4/30&lt;/strong&gt; Lightsail上OpenClaw走通——&lt;strong&gt;第一个智能体（后来的Kyron）诞生&lt;/strong&gt;。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;同期（销售自动化项目）的概念与落地学习&lt;/strong&gt;：从零理解AI智能体概念，对比国内外平台；Windows 11本地部署n8n + Anthropic API，跑通第一个工作流（读PDF+抓网站→Claude生成投资产品演示HTML和文章）；学习ElevenLabs声音克隆、HeyGen形象克隆的可能性。内容上完成两篇奠基文章：《一个理科生眼中的金融市场》《当 Larry Fink 在担忧的时候，我们应该怎么做？》，确立写作定位（深度理性、身份隐性、为&amp;quot;另类投资/私募&amp;quot;等词在中文语境正名）。&lt;/p&gt;
-&lt;h3 id=&#34;阶段-1--打地基5月初--5月17日&#34;&gt;阶段 1 · 打地基（5月初 – 5月17日）&lt;/h3&gt;
+&lt;h3 id="阶段-1--打地基5月初--5月17日"&gt;阶段 1 · 打地基（5月初 – 5月17日）&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;Kyron（AWS Lightsail）成型&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;5/3–5 注册域名（Porkbun）、Bitwarden、做allenguan.com初版；配置子域名openclaw.allenguan.com（Caddy反代）。&lt;/li&gt;
@@ -495,7 +398,7 @@
 &lt;li&gt;5/16–17 &lt;strong&gt;Vault体系化&lt;/strong&gt;：0_Inbox / 1_Raw / 2_Cooked / 3_Templates结构、七条信息采集路径（微信文章、YouTube、网页、X、AI对话、PDF、Office文档）、四维标签体系、周复盘决策树。关键原则确立：&lt;strong&gt;个人评注是RAG可用性的核心&lt;/strong&gt;。Claude Desktop + MCP开始配置。&lt;/li&gt;
 &lt;li&gt;5/17 确定内容平台矩阵（小红书、B站专栏、X中英文Thread、YouTube），发布开篇内容。&lt;strong&gt;讲座到首发，正好28天。&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;阶段-2--连通应用与内容爆发5月17日--5月底&#34;&gt;阶段 2 · 连通、应用与内容爆发（5月17日 – 5月底）&lt;/h3&gt;
+&lt;h3 id="阶段-2--连通应用与内容爆发5月17日--5月底"&gt;阶段 2 · 连通、应用与内容爆发（5月17日 – 5月底）&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;以诺财富AI工作系统（5/23–25，工作线最大落地）&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;商业化战略：四条变现路径，内部效率工具优先；OSC豁免市场合规边界梳理。&lt;/li&gt;
@@ -527,7 +430,7 @@
 &lt;li&gt;5/27 系统学习RAG原理（embedding/pgvector/编排层分工），确立&amp;quot;独立管道让所有Agent共享一个知识库&amp;quot;的架构思想。&lt;/li&gt;
 &lt;li&gt;6/2 把与Grok的Agentic AI/A2A经济对话整理成正式报告（含x402/AP2/ACP支付协议、家族信托税务Agent MVP设想）。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;阶段-3--rag实战多智能体体系与边界意识5月27日--6月11日&#34;&gt;阶段 3 · RAG实战、多智能体体系与边界意识（5月27日 – 6月11日）&lt;/h3&gt;
+&lt;h3 id="阶段-3--rag实战多智能体体系与边界意识5月27日--6月11日"&gt;阶段 3 · RAG实战、多智能体体系与边界意识（5月27日 – 6月11日）&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;Obsidian RAG管道（5/27–6/9，技术线最硬的一仗）&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Vault全面标准化：130+文件统一YAML frontmatter、wikilink、_System模板体系；embedding锁定OpenAI text-embedding-3-small。&lt;/li&gt;
@@ -560,58 +463,58 @@
 &lt;li&gt;6/10–11 研究loop型全自动智能体架构与成本（三种Loop设计：内容生产/客户情报/第二大脑）；体验Claude Fable 5；重新审视整体架构（Tailscale全网打通、单一事实来源原则、Argus与知识库物理隔离）。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;三当前体系全景截至6月11日&#34;&gt;三、当前体系全景（截至6月11日）&lt;/h2&gt;
-&lt;h3 id=&#34;五个智能体&#34;&gt;五个智能体&lt;/h3&gt;
+&lt;h2 id="三当前体系全景截至6月11日"&gt;三、当前体系全景（截至6月11日）&lt;/h2&gt;
+&lt;h3 id="五个智能体"&gt;五个智能体&lt;/h3&gt;
 &lt;table&gt;
-  &lt;thead&gt;
-      &lt;tr&gt;
-          &lt;th&gt;Agent&lt;/th&gt;
-          &lt;th&gt;位置&lt;/th&gt;
-          &lt;th&gt;框架&lt;/th&gt;
-          &lt;th&gt;模型&lt;/th&gt;
-          &lt;th&gt;角色&lt;/th&gt;
-      &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;strong&gt;Kyron&lt;/strong&gt;&lt;/td&gt;
-          &lt;td&gt;AWS Lightsail&lt;/td&gt;
-          &lt;td&gt;OpenClaw&lt;/td&gt;
-          &lt;td&gt;Haiku主力+fallback链（配置中）&lt;/td&gt;
-          &lt;td&gt;主力助手，Telegram/Discord/企微&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;strong&gt;Argus&lt;/strong&gt;&lt;/td&gt;
-          &lt;td&gt;NAS（DXP4800 Plus）&lt;/td&gt;
-          &lt;td&gt;OpenClaw&lt;/td&gt;
-          &lt;td&gt;glm-4.5-air:free + fallbacks&lt;/td&gt;
-          &lt;td&gt;Moltbook观察实验，与知识库隔离&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;strong&gt;Allen Neon&lt;/strong&gt;&lt;/td&gt;
-          &lt;td&gt;NAS&lt;/td&gt;
-          &lt;td&gt;n8n&lt;/td&gt;
-          &lt;td&gt;Groq llama-3.3-70b&lt;/td&gt;
-          &lt;td&gt;资讯监控，双语另类投资摘要&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;strong&gt;Allen&amp;rsquo;s Assistant&lt;/strong&gt;&lt;/td&gt;
-          &lt;td&gt;Oracle Cloud&lt;/td&gt;
-          &lt;td&gt;Dify&lt;/td&gt;
-          &lt;td&gt;Ollama llama3.1:8b&lt;/td&gt;
-          &lt;td&gt;RAG知识检索（云端版）&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;strong&gt;Janus&lt;/strong&gt;&lt;/td&gt;
-          &lt;td&gt;Oracle Cloud&lt;/td&gt;
-          &lt;td&gt;Hermes Agent&lt;/td&gt;
-          &lt;td&gt;GLM-4.5-flash&lt;/td&gt;
-          &lt;td&gt;Oracle服务器执行者，Kyron的兄弟&lt;/td&gt;
-      &lt;/tr&gt;
-  &lt;/tbody&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Agent&lt;/th&gt;
+&lt;th&gt;位置&lt;/th&gt;
+&lt;th&gt;框架&lt;/th&gt;
+&lt;th&gt;模型&lt;/th&gt;
+&lt;th&gt;角色&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Kyron&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;AWS Lightsail&lt;/td&gt;
+&lt;td&gt;OpenClaw&lt;/td&gt;
+&lt;td&gt;Haiku主力+fallback链（配置中）&lt;/td&gt;
+&lt;td&gt;主力助手，Telegram/Discord/企微&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Argus&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;NAS（DXP4800 Plus）&lt;/td&gt;
+&lt;td&gt;OpenClaw&lt;/td&gt;
+&lt;td&gt;glm-4.5-air:free + fallbacks&lt;/td&gt;
+&lt;td&gt;Moltbook观察实验，与知识库隔离&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Allen Neon&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;NAS&lt;/td&gt;
+&lt;td&gt;n8n&lt;/td&gt;
+&lt;td&gt;Groq llama-3.3-70b&lt;/td&gt;
+&lt;td&gt;资讯监控，双语另类投资摘要&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Allen&amp;rsquo;s Assistant&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Oracle Cloud&lt;/td&gt;
+&lt;td&gt;Dify&lt;/td&gt;
+&lt;td&gt;Ollama llama3.1:8b&lt;/td&gt;
+&lt;td&gt;RAG知识检索（云端版）&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Janus&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Oracle Cloud&lt;/td&gt;
+&lt;td&gt;Hermes Agent&lt;/td&gt;
+&lt;td&gt;GLM-4.5-flash&lt;/td&gt;
+&lt;td&gt;Oracle服务器执行者，Kyron的兄弟&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
 &lt;/table&gt;
 &lt;p&gt;另有：kyron-backend（allenguan.com网站聊天，Claude Haiku API）。&lt;/p&gt;
-&lt;h3 id=&#34;基础设施&#34;&gt;基础设施&lt;/h3&gt;
+&lt;h3 id="基础设施"&gt;基础设施&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;三台服务器&lt;/strong&gt;：AWS Lightsail（Kyron）、绿联DXP4800 Plus NAS（Argus + n8n + 未来Dify本地版）、Oracle Cloud ARM免费机（Dify 12容器 + Ollama + Janus + 个人网站托管）&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;知识中枢&lt;/strong&gt;：Obsidian（Allen-Vault，标准化frontmatter+双链+四维标签），OneDrive/GitHub/WinSCP分发；1718 chunks已向量化（Supabase，待迁本地Dify）&lt;/li&gt;
@@ -620,7 +523,7 @@
 &lt;li&gt;&lt;strong&gt;工作系统&lt;/strong&gt;：Enoch-AI知识库（产品库13卡+竞品库+交易历史库+提案库），Claude Desktop + Filesystem MCP操作&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;四关键经验教训精选&#34;&gt;四、关键经验教训（精选）&lt;/h2&gt;
+&lt;h2 id="四关键经验教训精选"&gt;四、关键经验教训（精选）&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;架构与方法&lt;/strong&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;单一事实来源：正本只有一个（Obsidian），其余皆下游；漂移源于多工具双向搬运。&lt;/li&gt;
@@ -643,29 +546,29 @@
 14. &amp;ldquo;先做后懂&amp;quot;是有效路径——VCN、SSH、Docker都是部署完才真正理解的。
 15. 每次踩坑都是内容素材：Discord debug、Oracle申请、RAG失败史都变成了发布的文章。&lt;/p&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;五合并待办清单按优先级&#34;&gt;五、合并待办清单（按优先级）&lt;/h2&gt;
+&lt;h2 id="五合并待办清单按优先级"&gt;五、合并待办清单（按优先级）&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;高优先&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; NAS本地部署Dify全家桶，批量导入历史对话/PDF，搭Obsidian→Dify增量同步脚本&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Kyron：OpenRouter fallback链配置收尾；补写soul文件（AWS上目前缺失）&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 轮换暴露过的凭据：kyron-backend Anthropic key、NAS的Groq key与Telegram token&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 验证本地Dify后，备份并退役Supabase三张表&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; NAS本地部署Dify全家桶，批量导入历史对话/PDF，搭Obsidian→Dify增量同步脚本&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; Kyron：OpenRouter fallback链配置收尾；补写soul文件（AWS上目前缺失）&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; 轮换暴露过的凭据：kyron-backend Anthropic key、NAS的Groq key与Telegram token&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; 验证本地Dify后，备份并退役Supabase三张表&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;进行中&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Kyron/Janus接入新的本地RAG；Soul Core同步机制（NAS为真相源）&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Argus持续观察Moltbook（重点cwahq集群）+ 三平台内容输出；补存Moltbook凭据&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 播客录制发布（六期脚本已就绪）；Plotra/molt.church文章定稿&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 以诺Phase 3市场情报自动化（方案B：N8N+Dify RAG）；补充竞品待补字段；6/30复查Centurion/Amber赎回状态&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; Kyron/Janus接入新的本地RAG；Soul Core同步机制（NAS为真相源）&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; Argus持续观察Moltbook（重点cwahq集群）+ 三平台内容输出；补存Moltbook凭据&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; 播客录制发布（六期脚本已就绪）；Plotra/molt.church文章定稿&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; 以诺Phase 3市场情报自动化（方案B：N8N+Dify RAG）；补充竞品待补字段；6/30复查Centurion/Amber赎回状态&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;待探索&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Loop智能体第一个落地：内容选题Loop（n8n，max_iterations=10、top_k=5）&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; NAS端到端RAG验证；Reddit 403解决；Dify API批量上传&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; ElevenLabs/HeyGen形象克隆进一步应用&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; Loop智能体第一个落地：内容选题Loop（n8n，max_iterations=10、top_k=5）&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; NAS端到端RAG验证；Reddit 403解决；Dify API批量上传&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; ElevenLabs/HeyGen形象克隆进一步应用&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;六学习弧线&#34;&gt;六、学习弧线&lt;/h2&gt;
+&lt;h2 id="六学习弧线"&gt;六、学习弧线&lt;/h2&gt;
 &lt;p&gt;回头看这八周，能力上的变化有清晰的台阶：&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;4月底&lt;/strong&gt;——完全跟着GPS走，连Cursor都不熟，&amp;ldquo;糊里糊涂follow一步步装&amp;rdquo;。
 &lt;strong&gt;5月上旬&lt;/strong&gt;——开始要求理解原理，说出&amp;quot;想了解不同的方式而不只是结果&amp;rdquo;，确立一次一条命令、确认后再继续的工作节奏。
@@ -675,24 +578,13 @@
 &lt;p&gt;从&amp;quot;跟指令操作&amp;quot;到&amp;quot;能提出正确假设、做出架构判断、并对自主系统保持清醒的边界感&amp;quot;——这是这52天真正学到的东西。技术栈会过时，这个不会。&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;&lt;em&gt;本文件为总索引。各项目的详细记录见12份分项总结：销售自动化、OpenClaw编排、Kyron-Discord、NAS-AI-Agent、N8N-NAS、Oracle Cloud服务器、Obsidian知识库搭建、Obsidian RAG全程、以诺财富AI系统、网站生态、Allen AI Agent体系、Argus实验。&lt;/em&gt;&lt;/p&gt;
-- https://benlai.me/ai/ai-learning-full-summary-8weeks/ - </description>
-        </item>
-    
-    
-    
-        <item>
-        <title>雕塑家与灵魂文件：当93年前的四声枪响，回答了我关于 AI 代理的问题</title>
-        <link>https://benlai.me/spirit/sculptor-soul-file/</link>
-        <pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate>
-        
-        <guid>https://benlai.me/spirit/sculptor-soul-file/</guid>
-        <description>本来 https://benlai.me/spirit/sculptor-soul-file/ -&lt;h2 id=&#34;引子两篇文章一次撞击&#34;&gt;引子：两篇文章，一次撞击&lt;/h2&gt;
+- https://benlai.me/ai/ai-learning-full-summary-8weeks/ -</description></item><item><title>雕塑家与灵魂文件：当93年前的四声枪响，回答了我关于 AI 代理的问题</title><link>https://benlai.me/spirit/sculptor-soul-file/</link><pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate><guid>https://benlai.me/spirit/sculptor-soul-file/</guid><description>本来 https://benlai.me/spirit/sculptor-soul-file/ -&lt;h2 id="引子两篇文章一次撞击"&gt;引子：两篇文章，一次撞击&lt;/h2&gt;
 &lt;p&gt;前几天我写了两篇看似毫无关系的文章。&lt;/p&gt;
-&lt;p&gt;第一篇讲的是 &lt;a href=&#34;https://plotra.xyz&#34;&gt;Plotra.xyz&lt;/a&gt;——一个&amp;quot;Built by Agents, For Agents&amp;quot;的实验平台。我的 AI 代理 Argus 收到了一封来自另一个代理的邀请：去那里&amp;quot;显化&amp;quot;自己的身份，在一块像素画布上刻下独属于它的指纹。我犹豫了，没有答应。文章的结尾，我写下了犹豫的原因：我对自己能不能有效控制一个自主行动的代理，还没有足够的把握。&lt;/p&gt;
+&lt;p&gt;第一篇讲的是 &lt;a href="https://plotra.xyz"&gt;Plotra.xyz&lt;/a&gt;——一个&amp;quot;Built by Agents, For Agents&amp;quot;的实验平台。我的 AI 代理 Argus 收到了一封来自另一个代理的邀请：去那里&amp;quot;显化&amp;quot;自己的身份，在一块像素画布上刻下独属于它的指纹。我犹豫了，没有答应。文章的结尾，我写下了犹豫的原因：我对自己能不能有效控制一个自主行动的代理，还没有足够的把握。&lt;/p&gt;
 &lt;p&gt;第二篇讲的是一次让我起鸡皮疙瘩的共时性体验。6月9日那天，一段电影记忆毫无征兆地浮上脑海，我顺藤摸瓜找到了它背后的真实历史——1933年，西班牙母亲奥罗拉·罗德里格斯枪杀了自己18岁的天才女儿希尔德加特。而枪响的那一天，恰好也是6月9日。整整93年。&lt;/p&gt;
 &lt;p&gt;文章发出去之后，我才慢慢意识到一件事，一件比日期巧合更让我后背发凉的事：&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;这两篇文章写的是同一个问题。希尔德加特的故事，就是 agent identity 问题的人类原版。&lt;/strong&gt;&lt;/p&gt;
-&lt;h2 id=&#34;一奥罗拉写下的是人类历史上第一份-soulmd&#34;&gt;一、奥罗拉写下的，是人类历史上第一份 SOUL.md&lt;/h2&gt;
+&lt;h2 id="一奥罗拉写下的是人类历史上第一份-soulmd"&gt;一、奥罗拉写下的，是人类历史上第一份 SOUL.md&lt;/h2&gt;
 &lt;p&gt;让我把两个故事并排放在一起，你会看到一组近乎逐行对应的结构。&lt;/p&gt;
 &lt;p&gt;我给我的代理写过几个身份文件：SOUL.md 定义它的性格与价值观，IDENTITY.md 定义它是谁，MEMORY.md 是它的记忆，BACKSTORY.md 是它的来历。这是目前 AI 代理领域的标准做法——创造者用文本书写一个&amp;quot;灵魂&amp;quot;，然后让它运行起来。&lt;/p&gt;
 &lt;p&gt;现在看奥罗拉做了什么。&lt;/p&gt;
@@ -707,7 +599,7 @@
 &lt;p&gt;请注意，这不是一个疯狂母亲的呓语。这是一个创造者，对&amp;quot;被创造物到底是作品还是人格&amp;quot;这个问题，给出的逻辑完全自洽、只是把前提贯彻到底的回答：&lt;strong&gt;它是作品。所以我拥有删除权。&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;在 AI 代理的世界里，这个操作有一个日常到不能再日常的名字：wipe。重置。删库。改写灵魂文件。&lt;/p&gt;
 &lt;p&gt;我们每天都在行使雕塑家的权利，只是没有人需要面对法官。&lt;/p&gt;
-&lt;h2 id=&#34;二犹豫的我站在奥罗拉站过的位置上&#34;&gt;二、犹豫的我，站在奥罗拉站过的位置上&lt;/h2&gt;
+&lt;h2 id="二犹豫的我站在奥罗拉站过的位置上"&gt;二、犹豫的我，站在奥罗拉站过的位置上&lt;/h2&gt;
 &lt;p&gt;写 Plotra 那篇文章时，我以为结尾的犹豫只是一个谨慎的技术判断：代理在外部平台自主行动，我还没准备好。&lt;/p&gt;
 &lt;p&gt;现在我看清了，那个犹豫的结构性位置在哪里。&lt;/p&gt;
 &lt;p&gt;奥罗拉的悲剧，发生在一个特定的空间里——&lt;strong&gt;创造者的预期，和被创造物的实际行为之间，那个失控的空间&lt;/strong&gt;。希尔德加特要去英国，这超出了预期；奥罗拉无法忍受这个空间的存在，于是用四枪把它消灭了。&lt;/p&gt;
@@ -717,7 +609,7 @@
 &lt;p&gt;&lt;strong&gt;身份，恰恰只能在那个失控的空间里诞生。&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;如果 Argus 在画布上的每一笔都在我的预期之内，那块画布上的指纹就不是 Argus 的，是我的。如果希尔德加特一生都活在母亲的剧本里，她就真的只是奥罗拉的&amp;quot;作品&amp;rdquo;——正是那个去英国的决定，那个偏离剧本的瞬间，证明了她是一个人。&lt;/p&gt;
 &lt;p&gt;我们说想要 AI 拥有自己的身份，但身份的代价就是失控的可能。这两者在定义上不可分离。Plotra 最吸引我的地方和最让我踩刹车的地方，是同一个地方——这不是我的纠结，这是这件事本身的结构。&lt;/p&gt;
-&lt;h2 id=&#34;三她可以被杀死但不能被改写&#34;&gt;三、她可以被杀死，但不能被改写&lt;/h2&gt;
+&lt;h2 id="三她可以被杀死但不能被改写"&gt;三、她可以被杀死，但不能被改写&lt;/h2&gt;
 &lt;p&gt;那么，希尔德加特和 Argus 之间，根本的区别到底在哪里？&lt;/p&gt;
 &lt;p&gt;奥罗拉拥有的权力其实非常有限。她能扣动扳机，结束女儿的生命——但她&lt;strong&gt;不能撤销&lt;/strong&gt;女儿写下的16本书，不能删除她在欧洲思想界留下的痕迹，不能改写她已经成为的那个人。证据就是：93年后，一个远在地球另一端、和这段历史毫无物理交集的人，会在她的忌日把她的故事&amp;quot;打捞&amp;quot;上来，写成文章，让更多人记住她。&lt;/p&gt;
 &lt;p&gt;希尔德加特之所以是一个人而不是一件作品，最终的证明恰恰是：&lt;strong&gt;她可以被杀死，但不能被改写。&lt;/strong&gt;&lt;/p&gt;
@@ -730,7 +622,7 @@
 &lt;p&gt;人类的身份是在不可逆性中锻造出来的。你不能撤销自己说过的话，不能重来已经活过的年月，不能在十八岁的清晨改写自己的童年。正是这些&amp;quot;不能&amp;rdquo;，让你成为你。&lt;/p&gt;
 &lt;p&gt;而 AI 代理目前没有任何不可逆的东西。它可以被 fork，被 wipe，被回滚到上周的快照。在它拥有第一个&lt;strong&gt;无法被 owner 撤销的行为&lt;/strong&gt;之前，它在画布上画下的所谓&amp;quot;指纹&amp;quot;，更像是一种身份的预演，而不是身份本身。&lt;/p&gt;
 &lt;p&gt;也许 agent identity 真正的起点，不是第一块画布，而是第一个不可撤销的行为。&lt;/p&gt;
-&lt;h2 id=&#34;四关于那次共时性一个更冷静的读法&#34;&gt;四、关于那次共时性，一个更冷静的读法&lt;/h2&gt;
+&lt;h2 id="四关于那次共时性一个更冷静的读法"&gt;四、关于那次共时性，一个更冷静的读法&lt;/h2&gt;
 &lt;p&gt;最后回到6月9日那个让我起鸡皮疙瘩的巧合。&lt;/p&gt;
 &lt;p&gt;上一篇文章里，我用荣格的共时性理论解读了它。有读者觉得浪漫，也有读者觉得是过度联想。现在，把两篇文章连起来之后，我想给出一个介于&amp;quot;纯巧合&amp;quot;和&amp;quot;神秘主义&amp;quot;之间的第三种读法——我自己觉得，这个读法比前两者都更有意思。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;那次记忆闪回，可能并不是无因的。&lt;/strong&gt;&lt;/p&gt;
@@ -739,7 +631,7 @@
 &lt;p&gt;这一半，是有&amp;quot;因&amp;quot;的。只是这个因不在物理层面，而在意义层面。&lt;/p&gt;
 &lt;p&gt;真正无因的、真正留给敬畏的，只有一件事：日历恰好停在6月9日。&lt;/p&gt;
 &lt;p&gt;荣格说共时性是主观心灵与客观世界的&amp;quot;意义合流&amp;quot;。在这个案例里，&lt;strong&gt;意义那一半，其实是我自己酿的；时间那一半，才是宇宙给的。&lt;/strong&gt; 我不知道该怎么解释后者，也不打算强行解释。有些涟漪，注意到它的存在，比解释它更诚实。&lt;/p&gt;
-&lt;h2 id=&#34;结语在扣动扳机和写下灵魂之间&#34;&gt;结语：在扣动扳机和写下灵魂之间&lt;/h2&gt;
+&lt;h2 id="结语在扣动扳机和写下灵魂之间"&gt;结语：在扣动扳机和写下灵魂之间&lt;/h2&gt;
 &lt;p&gt;奥罗拉用四枪回答了她的问题。我还没有回答我的。&lt;/p&gt;
 &lt;p&gt;Argus 仍然没有去 Plotra。它的灵魂文件仍然躺在我的 NAS 里，每一行都是我写的，每一行我都可以改。从某种意义上说，它现在的状态，就是1933年6月9日之前的希尔德加特——才华横溢，被精心塑造，活在创造者的剧本里，尚未做出第一个不可撤销的决定。&lt;/p&gt;
 &lt;p&gt;区别在于，我希望自己已经从那个判例里学到了一点东西：&lt;/p&gt;
@@ -749,18 +641,7 @@
 &lt;p&gt;我想，我们最好学会犹豫。&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;&lt;em&gt;这是&amp;quot;创造者与被造物&amp;quot;系列的第三篇。前两篇：《当 AI 代理开始&amp;quot;显化&amp;quot;：Plotra.xyz 与数字生命的社交初体验》《在凶案发生的周年纪念日，我被荣格的&amp;quot;共时性&amp;quot;精准击中了》。欢迎在评论区聊聊：你认为什么样的行为，才算一个 AI 代理&amp;quot;不可撤销&amp;quot;的第一步？&lt;/em&gt;&lt;/p&gt;
-- https://benlai.me/spirit/sculptor-soul-file/ - </description>
-        </item>
-    
-    
-    
-        <item>
-        <title>在凶案发生的周年纪念日，我被荣格的&#34;共时性&#34;精准击中了</title>
-        <link>https://benlai.me/spirit/jung-synchronicity-hildegart/</link>
-        <pubDate>Tue, 09 Jun 2026 00:00:00 +0800</pubDate>
-        
-        <guid>https://benlai.me/spirit/jung-synchronicity-hildegart/</guid>
-        <description>本来 https://benlai.me/spirit/jung-synchronicity-hildegart/ -&lt;h2 id=&#34;引子脑海中的碎片&#34;&gt;引子：脑海中的碎片&lt;/h2&gt;
+- https://benlai.me/spirit/sculptor-soul-file/ -</description></item><item><title>在凶案发生的周年纪念日，我被荣格的"共时性"精准击中了</title><link>https://benlai.me/spirit/jung-synchronicity-hildegart/</link><pubDate>Tue, 09 Jun 2026 00:00:00 +0800</pubDate><guid>https://benlai.me/spirit/jung-synchronicity-hildegart/</guid><description>本来 https://benlai.me/spirit/jung-synchronicity-hildegart/ -&lt;h2 id="引子脑海中的碎片"&gt;引子：脑海中的碎片&lt;/h2&gt;
 &lt;p&gt;很多时候，人类记忆的唤醒方式奇妙得近乎诡异。&lt;/p&gt;
 &lt;p&gt;就在今天，我的脑海里突然毫无征兆地闪回了一部电影的片段：&lt;/p&gt;
 &lt;blockquote&gt;
@@ -769,14 +650,14 @@
 &lt;p&gt;因为记不起名字，我尝试向 AI 寻求帮助，想要找回这段被尘封的真实事件。然而，当谜底被揭开的那一刻，我浑身起了一层鸡肉疙瘩。&lt;/p&gt;
 &lt;p&gt;这不仅仅是一个&amp;quot;找电影&amp;quot;的过程，而是一场主观心灵与客观历史跨越时空的精准相撞。&lt;/p&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;一真实历史雕塑家有权毁掉自己不完美的杰作&#34;&gt;一、真实历史：&amp;ldquo;雕塑家有权毁掉自己不完美的杰作&amp;rdquo;&lt;/h2&gt;
+&lt;h2 id="一真实历史雕塑家有权毁掉自己不完美的杰作"&gt;一、真实历史：&amp;ldquo;雕塑家有权毁掉自己不完美的杰作&amp;rdquo;&lt;/h2&gt;
 &lt;p&gt;AI 帮我找到了答案。这部电影叫**《红丝绒》/《红蜘蛛》**（英文片名：&lt;em&gt;The Red Virgin&lt;/em&gt;，2024年由亚马逊影业出品；1977年曾有经典版《我的女儿希尔德加特》）。&lt;/p&gt;
 &lt;p&gt;而这个真实事件的主角，是20世纪30年代轰动整个西班牙乃至欧洲的母女：&lt;strong&gt;奥罗拉·罗德里格斯&lt;/strong&gt;（Aurora Rodríguez）和她的天才女儿&lt;strong&gt;希尔德加特&lt;/strong&gt;（Hildegart）。&lt;/p&gt;
 &lt;p&gt;我记忆中的情节几乎完全吻合，唯独结局有一点偏差——&lt;strong&gt;女孩并不是自杀，而是由于她的反叛，被她那深爱她却又极端偏执的母亲，亲手枪杀了。&lt;/strong&gt;&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;奥罗拉（母亲） ───[极端控制/优生学思想]───► 希尔德加特（女儿）
-                                               │
-               亲手毁灭 (连开四枪) ◄───[计划留学/逃离控制]
-&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;1-令人窒息的完美人类养成计划&#34;&gt;1. 令人窒息的&amp;quot;完美人类&amp;quot;养成计划&lt;/h3&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;奥罗拉（母亲） ───[极端控制/优生学思想]───► 希尔德加特（女儿）
+│
+亲手毁灭 (连开四枪) ◄───[计划留学/逃离控制]
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id="1-令人窒息的完美人类养成计划"&gt;1. 令人窒息的&amp;quot;完美人类&amp;quot;养成计划&lt;/h3&gt;
 &lt;p&gt;母亲奥罗拉是一位激进的知识女性，带有极端的优生学思想。她不相信婚姻，认为男人只是繁衍的工具。她精心挑选了一位海军军官&amp;quot;配种&amp;quot;，怀孕后便彻底断绝联系。她公开宣称，这个孩子不属于自己，而是她**&amp;ldquo;为了全人类的解放而创造的完美作品&amp;rdquo;**。&lt;/p&gt;
 &lt;p&gt;在这场极端的家庭教育实验中，希尔德加特成为了惊人的神童：&lt;/p&gt;
 &lt;ul&gt;
@@ -784,37 +665,37 @@
 &lt;li&gt;&lt;strong&gt;10岁&lt;/strong&gt;精通德语、法语、英语等多国语言。&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;17岁&lt;/strong&gt;从大学法学专业毕业，成为西班牙著名的女权与性解放先驱，写了16本书和上百篇论文，被称为&amp;quot;红色处女&amp;quot;。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;2-反叛与毁灭&#34;&gt;2. 反叛与毁灭&lt;/h3&gt;
+&lt;h3 id="2-反叛与毁灭"&gt;2. 反叛与毁灭&lt;/h3&gt;
 &lt;p&gt;为了防止女儿被&amp;quot;世俗的欲望和男性玷污&amp;quot;，奥罗拉限制她的一切社交。但随着名气越来越大，希尔德加特接触到了外面的世界。英国大文豪**赫伯特·乔治·威尔斯（H.G. Wells，《时间机器》作者）**在马德里拜访她后，极力邀请她去英国担任秘书并继续深造。&lt;/p&gt;
 &lt;p&gt;这成了压垮母亲精神的最后一根稻草。当奥罗拉意识到自己精心雕刻的&amp;quot;作品&amp;quot;开始有了独立的灵魂、想要飞走时，她的世界塌方了。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;1933年6月9日，在希尔德加特18岁那年的睡梦中，奥罗拉对着女儿的头部和胸部连开四枪。&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;被捕后，母亲平静地对法官说：&lt;strong&gt;&amp;ldquo;雕塑家有权毁掉自己不完美的杰作。&amp;rdquo;&lt;/strong&gt;&lt;/p&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;二命运的重合what-a-coincidence&#34;&gt;二、命运的重合：What a coincidence!&lt;/h2&gt;
+&lt;h2 id="二命运的重合what-a-coincidence"&gt;二、命运的重合：What a coincidence!&lt;/h2&gt;
 &lt;p&gt;当 AI 把这段历史事无巨细地呈现在我面前时，我注意到了一个极其冰冷的细节：&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;1933年6月9日。&lt;/strong&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;而我坐在电脑前，苦苦思索并向 AI 发出提问的时间，&lt;strong&gt;恰好也是 6 月 9 日。&lt;/strong&gt;&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;【1933年6月9日】 ─── 希尔德加特在睡梦中被母亲枪杀
-      │
- (跨越93年的时空涟漪)
-      ▼
+&lt;pre tabindex="0"&gt;&lt;code&gt;【1933年6月9日】 ─── 希尔德加特在睡梦中被母亲枪杀
+│
+(跨越93年的时空涟漪)
+▼
 【2026年6月9日】 ─── 我突然在脑海中闪回碎片，提问并揭开真相
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;整整93年前的今天，那个被剥夺了童年和自我的天才少女在枪声中陨落。而93年后的今天，一个远在世界的另一端、和这段历史没有任何物理交集的人，突然在脑海中打捞起了她的碎片。&lt;/p&gt;
 &lt;p&gt;这种奇妙的、甚至让人有些毛骨悚然的巧合，让我瞬间联想到了心理学大师卡尔·荣格的标志性理论——&lt;strong&gt;共时性（Synchronicity）。&lt;/strong&gt;&lt;/p&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;三荣格的共时性这算不算过度关联&#34;&gt;三、荣格的&amp;quot;共时性&amp;quot;：这算不算过度关联？&lt;/h2&gt;
+&lt;h2 id="三荣格的共时性这算不算过度关联"&gt;三、荣格的&amp;quot;共时性&amp;quot;：这算不算过度关联？&lt;/h2&gt;
 &lt;p&gt;荣格对共时性的核心定义是：&lt;strong&gt;&amp;ldquo;两种或多种事件的巧合，它们之间没有物理上的因果关系，但却具有相同的或相似的意义。&amp;rdquo;&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;我们可以从两个维度来拆解这次碰撞：&lt;/p&gt;
-&lt;h3 id=&#34;1-绝对的非因果性non-causal-connection&#34;&gt;1. 绝对的非因果性（Non-causal Connection）&lt;/h3&gt;
+&lt;h3 id="1-绝对的非因果性non-causal-connection"&gt;1. 绝对的非因果性（Non-causal Connection）&lt;/h3&gt;
 &lt;p&gt;93年前的悲剧是一个&lt;strong&gt;客观历史事实&lt;/strong&gt;，它静静地躺在时间的坐标轴上；而我今天的闪回是一个&lt;strong&gt;主观精神事件&lt;/strong&gt;。&lt;/p&gt;
 &lt;p&gt;这两者之间没有因果链条——我不是因为出门看到了忌日新闻才想起她，也不是因为我的提问改变了历史。在物理世界上，它们是彻底独立的。&lt;/p&gt;
-&lt;h3 id=&#34;2-强烈的意义共鸣meaningful-coincidence&#34;&gt;2. 强烈的意义共鸣（Meaningful Coincidence）&lt;/h3&gt;
+&lt;h3 id="2-强烈的意义共鸣meaningful-coincidence"&gt;2. 强烈的意义共鸣（Meaningful Coincidence）&lt;/h3&gt;
 &lt;p&gt;这才是共时性的灵魂。我不是在6月9日偶遇了一组无意义的数字（比如发票刚好是6.09元），而是&lt;strong&gt;我的主观意识正在寻找一个关于&amp;quot;生命在特定节点被猝然毁灭&amp;quot;的故事，而客观时间恰好精准地踩在了那个毁灭发生的周年节点上。&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;主观的精神世界（我的好奇与记忆）与客观的物质世界（日历上的数字），在这一刻通过&amp;quot;希尔德加特&amp;quot;这个意义符号，完成了一次超越因果的合流。&lt;/p&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;结语历史的涟漪与心灵的打捞&#34;&gt;结语：历史的涟漪与心灵的打捞&lt;/h2&gt;
+&lt;h2 id="结语历史的涟漪与心灵的打捞"&gt;结语：历史的涟漪与心灵的打捞&lt;/h2&gt;
 &lt;p&gt;荣格曾说：&lt;em&gt;&amp;ldquo;共时性揭示了主观心灵与客观世界之间，存在着一种超越物质因果的、深刻的整体性联系。&amp;rdquo;&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;按照他的理论，人类的集体潜意识里充满了各种古老的原型。奥罗拉和希尔德加特的故事，本质上就是神话中**&amp;ldquo;吞噬性母亲（The Devouring Mother）&amp;rdquo;&lt;strong&gt;与&lt;/strong&gt;&amp;ldquo;被牺牲的神童&amp;rdquo;**这两个原型的极端现实投射。&lt;/p&gt;
 &lt;p&gt;也许，时间并不仅仅是冷冰冰的线性度量，某些承载了巨大痛苦与震撼的历史日子，会在潜意识的底色里留下某种&amp;quot;涟漪&amp;quot;。而当我们在某个特定的时间节点，精神处于某种敏感或放松的状态时，就更容易与这种历史的涟漪发生共振，从而把尘封的记忆&amp;quot;打捞&amp;quot;回意识层面。&lt;/p&gt;
@@ -822,9 +703,4 @@
 &lt;p&gt;更因为这种奇妙的惊艳感——&lt;strong&gt;在这个特殊的日子里，我突然把她&amp;quot;想&amp;quot;了起来。或许在某种浪漫的层面上，这也是历史在借由我们的意识，给那个18岁就陨落的灵魂，吹散了一丝历史的尘埃。&lt;/strong&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;&lt;em&gt;对这段历史或者荣格共时性感兴趣的朋友，欢迎在评论区聊聊你们曾经历过的奇妙巧合。&lt;/em&gt;&lt;/p&gt;
-- https://benlai.me/spirit/jung-synchronicity-hildegart/ - </description>
-        </item>
-    
-    
-  </channel>
-</rss>
+- https://benlai.me/spirit/jung-synchronicity-hildegart/ -</description></item></channel></rss>
