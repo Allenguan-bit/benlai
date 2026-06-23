@@ -1,4 +1,42 @@
-<!doctype html><html lang=en><head><title>我花了大半天，让Claude真正"住进"我的Obsidian知识库</title><meta charset=utf-8><meta name=X-UA-Compatible content="IE=edge"><meta name=google-site-verification content><meta content="width=device-width,initial-scale=1,maximum-scale=5,user-scalable=5" name=viewport><meta content="telephone=no" name=format-detection><meta name=description content><meta name=renderer content="webkit"><meta name=theme-color content="#ffffff"><script src=/js/toc.js></script><link type=text/css rel=stylesheet href=/vendor/css/bootstrap.min.css><link rel=stylesheet href=/scss/dark-mode.min.6c9b4c2290542df75010d1640eac4339c754ccff3c9b43fc81a23c94e7e12eaf.css integrity="sha256-bJtMIpBULfdQENFkDqxDOcdUzP88m0P8gaI8lOfhLq8=" media=screen><link rel=stylesheet href="https://fonts.googleapis.com/css?family=Material+Icons"><style>.post-body img{width:100%;border-radius:5px}.nav-taiji{margin:.4rem 0 .6rem;display:block;opacity:.85}</style></head><body><div id=app><div class=single-column-drawer-container id=drawer v-bind:class="{ 'single-column-drawer-container-active': isDrawerOpen }"><div class=drawer-content><div class=drawer-menu><a class="a-block drawer-menu-item false" href=/spirit/>灵境
+<!doctype html><html lang=en><head><title>我花了大半天，让Claude真正"住进"我的Obsidian知识库 | 本来</title><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=5"><meta name=format-detection content="telephone=no"><meta name=description content='——一个AI新手的真实踩坑记录
+先说说我是谁 我不是IT背景，过去几年一直在关注AI相关的新闻，知道这东西很厉害，但始终停留在"有概念、没动手"的阶段。每次看到别人分享AI工作流，心里觉得很酷，但不知道从哪里下手。
+三周前，我遇到了极客教的王斗校长。他讲的一句话让我真正开了窍：AI agent 的时 …'><meta name=author content="Allen"><meta name=renderer content="webkit"><meta name=theme-color content="#ffffff"><meta name=keywords content="个人博客,灵性成长,荣格心理学,中华传统文化,易经,人工智能,AI观察,读书笔记"><meta name=google-site-verification content="google939778d5ac91324b"><link rel=canonical href=https://benlai.me/ai/claude-obsidian/><meta property="og:url" content="https://benlai.me/ai/claude-obsidian/"><meta property="og:site_name" content="本来"><meta property="og:title" content='我花了大半天，让Claude真正"住进"我的Obsidian知识库'><meta property="og:description" content='——一个AI新手的真实踩坑记录
+先说说我是谁 我不是IT背景，过去几年一直在关注AI相关的新闻，知道这东西很厉害，但始终停留在"有概念、没动手"的阶段。每次看到别人分享AI工作流，心里觉得很酷，但不知道从哪里下手。
+三周前，我遇到了极客教的王斗校长。他讲的一句话让我真正开了窍：AI agent 的时代已经到了，而且几乎不需要编程基础就能参与。
+从那一刻起，我开始动手。三周下来，已经搭建跑通了几个AI智能体项目。今天才想着要开始跟大家分享这个过程——之前踩的坑、正在做的事、以及接下来的探索。
+这个系列，记录的就是我从零开始的真实路径。不是教程，不是攻略，是一个普通人真实的成长过程——包括卡壳的时刻，还有最终搞定时那种说不清楚的成就感。
+今天这篇，讲的是让Claude真正"住进"我的Obsidian知识库。
+为什么要做这件事 开始折腾AI agent之后，我才知道了Obsidian这个工具。最初用的是网页版，收录了一部分个人资料。但后来发现桌面版更方便整理电脑里已有的笔记和资料，于是今天决定改用桌面版。
+就是这个"改用桌面版"的决定，让我掉进了一个接一个的坑。
+我想实现的是：让Claude直接读写我的Obsidian知识库，能搜索内容、发现笔记之间的关联、帮我整理。而不是每次都靠手动复制粘贴。
+先说结论 折腾了大半天，踩了将近十个坑，但最终实现了：
+Claude 可以直接读写我本地的 Obsidian vault 支持中文笔记内容搜索 电脑、OneDrive、手机三端同步正常 值得吗？值得。
+两种方案，各有用处 连接 Claude 和 Obsidian，有两条路：
+方案A：Filesystem 连接器 Claude Desktop 内建的工具，直接授权一个本地文件夹路径。三分钟搞定，稳定可靠，适合文件读写操作。
+方案B：obsidian-mcp 通过 MCP（Model Context Protocol）安装的第三方服务器，支持按内容语义搜索、标签管理、笔记整理。功能更强，但配置更复杂。
+最终两个都装，分工合作：Filesystem 负责结构性操作，obsidian-mcp 负责内容搜索和笔记管理。
+第一章：方案A，三分钟搞定 方案A非常简单：
+打开 Claude Desktop → Settings → Integrations 找到 Filesystem 连接器 添加路径：我的 vault 所在的本地文件夹 完成 测试一下，让Claude列出知识库的文件夹结构——秒出结果。
+[DIR] Cooked [DIR] Inbox [DIR] Raw [DIR] Templates 方案A通了。
+第二章：方案B，开始踩坑 方案B需要配置一个 JSON 文件，告诉 Claude Desktop 去哪里找 obsidian-mcp 服务器。'><meta property="og:locale" content="zh_cn"><meta property="og:type" content="article"><meta property="article:section" content="ai"><meta property="article:published_time" content="2026-05-17T00:00:00+00:00"><meta property="article:modified_time" content="2026-05-17T00:00:00+00:00"><meta name=twitter:card content="summary"><meta name=twitter:title content='我花了大半天，让Claude真正"住进"我的Obsidian知识库'><meta name=twitter:description content='——一个AI新手的真实踩坑记录
+先说说我是谁 我不是IT背景，过去几年一直在关注AI相关的新闻，知道这东西很厉害，但始终停留在"有概念、没动手"的阶段。每次看到别人分享AI工作流，心里觉得很酷，但不知道从哪里下手。
+三周前，我遇到了极客教的王斗校长。他讲的一句话让我真正开了窍：AI agent 的时代已经到了，而且几乎不需要编程基础就能参与。
+从那一刻起，我开始动手。三周下来，已经搭建跑通了几个AI智能体项目。今天才想着要开始跟大家分享这个过程——之前踩的坑、正在做的事、以及接下来的探索。
+这个系列，记录的就是我从零开始的真实路径。不是教程，不是攻略，是一个普通人真实的成长过程——包括卡壳的时刻，还有最终搞定时那种说不清楚的成就感。
+今天这篇，讲的是让Claude真正"住进"我的Obsidian知识库。
+为什么要做这件事 开始折腾AI agent之后，我才知道了Obsidian这个工具。最初用的是网页版，收录了一部分个人资料。但后来发现桌面版更方便整理电脑里已有的笔记和资料，于是今天决定改用桌面版。
+就是这个"改用桌面版"的决定，让我掉进了一个接一个的坑。
+我想实现的是：让Claude直接读写我的Obsidian知识库，能搜索内容、发现笔记之间的关联、帮我整理。而不是每次都靠手动复制粘贴。
+先说结论 折腾了大半天，踩了将近十个坑，但最终实现了：
+Claude 可以直接读写我本地的 Obsidian vault 支持中文笔记内容搜索 电脑、OneDrive、手机三端同步正常 值得吗？值得。
+两种方案，各有用处 连接 Claude 和 Obsidian，有两条路：
+方案A：Filesystem 连接器 Claude Desktop 内建的工具，直接授权一个本地文件夹路径。三分钟搞定，稳定可靠，适合文件读写操作。
+方案B：obsidian-mcp 通过 MCP（Model Context Protocol）安装的第三方服务器，支持按内容语义搜索、标签管理、笔记整理。功能更强，但配置更复杂。
+最终两个都装，分工合作：Filesystem 负责结构性操作，obsidian-mcp 负责内容搜索和笔记管理。
+第一章：方案A，三分钟搞定 方案A非常简单：
+打开 Claude Desktop → Settings → Integrations 找到 Filesystem 连接器 添加路径：我的 vault 所在的本地文件夹 完成 测试一下，让Claude列出知识库的文件夹结构——秒出结果。
+[DIR] Cooked [DIR] Inbox [DIR] Raw [DIR] Templates 方案A通了。
+第二章：方案B，开始踩坑 方案B需要配置一个 JSON 文件，告诉 Claude Desktop 去哪里找 obsidian-mcp 服务器。'><script src=/js/toc.js></script><link type=text/css rel=stylesheet href=/vendor/css/bootstrap.min.css><link rel=stylesheet href=/scss/dark-mode.min.6c9b4c2290542df75010d1640eac4339c754ccff3c9b43fc81a23c94e7e12eaf.css integrity="sha256-bJtMIpBULfdQENFkDqxDOcdUzP88m0P8gaI8lOfhLq8=" media=screen><link rel=stylesheet href="https://fonts.googleapis.com/css?family=Material+Icons"><style>.post-body img{width:100%;border-radius:5px}.nav-taiji{margin:.4rem 0 .6rem;display:block;opacity:.85}</style><script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Allen"},"dateModified":"2026-05-17T00:00:00Z","datePublished":"2026-05-17T00:00:00Z","description":"——一个AI新手的真实踩坑记录\n先说说我是谁 我不是IT背景，过去几年一直在关注AI相关的新闻，知道这东西很厉害，但始终停留在\u0026quot;有概念、没动手\u0026quot;的阶段。每次看到别人分享AI工作流，心里觉得很酷，但不知道从哪里下手。\n三周前，我遇到了极客教的王斗校长。他讲的一句话让我真正开了窍：AI agent 的时 …","headline":"我花了大半天，让Claude真正\"住进\"我的Obsidian知识库","inLanguage":"zh-CN","mainEntityOfPage":{"@id":"https://benlai.me/ai/claude-obsidian/","@type":"WebPage"},"publisher":{"@type":"Person","name":"Allen"},"url":"https://benlai.me/ai/claude-obsidian/"}</script></head><body><div id=app><div class=single-column-drawer-container id=drawer v-bind:class="{ 'single-column-drawer-container-active': isDrawerOpen }"><div class=drawer-content><div class=drawer-menu><a class="a-block drawer-menu-item false" href=/spirit/>灵境
 </a><a class="a-block drawer-menu-item false" href=/culture/>文化
 </a><a class="a-block drawer-menu-item false" href=/travel/>行迹
 </a><a class="a-block drawer-menu-item false" href=/reading/>书房

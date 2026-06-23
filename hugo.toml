@@ -4,13 +4,23 @@ title = "本来"
 theme = "diary"
 publishDir = "docs"
 
+enableRobotsTXT = true
+
+[sitemap]
+  changefreq = "weekly"
+  priority = 0.5
+
 [author]
   name = "Allen"
   email = ""
 
 [params]
-  description = "探索者的自留地"
+  description = "探索者的自留地 — 灵性成长、中华文化、AI观察与读书笔记的个人博客"
+  keywords = "个人博客,灵性成长,荣格心理学,中华传统文化,易经,人工智能,AI观察,读书笔记"
   mainSections = []
+  enableOpenGraph = true
+  enableTwitterCards = true
+  googleSiteVerification = "google939778d5ac91324b"
 
 [[menus.main]]
   name = "灵境"

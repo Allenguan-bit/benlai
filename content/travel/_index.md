@@ -6,6 +6,8 @@ draft = false
 
 title = '行迹'
 
+description = '行走的痕迹。户外探索与旅行记录，用脚步丈量世界，用文字留存记忆。'
+
 +++
 
 

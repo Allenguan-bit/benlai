@@ -9,3 +9,34 @@
     opacity: 0.85;
   }
 </style>
+
+<!-- JSON-LD 结构化数据 -->
+{{- $authorName := .Site.Params.author | default "Allen" -}}
+{{- if .IsHome -}}
+{{- $ld := dict
+  "@context" "https://schema.org"
+  "@type" "WebSite"
+  "name" .Site.Title
+  "url" .Site.BaseURL
+  "description" .Site.Params.description
+  "author" (dict "@type" "Person" "name" $authorName)
+  "inLanguage" "zh-CN"
+-}}
+<script type="application/ld+json">{{ $ld | jsonify (dict "indent" "  ") | safeJS }}</script>
+{{- else if .IsPage -}}
+{{- $desc := .Params.description | default (.Summary | plainify | truncate 160) -}}
+{{- $ld := dict
+  "@context" "https://schema.org"
+  "@type" "BlogPosting"
+  "headline" .Title
+  "description" $desc
+  "url" .Permalink
+  "datePublished" (.Date.Format "2006-01-02T15:04:05Z07:00")
+  "dateModified" (.Lastmod.Format "2006-01-02T15:04:05Z07:00")
+  "author" (dict "@type" "Person" "name" $authorName)
+  "publisher" (dict "@type" "Person" "name" $authorName)
+  "inLanguage" "zh-CN"
+  "mainEntityOfPage" (dict "@type" "WebPage" "@id" .Permalink)
+-}}
+<script type="application/ld+json">{{ $ld | jsonify (dict "indent" "  ") | safeJS }}</script>
+{{- end -}}
