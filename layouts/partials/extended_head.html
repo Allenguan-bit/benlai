@@ -8,6 +8,56 @@
     display: block;
     opacity: 0.85;
   }
+  .home-social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin-top: 20px;
+  }
+  .home-social-link {
+    display: flex;
+    align-items: center;
+    color: inherit;
+    opacity: 0.6;
+    transition: opacity 0.2s;
+  }
+  .home-social-link:hover {
+    opacity: 1;
+  }
+  .wechat-qr-wrap {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  .wechat-icon {
+    display: flex;
+    align-items: center;
+    opacity: 0.6;
+    cursor: pointer;
+    transition: opacity 0.2s;
+  }
+  .wechat-icon:hover {
+    opacity: 1;
+  }
+  .wechat-qr-popup {
+    display: none;
+    position: absolute;
+    top: 34px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 12px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+    text-align: center;
+    z-index: 100;
+    white-space: nowrap;
+  }
+  .wechat-qr-wrap:hover .wechat-qr-popup {
+    display: block;
+  }
 </style>
 
 <!-- JSON-LD 结构化数据 -->

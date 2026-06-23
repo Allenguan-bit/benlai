@@ -21,6 +21,7 @@ enableRobotsTXT = true
   enableOpenGraph = true
   enableTwitterCards = true
   googleSiteVerification = "dz28UlbBYSHTV5OMc03lLCIK6rlsVWACzvwYIWaG3h4"
+  wechatQR = "/weixinQR.jpg"
 
 [[menus.main]]
   name = "灵境"
