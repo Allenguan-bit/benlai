@@ -20,7 +20,7 @@ enableRobotsTXT = true
   mainSections = []
   enableOpenGraph = true
   enableTwitterCards = true
-  googleSiteVerification = "google939778d5ac91324b"
+  googleSiteVerification = "dz28UlbBYSHTV5OMc03lLCIK6rlsVWACzvwYIWaG3h4"
 
 [[menus.main]]
   name = "灵境"
