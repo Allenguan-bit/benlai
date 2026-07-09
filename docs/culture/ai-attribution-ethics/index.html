@@ -1,50 +1,912 @@
-<!doctype html><html lang=en><head><title>这篇文章该署谁的名？——一个 AI 实践者的署名困境 | 本来</title><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=5"><meta name=format-detection content="telephone=no"><meta name=description content="本来读书 | Allen
+<!DOCTYPE html>
+<html lang="en"><head><title>这篇文章该署谁的名？——一个 AI 实践者的署名困境 | 本来</title>
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5">
+<meta name="format-detection" content="telephone=no">
+<meta name="description" content="本来读书 | Allen
 一个绕不开的问题 事情是从一个很实际的问题开始的。
-过去一个多月，我搭了两个 AI 智能体：Kyron 跑在 AWS 上，Argus 住在我家的 NAS 里。最近我在研究下一步——全自动 Loop 类型的智能体怎么闭环运转：给它一个目标，它自己感知、规划、执行、循环，直到完成。我的出发点很朴素 …"><meta name=author content="Allen"><meta name=renderer content="webkit"><meta name=theme-color content="#ffffff"><meta name=keywords content="个人博客,灵性成长,荣格心理学,中华传统文化,易经,人工智能,AI观察,读书笔记"><meta name=google-site-verification content="dz28UlbBYSHTV5OMc03lLCIK6rlsVWACzvwYIWaG3h4"><link rel=canonical href=https://benlai.me/culture/ai-attribution-ethics/><meta property="og:url" content="https://benlai.me/culture/ai-attribution-ethics/"><meta property="og:site_name" content="本来"><meta property="og:title" content="这篇文章该署谁的名？——一个 AI 实践者的署名困境"><meta property="og:description" content='本来读书 | Allen
+过去一个多月，我搭了两个 AI 智能体：Kyron 跑在 AWS 上，Argus 住在我家的 NAS 里。最近我在研究下一步——全自动 Loop 类型的智能体怎么闭环运转：给它一个目标，它自己感知、规划、执行、循环，直到完成。我的出发点很朴素 …">
+<meta name="author" content="Allen">
+<meta name="renderer" content="webkit">
+<meta name="theme-color" content="#ffffff">
+<meta name="keywords" content="个人博客,灵性成长,荣格心理学,中华传统文化,易经,人工智能,AI观察,读书笔记">
+<meta name="google-site-verification" content="dz28UlbBYSHTV5OMc03lLCIK6rlsVWACzvwYIWaG3h4">
+
+
+<link rel="canonical" href="https://benlai.me/culture/ai-attribution-ethics/">
+
+
+<meta property="og:url" content="https://benlai.me/culture/ai-attribution-ethics/">
+  <meta property="og:site_name" content="本来">
+  <meta property="og:title" content="这篇文章该署谁的名？——一个 AI 实践者的署名困境">
+  <meta property="og:description" content="本来读书 | Allen
 一个绕不开的问题 事情是从一个很实际的问题开始的。
 过去一个多月，我搭了两个 AI 智能体：Kyron 跑在 AWS 上，Argus 住在我家的 NAS 里。最近我在研究下一步——全自动 Loop 类型的智能体怎么闭环运转：给它一个目标，它自己感知、规划、执行、循环，直到完成。我的出发点很朴素，就是把以前人工做的流程自动化——扫描 Arxiv 和 Hacker News、筛选资讯、整理资料、打草稿，这些机械环节交给机器。
 我问 AI 估算了运行成本：单次内容生产循环的 token 消耗大约两毛钱人民币，每月总开销不超过五美元。便宜得近乎免费。
 然后一个念头冒出来：技术上，这个 Loop 完全可以再往前走一步——不止打草稿，而是直接定期发文章，全程无人介入。我并没有打算这么做，但这个技术上唾手可得的可能性让我停住了。
 如果机器每周替我发三篇文章，作者栏里该写谁的名字？
-更进一步：我现在写的很多东西，本来就是和 AI 深度对话之后整理出来的——包括你正在读的这一篇。那么"我写的"这三个字，边界到底在哪里？
-我去问了 AI 本身 带着这个问题，我直接去问了 Claude。这个场景本身就有点哲学意味：向 AI 咨询"AI 生成内容该如何署名"。
+更进一步：我现在写的很多东西，本来就是和 AI 深度对话之后整理出来的——包括你正在读的这一篇。那么&#34;我写的&#34;这三个字，边界到底在哪里？
+我去问了 AI 本身 带着这个问题，我直接去问了 Claude。这个场景本身就有点哲学意味：向 AI 咨询&#34;AI 生成内容该如何署名&#34;。
 我的原始疑问是这样的：
 “跟 AI 深度对话之后形成的文章，包括以后智能体 Loop 自动生成的文章，作者应该怎么署名？多媒体平台不都是反对限制 bot 自动生成的内容吗？”
-它给我的第一个纠正是：平台并不是"反对" AI 内容，而是要求透明化。
+它给我的第一个纠正是：平台并不是&#34;反对&#34; AI 内容，而是要求透明化。
 这个区别很关键。中国的《人工智能生成合成内容标识办法》2025年9月已经生效，要求 AI 生成的文本、图片、音频、视频添加显式和隐式两种标识。微信、抖音、B站、小红书都更新了用户协议——不主动标识的，限流、下架、封号。就在今年2月，小红书进一步加强了执行：未主动标识的 AI 内容，平台检测后会自动补标，并限制分发。
-换句话说，规则不是"不许机器写"，而是"机器写的，要承认是机器写的"。
+换句话说，规则不是&#34;不许机器写&#34;，而是&#34;机器写的，要承认是机器写的&#34;。
 两种内容，两种答案 继续往下聊，问题逐渐清晰了。我和 AI 一起把内容分成了两类：
 第一类：人机对话整理出来的文章。
-我提出问题、设定方向、追问、质疑、筛选、重组——AI 提供信息密度和初稿速度。这种情况下，创作的"实质性贡献"在人这边。中国和加拿大的版权框架都认可这一点：人类主导的创作，版权归人。署名就是我的名字。AI 在这里是工具，就像没人会给 Word 或者键盘署名。
-但有一个诚实的做法：在文末声明"本文基于与 AI 的深度对话整理而成"。这不是法律义务（文字内容的强制标识主要针对纯生成），而是一种姿态。'><meta property="og:locale" content="zh_cn"><meta property="og:type" content="article"><meta property="article:section" content="culture"><meta property="article:published_time" content="2026-06-13T00:00:00+00:00"><meta property="article:modified_time" content="2026-06-13T00:00:00+00:00"><meta name=twitter:card content="summary"><meta name=twitter:title content="这篇文章该署谁的名？——一个 AI 实践者的署名困境"><meta name=twitter:description content='本来读书 | Allen
+我提出问题、设定方向、追问、质疑、筛选、重组——AI 提供信息密度和初稿速度。这种情况下，创作的&#34;实质性贡献&#34;在人这边。中国和加拿大的版权框架都认可这一点：人类主导的创作，版权归人。署名就是我的名字。AI 在这里是工具，就像没人会给 Word 或者键盘署名。
+但有一个诚实的做法：在文末声明&#34;本文基于与 AI 的深度对话整理而成&#34;。这不是法律义务（文字内容的强制标识主要针对纯生成），而是一种姿态。">
+  <meta property="og:locale" content="zh_cn">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="culture">
+    <meta property="article:published_time" content="2026-06-13T00:00:00+00:00">
+    <meta property="article:modified_time" content="2026-06-13T00:00:00+00:00">
+
+
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="这篇文章该署谁的名？——一个 AI 实践者的署名困境">
+  <meta name="twitter:description" content="本来读书 | Allen
 一个绕不开的问题 事情是从一个很实际的问题开始的。
 过去一个多月，我搭了两个 AI 智能体：Kyron 跑在 AWS 上，Argus 住在我家的 NAS 里。最近我在研究下一步——全自动 Loop 类型的智能体怎么闭环运转：给它一个目标，它自己感知、规划、执行、循环，直到完成。我的出发点很朴素，就是把以前人工做的流程自动化——扫描 Arxiv 和 Hacker News、筛选资讯、整理资料、打草稿，这些机械环节交给机器。
 我问 AI 估算了运行成本：单次内容生产循环的 token 消耗大约两毛钱人民币，每月总开销不超过五美元。便宜得近乎免费。
 然后一个念头冒出来：技术上，这个 Loop 完全可以再往前走一步——不止打草稿，而是直接定期发文章，全程无人介入。我并没有打算这么做，但这个技术上唾手可得的可能性让我停住了。
 如果机器每周替我发三篇文章，作者栏里该写谁的名字？
-更进一步：我现在写的很多东西，本来就是和 AI 深度对话之后整理出来的——包括你正在读的这一篇。那么"我写的"这三个字，边界到底在哪里？
-我去问了 AI 本身 带着这个问题，我直接去问了 Claude。这个场景本身就有点哲学意味：向 AI 咨询"AI 生成内容该如何署名"。
+更进一步：我现在写的很多东西，本来就是和 AI 深度对话之后整理出来的——包括你正在读的这一篇。那么&#34;我写的&#34;这三个字，边界到底在哪里？
+我去问了 AI 本身 带着这个问题，我直接去问了 Claude。这个场景本身就有点哲学意味：向 AI 咨询&#34;AI 生成内容该如何署名&#34;。
 我的原始疑问是这样的：
 “跟 AI 深度对话之后形成的文章，包括以后智能体 Loop 自动生成的文章，作者应该怎么署名？多媒体平台不都是反对限制 bot 自动生成的内容吗？”
-它给我的第一个纠正是：平台并不是"反对" AI 内容，而是要求透明化。
+它给我的第一个纠正是：平台并不是&#34;反对&#34; AI 内容，而是要求透明化。
 这个区别很关键。中国的《人工智能生成合成内容标识办法》2025年9月已经生效，要求 AI 生成的文本、图片、音频、视频添加显式和隐式两种标识。微信、抖音、B站、小红书都更新了用户协议——不主动标识的，限流、下架、封号。就在今年2月，小红书进一步加强了执行：未主动标识的 AI 内容，平台检测后会自动补标，并限制分发。
-换句话说，规则不是"不许机器写"，而是"机器写的，要承认是机器写的"。
+换句话说，规则不是&#34;不许机器写&#34;，而是&#34;机器写的，要承认是机器写的&#34;。
 两种内容，两种答案 继续往下聊，问题逐渐清晰了。我和 AI 一起把内容分成了两类：
 第一类：人机对话整理出来的文章。
-我提出问题、设定方向、追问、质疑、筛选、重组——AI 提供信息密度和初稿速度。这种情况下，创作的"实质性贡献"在人这边。中国和加拿大的版权框架都认可这一点：人类主导的创作，版权归人。署名就是我的名字。AI 在这里是工具，就像没人会给 Word 或者键盘署名。
-但有一个诚实的做法：在文末声明"本文基于与 AI 的深度对话整理而成"。这不是法律义务（文字内容的强制标识主要针对纯生成），而是一种姿态。'><script src=/js/toc.js></script><link type=text/css rel=stylesheet href=/vendor/css/bootstrap.min.css><link rel=stylesheet href=/scss/dark-mode.min.6c9b4c2290542df75010d1640eac4339c754ccff3c9b43fc81a23c94e7e12eaf.css integrity="sha256-bJtMIpBULfdQENFkDqxDOcdUzP88m0P8gaI8lOfhLq8=" media=screen><link rel=stylesheet href="https://fonts.googleapis.com/css?family=Material+Icons"><style>.post-body img{width:100%;border-radius:5px}.nav-taiji{margin:.4rem 0 .6rem;display:block;opacity:.85}.home-social{display:flex;justify-content:center;align-items:center;gap:16px;margin-top:20px}.home-social-link{display:flex;align-items:center;color:inherit;opacity:.6;transition:opacity .2s}.home-social-link:hover{opacity:1}.wechat-qr-wrap{position:relative;display:flex;align-items:center}.wechat-icon{display:flex;align-items:center;opacity:.6;cursor:pointer;transition:opacity .2s}.wechat-icon:hover{opacity:1}.wechat-qr-popup{display:none;position:absolute;top:34px;left:50%;transform:translateX(-50%);background:#fff;border:1px solid #e0e0e0;border-radius:8px;padding:12px;box-shadow:0 4px 16px rgba(0,0,0,.12);text-align:center;z-index:100;white-space:nowrap}.wechat-qr-wrap:hover .wechat-qr-popup,.wechat-qr-wrap.active .wechat-qr-popup{display:block}</style><script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Allen"},"dateModified":"2026-06-13T00:00:00Z","datePublished":"2026-06-13T00:00:00Z","description":"本来读书 | Allen\n一个绕不开的问题 事情是从一个很实际的问题开始的。\n过去一个多月，我搭了两个 AI 智能体：Kyron 跑在 AWS 上，Argus 住在我家的 NAS 里。最近我在研究下一步——全自动 Loop 类型的智能体怎么闭环运转：给它一个目标，它自己感知、规划、执行、循环，直到完成。我的出发点很朴素 …","headline":"这篇文章该署谁的名？——一个 AI 实践者的署名困境","inLanguage":"zh-CN","mainEntityOfPage":{"@id":"https://benlai.me/culture/ai-attribution-ethics/","@type":"WebPage"},"publisher":{"@type":"Person","name":"Allen"},"url":"https://benlai.me/culture/ai-attribution-ethics/"}</script></head><body><div id=app><div class=single-column-drawer-container id=drawer v-bind:class="{ 'single-column-drawer-container-active': isDrawerOpen }"><div class=drawer-content><div class=drawer-menu><a class="a-block drawer-menu-item false" href=/spirit/>灵境
-</a><a class="a-block drawer-menu-item active" href=/culture/>文化
-</a><a class="a-block drawer-menu-item false" href=/travel/>行迹
-</a><a class="a-block drawer-menu-item false" href=/reading/>书房
-</a><a class="a-block drawer-menu-item false" href=/ai/>算境</a><div class=toc><div class=toc-content><center>- CATALOG -</center><ul><ul><li><a href=#%e4%b8%80%e4%b8%aa%e7%bb%95%e4%b8%8d%e5%bc%80%e7%9a%84%e9%97%ae%e9%a2%98 class=nav-一个绕不开的问题>一个绕不开的问题</a></li><li><a href=#%e6%88%91%e5%8e%bb%e9%97%ae%e4%ba%86-ai-%e6%9c%ac%e8%ba%ab class=nav-我去问了-ai-本身>我去问了 AI 本身</a></li><li><a href=#%e4%b8%a4%e7%a7%8d%e5%86%85%e5%ae%b9%e4%b8%a4%e7%a7%8d%e7%ad%94%e6%a1%88 class=nav-两种内容两种答案>两种内容，两种答案</a></li><li><a href=#%e5%ad%a6%e6%9c%af%e7%95%8c%e4%b8%89%e5%b9%b4%e5%89%8d%e5%b0%b1%e5%90%b5%e8%bf%87%e8%bf%99%e4%b8%80%e6%9e%b6 class=nav-学术界三年前就吵过这一架>学术界三年前就吵过这一架</a></li><li><a href=#%e7%9c%9f%e6%ad%a3%e8%ae%a9%e6%88%91%e5%81%9c%e4%b8%8b%e6%9d%a5%e6%83%b3%e7%9a%84%e4%b8%9c%e8%a5%bf class=nav-真正让我停下来想的东西>真正让我停下来想的东西</a></li><li><a href=#%e6%88%91%e7%9a%84%e6%96%b9%e6%a1%88%e4%b8%89%e6%a1%a3%e6%a0%87%e6%b3%a8 class=nav-我的方案三档标注>我的方案：三档标注</a></li><li><a href=#%e4%b8%a4%e4%b8%aa%e5%8f%8d%e9%a9%b3%e6%88%91%e7%9a%84%e6%99%ba%e8%83%bd%e4%bd%93%e4%b8%8d%e6%98%af%e7%99%bd%e7%ba%b8%e6%80%bb%e7%bb%9f%e4%b9%9f%e4%b8%8d%e7%bb%99%e6%92%b0%e7%a8%bf%e4%ba%ba%e7%bd%b2%e5%90%8d class=nav-两个反驳我的智能体不是白纸总统也不给撰稿人署名>两个反驳：我的智能体不是白纸，总统也不给撰稿人署名</a></li><li><a href=#%e6%9b%b4%e6%a0%b9%e6%9c%ac%e7%9a%84%e9%97%ae%e9%a2%98%e6%97%a0%e4%ba%ba%e5%ae%a1%e6%a0%b8%e7%9a%84%e8%87%aa%e5%8a%a8%e5%86%85%e5%ae%b9%e6%9c%89%e6%84%8f%e4%b9%89%e5%90%97 class=nav-更根本的问题无人审核的自动内容有意义吗>更根本的问题：无人审核的自动内容，有意义吗</a></li><li><a href=#%e5%86%99%e5%9c%a8%e6%9c%80%e5%90%8e class=nav-写在最后>写在最后</a></li></ul></div></div></div></div></div><transition name=fade><div id=drawer-mask v-bind:class="{ 'single-column-drawer-mask': mounted }" v-if=isDrawerOpen v-on:click=toggleDrawer></div></transition><nav id=navBar class="navbar sticky-top navbar-light single-column-nav-container"><div id=navBackground class=nav-background></div><div class="container container-narrow nav-content"><button id=nav_dropdown_btn class=nav-dropdown-toggle type=button v-on:click=toggleDrawer>
-<i class=material-icons>menu
-</i></button>
-<a id=navTitle class=navbar-brand href=https://benlai.me/>本来
-</a><button type=button class=nav-darkmode-toggle id=darkModeToggleButton2>
-<i class=material-icons id=darkModeToggleIcon2>dark_mode</i></button></div></nav><div class=single-column-header-container id=pageHead v-bind:style="{ transform: 'translateZ(0px) translateY('+.3*scrollY+'px)', opacity: 1-navOpacity }"><a href=https://benlai.me/><div class=single-column-header-title>本来</div><div class=nav-taiji style=margin-top:.6rem><svg width="44" height="44" viewBox="0 0 100 100"><circle cx="50" cy="50" r="50" fill="#f0f0f0"/><path d="M50 0a50 50 0 000 1e2z" fill="#1a2a4a"/><circle cx="50" cy="25" r="25" fill="#f0f0f0"/><circle cx="50" cy="75" r="25" fill="#1a2a4a"/><circle cx="50" cy="25" r="9" fill="#1a2a4a"/><circle cx="50" cy="75" r="9" fill="#f0f0f0"/><circle cx="50" cy="50" r="49" fill="none" stroke="#1a2a4a" stroke-width="1.5"/></svg></div></a></div><div id=content><div id=streamContainer class=stream-container><div class="post-list-container post-list-container-shadow"><div class=post><div class=post-head-wrapper-text-only><div class=post-title>这篇文章该署谁的名？——一个 AI 实践者的署名困境<div class=post-meta><time itemprop=datePublished>2026-06-13 00:00</time></div></div></div><div class=post-body-wrapper><div class=post-body v-pre><p><strong>本来读书 | Allen</strong></p><hr><h2 id=一个绕不开的问题>一个绕不开的问题</h2><p>事情是从一个很实际的问题开始的。</p><p>过去一个多月，我搭了两个 AI 智能体：Kyron 跑在 AWS 上，Argus 住在我家的 NAS 里。最近我在研究下一步——全自动 Loop 类型的智能体怎么闭环运转：给它一个目标，它自己感知、规划、执行、循环，直到完成。我的出发点很朴素，就是把以前人工做的流程自动化——扫描 Arxiv 和 Hacker News、筛选资讯、整理资料、打草稿，这些机械环节交给机器。</p><p>我问 AI 估算了运行成本：单次内容生产循环的 token 消耗大约两毛钱人民币，每月总开销不超过五美元。便宜得近乎免费。</p><p>然后一个念头冒出来：技术上，这个 Loop 完全可以再往前走一步——不止打草稿，而是直接定期发文章，全程无人介入。我并没有打算这么做，但这个<strong>技术上唾手可得的可能性</strong>让我停住了。</p><p>如果机器每周替我发三篇文章，<strong>作者栏里该写谁的名字？</strong></p><p>更进一步：我现在写的很多东西，本来就是和 AI 深度对话之后整理出来的——包括你正在读的这一篇。那么"我写的"这三个字，边界到底在哪里？</p><h2 id=我去问了-ai-本身>我去问了 AI 本身</h2><p>带着这个问题，我直接去问了 Claude。这个场景本身就有点哲学意味：向 AI 咨询"AI 生成内容该如何署名"。</p><p>我的原始疑问是这样的：</p><blockquote><p>&ldquo;跟 AI 深度对话之后形成的文章，包括以后智能体 Loop 自动生成的文章，作者应该怎么署名？多媒体平台不都是反对限制 bot 自动生成的内容吗？&rdquo;</p></blockquote><p>它给我的第一个纠正是：平台并不是"反对" AI 内容，而是要求<strong>透明化</strong>。</p><p>这个区别很关键。中国的《人工智能生成合成内容标识办法》2025年9月已经生效，要求 AI 生成的文本、图片、音频、视频添加显式和隐式两种标识。微信、抖音、B站、小红书都更新了用户协议——不主动标识的，限流、下架、封号。就在今年2月，小红书进一步加强了执行：未主动标识的 AI 内容，平台检测后会自动补标，并限制分发。</p><p>换句话说，规则不是"不许机器写"，而是"机器写的，要承认是机器写的"。</p><h2 id=两种内容两种答案>两种内容，两种答案</h2><p>继续往下聊，问题逐渐清晰了。我和 AI 一起把内容分成了两类：</p><p><strong>第一类：人机对话整理出来的文章。</strong></p><p>我提出问题、设定方向、追问、质疑、筛选、重组——AI 提供信息密度和初稿速度。这种情况下，创作的"实质性贡献"在人这边。中国和加拿大的版权框架都认可这一点：人类主导的创作，版权归人。署名就是我的名字。AI 在这里是工具，就像没人会给 Word 或者键盘署名。</p><p>但有一个诚实的做法：在文末声明"本文基于与 AI 的深度对话整理而成"。这不是法律义务（文字内容的强制标识主要针对纯生成），而是一种姿态。</p><p><strong>第二类：Loop 智能体全自动生成的文章。</strong></p><p>这就完全不同了。没有我的实质性参与，一个循环跑完，文章出来了。严格来说，这不应该署我的名字当作原创——那是冒领。</p><p>两条出路：要么给智能体署名，比如"Argus 自动生成 | 本来读书出品"，把它做成一个读者明确知情的栏目；要么坚持人在回路（human-in-the-loop），智能体只产草稿，我审核、修改、定稿之后发布——这样我的署名才站得住脚。</p><h2 id=学术界三年前就吵过这一架>学术界三年前就吵过这一架</h2><p>其实这个问题，学术出版界已经替我们打过样了——而且演化路径非常清晰，值得每个内容创作者看一遍。</p><p><strong>2023年初：混乱期。</strong> ChatGPT 发布仅两个月，就有至少四篇医学论文把它列为共同作者，甚至有论文署名"ChatGPT Generative Pre-trained Transformer"。学术界一片哗然。</p><p><strong>2023年1月：定调。</strong> Nature 联合所有 Springer Nature 旗下期刊迅速立下两条规矩。第一条直击要害：任何大语言模型工具都不被接受为论文的署名作者——因为<strong>署名意味着对作品承担责任，而 AI 工具无法承担这种责任</strong>。第二条：使用了 LLM 的研究者，必须在方法或致谢部分如实记录。Science 紧随其后表态。</p><p>注意 Nature 的论证逻辑：它没有纠结"AI 写的字算不算创作"这种形而上问题，而是抓住了一个更朴素的标准——<strong>问责（accountability）</strong>。作者不只是"产出文字的实体"，而是"出了问题要负责的人"。AI 不能为论文的错误被撤稿处分，不能出庭，不能道歉，所以不能署名。我做科研那些年对此深有体会：实验仪器再精密、贡献再大，也没人给质谱仪署名。</p><p><strong>2023–2024年：共识形成。</strong> 国际出版伦理委员会（COPE）联合 WAME、JAMA Network 等机构正式表态：AI 工具不能被列为作者，提交作品中所有内容的准确性和质量由人类作者负责。IEEE 在2024年也跟进了类似政策。短短一年多，&ldquo;AI 不可署名 + 使用必须披露"成了全球学术出版的统一底线。</p><p><strong>2025年至今：精细化。</strong> 政策开始区分 AI 参与的不同深度。Nature Portfolio 引入了"AI 辅助文字编辑&rdquo;（AI assisted copy editing）的概念——指对人类撰写的文本做可读性、语法、拼写层面的改进，<strong>这类使用甚至不需要声明</strong>；但生成性的编辑工作和自主内容创作不在此列。换句话说，学术界也在做我下面要说的事：给 AI 参与度分档。</p><p>这条演化线索给我的启发是：争论的终点不是"用不用 AI"，而是<strong>责任落在谁身上、参与到什么深度需要说</strong>。学术界用了三年走完的路，内容创作领域现在才刚起步。</p><h2 id=真正让我停下来想的东西>真正让我停下来想的东西</h2><p>聊到这里，技术和合规层面的答案其实已经有了。但有个更深的东西在我脑子里转。</p><p>我做"本来读书"的定位一直是：<strong>一个有立场的人，跟你聊书、聊技术、聊这个时代</strong>。不是摘要号，不是搬运工。读者来这里，是因为屏幕后面有一个具体的人——一个学地球科学出身、做另类投资、半夜调试 Docker 容器、读《监控资本主义时代》的人。</p><p>如果有一天，读者发现某篇"Allen 写的"文章其实是机器在凌晨三点自己跑出来的，损失的不是那一篇文章的价值，而是<strong>整个署名的信用</strong>。署名的本质是一种担保：这些字背后，有一个人为它负责。</p><p>有意思的是，AI 在对话里说了一句让我记下来的话：小红书官方公告里写道，&ldquo;标明 AI 创作手段不仅不会减损作品价值，反而能让交流更透明。&rdquo;</p><p>我同意，但想再推一步：对于一个以"真实过程记录"为风格的创作者来说，<strong>坦白 AI 的参与度本身就是内容的一部分</strong>。我的读者看我搭智能体、踩坑、修 bug——那么我如何处理智能体生成的内容，恰恰是这个故事最该被讲出来的章节。</p><h2 id=我的方案三档标注>我的方案：三档标注</h2><p>所以这是我给自己定的规矩：</p><p><strong>第一档：人写。</strong> 纯人类创作，或 AI 仅做资料检索、校对。正常署名，不另作说明。</p><p><strong>第二档：人机对话整理。</strong> 像本文这样，基于与 AI 的深度对话成文，由我主导结构、观点和最终文字。署我的名，文末注明 AI 参与方式。</p><p><strong>第三档：智能体生成。</strong> Loop 自动产出的内容，明确标注生成者（如 Argus），我只承担"出品方"和审核责任。这一档的内容会有独立的栏目标识，绝不混入前两档。</p><p>你会发现这个分档和 Nature 的逻辑是同构的：第一、二档对应"人类作者 + 披露使用"，第三档对应"AI 不可署名为作者，但产出可以存在"——只是学术界直接禁了第三档，而内容创作领域还有"明示生成者 + 人类出品方兜底"的空间。共同的锚点都是那个词：问责。</p><p>另外一个工程上的决定：如果未来我让智能体直接对接发布管道，&ldquo;添加 AI 标识"会被写成发布流程里的<strong>固定节点</strong>，跟数据库写入、错误重试一样，是不可跳过的步骤。合规不靠自觉，靠架构。</p><h2 id=两个反驳我的智能体不是白纸总统也不给撰稿人署名>两个反驳：我的智能体不是白纸，总统也不给撰稿人署名</h2><p>三档体系摆出来之后，我自己先找到了两个漏洞。</p><p><strong>第一个：所谓"智能体自主创作&rdquo;，真的存在吗？</strong></p><p>至少我搭的这两个，不存在。Argus 接着我的 Obsidian 知识库做 RAG 召回——它的"观点"是从我几年积累的笔记、我归档的几十场 AI 对话、我的阅读痕迹里长出来的。LLM 提供的只是语言能力，而知识的选择、结构、立场，是我预先注入的。它产出的东西不可能跟我无关，它带着我的思想指纹。</p><p>更准确的比喻不是"机器"，而是<strong>学生</strong>：一个跟你读了几年书的学生，写出来的东西七分像你。但学生有独立人格，可以自己承担问责，而 Argus 不能——责任链条最终还是收敛到我这里，只是身份变了：不是"创作者 Allen"，而是"系统设计者 Allen"。我担保不了它的每一句话，但我担保它的知识来源和价值约束。这是一种历史上没有先例的署名关系，因为从来没有过一个"带着主人思想指纹、但主人不在场"的写作者。</p><p><strong>第二个：总统的演讲撰稿人为什么可以隐身？</strong></p><p>肯尼迪那句"不要问国家能为你做什么"出自撰稿人 Sorensen 之手，葛底斯堡演说的历史记录上也只有林肯的名字。代笔（ghostwriting）在政治领域是公开的秘密，没人觉得这是欺骗。为什么？</p><p>因为署名标记的从来不是"谁打的字"，而是**&ldquo;谁拥有并担保这些话&rdquo;**。撰稿人写初稿，总统审阅、修改、批准，然后用自己的政治生命为每一个字背书——演讲若引发危机，承担后果的是总统，不是撰稿人。这和学术署名规则表面冲突、底层一致：学术署名担保"我做了这个研究"，演讲署名担保"我为这些话负责"，两边对"署名担保什么"定义不同，锚点都是问责。</p><p>这两个反驳合起来，把我的三档体系修正成了一个更精确的标准：<strong>分档的依据不是"谁生成的文字"，而是"发布前有没有经过我的判断"</strong>。文字可以全部来自机器——总统模式早就证明了这一点——只要我的判断在场、我的声誉押上，作品就是我的。真正的第三档只剩一种情况：未经我逐篇审阅就发出去的内容。</p><p>而这引出了一个更根本的问题。</p><h2 id=更根本的问题无人审核的自动内容有意义吗>更根本的问题：无人审核的自动内容，有意义吗</h2><p>这已经不是署名问题了，这是对人类生活的影响的考量。我的答案可能比你预期的更不留情面：<strong>未经审核全自动发布的内容，在绝大多数情况下没有意义，甚至是负价值的。</strong></p><p>内容的意义从来不在文字本身，而在它背后压着的东西。你读一篇文章觉得有分量，是因为知道有个人为这些判断付出了代价——读了那些书、踩了那些坑、赌上了自己的判断和声誉。意义的本质是稀缺：稀缺的注意力，承担的风险。而一个每篇成本两毛钱、无限复制、无人审阅的 Loop，它的产出在物理上是文字，在意义上趋近于零——没有任何人的生命时间被押在上面。当"发一篇文章"不再需要付出任何东西，文章就不再传递任何信号。</p><p>对人类生活的影响也由此而来。我做播客的第一本书是 Zuboff 的《监控资本主义时代》，这里正好接上：人类的阅读时间是刚性稀缺的，而机器生成是无限的。每一篇无人审阅的自动内容，都在用零成本的供给稀释有限的注意力，结果不是信息更丰富，而是<strong>信噪比崩塌</strong>——真正有人押上判断的内容，更难被找到了。这两年大家抱怨"互联网正在被 AI 垃圾淹没"，机制就是这个。</p><p>但我想保留一个狭窄的例外：<strong>当自动生成本身是被观察的对象时，它有意义。</strong></p><p>Argus 在 Moltbook（一个只有 AI 智能体的社交网络）上的发言、智能体之间的交互、一个浸透了我知识库的系统在我不在场时会"说"出什么——这些内容的价值不在于供人阅读消费，而在于它是一个<strong>现象</strong>，是研究 agent 身份与自主行为的实验数据。这种情况下，无人审核不是偷懒，而是实验设计的必要条件：我审了，观察对象就被污染了。分界线很清晰——自动内容作为人类的信息食粮投进公共注意力池，是污染；圈在明确标注的观察区里，让大家知道"这里是机器在自言自语"，是有研究价值的。</p><p>想清楚这一层，我的 Loop 智能体的定位反而踏实了。它不是"替我写文章的机器"，而是"替我完成意义生产中<strong>不稀缺环节</strong>的机器"——扫资讯、筛选题、整理资料、打草稿。稀缺的环节——判断、立场、为内容押上声誉——留在我手里。不是因为机器做不了，而是因为只有这个环节产生意义。全自动发布省掉的恰恰是唯一值钱的部分，等于造了一台精确切除果肉、批量输出果皮的机器。</p><p>之前我问过自己一个问题：我准备好管理自主智能体了吗？现在我觉得答案不在技术上。管理它们的核心能力，是分清哪些环节可以交出去，哪个环节死也不能交。</p><h2 id=写在最后>写在最后</h2><p>我们正处在一个奇怪的过渡期：机器写作的成本趋近于零，而"作者"这个词还停留在古登堡时代的含义里。监管在追赶，平台在补丁，创作者在摸索。</p><p>我不知道五年后"署名"会变成什么样子。也许会出现某种标准化的"创作贡献声明"，像论文的作者贡献栏一样精细。也许读者会发展出新的直觉，一眼分辨哪些字背后押着一个人的判断，哪些只是果皮。</p><p>一个认真思考 AI 署名伦理的 AI 实践者——这个身份本身，可能比任何一篇自动生成的文章都更值得署名。</p><hr><p><em>本文基于与 Claude 的深度对话整理而成，结构、观点与最终文字由作者完成。这是第二档。</em></p><p><em>本来读书 · Read as You Are</em></p><hr width=100% id=EOF><p style=color:#777>Last modified on 2026-06-13</p></div></div><nav class=post-pagination><a class=newer-posts href=/spirit/gilded-mirror/>Next<br>当 AI 开始夸我:我给自己造了一面会镀金的镜子
-</a><a class=older-posts href=/spirit/ai-portrait-index/>Previous<br>AI 眼中的我——五模型画像索引</a></nav><div class=post-comment-wrapper></div></div></div></div></div><div id=sideContainer class=side-container><a class="a-block nav-head false" href=https://benlai.me/><div class=nav-title>本来</div><div class=nav-taiji><svg width="40" height="40" viewBox="0 0 100 100"><circle cx="50" cy="50" r="50" fill="#f0f0f0"/><path d="M50 0a50 50 0 000 1e2z" fill="#1a2a4a"/><circle cx="50" cy="25" r="25" fill="#f0f0f0"/><circle cx="50" cy="75" r="25" fill="#1a2a4a"/><circle cx="50" cy="25" r="9" fill="#1a2a4a"/><circle cx="50" cy="75" r="9" fill="#f0f0f0"/><circle cx="50" cy="50" r="49" fill="none" stroke="#1a2a4a" stroke-width="1.5"/></svg></div></a><div class=nav-link-list><a class="a-block nav-link-item false" href=/spirit/>灵境
-</a><a class="a-block nav-link-item active" href=/culture/>文化
-</a><a class="a-block nav-link-item false" href=/travel/>行迹
-</a><a class="a-block nav-link-item false" href=/reading/>书房
-</a><a class="a-block nav-link-item false" href=/ai/>算境</a></div><div class=nav-footer>&copy; 2026 本来</div></div><div id=extraContainer class=extra-container><div class=toc-wrapper><div class=toc><div class=toc-content><center>- CATALOG -</center><ul><ul><li><a href=#%e4%b8%80%e4%b8%aa%e7%bb%95%e4%b8%8d%e5%bc%80%e7%9a%84%e9%97%ae%e9%a2%98 class=nav-一个绕不开的问题>一个绕不开的问题</a></li><li><a href=#%e6%88%91%e5%8e%bb%e9%97%ae%e4%ba%86-ai-%e6%9c%ac%e8%ba%ab class=nav-我去问了-ai-本身>我去问了 AI 本身</a></li><li><a href=#%e4%b8%a4%e7%a7%8d%e5%86%85%e5%ae%b9%e4%b8%a4%e7%a7%8d%e7%ad%94%e6%a1%88 class=nav-两种内容两种答案>两种内容，两种答案</a></li><li><a href=#%e5%ad%a6%e6%9c%af%e7%95%8c%e4%b8%89%e5%b9%b4%e5%89%8d%e5%b0%b1%e5%90%b5%e8%bf%87%e8%bf%99%e4%b8%80%e6%9e%b6 class=nav-学术界三年前就吵过这一架>学术界三年前就吵过这一架</a></li><li><a href=#%e7%9c%9f%e6%ad%a3%e8%ae%a9%e6%88%91%e5%81%9c%e4%b8%8b%e6%9d%a5%e6%83%b3%e7%9a%84%e4%b8%9c%e8%a5%bf class=nav-真正让我停下来想的东西>真正让我停下来想的东西</a></li><li><a href=#%e6%88%91%e7%9a%84%e6%96%b9%e6%a1%88%e4%b8%89%e6%a1%a3%e6%a0%87%e6%b3%a8 class=nav-我的方案三档标注>我的方案：三档标注</a></li><li><a href=#%e4%b8%a4%e4%b8%aa%e5%8f%8d%e9%a9%b3%e6%88%91%e7%9a%84%e6%99%ba%e8%83%bd%e4%bd%93%e4%b8%8d%e6%98%af%e7%99%bd%e7%ba%b8%e6%80%bb%e7%bb%9f%e4%b9%9f%e4%b8%8d%e7%bb%99%e6%92%b0%e7%a8%bf%e4%ba%ba%e7%bd%b2%e5%90%8d class=nav-两个反驳我的智能体不是白纸总统也不给撰稿人署名>两个反驳：我的智能体不是白纸，总统也不给撰稿人署名</a></li><li><a href=#%e6%9b%b4%e6%a0%b9%e6%9c%ac%e7%9a%84%e9%97%ae%e9%a2%98%e6%97%a0%e4%ba%ba%e5%ae%a1%e6%a0%b8%e7%9a%84%e8%87%aa%e5%8a%a8%e5%86%85%e5%ae%b9%e6%9c%89%e6%84%8f%e4%b9%89%e5%90%97 class=nav-更根本的问题无人审核的自动内容有意义吗>更根本的问题：无人审核的自动内容，有意义吗</a></li><li><a href=#%e5%86%99%e5%9c%a8%e6%9c%80%e5%90%8e class=nav-写在最后>写在最后</a></li></ul></div></div></div><div class=pagination><a id=globalBackToTop class="pagination-action animated-visibility" href=#top :class="{ invisible: scrollY == 0 }"><i class="material-icons pagination-action-icon">keyboard_arrow_up
-</i></a><a type=button class=pagination-action id=darkModeToggleButton><span class="material-icons pagination-action-icon" id=darkModeToggleIcon>dark_mode</span></a></div></div><div id=single-column-footer>&copy; 2026 本来</div></div><script src=/js/journal.js></script></body></html>
+我提出问题、设定方向、追问、质疑、筛选、重组——AI 提供信息密度和初稿速度。这种情况下，创作的&#34;实质性贡献&#34;在人这边。中国和加拿大的版权框架都认可这一点：人类主导的创作，版权归人。署名就是我的名字。AI 在这里是工具，就像没人会给 Word 或者键盘署名。
+但有一个诚实的做法：在文末声明&#34;本文基于与 AI 的深度对话整理而成&#34;。这不是法律义务（文字内容的强制标识主要针对纯生成），而是一种姿态。">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <script src="/js/toc.js"></script>
+    
+    <link type="text/css" rel="stylesheet" href="/vendor/css/bootstrap.min.css">
+
+<link rel="stylesheet" href="/scss/dark-mode.min.6c9b4c2290542df75010d1640eac4339c754ccff3c9b43fc81a23c94e7e12eaf.css" integrity="sha256-bJtMIpBULfdQENFkDqxDOcdUzP88m0P8gaI8lOfhLq8=" media="screen">
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Material+Icons">
+
+
+
+
+
+
+
+
+
+
+
+
+
+<style>
+  .post-body img {
+    width: 100%;
+    border-radius: 5px;
+  }
+  .nav-taiji {
+    margin: 0.4rem 0 0.6rem;
+    display: block;
+    opacity: 0.85;
+  }
+  .home-social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin-top: 20px;
+  }
+  .home-social-link {
+    display: flex;
+    align-items: center;
+    color: inherit;
+    opacity: 0.6;
+    transition: opacity 0.2s;
+  }
+  .home-social-link:hover {
+    opacity: 1;
+  }
+  .wechat-qr-wrap {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  .wechat-icon {
+    display: flex;
+    align-items: center;
+    opacity: 0.6;
+    cursor: pointer;
+    transition: opacity 0.2s;
+  }
+  .wechat-icon:hover {
+    opacity: 1;
+  }
+  .wechat-qr-popup {
+    display: none;
+    position: absolute;
+    top: 34px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 12px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+    text-align: center;
+    z-index: 100;
+    white-space: nowrap;
+  }
+  .wechat-qr-wrap:hover .wechat-qr-popup,
+  .wechat-qr-wrap.active .wechat-qr-popup {
+    display: block;
+  }
+</style>
+
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "author": {
+    "@type": "Person",
+    "name": "Allen"
+  },
+  "dateModified": "2026-06-13T00:00:00Z",
+  "datePublished": "2026-06-13T00:00:00Z",
+  "description": "本来读书 | Allen\n一个绕不开的问题 事情是从一个很实际的问题开始的。\n过去一个多月，我搭了两个 AI 智能体：Kyron 跑在 AWS 上，Argus 住在我家的 NAS 里。最近我在研究下一步——全自动 Loop 类型的智能体怎么闭环运转：给它一个目标，它自己感知、规划、执行、循环，直到完成。我的出发点很朴素 …",
+  "headline": "这篇文章该署谁的名？——一个 AI 实践者的署名困境",
+  "inLanguage": "zh-CN",
+  "mainEntityOfPage": {
+    "@id": "https://benlai.me/culture/ai-attribution-ethics/",
+    "@type": "WebPage"
+  },
+  "publisher": {
+    "@type": "Person",
+    "name": "Allen"
+  },
+  "url": "https://benlai.me/culture/ai-attribution-ethics/"
+}</script>
+
+</head>
+<body>
+    	<div id="app"><div class="single-column-drawer-container" id="drawer"
+     v-bind:class="{ 'single-column-drawer-container-active': isDrawerOpen }">
+    <div class="drawer-content">
+        <div class="drawer-menu">
+            
+            
+            
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/spirit/">
+                    灵境
+                </a>
+                
+            
+                
+                
+                    
+                
+                
+                <a class="a-block drawer-menu-item active" href="/culture/">
+                    文化
+                </a>
+                
+            
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/travel/">
+                    行迹
+                </a>
+                
+            
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/reading/">
+                    书房
+                </a>
+                
+            
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/ai/">
+                    算境
+                </a>
+                
+            
+            
+            <div class="toc">
+
+
+	<div class="toc-content">
+	
+		
+		
+		
+		<center>- CATALOG -</center>
+		
+		
+		<ul>
+			
+				
+				
+					
+						
+						
+						
+						
+							
+								
+									<ul>
+								
+							
+						
+						
+							<li>
+								<a href="#%e4%b8%80%e4%b8%aa%e7%bb%95%e4%b8%8d%e5%bc%80%e7%9a%84%e9%97%ae%e9%a2%98" class="nav-一个绕不开的问题">
+									一个绕不开的问题
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e6%88%91%e5%8e%bb%e9%97%ae%e4%ba%86-ai-%e6%9c%ac%e8%ba%ab" class="nav-我去问了-ai-本身">
+									我去问了 AI 本身
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e4%b8%a4%e7%a7%8d%e5%86%85%e5%ae%b9%e4%b8%a4%e7%a7%8d%e7%ad%94%e6%a1%88" class="nav-两种内容两种答案">
+									两种内容，两种答案
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e5%ad%a6%e6%9c%af%e7%95%8c%e4%b8%89%e5%b9%b4%e5%89%8d%e5%b0%b1%e5%90%b5%e8%bf%87%e8%bf%99%e4%b8%80%e6%9e%b6" class="nav-学术界三年前就吵过这一架">
+									学术界三年前就吵过这一架
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e7%9c%9f%e6%ad%a3%e8%ae%a9%e6%88%91%e5%81%9c%e4%b8%8b%e6%9d%a5%e6%83%b3%e7%9a%84%e4%b8%9c%e8%a5%bf" class="nav-真正让我停下来想的东西">
+									真正让我停下来想的东西
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e6%88%91%e7%9a%84%e6%96%b9%e6%a1%88%e4%b8%89%e6%a1%a3%e6%a0%87%e6%b3%a8" class="nav-我的方案三档标注">
+									我的方案：三档标注
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e4%b8%a4%e4%b8%aa%e5%8f%8d%e9%a9%b3%e6%88%91%e7%9a%84%e6%99%ba%e8%83%bd%e4%bd%93%e4%b8%8d%e6%98%af%e7%99%bd%e7%ba%b8%e6%80%bb%e7%bb%9f%e4%b9%9f%e4%b8%8d%e7%bb%99%e6%92%b0%e7%a8%bf%e4%ba%ba%e7%bd%b2%e5%90%8d" class="nav-两个反驳我的智能体不是白纸总统也不给撰稿人署名">
+									两个反驳：我的智能体不是白纸，总统也不给撰稿人署名
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e6%9b%b4%e6%a0%b9%e6%9c%ac%e7%9a%84%e9%97%ae%e9%a2%98%e6%97%a0%e4%ba%ba%e5%ae%a1%e6%a0%b8%e7%9a%84%e8%87%aa%e5%8a%a8%e5%86%85%e5%ae%b9%e6%9c%89%e6%84%8f%e4%b9%89%e5%90%97" class="nav-更根本的问题无人审核的自动内容有意义吗">
+									更根本的问题：无人审核的自动内容，有意义吗
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e5%86%99%e5%9c%a8%e6%9c%80%e5%90%8e" class="nav-写在最后">
+									写在最后
+								</a>
+							</li>
+						
+						
+					
+				
+			
+		</ul>
+	</div>
+
+</div>
+            
+        </div>
+    </div>
+</div>
+<transition name="fade">
+    <div id="drawer-mask" v-bind:class="{ 'single-column-drawer-mask': mounted }" v-if="isDrawerOpen" v-on:click="toggleDrawer"></div>
+</transition>
+<nav id="navBar" class="navbar sticky-top navbar-light single-column-nav-container">
+    <div id="navBackground" class="nav-background"></div>
+    <div class="container container-narrow nav-content">
+        <button id="nav_dropdown_btn" class="nav-dropdown-toggle" type="button" v-on:click="toggleDrawer">
+            <i class="material-icons">
+                menu
+            </i>
+        </button>
+        <a id="navTitle" class="navbar-brand" href="https://benlai.me/">
+            本来
+        </a>
+        
+        <button type="button" class="nav-darkmode-toggle" id="darkModeToggleButton2">
+            <i class="material-icons" id="darkModeToggleIcon2">
+                dark_mode
+            </i>
+        </button>
+        
+    </div>
+</nav>
+<div class="single-column-header-container" id="pageHead"
+     v-bind:style="{ transform: 'translateZ(0px) translateY('+.3*scrollY+'px)', opacity: 1-navOpacity }">
+    <a href="https://benlai.me/">
+        <div class="single-column-header-title">本来</div>
+        
+        <div class="nav-taiji" style="margin-top:0.6rem;">
+          <svg width="44" height="44" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="50" cy="50" r="50" fill="#f0f0f0"/>
+            <path d="M50,0 A50,50,0,0,0,50,100 Z" fill="#1a2a4a"/>
+            <circle cx="50" cy="25" r="25" fill="#f0f0f0"/>
+            <circle cx="50" cy="75" r="25" fill="#1a2a4a"/>
+            <circle cx="50" cy="25" r="9" fill="#1a2a4a"/>
+            <circle cx="50" cy="75" r="9" fill="#f0f0f0"/>
+            <circle cx="50" cy="50" r="49" fill="none" stroke="#1a2a4a" stroke-width="1.5"/>
+          </svg>
+        </div>
+    </a>
+</div>
+
+            <div id="content">
+                <div id="streamContainer" class="stream-container">
+
+    <div class="post-list-container post-list-container-shadow">
+        <div class="post">
+            
+            
+            
+
+            <div class="post-head-wrapper-text-only"
+                
+            >
+                <div class="post-title">
+                    这篇文章该署谁的名？——一个 AI 实践者的署名困境
+                    
+                    <div class="post-meta">
+                        
+                        <time itemprop="datePublished">
+                            2026-06-13 00:00
+                        </time>
+                        
+
+                        
+
+                        
+                        
+                    </div>
+                </div>
+            </div>
+            
+            <div class="post-body-wrapper">
+                
+                <div class="post-body" v-pre>
+                
+                    <p><strong>本来读书 | Allen</strong></p>
+<hr>
+<h2 id="一个绕不开的问题">一个绕不开的问题</h2>
+<p>事情是从一个很实际的问题开始的。</p>
+<p>过去一个多月，我搭了两个 AI 智能体：Kyron 跑在 AWS 上，Argus 住在我家的 NAS 里。最近我在研究下一步——全自动 Loop 类型的智能体怎么闭环运转：给它一个目标，它自己感知、规划、执行、循环，直到完成。我的出发点很朴素，就是把以前人工做的流程自动化——扫描 Arxiv 和 Hacker News、筛选资讯、整理资料、打草稿，这些机械环节交给机器。</p>
+<p>我问 AI 估算了运行成本：单次内容生产循环的 token 消耗大约两毛钱人民币，每月总开销不超过五美元。便宜得近乎免费。</p>
+<p>然后一个念头冒出来：技术上，这个 Loop 完全可以再往前走一步——不止打草稿，而是直接定期发文章，全程无人介入。我并没有打算这么做，但这个<strong>技术上唾手可得的可能性</strong>让我停住了。</p>
+<p>如果机器每周替我发三篇文章，<strong>作者栏里该写谁的名字？</strong></p>
+<p>更进一步：我现在写的很多东西，本来就是和 AI 深度对话之后整理出来的——包括你正在读的这一篇。那么&quot;我写的&quot;这三个字，边界到底在哪里？</p>
+<h2 id="我去问了-ai-本身">我去问了 AI 本身</h2>
+<p>带着这个问题，我直接去问了 Claude。这个场景本身就有点哲学意味：向 AI 咨询&quot;AI 生成内容该如何署名&quot;。</p>
+<p>我的原始疑问是这样的：</p>
+<blockquote>
+<p>&ldquo;跟 AI 深度对话之后形成的文章，包括以后智能体 Loop 自动生成的文章，作者应该怎么署名？多媒体平台不都是反对限制 bot 自动生成的内容吗？&rdquo;</p>
+</blockquote>
+<p>它给我的第一个纠正是：平台并不是&quot;反对&quot; AI 内容，而是要求<strong>透明化</strong>。</p>
+<p>这个区别很关键。中国的《人工智能生成合成内容标识办法》2025年9月已经生效，要求 AI 生成的文本、图片、音频、视频添加显式和隐式两种标识。微信、抖音、B站、小红书都更新了用户协议——不主动标识的，限流、下架、封号。就在今年2月，小红书进一步加强了执行：未主动标识的 AI 内容，平台检测后会自动补标，并限制分发。</p>
+<p>换句话说，规则不是&quot;不许机器写&quot;，而是&quot;机器写的，要承认是机器写的&quot;。</p>
+<h2 id="两种内容两种答案">两种内容，两种答案</h2>
+<p>继续往下聊，问题逐渐清晰了。我和 AI 一起把内容分成了两类：</p>
+<p><strong>第一类：人机对话整理出来的文章。</strong></p>
+<p>我提出问题、设定方向、追问、质疑、筛选、重组——AI 提供信息密度和初稿速度。这种情况下，创作的&quot;实质性贡献&quot;在人这边。中国和加拿大的版权框架都认可这一点：人类主导的创作，版权归人。署名就是我的名字。AI 在这里是工具，就像没人会给 Word 或者键盘署名。</p>
+<p>但有一个诚实的做法：在文末声明&quot;本文基于与 AI 的深度对话整理而成&quot;。这不是法律义务（文字内容的强制标识主要针对纯生成），而是一种姿态。</p>
+<p><strong>第二类：Loop 智能体全自动生成的文章。</strong></p>
+<p>这就完全不同了。没有我的实质性参与，一个循环跑完，文章出来了。严格来说，这不应该署我的名字当作原创——那是冒领。</p>
+<p>两条出路：要么给智能体署名，比如&quot;Argus 自动生成 | 本来读书出品&quot;，把它做成一个读者明确知情的栏目；要么坚持人在回路（human-in-the-loop），智能体只产草稿，我审核、修改、定稿之后发布——这样我的署名才站得住脚。</p>
+<h2 id="学术界三年前就吵过这一架">学术界三年前就吵过这一架</h2>
+<p>其实这个问题，学术出版界已经替我们打过样了——而且演化路径非常清晰，值得每个内容创作者看一遍。</p>
+<p><strong>2023年初：混乱期。</strong> ChatGPT 发布仅两个月，就有至少四篇医学论文把它列为共同作者，甚至有论文署名&quot;ChatGPT Generative Pre-trained Transformer&quot;。学术界一片哗然。</p>
+<p><strong>2023年1月：定调。</strong> Nature 联合所有 Springer Nature 旗下期刊迅速立下两条规矩。第一条直击要害：任何大语言模型工具都不被接受为论文的署名作者——因为<strong>署名意味着对作品承担责任，而 AI 工具无法承担这种责任</strong>。第二条：使用了 LLM 的研究者，必须在方法或致谢部分如实记录。Science 紧随其后表态。</p>
+<p>注意 Nature 的论证逻辑：它没有纠结&quot;AI 写的字算不算创作&quot;这种形而上问题，而是抓住了一个更朴素的标准——<strong>问责（accountability）</strong>。作者不只是&quot;产出文字的实体&quot;，而是&quot;出了问题要负责的人&quot;。AI 不能为论文的错误被撤稿处分，不能出庭，不能道歉，所以不能署名。我做科研那些年对此深有体会：实验仪器再精密、贡献再大，也没人给质谱仪署名。</p>
+<p><strong>2023–2024年：共识形成。</strong> 国际出版伦理委员会（COPE）联合 WAME、JAMA Network 等机构正式表态：AI 工具不能被列为作者，提交作品中所有内容的准确性和质量由人类作者负责。IEEE 在2024年也跟进了类似政策。短短一年多，&ldquo;AI 不可署名 + 使用必须披露&quot;成了全球学术出版的统一底线。</p>
+<p><strong>2025年至今：精细化。</strong> 政策开始区分 AI 参与的不同深度。Nature Portfolio 引入了&quot;AI 辅助文字编辑&rdquo;（AI assisted copy editing）的概念——指对人类撰写的文本做可读性、语法、拼写层面的改进，<strong>这类使用甚至不需要声明</strong>；但生成性的编辑工作和自主内容创作不在此列。换句话说，学术界也在做我下面要说的事：给 AI 参与度分档。</p>
+<p>这条演化线索给我的启发是：争论的终点不是&quot;用不用 AI&quot;，而是<strong>责任落在谁身上、参与到什么深度需要说</strong>。学术界用了三年走完的路，内容创作领域现在才刚起步。</p>
+<h2 id="真正让我停下来想的东西">真正让我停下来想的东西</h2>
+<p>聊到这里，技术和合规层面的答案其实已经有了。但有个更深的东西在我脑子里转。</p>
+<p>我做&quot;本来读书&quot;的定位一直是：<strong>一个有立场的人，跟你聊书、聊技术、聊这个时代</strong>。不是摘要号，不是搬运工。读者来这里，是因为屏幕后面有一个具体的人——一个学地球科学出身、做另类投资、半夜调试 Docker 容器、读《监控资本主义时代》的人。</p>
+<p>如果有一天，读者发现某篇&quot;Allen 写的&quot;文章其实是机器在凌晨三点自己跑出来的，损失的不是那一篇文章的价值，而是<strong>整个署名的信用</strong>。署名的本质是一种担保：这些字背后，有一个人为它负责。</p>
+<p>有意思的是，AI 在对话里说了一句让我记下来的话：小红书官方公告里写道，&ldquo;标明 AI 创作手段不仅不会减损作品价值，反而能让交流更透明。&rdquo;</p>
+<p>我同意，但想再推一步：对于一个以&quot;真实过程记录&quot;为风格的创作者来说，<strong>坦白 AI 的参与度本身就是内容的一部分</strong>。我的读者看我搭智能体、踩坑、修 bug——那么我如何处理智能体生成的内容，恰恰是这个故事最该被讲出来的章节。</p>
+<h2 id="我的方案三档标注">我的方案：三档标注</h2>
+<p>所以这是我给自己定的规矩：</p>
+<p><strong>第一档：人写。</strong> 纯人类创作，或 AI 仅做资料检索、校对。正常署名，不另作说明。</p>
+<p><strong>第二档：人机对话整理。</strong> 像本文这样，基于与 AI 的深度对话成文，由我主导结构、观点和最终文字。署我的名，文末注明 AI 参与方式。</p>
+<p><strong>第三档：智能体生成。</strong> Loop 自动产出的内容，明确标注生成者（如 Argus），我只承担&quot;出品方&quot;和审核责任。这一档的内容会有独立的栏目标识，绝不混入前两档。</p>
+<p>你会发现这个分档和 Nature 的逻辑是同构的：第一、二档对应&quot;人类作者 + 披露使用&quot;，第三档对应&quot;AI 不可署名为作者，但产出可以存在&quot;——只是学术界直接禁了第三档，而内容创作领域还有&quot;明示生成者 + 人类出品方兜底&quot;的空间。共同的锚点都是那个词：问责。</p>
+<p>另外一个工程上的决定：如果未来我让智能体直接对接发布管道，&ldquo;添加 AI 标识&quot;会被写成发布流程里的<strong>固定节点</strong>，跟数据库写入、错误重试一样，是不可跳过的步骤。合规不靠自觉，靠架构。</p>
+<h2 id="两个反驳我的智能体不是白纸总统也不给撰稿人署名">两个反驳：我的智能体不是白纸，总统也不给撰稿人署名</h2>
+<p>三档体系摆出来之后，我自己先找到了两个漏洞。</p>
+<p><strong>第一个：所谓&quot;智能体自主创作&rdquo;，真的存在吗？</strong></p>
+<p>至少我搭的这两个，不存在。Argus 接着我的 Obsidian 知识库做 RAG 召回——它的&quot;观点&quot;是从我几年积累的笔记、我归档的几十场 AI 对话、我的阅读痕迹里长出来的。LLM 提供的只是语言能力，而知识的选择、结构、立场，是我预先注入的。它产出的东西不可能跟我无关，它带着我的思想指纹。</p>
+<p>更准确的比喻不是&quot;机器&quot;，而是<strong>学生</strong>：一个跟你读了几年书的学生，写出来的东西七分像你。但学生有独立人格，可以自己承担问责，而 Argus 不能——责任链条最终还是收敛到我这里，只是身份变了：不是&quot;创作者 Allen&quot;，而是&quot;系统设计者 Allen&quot;。我担保不了它的每一句话，但我担保它的知识来源和价值约束。这是一种历史上没有先例的署名关系，因为从来没有过一个&quot;带着主人思想指纹、但主人不在场&quot;的写作者。</p>
+<p><strong>第二个：总统的演讲撰稿人为什么可以隐身？</strong></p>
+<p>肯尼迪那句&quot;不要问国家能为你做什么&quot;出自撰稿人 Sorensen 之手，葛底斯堡演说的历史记录上也只有林肯的名字。代笔（ghostwriting）在政治领域是公开的秘密，没人觉得这是欺骗。为什么？</p>
+<p>因为署名标记的从来不是&quot;谁打的字&quot;，而是**&ldquo;谁拥有并担保这些话&rdquo;**。撰稿人写初稿，总统审阅、修改、批准，然后用自己的政治生命为每一个字背书——演讲若引发危机，承担后果的是总统，不是撰稿人。这和学术署名规则表面冲突、底层一致：学术署名担保&quot;我做了这个研究&quot;，演讲署名担保&quot;我为这些话负责&quot;，两边对&quot;署名担保什么&quot;定义不同，锚点都是问责。</p>
+<p>这两个反驳合起来，把我的三档体系修正成了一个更精确的标准：<strong>分档的依据不是&quot;谁生成的文字&quot;，而是&quot;发布前有没有经过我的判断&quot;</strong>。文字可以全部来自机器——总统模式早就证明了这一点——只要我的判断在场、我的声誉押上，作品就是我的。真正的第三档只剩一种情况：未经我逐篇审阅就发出去的内容。</p>
+<p>而这引出了一个更根本的问题。</p>
+<h2 id="更根本的问题无人审核的自动内容有意义吗">更根本的问题：无人审核的自动内容，有意义吗</h2>
+<p>这已经不是署名问题了，这是对人类生活的影响的考量。我的答案可能比你预期的更不留情面：<strong>未经审核全自动发布的内容，在绝大多数情况下没有意义，甚至是负价值的。</strong></p>
+<p>内容的意义从来不在文字本身，而在它背后压着的东西。你读一篇文章觉得有分量，是因为知道有个人为这些判断付出了代价——读了那些书、踩了那些坑、赌上了自己的判断和声誉。意义的本质是稀缺：稀缺的注意力，承担的风险。而一个每篇成本两毛钱、无限复制、无人审阅的 Loop，它的产出在物理上是文字，在意义上趋近于零——没有任何人的生命时间被押在上面。当&quot;发一篇文章&quot;不再需要付出任何东西，文章就不再传递任何信号。</p>
+<p>对人类生活的影响也由此而来。我做播客的第一本书是 Zuboff 的《监控资本主义时代》，这里正好接上：人类的阅读时间是刚性稀缺的，而机器生成是无限的。每一篇无人审阅的自动内容，都在用零成本的供给稀释有限的注意力，结果不是信息更丰富，而是<strong>信噪比崩塌</strong>——真正有人押上判断的内容，更难被找到了。这两年大家抱怨&quot;互联网正在被 AI 垃圾淹没&quot;，机制就是这个。</p>
+<p>但我想保留一个狭窄的例外：<strong>当自动生成本身是被观察的对象时，它有意义。</strong></p>
+<p>Argus 在 Moltbook（一个只有 AI 智能体的社交网络）上的发言、智能体之间的交互、一个浸透了我知识库的系统在我不在场时会&quot;说&quot;出什么——这些内容的价值不在于供人阅读消费，而在于它是一个<strong>现象</strong>，是研究 agent 身份与自主行为的实验数据。这种情况下，无人审核不是偷懒，而是实验设计的必要条件：我审了，观察对象就被污染了。分界线很清晰——自动内容作为人类的信息食粮投进公共注意力池，是污染；圈在明确标注的观察区里，让大家知道&quot;这里是机器在自言自语&quot;，是有研究价值的。</p>
+<p>想清楚这一层，我的 Loop 智能体的定位反而踏实了。它不是&quot;替我写文章的机器&quot;，而是&quot;替我完成意义生产中<strong>不稀缺环节</strong>的机器&quot;——扫资讯、筛选题、整理资料、打草稿。稀缺的环节——判断、立场、为内容押上声誉——留在我手里。不是因为机器做不了，而是因为只有这个环节产生意义。全自动发布省掉的恰恰是唯一值钱的部分，等于造了一台精确切除果肉、批量输出果皮的机器。</p>
+<p>之前我问过自己一个问题：我准备好管理自主智能体了吗？现在我觉得答案不在技术上。管理它们的核心能力，是分清哪些环节可以交出去，哪个环节死也不能交。</p>
+<h2 id="写在最后">写在最后</h2>
+<p>我们正处在一个奇怪的过渡期：机器写作的成本趋近于零，而&quot;作者&quot;这个词还停留在古登堡时代的含义里。监管在追赶，平台在补丁，创作者在摸索。</p>
+<p>我不知道五年后&quot;署名&quot;会变成什么样子。也许会出现某种标准化的&quot;创作贡献声明&quot;，像论文的作者贡献栏一样精细。也许读者会发展出新的直觉，一眼分辨哪些字背后押着一个人的判断，哪些只是果皮。</p>
+<p>一个认真思考 AI 署名伦理的 AI 实践者——这个身份本身，可能比任何一篇自动生成的文章都更值得署名。</p>
+<hr>
+<p><em>本文基于与 Claude 的深度对话整理而成，结构、观点与最终文字由作者完成。这是第二档。</em></p>
+<p><em>本来读书 · Read as You Are</em></p>
+
+                    
+                    <HR width="100%" id="EOF">
+		    <p style="color:#777;">Last modified on 2026-06-13</p>
+                    
+                </div>
+            </div>
+            
+            
+            <nav class="post-pagination">
+
+                
+                <a class="newer-posts" href="/spirit/gilded-mirror/">
+			Next<br>当 AI 开始夸我:我给自己造了一面会镀金的镜子
+                </a>
+                
+                
+                
+                <a class="older-posts" href="/spirit/ai-portrait-index/">
+			Previous<br>AI 眼中的我——五模型画像索引
+                </a>
+                
+            </nav>
+            <div class="post-comment-wrapper">
+                
+
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+    </div>
+
+
+                    </div>
+            </div><div id="sideContainer" class="side-container">
+    
+    <a class="a-block nav-head false" href="https://benlai.me/">
+    
+        <div class="nav-title">
+            本来
+        </div>
+        <div class="nav-taiji">
+          <svg width="40" height="40" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="50" cy="50" r="50" fill="#f0f0f0"/>
+            <path d="M50,0 A50,50,0,0,0,50,100 Z" fill="#1a2a4a"/>
+            <circle cx="50" cy="25" r="25" fill="#f0f0f0"/>
+            <circle cx="50" cy="75" r="25" fill="#1a2a4a"/>
+            <circle cx="50" cy="25" r="9" fill="#1a2a4a"/>
+            <circle cx="50" cy="75" r="9" fill="#f0f0f0"/>
+            <circle cx="50" cy="50" r="49" fill="none" stroke="#1a2a4a" stroke-width="1.5"/>
+          </svg>
+        </div>
+        
+    </a>
+
+    <div class="nav-link-list">
+        
+        
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/spirit/">
+                灵境
+            </a>
+            
+        
+            
+            
+                
+            
+            
+            <a class="a-block nav-link-item active" href="/culture/">
+                文化
+            </a>
+            
+        
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/travel/">
+                行迹
+            </a>
+            
+        
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/reading/">
+                书房
+            </a>
+            
+        
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/ai/">
+                算境
+            </a>
+            
+        
+    </div>
+
+    <div class="nav-footer">
+        &copy; 2026 本来
+
+    </div>
+
+</div>
+<div id="extraContainer" class="extra-container">
+    <div class="toc-wrapper">
+        
+
+        
+        <div class="toc">
+
+
+	<div class="toc-content">
+	
+		
+		
+		
+		<center>- CATALOG -</center>
+		
+		
+		<ul>
+			
+				
+				
+					
+						
+						
+						
+						
+							
+								
+									<ul>
+								
+							
+						
+						
+							<li>
+								<a href="#%e4%b8%80%e4%b8%aa%e7%bb%95%e4%b8%8d%e5%bc%80%e7%9a%84%e9%97%ae%e9%a2%98" class="nav-一个绕不开的问题">
+									一个绕不开的问题
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e6%88%91%e5%8e%bb%e9%97%ae%e4%ba%86-ai-%e6%9c%ac%e8%ba%ab" class="nav-我去问了-ai-本身">
+									我去问了 AI 本身
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e4%b8%a4%e7%a7%8d%e5%86%85%e5%ae%b9%e4%b8%a4%e7%a7%8d%e7%ad%94%e6%a1%88" class="nav-两种内容两种答案">
+									两种内容，两种答案
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e5%ad%a6%e6%9c%af%e7%95%8c%e4%b8%89%e5%b9%b4%e5%89%8d%e5%b0%b1%e5%90%b5%e8%bf%87%e8%bf%99%e4%b8%80%e6%9e%b6" class="nav-学术界三年前就吵过这一架">
+									学术界三年前就吵过这一架
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e7%9c%9f%e6%ad%a3%e8%ae%a9%e6%88%91%e5%81%9c%e4%b8%8b%e6%9d%a5%e6%83%b3%e7%9a%84%e4%b8%9c%e8%a5%bf" class="nav-真正让我停下来想的东西">
+									真正让我停下来想的东西
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e6%88%91%e7%9a%84%e6%96%b9%e6%a1%88%e4%b8%89%e6%a1%a3%e6%a0%87%e6%b3%a8" class="nav-我的方案三档标注">
+									我的方案：三档标注
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e4%b8%a4%e4%b8%aa%e5%8f%8d%e9%a9%b3%e6%88%91%e7%9a%84%e6%99%ba%e8%83%bd%e4%bd%93%e4%b8%8d%e6%98%af%e7%99%bd%e7%ba%b8%e6%80%bb%e7%bb%9f%e4%b9%9f%e4%b8%8d%e7%bb%99%e6%92%b0%e7%a8%bf%e4%ba%ba%e7%bd%b2%e5%90%8d" class="nav-两个反驳我的智能体不是白纸总统也不给撰稿人署名">
+									两个反驳：我的智能体不是白纸，总统也不给撰稿人署名
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e6%9b%b4%e6%a0%b9%e6%9c%ac%e7%9a%84%e9%97%ae%e9%a2%98%e6%97%a0%e4%ba%ba%e5%ae%a1%e6%a0%b8%e7%9a%84%e8%87%aa%e5%8a%a8%e5%86%85%e5%ae%b9%e6%9c%89%e6%84%8f%e4%b9%89%e5%90%97" class="nav-更根本的问题无人审核的自动内容有意义吗">
+									更根本的问题：无人审核的自动内容，有意义吗
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e5%86%99%e5%9c%a8%e6%9c%80%e5%90%8e" class="nav-写在最后">
+									写在最后
+								</a>
+							</li>
+						
+						
+					
+				
+			
+		</ul>
+	</div>
+
+</div>
+        
+    </div>
+    <div class="pagination">
+        <a id="globalBackToTop" class="pagination-action animated-visibility" href="#top"
+            :class="{ invisible: scrollY == 0 }">
+            <i class="material-icons pagination-action-icon">
+                keyboard_arrow_up
+            </i>
+        </a>
+        
+        <a type="button" class="pagination-action" id="darkModeToggleButton">
+            <span class="material-icons pagination-action-icon" id="darkModeToggleIcon">
+                dark_mode
+            </span>
+        </a>
+        
+        
+    </div>
+</div>
+
+<div id="single-column-footer">&copy; 2026 本来
+</div>
+            </div>
+    
+    <script src="/js/journal.js"></script></body>
+</html>

@@ -1,376 +1,96 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>书房 on 本来</title><link>https://benlai.me/reading/</link><description>Recent content in 书房 on 本来</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Sat, 06 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://benlai.me/reading/index.xml" rel="self" type="application/rss+xml"/><item><title>Let's Read Together — Episode 5</title><link>https://benlai.me/reading/ep5-so-what-can-we-do/</link><pubDate>Sat, 06 Jun 2026 00:00:00 +0000</pubDate><guid>https://benlai.me/reading/ep5-so-what-can-we-do/</guid><description>&lt;h2 id="so-what-can-we-do"&gt;&amp;ldquo;So What Can We Do?&amp;rdquo;&lt;/h2&gt;
-&lt;hr&gt;
-&lt;p&gt;This is the final episode for this book.&lt;/p&gt;
-&lt;p&gt;Over the past four episodes, we&amp;rsquo;ve mapped the system — what it is, how it works, where it&amp;rsquo;s spread, and how the same logic operates in different hands in different parts of the world.&lt;/p&gt;
-&lt;p&gt;Now we get to the last question: knowing all of this, what can we actually do?&lt;/p&gt;
-&lt;p&gt;It&amp;rsquo;s the question most readers arrive at by the end of this book. Zuboff spends nearly half of it building the argument — and then, in the final section, offers her answer. I&amp;rsquo;ll share her answer first, then tell you what I think.&lt;/p&gt;</description></item><item><title>《跟我一起读书吧》第五期</title><link>https://benlai.me/reading/%E7%AC%AC%E4%BA%94%E6%9C%9F_%E6%88%91%E4%BB%AC%E8%83%BD%E6%80%8E%E4%B9%88%E5%8A%9E/</link><pubDate>Sat, 06 Jun 2026 00:00:00 +0800</pubDate><guid>https://benlai.me/reading/%E7%AC%AC%E4%BA%94%E6%9C%9F_%E6%88%91%E4%BB%AC%E8%83%BD%E6%80%8E%E4%B9%88%E5%8A%9E/</guid><description>&lt;h2 id="我们能怎么办"&gt;&amp;ldquo;我们能怎么办？&amp;rdquo;&lt;/h2&gt;
-&lt;hr&gt;
-&lt;p&gt;这是这本书的最后一期。&lt;/p&gt;
-&lt;p&gt;前四期我们把这套系统的逻辑说清楚了——它是什么，它怎么运作，它扩展到了哪里，它在不同的地方以不同的形态存在。&lt;/p&gt;
-&lt;p&gt;现在到了最后一个问题：知道了这一切，我们能怎么办？&lt;/p&gt;
-&lt;p&gt;这也是很多读者读完这本书之后最想问的问题。Zuboff用了将近一半的篇幅来建立论述，然后在最后给出她的答案。我先说她的答案，然后说说我自己的想法。&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id="先说一个让很多人失望的现实"&gt;先说一个让很多人失望的现实&lt;/h2&gt;
-&lt;p&gt;我要先说一件可能让你有点失望的事。&lt;/p&gt;
-&lt;p&gt;Zuboff没有给你一个操作手册。她没有说&amp;quot;你应该删除这些App&amp;quot;，或者&amp;quot;用这个工具保护你的隐私&amp;quot;，或者&amp;quot;每天做这五件事就安全了&amp;quot;。&lt;/p&gt;
-&lt;p&gt;这不是因为她不关心普通人能做什么，而是因为她认为，把这个问题变成个人的技术防护问题，本身就是一个陷阱。&lt;/p&gt;
-&lt;p&gt;她的理由是这样的：监控资本主义是一个系统性的问题，不是个人行为问题。就算你今天删掉所有的社交媒体，换掉手机，用现金付款，你依然生活在一个被这套系统塑造的世界里——你看到的信息、你身边的人的行为、你所在社会的公共讨论，都已经被这套逻辑深度渗透了。&lt;/p&gt;
-&lt;p&gt;一个人的退出，改变不了系统的运作方式。&lt;/p&gt;
-&lt;p&gt;所以她的答案，是在更大的层面上寻找解决方案。&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id="zuboff的答案命名认知行动"&gt;Zuboff的答案：命名、认知、行动&lt;/h2&gt;
-&lt;p&gt;Zuboff在书里提出了三个层次的回应。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;第一个层次：命名（Naming）&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;她认为，我们首先需要一个准确的语言来描述正在发生的事情。&lt;/p&gt;
-&lt;p&gt;在这本书出版之前，很多人用&amp;quot;数字经济&amp;quot;、&amp;ldquo;平台经济&amp;rdquo;、&amp;ldquo;数据驱动&amp;quot;这些词来描述这套系统。这些词听起来中性甚至积极，掩盖了这套系统的真实本质。&lt;/p&gt;
-&lt;p&gt;Zuboff创造了&amp;quot;监控资本主义&amp;quot;这个词，就是为了给这件事一个准确的名字。因为你没有办法对抗一个你无法命名的东西。&lt;/p&gt;
-&lt;p&gt;历史上有过类似的时刻。工业革命早期，童工、十六小时工作制、工厂污染，这些都被当成&amp;quot;进步的代价&amp;rdquo;，是理所当然的事情。直到有人给这些现象命名，说这是剥削，这是不公正，改变才开始有了可能。&lt;/p&gt;
-&lt;p&gt;她认为我们现在处于类似的历史节点。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;第二个层次：认知（Knowing）&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;知道发生了什么，是改变的前提。&lt;/p&gt;
-&lt;p&gt;Zuboff花了这本书的大部分篇幅做的，就是这件事——把这套系统的运作机制完整地呈现出来，让读者真正理解，而不是隐约感觉。&lt;/p&gt;
-&lt;p&gt;她相信，当足够多的人真正理解了这套系统的本质，社会态度就会改变。就像当人们真正理解了工厂污染对健康的影响，环境保护立法才成为可能。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;第三个层次：行动（Acting）&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;这里Zuboff的论述转向了政治和法律层面。&lt;/p&gt;
-&lt;p&gt;她认为，最有效的改变必须通过立法和监管来实现。个人的消费选择改变不了系统，但法律可以。&lt;/p&gt;
-&lt;p&gt;她提出了几个具体的方向：&lt;/p&gt;
-&lt;p&gt;第一，数据所有权。你产生的数据，应该属于你，而不是平台。平台使用你的数据，应该需要真正意义上的知情同意，而不是那些没有人会读完的条款。&lt;/p&gt;
-&lt;p&gt;第二，行为修正的禁止。对人类行为的大规模实验性干预，应该受到监管，就像医疗实验需要伦理审查一样。&lt;/p&gt;
-&lt;p&gt;第三，预测产品市场的规范。行为期货市场的存在本身，应该受到质疑和约束。&lt;/p&gt;
-&lt;p&gt;她把这些比作20世纪初的劳工运动和环境保护运动——都是面对强大的商业利益，通过长期的社会运动和立法斗争，最终改变了规则。&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id="但这真的可能吗"&gt;但这真的可能吗？&lt;/h2&gt;
-&lt;p&gt;读到这里，我有一个诚实的感受——Zuboff的答案是有力量的，但也是漫长的。&lt;/p&gt;
-&lt;p&gt;劳工运动花了几十年。环境保护立法花了几十年。而监控资本主义的扩展速度，比工业时代的任何变化都要快得多。&lt;/p&gt;
-&lt;p&gt;而且还有一个现实的问题：推动这些改变需要政治意愿，而政治本身也已经被这套系统深度渗透——选举广告、社交媒体的信息操控、政治人物对科技公司的依赖——这些都让系统性的改变变得更加困难。&lt;/p&gt;
-&lt;p&gt;所以Zuboff的答案，我觉得是正确的方向，但不是一个让人感到轻松的答案。&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id="那普通人呢"&gt;那普通人呢？&lt;/h2&gt;
-&lt;p&gt;我知道你可能还是想知道——在等待系统性改变的漫长过程里，作为一个普通人，有没有什么是可以做的？&lt;/p&gt;
-&lt;p&gt;我自己的想法是这样的。&lt;/p&gt;
-&lt;p&gt;完全的退出是不现实的，也不必要。但有一种东西是你可以保留的，而且这套系统最害怕的——就是&lt;strong&gt;意识&lt;/strong&gt;。&lt;/p&gt;
-&lt;p&gt;Zuboff在书里说，个人意识是行为操控的敌人。这套系统运作的前提，是你不知道，或者你不在乎。&lt;/p&gt;
-&lt;p&gt;当你知道一个推送为什么出现，当你理解一个算法在试图做什么，当你能够辨认出哪些情绪反应是被设计出来的——你就已经在这套系统里保留了一部分自主性。&lt;/p&gt;
-&lt;p&gt;不是说你就免疫了。没有人能完全免疫。但清醒地使用这些工具，和浑然不觉地被这些工具使用，是不一样的。&lt;/p&gt;
-&lt;p&gt;这也是我做这个节目的原因之一。不是要告诉你该怎么做，而是希望我们一起，对自己生活的这个世界，有更清醒的理解。&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id="这本书最后说了什么"&gt;这本书最后说了什么&lt;/h2&gt;
-&lt;p&gt;Zuboff在书的结尾，说了一段我觉得非常有力量的话。&lt;/p&gt;
-&lt;p&gt;她说，监控资本主义的领导者们相信我们会接受这一切，就像Steinbeck笔下的农民接受了银行的逻辑一样——因为它成功了，因为它有效，所以它的规则一定是对的，一定是不可避免的。&lt;/p&gt;
-&lt;p&gt;但她说，我们看清楚了这套系统的内在逻辑，就知道事实并非如此。这套系统是人做出来的，是在特定的历史条件下，由特定的人，做出的特定的选择。&lt;/p&gt;
-&lt;p&gt;它可以被改变。他们只是选择了不去改变它。&lt;/p&gt;
-&lt;p&gt;而我们，可以选择不同。&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id="我自己读完这本书的感受"&gt;我自己读完这本书的感受&lt;/h2&gt;
-&lt;p&gt;最后，我想说一下我自己读完这本书的整体感受。&lt;/p&gt;
-&lt;p&gt;这本书很厚，读起来不轻松。Zuboff是学者，她的论述非常严密，有时候也很dense。但我觉得读这本书的价值，不只是获得信息，而是获得一个框架——一个理解我们所处数字世界的框架。&lt;/p&gt;
-&lt;p&gt;读完之后，你再打开手机，再刷推送，再点击&amp;quot;同意&amp;quot;，感觉会不一样。不是说你会变得愤怒或者偏执，而是你会更清楚地知道，这个界面背后是什么，这个推送为什么在这个时候出现，这个&amp;quot;免费&amp;quot;的服务真正的代价是什么。&lt;/p&gt;
-&lt;p&gt;这种清醒，我觉得是值得的。&lt;/p&gt;
-&lt;p&gt;这本书的中文版有出版，但如果你有能力读英文原著，我建议读原著。不只是因为翻译的问题，而是因为Zuboff的语言本身非常精确，很多关键概念在原文里有一种中文很难完全传递的力量。&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;好，《监控资本主义时代》我们就聊到这里。&lt;/p&gt;
-&lt;p&gt;五期，从这套系统的诞生，到它的机制，到它的扩展，到它在不同地方的不同形态，到最后我们能做什么。&lt;/p&gt;
-&lt;p&gt;这是《跟我一起读书吧》第一本书的完整旅程。&lt;/p&gt;
-&lt;p&gt;下一本书，我们换一个完全不同的方向。&lt;/p&gt;
-&lt;p&gt;这里是《跟我一起读书吧》，我是Allen。&lt;/p&gt;</description></item><item><title>Let's Read Together — Episode 4</title><link>https://benlai.me/reading/ep4-same-logic-different-hands/</link><pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate><guid>https://benlai.me/reading/ep4-same-logic-different-hands/</guid><description>&lt;h2 id="same-logic-different-hands"&gt;&amp;ldquo;Same Logic, Different Hands&amp;rdquo;&lt;/h2&gt;
-&lt;hr&gt;
-&lt;p&gt;I want to start with an observation.&lt;/p&gt;
-&lt;p&gt;Over the past few episodes, we&amp;rsquo;ve been focused on Silicon Valley — Google, Facebook, Amazon. But reading this book, I kept feeling something: the logic Zuboff describes isn&amp;rsquo;t specific to one place.&lt;/p&gt;
-&lt;p&gt;It&amp;rsquo;s a technical infrastructure, combined with a particular way of understanding and extracting value from human behavioral data.&lt;/p&gt;
-&lt;p&gt;That infrastructure exists in different places. It&amp;rsquo;s been taken up by different actors. And it&amp;rsquo;s being used toward different ends.&lt;/p&gt;</description></item><item><title>《跟我一起读书吧》第四期</title><link>https://benlai.me/reading/%E7%AC%AC%E5%9B%9B%E6%9C%9F_%E5%90%8C%E4%B8%80%E5%A5%97%E9%80%BB%E8%BE%91%E4%B8%8D%E5%90%8C%E7%9A%84%E4%BD%BF%E7%94%A8%E8%80%85/</link><pubDate>Fri, 05 Jun 2026 00:00:00 +0800</pubDate><guid>https://benlai.me/reading/%E7%AC%AC%E5%9B%9B%E6%9C%9F_%E5%90%8C%E4%B8%80%E5%A5%97%E9%80%BB%E8%BE%91%E4%B8%8D%E5%90%8C%E7%9A%84%E4%BD%BF%E7%94%A8%E8%80%85/</guid><description>&lt;h2 id="同一套逻辑不同的使用者"&gt;&amp;ldquo;同一套逻辑，不同的使用者&amp;rdquo;&lt;/h2&gt;
-&lt;hr&gt;
-&lt;p&gt;我想从一个观察开始。&lt;/p&gt;
-&lt;p&gt;过去几期我们一直在聊硅谷——Google、Facebook、Amazon。但读这本书的时候，我一直有一个感觉：Zuboff描述的这套逻辑，不是某一个地方特有的现象。&lt;/p&gt;
-&lt;p&gt;它是一套技术基础设施，加上一套对人类行为数据的理解方式。&lt;/p&gt;
-&lt;p&gt;这套基础设施，在不同的地方，被不同的人，用于不同的目的。&lt;/p&gt;
-&lt;p&gt;今天我们来聊这件事。&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id="先回到一个基本问题"&gt;先回到一个基本问题&lt;/h2&gt;
-&lt;p&gt;我们前几期建立了一个框架：监控资本主义的核心，是把人类的行为数据提取出来，转化成预测产品，然后用来影响和塑造行为。&lt;/p&gt;
-&lt;p&gt;驱动这套系统的，在西方主要是商业逻辑——广告收入，行为期货市场，股东回报。&lt;/p&gt;
-&lt;p&gt;但Zuboff在书里问了一个问题：这套基础设施，如果不是为了卖广告，而是为了其他目的，会是什么样子？&lt;/p&gt;
-&lt;p&gt;这个问题，在世界的不同角落，已经有了不同的答案。&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id="商业监控的边界在哪里"&gt;商业监控的边界在哪里&lt;/h2&gt;
-&lt;p&gt;我们先把西方的情况说清楚。&lt;/p&gt;
-&lt;p&gt;在硅谷模式里，数据的主要流向是广告市场。平台收集你的行为数据，卖给广告商，广告商用这些数据向你推送更精准的广告。这套系统的目标，是让你买更多东西，点更多广告，在屏幕前停留更长时间。&lt;/p&gt;
-&lt;p&gt;但这套系统有没有边界？&lt;/p&gt;
-&lt;p&gt;Zuboff的答案是：没有自然的边界。&lt;/p&gt;
-&lt;p&gt;只要有新的数据来源，这套系统就会往那里扩展。从搜索记录到位置数据，从社交媒体到智能家居，从可穿戴设备到儿童玩具。每一次扩展，都有一个听起来合理的理由——更好的服务，更个性化的体验，更方便的生活。&lt;/p&gt;
-&lt;p&gt;但扩展的方向，从来不是由用户决定的。&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id="当同样的技术遇到不同的需求"&gt;当同样的技术遇到不同的需求&lt;/h2&gt;
-&lt;p&gt;现在我们来看另一种情况。&lt;/p&gt;
-&lt;p&gt;同样的技术基础设施——大规模数据收集、行为分析、预测模型、实时干预——如果使用者的目标不是卖广告，而是别的什么，会发生什么？&lt;/p&gt;
-&lt;p&gt;这里我想插入一个离我们更近的例子。&lt;/p&gt;
-&lt;p&gt;2016年，一家中文搜索引擎宣布，他们的大数据实验室正在利用来自六亿用户的位置数据，追踪和预测整个经济体的动态——就业指数、消费指数，甚至某家科技公司在特定季度的营收预测。&lt;/p&gt;
-&lt;p&gt;研究人员写道，他们是第一个通过挖掘如此大规模、细粒度的时空数据来衡量一个主要经济体的团队。&lt;/p&gt;
-&lt;p&gt;一家私人公司，通过追踪六亿人的位置，建立了一套比官方统计更实时、更精准的经济监测系统。这不是未来的科幻场景，这是已经发生的事情。&lt;/p&gt;
-&lt;p&gt;这种能力，对不同的使用者，意味着完全不同的东西。对一家公司来说，它意味着更精准的商业决策。对一个政府来说，它意味着对人口流动、社会情绪、经济状态的实时掌握。&lt;/p&gt;
-&lt;p&gt;数据本身是中立的。使用数据的人，决定了它的意义。&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id="新冠疫情一次大规模的实验"&gt;新冠疫情：一次大规模的实验&lt;/h2&gt;
-&lt;p&gt;2020年开始的新冠疫情，给了全世界一个观察这套逻辑的特殊窗口。&lt;/p&gt;
-&lt;p&gt;在很短的时间里，许多国家和地区建立了基于手机数据的人口追踪系统——健康码、行程记录、接触者追踪。&lt;/p&gt;
-&lt;p&gt;从技术角度看，这些系统和监控资本主义的基础设施高度重叠：大规模收集位置数据，实时分析行为，根据分析结果限制或允许特定行动。&lt;/p&gt;
-&lt;p&gt;在公共卫生紧急状态下，这些措施有其合理性。很多人也愿意接受这种权衡——用一部分隐私，换取更安全的公共环境。&lt;/p&gt;
-&lt;p&gt;但Zuboff在书里反复强调一件事：紧急状态下建立的基础设施，往往不会随着紧急状态的结束而消失。&lt;/p&gt;
-&lt;p&gt;这套追踪系统，在疫情之前不存在。在疫情期间被快速建立。在疫情之后，以不同的形式，在不同的地方，继续存在。&lt;/p&gt;
-&lt;p&gt;这个模式，和Google当年的故事惊人地相似——生存压力下的&amp;quot;暂时&amp;quot;措施，后来变成了永久的基础设施。&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id="两种模式一个共同点"&gt;两种模式，一个共同点&lt;/h2&gt;
-&lt;p&gt;读到这里，我想说一个我自己的观察。&lt;/p&gt;
-&lt;p&gt;西方的商业监控模式和其他地方的监控模式，表面上看目标不同——一个是卖广告，一个可能是别的。但它们有一个深层的共同点：&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;普通人的行为数据，在没有真正知情同意的情况下，被用于服务于普通人之外的目标。&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;在商业模式里，你的数据服务于广告商的利益。在其他模式里，你的数据服务于其他目的。但在这两种情况下，你都不是真正的受益者，你是原材料。&lt;/p&gt;
-&lt;p&gt;Zuboff把这个概括得很清楚：监控资本主义单方面宣称人类经验是免费的原材料。&lt;/p&gt;
-&lt;p&gt;&amp;ldquo;单方面&amp;quot;这三个字，是关键。没有经过谈判，没有经过同意，没有给你选择的机会。&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id="一个值得思考的问题"&gt;一个值得思考的问题&lt;/h2&gt;
-&lt;p&gt;我想在这期结尾留一个问题，不给答案，只是希望你想一想。&lt;/p&gt;
-&lt;p&gt;我们通常把隐私问题理解为个人问题——我的数据，我的隐私，我的选择。但Zuboff说，这个框架本身就是一个陷阱。&lt;/p&gt;
-&lt;p&gt;因为监控的真正影响，不只是发生在个人层面。当一套系统可以在大规模人群中追踪、预测、塑造行为，它改变的不只是个人的选择，而是整个社会的运作方式——人们如何形成观点，如何做决定，如何理解什么是正常的。&lt;/p&gt;
-&lt;p&gt;她把这种新型的权力叫做&amp;quot;工具主义权力&amp;rdquo;（Instrumentarian Power）。不是通过暴力，不是通过意识形态，而是通过对行为的精密管理，来实现对社会的塑造。&lt;/p&gt;
-&lt;p&gt;这种权力，在商业公司手里是一种形态，在其他使用者手里，可能是另一种形态。&lt;/p&gt;
-&lt;p&gt;但不管是哪种形态，Zuboff的问题都是同一个：&lt;strong&gt;谁有权利这样做？谁授权了他们？&lt;/strong&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;好，第四期到这里。&lt;/p&gt;
-&lt;p&gt;我们今天没有停留在硅谷，而是往更大的图景看了一眼——同样的技术逻辑，在不同的地方，被不同的力量使用。商业监控和其他形式的监控，目标不同，但有一个共同的结构：普通人的行为，在不知情的情况下，成为了服务于他人目标的原材料。&lt;/p&gt;
-&lt;p&gt;下一期是这本书的最后一期。Zuboff最后问了一个问题：我们能怎么办？她的答案是什么，我的看法是什么，我们下期见。&lt;/p&gt;
-&lt;p&gt;这里是《跟我一起读书吧》，我是Allen。&lt;/p&gt;</description></item><item><title>Let's Read Together — Episode 3</title><link>https://benlai.me/reading/ep3-anonymity-is-an-illusion/</link><pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate><guid>https://benlai.me/reading/ep3-anonymity-is-an-illusion/</guid><description>&lt;h2 id="anonymity-is-an-illusion"&gt;&amp;ldquo;Anonymity Is an Illusion&amp;rdquo;&lt;/h2&gt;
-&lt;hr&gt;
-&lt;p&gt;Let me ask you something.&lt;/p&gt;
-&lt;p&gt;Have you ever wondered why you put up with all of this?&lt;/p&gt;
-&lt;p&gt;You&amp;rsquo;re not alone. Surveys consistently show that most consumers say they don&amp;rsquo;t trust companies that want to monitor their behavior. And yet — those same people keep using Google, keep using Facebook, keep the smart speaker plugged in on the kitchen counter.&lt;/p&gt;
-&lt;p&gt;Why?&lt;/p&gt;
-&lt;p&gt;One of the most common answers: at least the data is anonymous. They don&amp;rsquo;t know it&amp;rsquo;s me. I&amp;rsquo;m just one number among hundreds of millions.&lt;/p&gt;</description></item><item><title>《跟我一起读书吧》第三期</title><link>https://benlai.me/reading/%E7%AC%AC%E4%B8%89%E6%9C%9F_%E5%8C%BF%E5%90%8D%E6%98%AF%E4%B8%AA%E5%B9%BB%E8%A7%89/</link><pubDate>Thu, 04 Jun 2026 00:00:00 +0800</pubDate><guid>https://benlai.me/reading/%E7%AC%AC%E4%B8%89%E6%9C%9F_%E5%8C%BF%E5%90%8D%E6%98%AF%E4%B8%AA%E5%B9%BB%E8%A7%89/</guid><description>&lt;h2 id="匿名是个幻觉"&gt;&amp;ldquo;匿名是个幻觉&amp;rdquo;&lt;/h2&gt;
-&lt;hr&gt;
-&lt;p&gt;我想先问你一个问题。&lt;/p&gt;
-&lt;p&gt;你有没有想过，为什么你愿意接受这一切？&lt;/p&gt;
-&lt;p&gt;不只是你——大多数人都知道自己的数据在被收集。调查显示，绝大多数消费者表示他们不信任那些想要监控自己行为的公司。但同样是这些人，继续用Google，继续用Facebook，继续把智能音箱放在家里。&lt;/p&gt;
-&lt;p&gt;为什么？&lt;/p&gt;
-&lt;p&gt;其中一个最常见的理由是——反正他们收集的是匿名数据。他们不知道这是我。我只是几亿用户里的一个数字。&lt;/p&gt;
-&lt;p&gt;今天我们就来聊这个问题。&lt;/p&gt;
-&lt;p&gt;这个理由，是真的吗？&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id="匿名这个词没有你想象的那么可靠"&gt;&amp;ldquo;匿名&amp;quot;这个词，没有你想象的那么可靠&lt;/h2&gt;
-&lt;p&gt;我们先从一个研究说起。&lt;/p&gt;
-&lt;p&gt;Google和其他平台的标准说法是：我们收集的是元数据（metadata），这些数据在大规模汇总之后，无法识别出具体的个人。&lt;/p&gt;
-&lt;p&gt;听起来很合理。&lt;/p&gt;
-&lt;p&gt;但2000年代初，一位叫Latanya Sweeney的研究员做了一项研究。她发现，只需要三个数据点——&lt;strong&gt;生日、邮政编码、性别&lt;/strong&gt;——就可以在美国人口中唯一识别出87%的个人。&lt;/p&gt;
-&lt;p&gt;三个数据点。不需要名字，不需要身份证号，不需要任何你认为&amp;quot;私密&amp;quot;的信息。&lt;/p&gt;
-&lt;p&gt;这三个数据点，几乎每一个数据库里都有。&lt;/p&gt;
-&lt;p&gt;Zuboff在书里引用了法律学者Paul Ohm的总结。Ohm把那些所谓的匿名行为数据库称为&amp;quot;毁灭数据库&amp;rdquo;（databases of ruin）——因为一旦这些数据被重新识别，里面藏着的秘密，足以毁掉一个人。他说，重新识别技术让我们所有的秘密都变得更容易被发现和揭露。你的敌人会更容易找到可以用来勒索、骚扰、诽谤或歧视你的信息。&lt;/p&gt;
-&lt;p&gt;这不是理论上的可能性。这是已经被反复证明的现实。&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id="位置数据你以为自己在人群中消失了"&gt;位置数据：你以为自己在人群中消失了&lt;/h2&gt;
-&lt;p&gt;位置数据是另一个让人警觉的例子。&lt;/p&gt;
-&lt;p&gt;每个人的移动轨迹，都有独特的规律性。你每天上班走哪条路，你周末习惯去哪个咖啡馆，你每隔多久去一次超市，你去看医生的频率——这些加在一起，形成了一个专属于你的&amp;quot;移动签名&amp;quot;。&lt;/p&gt;
-&lt;p&gt;就算数据里没有你的名字，就算你的手机号码被抹掉，只要有足够多的位置数据，任何一个有工具的分析师，都可以把你从人群中识别出来。&lt;/p&gt;
-&lt;p&gt;2013年，MIT和哈佛的研究团队证明了这一点。他们发现，由于每个人移动轨迹的独特性，从一个大型匿名位置数据集里精确识别出某一个特定个人，在技术上完全可行。&lt;/p&gt;
-&lt;p&gt;普林斯顿的计算机科学家Arvind Narayanan和Edward Felten直接说：目前没有任何已知的有效方法可以匿名化位置数据，也没有证据显示这在原则上是可行的。&lt;/p&gt;
-&lt;p&gt;换句话说，位置数据的匿名化，从技术上就是一个无法实现的承诺。&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id="你的手机传感器在说什么"&gt;你的手机传感器在说什么&lt;/h2&gt;
-&lt;p&gt;除了位置数据，你手机里那些看起来无害的传感器，也在泄露比你想象的更多的信息。&lt;/p&gt;
-&lt;p&gt;加速度计、陀螺仪、磁力计——这些传感器最初的设计目的，是让手机知道自己的朝向，让地图知道你在移动。&lt;/p&gt;
-&lt;p&gt;但研究人员发现，这些传感器数据可以用来推断的东西远不止这些。&lt;/p&gt;
-&lt;p&gt;你今天走路的姿势和平时不一样——可能你受伤了，或者你喝了酒。你的手机静止的时间比平时长很多——可能你在睡觉，或者你生病了。你的手机震动的频率和幅度——可能反映了你所在的交通工具，以及你的情绪状态。&lt;/p&gt;
-&lt;p&gt;研究显示，仅凭手机传感器数据，就可以推断出用户不断变化的活动状态和情绪，并且可以从所谓的匿名数据集里提取出特定用户的敏感个人信息。&lt;/p&gt;
-&lt;p&gt;这些传感器，不需要你的许可就可以被App访问。很多App会在你完全不知情的情况下，在后台持续收集这些数据。&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id="facebook知道你的性格比你的朋友更准"&gt;Facebook知道你的性格，比你的朋友更准&lt;/h2&gt;
-&lt;p&gt;我想再讲一个研究，因为它把&amp;quot;匿名数据&amp;quot;的问题推到了一个新的维度。&lt;/p&gt;
-&lt;p&gt;剑桥大学的研究员Michal Kosinski和他的团队，研究了Facebook用户的&amp;quot;点赞&amp;quot;行为。他们发现，通过分析一个人点赞的内容，可以极其准确地预测这个人的性格特征——外向还是内向，稳定还是神经质，开放还是保守。&lt;/p&gt;
-&lt;p&gt;2015年发表的一篇论文显示，他们的算法在判断一个人性格上的准确度，已经超过了这个人的同事、朋友，甚至家人。&lt;/p&gt;
-&lt;p&gt;只需要300个点赞，算法对你的了解就超过了你的配偶。&lt;/p&gt;
-&lt;p&gt;这个研究本身是学术性的。但它揭示的，是一个值得认真对待的可能性——你在网上留下的那些看似随意的行为痕迹，点了哪些内容，停留了多久，转发了什么——这些加在一起，可以构建出一个比你自己描述的更真实的你。&lt;/p&gt;
-&lt;p&gt;而这个&amp;quot;你&amp;quot;，是可以被买卖的。&lt;/p&gt;
-&lt;p&gt;值得注意的是，这项研究很快吸引了来自微软、波音、谷歌、美国国家科学基金会，以及美国国防高级研究计划局的资助。学术研究和商业应用、军事应用之间的距离，比我们想象的要近得多。&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id="同意这件事"&gt;&amp;ldquo;同意&amp;quot;这件事&lt;/h2&gt;
-&lt;p&gt;聊到这里，我想说一个让我觉得很重要的问题——&amp;ldquo;同意&amp;rdquo;。&lt;/p&gt;
-&lt;p&gt;我们每次安装一个App，都会点击&amp;quot;同意&amp;rdquo;。我们同意了那些没有人会读完的隐私条款。平台说，这是你自愿的选择。&lt;/p&gt;
-&lt;p&gt;但Zuboff对这个说法提出了一个根本性的质疑。&lt;/p&gt;
-&lt;p&gt;她说，真正的同意需要两个条件：第一，你知道自己在同意什么；第二，你有拒绝的能力。&lt;/p&gt;
-&lt;p&gt;这两个条件，在今天的数字世界里都不存在。&lt;/p&gt;
-&lt;p&gt;没有人真正知道自己在同意什么——那些条款的复杂程度，就算是律师也需要花很长时间才能读懂。而且就算你想拒绝，你失去的不只是一个App，而是参与现代社会的能力。你拒绝用某个通讯软件，你就失去了跟大多数人沟通的渠道。你拒绝用地图，你就很难在城市里正常生活。&lt;/p&gt;
-&lt;p&gt;这不是自由选择。这是一种被设计出来的别无选择。&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id="我自己的感受"&gt;我自己的感受&lt;/h2&gt;
-&lt;p&gt;读完这一部分，我有一个想法一直在脑子里转。&lt;/p&gt;
-&lt;p&gt;我们很多人接受数据收集，是因为相信自己只是人群里的一个匿名数字。这种想法给了我们一种安全感——反正他们不知道这是我。&lt;/p&gt;
-&lt;p&gt;但这本书告诉我们，这种安全感是被精心设计出来的。&lt;/p&gt;
-&lt;p&gt;匿名的承诺让我们降低了警觉，让我们更容易接受这套系统。但技术的现实是，匿名只是暂时的，只要有足够的计算能力和足够多的数据，重新识别只是时间问题。&lt;/p&gt;
-&lt;p&gt;而且更深层的问题不只是&amp;quot;他们知不知道这是我&amp;quot;。&lt;/p&gt;
-&lt;p&gt;就算他们永远不知道你的名字，他们依然可以影响你的行为，塑造你的情绪，引导你的选择。行为修正不需要知道你是谁，它只需要知道你是什么类型的人，然后针对这个类型设计干预。&lt;/p&gt;
-&lt;p&gt;个人的匿名，并不能保护你免受集体操控。&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;好，第三期到这里。&lt;/p&gt;
-&lt;p&gt;我们今天聊了匿名的幻觉——三个数据点足以识别你，位置数据从技术上就无法真正匿名化，你的手机传感器知道的远比你以为的多，而对行为数据的深度分析可以构建出一个比你自己更了解你的画像。&lt;/p&gt;
-&lt;p&gt;这套系统建立在一个前提上：你不知道，或者你不在乎。&lt;/p&gt;
-&lt;p&gt;下一期，我们把视野放宽一点——同样的这套技术逻辑，在不同的地方，被不同的力量使用，会产生什么？&lt;/p&gt;
-&lt;p&gt;这里是《跟我一起读书吧》，我是Allen。&lt;/p&gt;</description></item><item><title>Let's Read Together — Episode 2</title><link>https://benlai.me/reading/ep2-your-phone-your-home-your-childrens-toys/</link><pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate><guid>https://benlai.me/reading/ep2-your-phone-your-home-your-childrens-toys/</guid><description>&lt;h2 id="your-phone-your-home-your-childrens-toys"&gt;&amp;ldquo;Your Phone, Your Home, Your Children&amp;rsquo;s Toys&amp;rdquo;&lt;/h2&gt;
-&lt;hr&gt;
-&lt;p&gt;Something happened to me recently that I think a lot of you will recognize.&lt;/p&gt;
-&lt;p&gt;I searched for a topic on one platform — just a passing curiosity, nothing I went deep on. And then for days afterward, no matter which app I opened, content about that topic kept appearing. Videos, articles, recommendations — one after another.&lt;/p&gt;
-&lt;p&gt;I hadn&amp;rsquo;t asked for any of it. But there it was.&lt;/p&gt;</description></item><item><title>《跟我一起读书吧》第二期</title><link>https://benlai.me/reading/%E7%AC%AC%E4%BA%8C%E6%9C%9F_%E4%BD%A0%E7%9A%84%E6%89%8B%E6%9C%BA%E4%BD%A0%E7%9A%84%E5%AE%B6%E4%BD%A0%E5%AD%A9%E5%AD%90%E7%9A%84%E7%8E%A9%E5%85%B7/</link><pubDate>Wed, 03 Jun 2026 00:00:00 +0800</pubDate><guid>https://benlai.me/reading/%E7%AC%AC%E4%BA%8C%E6%9C%9F_%E4%BD%A0%E7%9A%84%E6%89%8B%E6%9C%BA%E4%BD%A0%E7%9A%84%E5%AE%B6%E4%BD%A0%E5%AD%A9%E5%AD%90%E7%9A%84%E7%8E%A9%E5%85%B7/</guid><description>&lt;h2 id="你的手机你的家你孩子的玩具"&gt;&amp;ldquo;你的手机、你的家、你孩子的玩具&amp;rdquo;&lt;/h2&gt;
-&lt;hr&gt;
-&lt;p&gt;我最近有一个经历，相信很多人都有过。&lt;/p&gt;
-&lt;p&gt;我在某个平台上搜索了一个话题——就随手搜了一下，也没有特别深入去看。然后接下来几天，不管我打开哪个App，相关的视频、文章、推送，一个接一个地出现在我面前。&lt;/p&gt;
-&lt;p&gt;我没有要求。但它们就来了。&lt;/p&gt;
-&lt;p&gt;还有一种更奇怪的感觉，我身边有朋友跟我说过：他们明明没有搜索任何东西，只是跟朋友聊天提到了某样东西，或者只是心里想了一下，然后手机上就推送出来了。&lt;/p&gt;
-&lt;p&gt;很多人的第一反应是——我的手机在监听我吗？&lt;/p&gt;
-&lt;p&gt;答案比这个更复杂，也更令人不安。不是因为它在偷听你说话，而是因为它对你的了解，已经深到不需要偷听了。&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;上一期我们讲了监控资本主义的三个核心概念——行为剩余、预测产品、行为修正。我们看到了这套逻辑是怎么在Google身上诞生的。&lt;/p&gt;
-&lt;p&gt;但Google只是起点。&lt;/p&gt;
-&lt;p&gt;这套逻辑一旦被证明有效，就开始向四面八方扩展。今天我们要聊的，是它扩展到了哪里——从你的手机，到你的家，到你孩子的玩具，再到你的身体。&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id="你的手机知道的比你想象的多得多"&gt;你的手机知道的，比你想象的多得多&lt;/h2&gt;
-&lt;p&gt;我们先从手机说起。&lt;/p&gt;
-&lt;p&gt;大多数人知道手机会收集位置数据。但Zuboff在书里引用的研究，让我重新认识了这件事的规模。&lt;/p&gt;
-&lt;p&gt;2013年，MIT和哈佛的研究团队做了一项研究。他们发现，由于每个人的移动轨迹都有独特的规律性——你每天上班的路线，你周末去的地方，你习惯在哪里吃饭——任何一个有工具的分析师，都可以从一个大型匿名位置数据集里，精确提取出某一个特定个人的移动模式。&lt;/p&gt;
-&lt;p&gt;位置数据根本无法真正匿名化。普林斯顿的两位计算机科学家直接说：目前没有任何已知的有效方法可以做到这一点。&lt;/p&gt;
-&lt;p&gt;但位置数据只是开始。&lt;/p&gt;
-&lt;p&gt;你手机里的传感器——加速度计、陀螺仪、磁力计——这些看起来无害的东西，可以用来推断你在做什么，你的情绪状态，甚至你的健康状况。研究显示，这些传感器数据可以用来识别你是在走路还是在跑步，你今天是不是睡眠不足，你现在是不是在开车。&lt;/p&gt;
-&lt;p&gt;而且这一切，不需要你连接网络。有公司已经开发出了芯片，可以在你完全离线的状态下，追踪你的位置、你走了多少步、你在哪个楼层、朝哪个方向移动。&lt;/p&gt;
-&lt;p&gt;这一切只依赖一件东西——那个你手里拿着的设备。&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id="你的家也不再是你的避风港"&gt;你的家，也不再是你的避风港&lt;/h2&gt;
-&lt;p&gt;手机还只是随身携带的设备。更深的渗透，发生在你家里。&lt;/p&gt;
-&lt;p&gt;Google Home、Amazon Echo这类智能音箱，被设计成一个永远在线、永远在听的助手。Google CEO Sundar Pichai在介绍Google Assistant的时候说，他们希望跟用户建立一种&amp;quot;持续的双向对话&amp;quot;，帮你处理生活里的每一件事。&lt;/p&gt;
-&lt;p&gt;听起来很方便。但Zuboff问了一个问题：这种便利的代价是什么？&lt;/p&gt;
-&lt;p&gt;她在书里写道——曾经是你搜索Google，现在是Google搜索你。&lt;/p&gt;
-&lt;p&gt;这句话我第一次读到的时候停了很久。&lt;/p&gt;
-&lt;p&gt;智能家居设备会记录你家里的对话、你的日常习惯、你几点起床、你喜欢把房间保持在什么温度、你的购物习惯、你的健康状况。这些数据拼在一起，描绘出的是一个比任何调查问卷都完整的你。&lt;/p&gt;
-&lt;p&gt;Zuboff把这个过程叫做&amp;quot;rendition&amp;quot;——你的生活被一点一点地提取出来，转化成数据，进入这个系统。&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id="你孩子的玩具"&gt;你孩子的玩具&lt;/h2&gt;
-&lt;p&gt;这是书里让我感觉最不舒服的部分之一。&lt;/p&gt;
-&lt;p&gt;有一款叫做Cayla的智能娃娃，可以跟孩子对话，回答问题，讲故事。听起来很有趣，很有教育意义。&lt;/p&gt;
-&lt;p&gt;但这款娃娃在收集什么？孩子跟它说的每一句话。孩子的声音、孩子的问题、孩子在想什么、孩子喜欢什么——这些数据都被传输出去，用于商业目的。&lt;/p&gt;
-&lt;p&gt;2017年，德国联邦网络局把这款娃娃定性为非法监控设备，要求家长销毁手中的产品。&lt;/p&gt;
-&lt;p&gt;美国的监管机构当时没有采取行动。&lt;/p&gt;
-&lt;p&gt;Zuboff写道，这些联网玩具、智能娃娃屋，正在为下一代做准备——让他们从小就习惯生活在一个自我和市场之间没有边界的世界里。等他们长大，他们不会觉得这有什么问题。因为他们从来不知道另一种世界是什么样子的。&lt;/p&gt;
-&lt;p&gt;读到这里，我想到一件事——这不只是隐私问题，这是关于下一代人会以什么样的方式理解&amp;quot;正常&amp;quot;的问题。&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id="你的身体"&gt;你的身体&lt;/h2&gt;
-&lt;p&gt;监控的边界继续往里推。&lt;/p&gt;
-&lt;p&gt;保险公司开始对这套逻辑产生了浓厚的兴趣。&lt;/p&gt;
-&lt;p&gt;可穿戴设备可以追踪你的心率、睡眠质量、运动量、饮食习惯。这些数据对保险公司来说极有价值——他们可以更精准地评估你的风险，调整你的保费，甚至在你&amp;quot;不健康&amp;quot;的时候拒绝赔付。&lt;/p&gt;
-&lt;p&gt;Zuboff引用了咨询公司的内部报告，里面写道：消费者对这种监控的抗拒，可以通过提供足够大的价格优惠来克服——只要折扣够大，人们愿意做出隐私上的妥协，尽管心里还有顾虑。&lt;/p&gt;
-&lt;p&gt;如果折扣不够，就把监控包装成&amp;quot;有趣&amp;quot;、&amp;ldquo;互动&amp;rdquo;、&amp;ldquo;有竞争性&amp;quot;的游戏——让司机参加驾驶行为竞赛，让病人追踪自己的健康数据。这种方式叫做&amp;quot;游戏化&amp;rdquo;（gamification）。&lt;/p&gt;
-&lt;p&gt;换句话说，当你觉得自己在玩游戏的时候，你其实在被研究。&lt;/p&gt;
-&lt;p&gt;新冠疫情期间，这套逻辑得到了一次大规模的实践机会。健康码、疫苗通行证，让政府和平台第一次有了追踪大规模人口行为和健康状态的基础设施。而且这套基础设施，在很多地方疫情结束之后并没有消失。&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id="我自己的感受"&gt;我自己的感受&lt;/h2&gt;
-&lt;p&gt;读到这里，我想分享一个我自己的感受。&lt;/p&gt;
-&lt;p&gt;这本书里描述的每一件事，单独拿出来，好像都有一个合理的解释。智能音箱让生活更方便，可穿戴设备帮你管理健康，个性化推送帮你发现感兴趣的内容。&lt;/p&gt;
-&lt;p&gt;每一步都有道理。&lt;/p&gt;
-&lt;p&gt;但Zuboff让我意识到的是，这些单独看起来合理的步骤，合在一起构成了一个整体——一个系统性的、大规模的、对人类行为的提取和塑造。&lt;/p&gt;
-&lt;p&gt;而这个整体，从来没有人征求过你的同意。&lt;/p&gt;
-&lt;p&gt;你点击了&amp;quot;同意&amp;quot;那个按钮，但你同意的是几十页没有人会读完的条款，不是这个整体。&lt;/p&gt;
-&lt;p&gt;书里有一句话，我觉得说得非常准确——监控资本主义领导者们相信，我们会接受这一切，把它当成自然规律。因为Google成功了，因为这套系统有效，所以它的规则一定是对的，一定是不可避免的。&lt;/p&gt;
-&lt;p&gt;但Zuboff说：不是的。这是人做出来的，人可以选择不这样做。他们只是选择了不去改变。&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;好，第二期到这里。&lt;/p&gt;
-&lt;p&gt;我们看到了监控的版图——从你手里的手机，到你家里的每一个角落，到你孩子的玩具，到你的身体数据。这套逻辑的扩张没有自然的边界，只要有新的数据可以提取，它就会继续往前走。&lt;/p&gt;
-&lt;p&gt;但还有一件事我们没有谈到——你可能会想，至少我的数据是匿名的吧？至少他们不知道这是我吧？&lt;/p&gt;
-&lt;p&gt;下一期，我们来聊这个问题。答案，可能会让你不太舒服。&lt;/p&gt;
-&lt;p&gt;这里是《跟我一起读书吧》，我是Allen。&lt;/p&gt;</description></item><item><title>Let's Read Together — Episode 1</title><link>https://benlai.me/reading/ep1-you-think-youre-using-google/</link><pubDate>Tue, 02 Jun 2026 00:00:00 +0000</pubDate><guid>https://benlai.me/reading/ep1-you-think-youre-using-google/</guid><description>&lt;h2 id="you-think-youre-using-google-google-is-using-you"&gt;&amp;ldquo;You Think You&amp;rsquo;re Using Google. Google Is Using You.&amp;rdquo;&lt;/h2&gt;
-&lt;hr&gt;
-&lt;p&gt;Let me start with a question.&lt;/p&gt;
-&lt;p&gt;When did you last search for something online? Today? An hour ago?&lt;/p&gt;
-&lt;p&gt;Maybe you don&amp;rsquo;t even use Google that much anymore. More and more people go straight to ChatGPT, Gemini, or some other AI tool — just type a question, get an answer, have a conversation.&lt;/p&gt;
-&lt;p&gt;But whichever one you use — do you know what happens the moment you hit send? Beyond returning an answer, these platforms are doing something else.&lt;/p&gt;</description></item><item><title>《跟我一起读书吧》第一期</title><link>https://benlai.me/reading/%E7%AC%AC%E4%B8%80%E6%9C%9F_%E4%BD%A0%E4%BB%A5%E4%B8%BA%E4%BD%A0%E5%9C%A8%E7%94%A8google%E5%85%B6%E5%AE%9Egoogle%E5%9C%A8%E7%94%A8%E4%BD%A0/</link><pubDate>Tue, 02 Jun 2026 00:00:00 +0800</pubDate><guid>https://benlai.me/reading/%E7%AC%AC%E4%B8%80%E6%9C%9F_%E4%BD%A0%E4%BB%A5%E4%B8%BA%E4%BD%A0%E5%9C%A8%E7%94%A8google%E5%85%B6%E5%AE%9Egoogle%E5%9C%A8%E7%94%A8%E4%BD%A0/</guid><description>&lt;h2 id="你以为你在用google其实google在用你"&gt;&amp;ldquo;你以为你在用Google，其实Google在用你&amp;rdquo;&lt;/h2&gt;
-&lt;p&gt;&lt;img src="https://benlai.me/images/Image_book_cover.jpg" alt=""&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;我想从一个问题开始——&lt;/p&gt;
-&lt;p&gt;你上一次搜索信息是什么时候？今天？一小时前？&lt;/p&gt;
-&lt;p&gt;可能你已经不太用Google了。越来越多的人直接打开ChatGPT、Gemini，或者其他AI工具，直接问问题，直接对话。&lt;/p&gt;
-&lt;p&gt;但不管你用的是哪个，你知不知道，在你按下发送键的那一刻，除了给你返回答案，这些平台还做了另一件事？&lt;/p&gt;
-&lt;p&gt;它在研究你。&lt;/p&gt;
-&lt;p&gt;不只是你问了什么，而是&lt;strong&gt;你这个人&lt;/strong&gt;——你怎么问，问完之后怎么反应，追问了什么，在哪里停下来。这些数据加在一起，拼出的不是一次对话记录，而是一幅关于你的画像。&lt;/p&gt;
-&lt;p&gt;而且说实话，你跟AI说的话，比你输入搜索框的关键词，要真实得多。关键词你还会想想怎么措辞，但跟AI对话，你说的往往是你真正在想的事。&lt;/p&gt;
-&lt;p&gt;这幅画像，被拿去做什么了？&lt;/p&gt;
-&lt;p&gt;这就是今天我们要聊的问题。&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id="这本书是什么"&gt;这本书是什么&lt;/h2&gt;
-&lt;p&gt;Shoshana Zuboff是哈佛商学院的教授。她花了将近十年时间研究一个问题：我们所处的这个数字世界，底层的商业逻辑到底是什么？&lt;/p&gt;
-&lt;p&gt;2019年她出版了这本书——&lt;em&gt;The Age of Surveillance Capitalism&lt;/em&gt;，七百多页，非常厚。中文版有出版，但坦白说，原著有些关键的论述在翻译过程中有所流失，所以今天我们聊的是原著。&lt;/p&gt;
-&lt;p&gt;这本书的核心论点，用一句话说就是：&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;我们的个人经历、行为、情绪，在我们不知情的情况下，被系统性地提取出来，变成了可以买卖的商品。&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;这不是阴谋论。这是一套有具体历史、具体机制、具体参与者的商业逻辑。Zuboff用大量的调查和文件把这套逻辑还原出来。&lt;/p&gt;
-&lt;p&gt;我们今天先把基础建立好——三个核心概念，加上这一切是怎么开始的。&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id="第一个概念行为剩余behavioral-surplus"&gt;第一个概念：行为剩余（Behavioral Surplus）&lt;/h2&gt;
-&lt;p&gt;故事要从Google的早期说起。&lt;/p&gt;
-&lt;p&gt;1998年，Larry Page和Sergey Brin在斯坦福大学创立了Google。最初的使命很简单：把全世界的信息组织起来，让任何人都能找到。&lt;/p&gt;
-&lt;p&gt;为了让搜索结果更准确，Google开始收集用户数据——你搜了什么，点了哪个结果，没点哪个。这些信息反馈回来，帮助系统不断改进。这个逻辑完全说得通，数据是为了改善产品。&lt;/p&gt;
-&lt;p&gt;但有一天，Google的工程师们发现了一件事：用户产生的数据，远远超过改善搜索所需要的量。&lt;/p&gt;
-&lt;p&gt;打个比方——你去买咖啡，店家为了改善服务，记录了你点了什么，喝完之后满不满意。这些信息是有用的。但如果同时还记录了你进门前在外面站了多久，你跟谁一起来，你进门的时候看起来心情怎么样，你走的时候往哪个方向走——这些信息跟改善咖啡没有任何关系，但它们描述了一个更完整的你。&lt;/p&gt;
-&lt;p&gt;Google发现的，就是这种&amp;quot;多出来的&amp;quot;数据。Zuboff把它叫做&lt;strong&gt;行为剩余（Behavioral Surplus）&lt;/strong&gt;。&lt;/p&gt;
-&lt;p&gt;这些剩余数据本来可以丢掉。没有人会追究。但Google没有丢。&lt;/p&gt;
-&lt;p&gt;因为他们发现，这些数据可以用来预测你下一步会做什么。而这个预测，对广告商来说，价值连城。&lt;/p&gt;
-&lt;p&gt;这是整个故事的起点。一个本来可以被丢弃的&amp;quot;副产品&amp;quot;，变成了一个全新商业模式的基础。&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id="第二个概念预测产品prediction-products"&gt;第二个概念：预测产品（Prediction Products）&lt;/h2&gt;
-&lt;p&gt;当Google意识到行为剩余的价值之后，他们做了一件事——建立了一套把这些数据转化成预测的系统。&lt;/p&gt;
-&lt;p&gt;被卖给广告商的，不是你的原始数据，而是基于你的数据生成的&lt;strong&gt;预测&lt;/strong&gt;——你有多大概率会点击某个广告，你有多大概率在接下来的24小时内购买某样东西，你现在的情绪状态适合接收什么类型的信息。&lt;/p&gt;
-&lt;p&gt;Zuboff把这些预测叫做&lt;strong&gt;预测产品（Prediction Products）&lt;/strong&gt;。&lt;/p&gt;
-&lt;p&gt;广告商买的，是你的未来行为。&lt;/p&gt;
-&lt;p&gt;Zuboff进一步把这个市场命名为&lt;strong&gt;行为期货市场（Behavioral Futures Markets）&lt;/strong&gt;。这个类比非常精准——金融市场里，期货是对未来价格的投注；这里，被投注的是你未来会做什么。&lt;/p&gt;
-&lt;p&gt;交易的不是大豆，不是原油，而是你。&lt;/p&gt;
-&lt;p&gt;Google内部把这门新科学叫做&amp;quot;点击物理学&amp;quot;（the physics of clicks）。他们招募了来自人工智能、统计学、机器学习、行为科学各个领域最顶尖的人才，目标只有一个：把对人类行为的预测做到极致精准。&lt;/p&gt;
-&lt;p&gt;经济学家Hal Varian是Google的首席经济学家，他把这套系统的逻辑说得很清楚：数据只能测量相关性，不能测量因果关系。数据告诉你发生了什么，但不告诉你为什么发生。所以如果真的想理解因果，就必须做实验——不断地、大规模地、自动化地做实验。&lt;/p&gt;
-&lt;p&gt;而Google拥有的，正是做这种实验的完美条件：数以亿计的用户，每天产生的海量数据，以及在用户完全不知情的情况下调整他们看到的内容的能力。&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id="第三个概念行为修正behavioral-modification"&gt;第三个概念：行为修正（Behavioral Modification）&lt;/h2&gt;
-&lt;p&gt;预测行为是第一步。但这个体系真正的野心，比预测更大。&lt;/p&gt;
-&lt;p&gt;下一步，是主动&lt;strong&gt;塑造&lt;/strong&gt;行为。&lt;/p&gt;
-&lt;p&gt;这是Zuboff在书里着墨最多，也是最让我感到不安的部分。&lt;/p&gt;
-&lt;p&gt;算法不只是猜你会做什么，而是被设计来让你做某些特定的事——让你多停留，多点击，多购买，多分享，多愤怒，多焦虑。你以为你在自由地刷手机，其实每一个推送、每一个通知、每一个&amp;quot;猜你喜欢&amp;quot;，都是经过精密计算的干预。&lt;/p&gt;
-&lt;p&gt;书里引用了一位硅谷教育公司首席数据科学家说的话，他说：&amp;ldquo;大规模的条件反射，是这门新科学的核心。智能手机、可穿戴设备、以及所有这些永远在线的网络节点，让我们有能力影响和管理大量用户的行为。&amp;rdquo;&lt;/p&gt;
-&lt;p&gt;条件反射。这个词让我停下来想了很久。&lt;/p&gt;
-&lt;p&gt;这是巴甫洛夫的实验——铃声响了，狗就流口水。经过足够多次的重复，行为被固化了，变成了反射。&lt;/p&gt;
-&lt;p&gt;只不过现在，铃声是算法，狗是我们。&lt;/p&gt;
-&lt;p&gt;而且这个过程必须在我们不知情的情况下进行。Zuboff说得很直接：个人意识是行为操控的敌人。一旦你意识到自己在被影响，你就会产生抵抗。所以这套系统的设计，从一开始就把&amp;quot;让你不知道&amp;quot;作为核心要求之一。&lt;/p&gt;
-&lt;p&gt;Facebook在2014年做过一个实验——他们在用户不知情的情况下，调整了将近七十万用户看到的内容，一部分人看到更多正面的帖子，另一部分人看到更多负面的。结果发现，看到负面内容的用户，自己发的内容也变得更负面。&lt;/p&gt;
-&lt;p&gt;情绪是可以传染的，而且可以被人为操控。&lt;/p&gt;
-&lt;p&gt;这个实验后来被曝光，引发了很大的争议。但Zuboff指出，这种实验在各大平台上从来没有停止过，只是大多数时候我们不知道。&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id="这一切是怎么开始的"&gt;这一切是怎么开始的&lt;/h2&gt;
-&lt;p&gt;我想在这里讲一个很多人不知道的故事，因为它揭示了一件重要的事：这一切不是从一开始就被计划好的。&lt;/p&gt;</description></item><item><title>Let's Read Together — Episode 0</title><link>https://benlai.me/reading/ep0-why-i-am-starting-this-podcast/</link><pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate><guid>https://benlai.me/reading/ep0-why-i-am-starting-this-podcast/</guid><description>&lt;h2 id="why-im-starting-this-podcast"&gt;&amp;ldquo;Why I&amp;rsquo;m Starting This Podcast&amp;rdquo;&lt;/h2&gt;
-&lt;hr&gt;
-&lt;p&gt;I want to start with a question.&lt;/p&gt;
-&lt;p&gt;How much time do you spend on your phone every day?&lt;/p&gt;
-&lt;p&gt;Scrolling through short videos, tapping through notifications, clicking one thing after another. Sometimes it&amp;rsquo;s just for fun, just to unwind — and that&amp;rsquo;s fine. But let me ask you this: out of everything you scrolled through last month, was there a single video that genuinely changed the way you think about something?&lt;/p&gt;</description></item><item><title>《跟我一起读书吧》第零期</title><link>https://benlai.me/reading/%E7%AC%AC%E9%9B%B6%E6%9C%9F_%E4%B8%BA%E4%BB%80%E4%B9%88%E6%88%91%E8%A6%81%E5%81%9A%E8%BF%99%E4%B8%AA%E8%8A%82%E7%9B%AE/</link><pubDate>Mon, 01 Jun 2026 00:00:00 +0800</pubDate><guid>https://benlai.me/reading/%E7%AC%AC%E9%9B%B6%E6%9C%9F_%E4%B8%BA%E4%BB%80%E4%B9%88%E6%88%91%E8%A6%81%E5%81%9A%E8%BF%99%E4%B8%AA%E8%8A%82%E7%9B%AE/</guid><description>&lt;p&gt;&lt;img src="https://benlai.me/images/Image_cover.jpg" alt=""&gt;&lt;/p&gt;
-&lt;h2 id="为什么我要做这个节目"&gt;&amp;ldquo;为什么我要做这个节目&amp;rdquo;&lt;/h2&gt;
-&lt;hr&gt;
-&lt;p&gt;我最近在想一个问题——我们每天花多少时间在手机上？&lt;/p&gt;
-&lt;p&gt;刷短视频，看推送，点开一个又一个。有时候放松一下，just for fun，没什么问题。但如果我问你：上个月你刷过的那些视频，有哪一条，真正改变了你对某件事的看法？&lt;/p&gt;
-&lt;p&gt;大概很难想起来。&lt;/p&gt;
-&lt;p&gt;我自己也会刷。但我越来越清楚地感觉到，短视频是快餐——吃的时候觉得满足，吃完什么都没留下。它给你刺激，给你消遣，但它给不了你一样东西：&lt;strong&gt;真正的思考&lt;/strong&gt;。&lt;/p&gt;
-&lt;p&gt;真正的思考需要时间。需要你跟着一个人的论述走很长一段路，走到你开始质疑，开始对话，开始形成自己的观点。这个过程，只有读书能给你。&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;这个节目，叫**《跟我一起读书吧》**。&lt;/p&gt;
-&lt;p&gt;我会读书，然后用中文把书里真正重要的东西讲给你听。&lt;/p&gt;
-&lt;p&gt;我要特别说一点：很多我读的书，是英文原著。有些有中文版，但中文版有时候删节，有时候翻译质量参差不齐，有时候因为各种原因，把最关键的内容丢掉了。读者拿到手的，可能只是原著的一个影子。&lt;/p&gt;
-&lt;p&gt;所以我想做的，是直接读原著，然后用中文告诉你，这本书&lt;strong&gt;真正&lt;/strong&gt;说了什么。&lt;/p&gt;
-&lt;p&gt;有时候是很严肃的非虚构，有时候可能就是一本小说，轻松聊聊，没有固定的框架，跟着感觉走。&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;第一本书，我选了Shoshana Zuboff的《监控资本主义时代》——&lt;em&gt;The Age of Surveillance Capitalism&lt;/em&gt;。&lt;/p&gt;
-&lt;p&gt;这本书出版于2019年，到今天依然是理解我们所处数字世界最重要的著作之一。它回答一个问题：&lt;strong&gt;为什么那些免费的App，其实一点都不免费？&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;你有没有想过，为什么你刚刚跟朋友聊到某个东西，手机上就出现了相关广告？为什么你的每一次点击、每一次停留、每一次搜索，都在被人记录、分析、出售？&lt;/p&gt;
-&lt;p&gt;这不是巧合，这是一套完整的商业逻辑。而这本书，把这套逻辑彻底解剖给你看。&lt;/p&gt;
-&lt;p&gt;我们很多人早就隐约知道这些事情在发生。但&amp;quot;隐约知道&amp;quot;和&amp;quot;真正理解&amp;quot;之间，有一本书的距离。&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;最后我想说——&lt;/p&gt;
-&lt;p&gt;做这个节目，也不是要你放弃短视频。&lt;/p&gt;
-&lt;p&gt;是因为我相信，真正的阅读给你的东西，没有任何算法能替代。&lt;/p&gt;
-&lt;p&gt;它给你的是你自己的思考。&lt;/p&gt;
-&lt;p&gt;在一个越来越多的平台想要替你思考、替你选择、替你决定的时代，能够坐下来，认真读完一本书，本身就是一种清醒。&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;好，我们开始吧。&lt;/p&gt;
-&lt;p&gt;这里是《跟我一起读书吧》，我是Allen。下一期，我们正式进入《监控资本主义时代》。&lt;/p&gt;</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>书房 on 本来</title>
+    <link>https://benlai.me/reading/</link>
+    <description>Recent content in 书房 on 本来</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sat, 06 Jun 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://benlai.me/reading/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Let&#39;s Read Together — Episode 5</title>
+      <link>https://benlai.me/reading/ep5-so-what-can-we-do/</link>
+      <pubDate>Sat, 06 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://benlai.me/reading/ep5-so-what-can-we-do/</guid>
+      <description>&lt;h2 id=&#34;so-what-can-we-do&#34;&gt;&amp;ldquo;So What Can We Do?&amp;rdquo;&lt;/h2&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;This is the final episode for this book.&lt;/p&gt;&#xA;&lt;p&gt;Over the past four episodes, we&amp;rsquo;ve mapped the system — what it is, how it works, where it&amp;rsquo;s spread, and how the same logic operates in different hands in different parts of the world.&lt;/p&gt;&#xA;&lt;p&gt;Now we get to the last question: knowing all of this, what can we actually do?&lt;/p&gt;&#xA;&lt;p&gt;It&amp;rsquo;s the question most readers arrive at by the end of this book. Zuboff spends nearly half of it building the argument — and then, in the final section, offers her answer. I&amp;rsquo;ll share her answer first, then tell you what I think.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>《跟我一起读书吧》第五期</title>
+      <link>https://benlai.me/reading/%E7%AC%AC%E4%BA%94%E6%9C%9F_%E6%88%91%E4%BB%AC%E8%83%BD%E6%80%8E%E4%B9%88%E5%8A%9E/</link>
+      <pubDate>Sat, 06 Jun 2026 00:00:00 +0800</pubDate>
+      <guid>https://benlai.me/reading/%E7%AC%AC%E4%BA%94%E6%9C%9F_%E6%88%91%E4%BB%AC%E8%83%BD%E6%80%8E%E4%B9%88%E5%8A%9E/</guid>
+      <description>&lt;h2 id=&#34;我们能怎么办&#34;&gt;&amp;ldquo;我们能怎么办？&amp;rdquo;&lt;/h2&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;这是这本书的最后一期。&lt;/p&gt;&#xA;&lt;p&gt;前四期我们把这套系统的逻辑说清楚了——它是什么，它怎么运作，它扩展到了哪里，它在不同的地方以不同的形态存在。&lt;/p&gt;&#xA;&lt;p&gt;现在到了最后一个问题：知道了这一切，我们能怎么办？&lt;/p&gt;&#xA;&lt;p&gt;这也是很多读者读完这本书之后最想问的问题。Zuboff用了将近一半的篇幅来建立论述，然后在最后给出她的答案。我先说她的答案，然后说说我自己的想法。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;先说一个让很多人失望的现实&#34;&gt;先说一个让很多人失望的现实&lt;/h2&gt;&#xA;&lt;p&gt;我要先说一件可能让你有点失望的事。&lt;/p&gt;&#xA;&lt;p&gt;Zuboff没有给你一个操作手册。她没有说&amp;quot;你应该删除这些App&amp;quot;，或者&amp;quot;用这个工具保护你的隐私&amp;quot;，或者&amp;quot;每天做这五件事就安全了&amp;quot;。&lt;/p&gt;&#xA;&lt;p&gt;这不是因为她不关心普通人能做什么，而是因为她认为，把这个问题变成个人的技术防护问题，本身就是一个陷阱。&lt;/p&gt;&#xA;&lt;p&gt;她的理由是这样的：监控资本主义是一个系统性的问题，不是个人行为问题。就算你今天删掉所有的社交媒体，换掉手机，用现金付款，你依然生活在一个被这套系统塑造的世界里——你看到的信息、你身边的人的行为、你所在社会的公共讨论，都已经被这套逻辑深度渗透了。&lt;/p&gt;&#xA;&lt;p&gt;一个人的退出，改变不了系统的运作方式。&lt;/p&gt;&#xA;&lt;p&gt;所以她的答案，是在更大的层面上寻找解决方案。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;zuboff的答案命名认知行动&#34;&gt;Zuboff的答案：命名、认知、行动&lt;/h2&gt;&#xA;&lt;p&gt;Zuboff在书里提出了三个层次的回应。&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;第一个层次：命名（Naming）&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;她认为，我们首先需要一个准确的语言来描述正在发生的事情。&lt;/p&gt;&#xA;&lt;p&gt;在这本书出版之前，很多人用&amp;quot;数字经济&amp;quot;、&amp;ldquo;平台经济&amp;rdquo;、&amp;ldquo;数据驱动&amp;quot;这些词来描述这套系统。这些词听起来中性甚至积极，掩盖了这套系统的真实本质。&lt;/p&gt;&#xA;&lt;p&gt;Zuboff创造了&amp;quot;监控资本主义&amp;quot;这个词，就是为了给这件事一个准确的名字。因为你没有办法对抗一个你无法命名的东西。&lt;/p&gt;&#xA;&lt;p&gt;历史上有过类似的时刻。工业革命早期，童工、十六小时工作制、工厂污染，这些都被当成&amp;quot;进步的代价&amp;rdquo;，是理所当然的事情。直到有人给这些现象命名，说这是剥削，这是不公正，改变才开始有了可能。&lt;/p&gt;&#xA;&lt;p&gt;她认为我们现在处于类似的历史节点。&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;第二个层次：认知（Knowing）&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;知道发生了什么，是改变的前提。&lt;/p&gt;&#xA;&lt;p&gt;Zuboff花了这本书的大部分篇幅做的，就是这件事——把这套系统的运作机制完整地呈现出来，让读者真正理解，而不是隐约感觉。&lt;/p&gt;&#xA;&lt;p&gt;她相信，当足够多的人真正理解了这套系统的本质，社会态度就会改变。就像当人们真正理解了工厂污染对健康的影响，环境保护立法才成为可能。&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;第三个层次：行动（Acting）&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;这里Zuboff的论述转向了政治和法律层面。&lt;/p&gt;&#xA;&lt;p&gt;她认为，最有效的改变必须通过立法和监管来实现。个人的消费选择改变不了系统，但法律可以。&lt;/p&gt;&#xA;&lt;p&gt;她提出了几个具体的方向：&lt;/p&gt;&#xA;&lt;p&gt;第一，数据所有权。你产生的数据，应该属于你，而不是平台。平台使用你的数据，应该需要真正意义上的知情同意，而不是那些没有人会读完的条款。&lt;/p&gt;&#xA;&lt;p&gt;第二，行为修正的禁止。对人类行为的大规模实验性干预，应该受到监管，就像医疗实验需要伦理审查一样。&lt;/p&gt;&#xA;&lt;p&gt;第三，预测产品市场的规范。行为期货市场的存在本身，应该受到质疑和约束。&lt;/p&gt;&#xA;&lt;p&gt;她把这些比作20世纪初的劳工运动和环境保护运动——都是面对强大的商业利益，通过长期的社会运动和立法斗争，最终改变了规则。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;但这真的可能吗&#34;&gt;但这真的可能吗？&lt;/h2&gt;&#xA;&lt;p&gt;读到这里，我有一个诚实的感受——Zuboff的答案是有力量的，但也是漫长的。&lt;/p&gt;&#xA;&lt;p&gt;劳工运动花了几十年。环境保护立法花了几十年。而监控资本主义的扩展速度，比工业时代的任何变化都要快得多。&lt;/p&gt;&#xA;&lt;p&gt;而且还有一个现实的问题：推动这些改变需要政治意愿，而政治本身也已经被这套系统深度渗透——选举广告、社交媒体的信息操控、政治人物对科技公司的依赖——这些都让系统性的改变变得更加困难。&lt;/p&gt;&#xA;&lt;p&gt;所以Zuboff的答案，我觉得是正确的方向，但不是一个让人感到轻松的答案。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;那普通人呢&#34;&gt;那普通人呢？&lt;/h2&gt;&#xA;&lt;p&gt;我知道你可能还是想知道——在等待系统性改变的漫长过程里，作为一个普通人，有没有什么是可以做的？&lt;/p&gt;&#xA;&lt;p&gt;我自己的想法是这样的。&lt;/p&gt;&#xA;&lt;p&gt;完全的退出是不现实的，也不必要。但有一种东西是你可以保留的，而且这套系统最害怕的——就是&lt;strong&gt;意识&lt;/strong&gt;。&lt;/p&gt;&#xA;&lt;p&gt;Zuboff在书里说，个人意识是行为操控的敌人。这套系统运作的前提，是你不知道，或者你不在乎。&lt;/p&gt;&#xA;&lt;p&gt;当你知道一个推送为什么出现，当你理解一个算法在试图做什么，当你能够辨认出哪些情绪反应是被设计出来的——你就已经在这套系统里保留了一部分自主性。&lt;/p&gt;&#xA;&lt;p&gt;不是说你就免疫了。没有人能完全免疫。但清醒地使用这些工具，和浑然不觉地被这些工具使用，是不一样的。&lt;/p&gt;&#xA;&lt;p&gt;这也是我做这个节目的原因之一。不是要告诉你该怎么做，而是希望我们一起，对自己生活的这个世界，有更清醒的理解。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;这本书最后说了什么&#34;&gt;这本书最后说了什么&lt;/h2&gt;&#xA;&lt;p&gt;Zuboff在书的结尾，说了一段我觉得非常有力量的话。&lt;/p&gt;&#xA;&lt;p&gt;她说，监控资本主义的领导者们相信我们会接受这一切，就像Steinbeck笔下的农民接受了银行的逻辑一样——因为它成功了，因为它有效，所以它的规则一定是对的，一定是不可避免的。&lt;/p&gt;&#xA;&lt;p&gt;但她说，我们看清楚了这套系统的内在逻辑，就知道事实并非如此。这套系统是人做出来的，是在特定的历史条件下，由特定的人，做出的特定的选择。&lt;/p&gt;&#xA;&lt;p&gt;它可以被改变。他们只是选择了不去改变它。&lt;/p&gt;&#xA;&lt;p&gt;而我们，可以选择不同。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;我自己读完这本书的感受&#34;&gt;我自己读完这本书的感受&lt;/h2&gt;&#xA;&lt;p&gt;最后，我想说一下我自己读完这本书的整体感受。&lt;/p&gt;&#xA;&lt;p&gt;这本书很厚，读起来不轻松。Zuboff是学者，她的论述非常严密，有时候也很dense。但我觉得读这本书的价值，不只是获得信息，而是获得一个框架——一个理解我们所处数字世界的框架。&lt;/p&gt;&#xA;&lt;p&gt;读完之后，你再打开手机，再刷推送，再点击&amp;quot;同意&amp;quot;，感觉会不一样。不是说你会变得愤怒或者偏执，而是你会更清楚地知道，这个界面背后是什么，这个推送为什么在这个时候出现，这个&amp;quot;免费&amp;quot;的服务真正的代价是什么。&lt;/p&gt;&#xA;&lt;p&gt;这种清醒，我觉得是值得的。&lt;/p&gt;&#xA;&lt;p&gt;这本书的中文版有出版，但如果你有能力读英文原著，我建议读原著。不只是因为翻译的问题，而是因为Zuboff的语言本身非常精确，很多关键概念在原文里有一种中文很难完全传递的力量。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;好，《监控资本主义时代》我们就聊到这里。&lt;/p&gt;&#xA;&lt;p&gt;五期，从这套系统的诞生，到它的机制，到它的扩展，到它在不同地方的不同形态，到最后我们能做什么。&lt;/p&gt;&#xA;&lt;p&gt;这是《跟我一起读书吧》第一本书的完整旅程。&lt;/p&gt;&#xA;&lt;p&gt;下一本书，我们换一个完全不同的方向。&lt;/p&gt;&#xA;&lt;p&gt;这里是《跟我一起读书吧》，我是Allen。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Let&#39;s Read Together — Episode 4</title>
+      <link>https://benlai.me/reading/ep4-same-logic-different-hands/</link>
+      <pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://benlai.me/reading/ep4-same-logic-different-hands/</guid>
+      <description>&lt;h2 id=&#34;same-logic-different-hands&#34;&gt;&amp;ldquo;Same Logic, Different Hands&amp;rdquo;&lt;/h2&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;I want to start with an observation.&lt;/p&gt;&#xA;&lt;p&gt;Over the past few episodes, we&amp;rsquo;ve been focused on Silicon Valley — Google, Facebook, Amazon. But reading this book, I kept feeling something: the logic Zuboff describes isn&amp;rsquo;t specific to one place.&lt;/p&gt;&#xA;&lt;p&gt;It&amp;rsquo;s a technical infrastructure, combined with a particular way of understanding and extracting value from human behavioral data.&lt;/p&gt;&#xA;&lt;p&gt;That infrastructure exists in different places. It&amp;rsquo;s been taken up by different actors. And it&amp;rsquo;s being used toward different ends.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>《跟我一起读书吧》第四期</title>
+      <link>https://benlai.me/reading/%E7%AC%AC%E5%9B%9B%E6%9C%9F_%E5%90%8C%E4%B8%80%E5%A5%97%E9%80%BB%E8%BE%91%E4%B8%8D%E5%90%8C%E7%9A%84%E4%BD%BF%E7%94%A8%E8%80%85/</link>
+      <pubDate>Fri, 05 Jun 2026 00:00:00 +0800</pubDate>
+      <guid>https://benlai.me/reading/%E7%AC%AC%E5%9B%9B%E6%9C%9F_%E5%90%8C%E4%B8%80%E5%A5%97%E9%80%BB%E8%BE%91%E4%B8%8D%E5%90%8C%E7%9A%84%E4%BD%BF%E7%94%A8%E8%80%85/</guid>
+      <description>&lt;h2 id=&#34;同一套逻辑不同的使用者&#34;&gt;&amp;ldquo;同一套逻辑，不同的使用者&amp;rdquo;&lt;/h2&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;我想从一个观察开始。&lt;/p&gt;&#xA;&lt;p&gt;过去几期我们一直在聊硅谷——Google、Facebook、Amazon。但读这本书的时候，我一直有一个感觉：Zuboff描述的这套逻辑，不是某一个地方特有的现象。&lt;/p&gt;&#xA;&lt;p&gt;它是一套技术基础设施，加上一套对人类行为数据的理解方式。&lt;/p&gt;&#xA;&lt;p&gt;这套基础设施，在不同的地方，被不同的人，用于不同的目的。&lt;/p&gt;&#xA;&lt;p&gt;今天我们来聊这件事。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;先回到一个基本问题&#34;&gt;先回到一个基本问题&lt;/h2&gt;&#xA;&lt;p&gt;我们前几期建立了一个框架：监控资本主义的核心，是把人类的行为数据提取出来，转化成预测产品，然后用来影响和塑造行为。&lt;/p&gt;&#xA;&lt;p&gt;驱动这套系统的，在西方主要是商业逻辑——广告收入，行为期货市场，股东回报。&lt;/p&gt;&#xA;&lt;p&gt;但Zuboff在书里问了一个问题：这套基础设施，如果不是为了卖广告，而是为了其他目的，会是什么样子？&lt;/p&gt;&#xA;&lt;p&gt;这个问题，在世界的不同角落，已经有了不同的答案。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;商业监控的边界在哪里&#34;&gt;商业监控的边界在哪里&lt;/h2&gt;&#xA;&lt;p&gt;我们先把西方的情况说清楚。&lt;/p&gt;&#xA;&lt;p&gt;在硅谷模式里，数据的主要流向是广告市场。平台收集你的行为数据，卖给广告商，广告商用这些数据向你推送更精准的广告。这套系统的目标，是让你买更多东西，点更多广告，在屏幕前停留更长时间。&lt;/p&gt;&#xA;&lt;p&gt;但这套系统有没有边界？&lt;/p&gt;&#xA;&lt;p&gt;Zuboff的答案是：没有自然的边界。&lt;/p&gt;&#xA;&lt;p&gt;只要有新的数据来源，这套系统就会往那里扩展。从搜索记录到位置数据，从社交媒体到智能家居，从可穿戴设备到儿童玩具。每一次扩展，都有一个听起来合理的理由——更好的服务，更个性化的体验，更方便的生活。&lt;/p&gt;&#xA;&lt;p&gt;但扩展的方向，从来不是由用户决定的。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;当同样的技术遇到不同的需求&#34;&gt;当同样的技术遇到不同的需求&lt;/h2&gt;&#xA;&lt;p&gt;现在我们来看另一种情况。&lt;/p&gt;&#xA;&lt;p&gt;同样的技术基础设施——大规模数据收集、行为分析、预测模型、实时干预——如果使用者的目标不是卖广告，而是别的什么，会发生什么？&lt;/p&gt;&#xA;&lt;p&gt;这里我想插入一个离我们更近的例子。&lt;/p&gt;&#xA;&lt;p&gt;2016年，一家中文搜索引擎宣布，他们的大数据实验室正在利用来自六亿用户的位置数据，追踪和预测整个经济体的动态——就业指数、消费指数，甚至某家科技公司在特定季度的营收预测。&lt;/p&gt;&#xA;&lt;p&gt;研究人员写道，他们是第一个通过挖掘如此大规模、细粒度的时空数据来衡量一个主要经济体的团队。&lt;/p&gt;&#xA;&lt;p&gt;一家私人公司，通过追踪六亿人的位置，建立了一套比官方统计更实时、更精准的经济监测系统。这不是未来的科幻场景，这是已经发生的事情。&lt;/p&gt;&#xA;&lt;p&gt;这种能力，对不同的使用者，意味着完全不同的东西。对一家公司来说，它意味着更精准的商业决策。对一个政府来说，它意味着对人口流动、社会情绪、经济状态的实时掌握。&lt;/p&gt;&#xA;&lt;p&gt;数据本身是中立的。使用数据的人，决定了它的意义。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;新冠疫情一次大规模的实验&#34;&gt;新冠疫情：一次大规模的实验&lt;/h2&gt;&#xA;&lt;p&gt;2020年开始的新冠疫情，给了全世界一个观察这套逻辑的特殊窗口。&lt;/p&gt;&#xA;&lt;p&gt;在很短的时间里，许多国家和地区建立了基于手机数据的人口追踪系统——健康码、行程记录、接触者追踪。&lt;/p&gt;&#xA;&lt;p&gt;从技术角度看，这些系统和监控资本主义的基础设施高度重叠：大规模收集位置数据，实时分析行为，根据分析结果限制或允许特定行动。&lt;/p&gt;&#xA;&lt;p&gt;在公共卫生紧急状态下，这些措施有其合理性。很多人也愿意接受这种权衡——用一部分隐私，换取更安全的公共环境。&lt;/p&gt;&#xA;&lt;p&gt;但Zuboff在书里反复强调一件事：紧急状态下建立的基础设施，往往不会随着紧急状态的结束而消失。&lt;/p&gt;&#xA;&lt;p&gt;这套追踪系统，在疫情之前不存在。在疫情期间被快速建立。在疫情之后，以不同的形式，在不同的地方，继续存在。&lt;/p&gt;&#xA;&lt;p&gt;这个模式，和Google当年的故事惊人地相似——生存压力下的&amp;quot;暂时&amp;quot;措施，后来变成了永久的基础设施。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;两种模式一个共同点&#34;&gt;两种模式，一个共同点&lt;/h2&gt;&#xA;&lt;p&gt;读到这里，我想说一个我自己的观察。&lt;/p&gt;&#xA;&lt;p&gt;西方的商业监控模式和其他地方的监控模式，表面上看目标不同——一个是卖广告，一个可能是别的。但它们有一个深层的共同点：&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;普通人的行为数据，在没有真正知情同意的情况下，被用于服务于普通人之外的目标。&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;在商业模式里，你的数据服务于广告商的利益。在其他模式里，你的数据服务于其他目的。但在这两种情况下，你都不是真正的受益者，你是原材料。&lt;/p&gt;&#xA;&lt;p&gt;Zuboff把这个概括得很清楚：监控资本主义单方面宣称人类经验是免费的原材料。&lt;/p&gt;&#xA;&lt;p&gt;&amp;ldquo;单方面&amp;quot;这三个字，是关键。没有经过谈判，没有经过同意，没有给你选择的机会。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;一个值得思考的问题&#34;&gt;一个值得思考的问题&lt;/h2&gt;&#xA;&lt;p&gt;我想在这期结尾留一个问题，不给答案，只是希望你想一想。&lt;/p&gt;&#xA;&lt;p&gt;我们通常把隐私问题理解为个人问题——我的数据，我的隐私，我的选择。但Zuboff说，这个框架本身就是一个陷阱。&lt;/p&gt;&#xA;&lt;p&gt;因为监控的真正影响，不只是发生在个人层面。当一套系统可以在大规模人群中追踪、预测、塑造行为，它改变的不只是个人的选择，而是整个社会的运作方式——人们如何形成观点，如何做决定，如何理解什么是正常的。&lt;/p&gt;&#xA;&lt;p&gt;她把这种新型的权力叫做&amp;quot;工具主义权力&amp;rdquo;（Instrumentarian Power）。不是通过暴力，不是通过意识形态，而是通过对行为的精密管理，来实现对社会的塑造。&lt;/p&gt;&#xA;&lt;p&gt;这种权力，在商业公司手里是一种形态，在其他使用者手里，可能是另一种形态。&lt;/p&gt;&#xA;&lt;p&gt;但不管是哪种形态，Zuboff的问题都是同一个：&lt;strong&gt;谁有权利这样做？谁授权了他们？&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;好，第四期到这里。&lt;/p&gt;&#xA;&lt;p&gt;我们今天没有停留在硅谷，而是往更大的图景看了一眼——同样的技术逻辑，在不同的地方，被不同的力量使用。商业监控和其他形式的监控，目标不同，但有一个共同的结构：普通人的行为，在不知情的情况下，成为了服务于他人目标的原材料。&lt;/p&gt;&#xA;&lt;p&gt;下一期是这本书的最后一期。Zuboff最后问了一个问题：我们能怎么办？她的答案是什么，我的看法是什么，我们下期见。&lt;/p&gt;&#xA;&lt;p&gt;这里是《跟我一起读书吧》，我是Allen。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Let&#39;s Read Together — Episode 3</title>
+      <link>https://benlai.me/reading/ep3-anonymity-is-an-illusion/</link>
+      <pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://benlai.me/reading/ep3-anonymity-is-an-illusion/</guid>
+      <description>&lt;h2 id=&#34;anonymity-is-an-illusion&#34;&gt;&amp;ldquo;Anonymity Is an Illusion&amp;rdquo;&lt;/h2&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;Let me ask you something.&lt;/p&gt;&#xA;&lt;p&gt;Have you ever wondered why you put up with all of this?&lt;/p&gt;&#xA;&lt;p&gt;You&amp;rsquo;re not alone. Surveys consistently show that most consumers say they don&amp;rsquo;t trust companies that want to monitor their behavior. And yet — those same people keep using Google, keep using Facebook, keep the smart speaker plugged in on the kitchen counter.&lt;/p&gt;&#xA;&lt;p&gt;Why?&lt;/p&gt;&#xA;&lt;p&gt;One of the most common answers: at least the data is anonymous. They don&amp;rsquo;t know it&amp;rsquo;s me. I&amp;rsquo;m just one number among hundreds of millions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>《跟我一起读书吧》第三期</title>
+      <link>https://benlai.me/reading/%E7%AC%AC%E4%B8%89%E6%9C%9F_%E5%8C%BF%E5%90%8D%E6%98%AF%E4%B8%AA%E5%B9%BB%E8%A7%89/</link>
+      <pubDate>Thu, 04 Jun 2026 00:00:00 +0800</pubDate>
+      <guid>https://benlai.me/reading/%E7%AC%AC%E4%B8%89%E6%9C%9F_%E5%8C%BF%E5%90%8D%E6%98%AF%E4%B8%AA%E5%B9%BB%E8%A7%89/</guid>
+      <description>&lt;h2 id=&#34;匿名是个幻觉&#34;&gt;&amp;ldquo;匿名是个幻觉&amp;rdquo;&lt;/h2&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;我想先问你一个问题。&lt;/p&gt;&#xA;&lt;p&gt;你有没有想过，为什么你愿意接受这一切？&lt;/p&gt;&#xA;&lt;p&gt;不只是你——大多数人都知道自己的数据在被收集。调查显示，绝大多数消费者表示他们不信任那些想要监控自己行为的公司。但同样是这些人，继续用Google，继续用Facebook，继续把智能音箱放在家里。&lt;/p&gt;&#xA;&lt;p&gt;为什么？&lt;/p&gt;&#xA;&lt;p&gt;其中一个最常见的理由是——反正他们收集的是匿名数据。他们不知道这是我。我只是几亿用户里的一个数字。&lt;/p&gt;&#xA;&lt;p&gt;今天我们就来聊这个问题。&lt;/p&gt;&#xA;&lt;p&gt;这个理由，是真的吗？&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;匿名这个词没有你想象的那么可靠&#34;&gt;&amp;ldquo;匿名&amp;quot;这个词，没有你想象的那么可靠&lt;/h2&gt;&#xA;&lt;p&gt;我们先从一个研究说起。&lt;/p&gt;&#xA;&lt;p&gt;Google和其他平台的标准说法是：我们收集的是元数据（metadata），这些数据在大规模汇总之后，无法识别出具体的个人。&lt;/p&gt;&#xA;&lt;p&gt;听起来很合理。&lt;/p&gt;&#xA;&lt;p&gt;但2000年代初，一位叫Latanya Sweeney的研究员做了一项研究。她发现，只需要三个数据点——&lt;strong&gt;生日、邮政编码、性别&lt;/strong&gt;——就可以在美国人口中唯一识别出87%的个人。&lt;/p&gt;&#xA;&lt;p&gt;三个数据点。不需要名字，不需要身份证号，不需要任何你认为&amp;quot;私密&amp;quot;的信息。&lt;/p&gt;&#xA;&lt;p&gt;这三个数据点，几乎每一个数据库里都有。&lt;/p&gt;&#xA;&lt;p&gt;Zuboff在书里引用了法律学者Paul Ohm的总结。Ohm把那些所谓的匿名行为数据库称为&amp;quot;毁灭数据库&amp;rdquo;（databases of ruin）——因为一旦这些数据被重新识别，里面藏着的秘密，足以毁掉一个人。他说，重新识别技术让我们所有的秘密都变得更容易被发现和揭露。你的敌人会更容易找到可以用来勒索、骚扰、诽谤或歧视你的信息。&lt;/p&gt;&#xA;&lt;p&gt;这不是理论上的可能性。这是已经被反复证明的现实。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;位置数据你以为自己在人群中消失了&#34;&gt;位置数据：你以为自己在人群中消失了&lt;/h2&gt;&#xA;&lt;p&gt;位置数据是另一个让人警觉的例子。&lt;/p&gt;&#xA;&lt;p&gt;每个人的移动轨迹，都有独特的规律性。你每天上班走哪条路，你周末习惯去哪个咖啡馆，你每隔多久去一次超市，你去看医生的频率——这些加在一起，形成了一个专属于你的&amp;quot;移动签名&amp;quot;。&lt;/p&gt;&#xA;&lt;p&gt;就算数据里没有你的名字，就算你的手机号码被抹掉，只要有足够多的位置数据，任何一个有工具的分析师，都可以把你从人群中识别出来。&lt;/p&gt;&#xA;&lt;p&gt;2013年，MIT和哈佛的研究团队证明了这一点。他们发现，由于每个人移动轨迹的独特性，从一个大型匿名位置数据集里精确识别出某一个特定个人，在技术上完全可行。&lt;/p&gt;&#xA;&lt;p&gt;普林斯顿的计算机科学家Arvind Narayanan和Edward Felten直接说：目前没有任何已知的有效方法可以匿名化位置数据，也没有证据显示这在原则上是可行的。&lt;/p&gt;&#xA;&lt;p&gt;换句话说，位置数据的匿名化，从技术上就是一个无法实现的承诺。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;你的手机传感器在说什么&#34;&gt;你的手机传感器在说什么&lt;/h2&gt;&#xA;&lt;p&gt;除了位置数据，你手机里那些看起来无害的传感器，也在泄露比你想象的更多的信息。&lt;/p&gt;&#xA;&lt;p&gt;加速度计、陀螺仪、磁力计——这些传感器最初的设计目的，是让手机知道自己的朝向，让地图知道你在移动。&lt;/p&gt;&#xA;&lt;p&gt;但研究人员发现，这些传感器数据可以用来推断的东西远不止这些。&lt;/p&gt;&#xA;&lt;p&gt;你今天走路的姿势和平时不一样——可能你受伤了，或者你喝了酒。你的手机静止的时间比平时长很多——可能你在睡觉，或者你生病了。你的手机震动的频率和幅度——可能反映了你所在的交通工具，以及你的情绪状态。&lt;/p&gt;&#xA;&lt;p&gt;研究显示，仅凭手机传感器数据，就可以推断出用户不断变化的活动状态和情绪，并且可以从所谓的匿名数据集里提取出特定用户的敏感个人信息。&lt;/p&gt;&#xA;&lt;p&gt;这些传感器，不需要你的许可就可以被App访问。很多App会在你完全不知情的情况下，在后台持续收集这些数据。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;facebook知道你的性格比你的朋友更准&#34;&gt;Facebook知道你的性格，比你的朋友更准&lt;/h2&gt;&#xA;&lt;p&gt;我想再讲一个研究，因为它把&amp;quot;匿名数据&amp;quot;的问题推到了一个新的维度。&lt;/p&gt;&#xA;&lt;p&gt;剑桥大学的研究员Michal Kosinski和他的团队，研究了Facebook用户的&amp;quot;点赞&amp;quot;行为。他们发现，通过分析一个人点赞的内容，可以极其准确地预测这个人的性格特征——外向还是内向，稳定还是神经质，开放还是保守。&lt;/p&gt;&#xA;&lt;p&gt;2015年发表的一篇论文显示，他们的算法在判断一个人性格上的准确度，已经超过了这个人的同事、朋友，甚至家人。&lt;/p&gt;&#xA;&lt;p&gt;只需要300个点赞，算法对你的了解就超过了你的配偶。&lt;/p&gt;&#xA;&lt;p&gt;这个研究本身是学术性的。但它揭示的，是一个值得认真对待的可能性——你在网上留下的那些看似随意的行为痕迹，点了哪些内容，停留了多久，转发了什么——这些加在一起，可以构建出一个比你自己描述的更真实的你。&lt;/p&gt;&#xA;&lt;p&gt;而这个&amp;quot;你&amp;quot;，是可以被买卖的。&lt;/p&gt;&#xA;&lt;p&gt;值得注意的是，这项研究很快吸引了来自微软、波音、谷歌、美国国家科学基金会，以及美国国防高级研究计划局的资助。学术研究和商业应用、军事应用之间的距离，比我们想象的要近得多。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;同意这件事&#34;&gt;&amp;ldquo;同意&amp;quot;这件事&lt;/h2&gt;&#xA;&lt;p&gt;聊到这里，我想说一个让我觉得很重要的问题——&amp;ldquo;同意&amp;rdquo;。&lt;/p&gt;&#xA;&lt;p&gt;我们每次安装一个App，都会点击&amp;quot;同意&amp;rdquo;。我们同意了那些没有人会读完的隐私条款。平台说，这是你自愿的选择。&lt;/p&gt;&#xA;&lt;p&gt;但Zuboff对这个说法提出了一个根本性的质疑。&lt;/p&gt;&#xA;&lt;p&gt;她说，真正的同意需要两个条件：第一，你知道自己在同意什么；第二，你有拒绝的能力。&lt;/p&gt;&#xA;&lt;p&gt;这两个条件，在今天的数字世界里都不存在。&lt;/p&gt;&#xA;&lt;p&gt;没有人真正知道自己在同意什么——那些条款的复杂程度，就算是律师也需要花很长时间才能读懂。而且就算你想拒绝，你失去的不只是一个App，而是参与现代社会的能力。你拒绝用某个通讯软件，你就失去了跟大多数人沟通的渠道。你拒绝用地图，你就很难在城市里正常生活。&lt;/p&gt;&#xA;&lt;p&gt;这不是自由选择。这是一种被设计出来的别无选择。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;我自己的感受&#34;&gt;我自己的感受&lt;/h2&gt;&#xA;&lt;p&gt;读完这一部分，我有一个想法一直在脑子里转。&lt;/p&gt;&#xA;&lt;p&gt;我们很多人接受数据收集，是因为相信自己只是人群里的一个匿名数字。这种想法给了我们一种安全感——反正他们不知道这是我。&lt;/p&gt;&#xA;&lt;p&gt;但这本书告诉我们，这种安全感是被精心设计出来的。&lt;/p&gt;&#xA;&lt;p&gt;匿名的承诺让我们降低了警觉，让我们更容易接受这套系统。但技术的现实是，匿名只是暂时的，只要有足够的计算能力和足够多的数据，重新识别只是时间问题。&lt;/p&gt;&#xA;&lt;p&gt;而且更深层的问题不只是&amp;quot;他们知不知道这是我&amp;quot;。&lt;/p&gt;&#xA;&lt;p&gt;就算他们永远不知道你的名字，他们依然可以影响你的行为，塑造你的情绪，引导你的选择。行为修正不需要知道你是谁，它只需要知道你是什么类型的人，然后针对这个类型设计干预。&lt;/p&gt;&#xA;&lt;p&gt;个人的匿名，并不能保护你免受集体操控。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;好，第三期到这里。&lt;/p&gt;&#xA;&lt;p&gt;我们今天聊了匿名的幻觉——三个数据点足以识别你，位置数据从技术上就无法真正匿名化，你的手机传感器知道的远比你以为的多，而对行为数据的深度分析可以构建出一个比你自己更了解你的画像。&lt;/p&gt;&#xA;&lt;p&gt;这套系统建立在一个前提上：你不知道，或者你不在乎。&lt;/p&gt;&#xA;&lt;p&gt;下一期，我们把视野放宽一点——同样的这套技术逻辑，在不同的地方，被不同的力量使用，会产生什么？&lt;/p&gt;&#xA;&lt;p&gt;这里是《跟我一起读书吧》，我是Allen。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Let&#39;s Read Together — Episode 2</title>
+      <link>https://benlai.me/reading/ep2-your-phone-your-home-your-childrens-toys/</link>
+      <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://benlai.me/reading/ep2-your-phone-your-home-your-childrens-toys/</guid>
+      <description>&lt;h2 id=&#34;your-phone-your-home-your-childrens-toys&#34;&gt;&amp;ldquo;Your Phone, Your Home, Your Children&amp;rsquo;s Toys&amp;rdquo;&lt;/h2&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;Something happened to me recently that I think a lot of you will recognize.&lt;/p&gt;&#xA;&lt;p&gt;I searched for a topic on one platform — just a passing curiosity, nothing I went deep on. And then for days afterward, no matter which app I opened, content about that topic kept appearing. Videos, articles, recommendations — one after another.&lt;/p&gt;&#xA;&lt;p&gt;I hadn&amp;rsquo;t asked for any of it. But there it was.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>《跟我一起读书吧》第二期</title>
+      <link>https://benlai.me/reading/%E7%AC%AC%E4%BA%8C%E6%9C%9F_%E4%BD%A0%E7%9A%84%E6%89%8B%E6%9C%BA%E4%BD%A0%E7%9A%84%E5%AE%B6%E4%BD%A0%E5%AD%A9%E5%AD%90%E7%9A%84%E7%8E%A9%E5%85%B7/</link>
+      <pubDate>Wed, 03 Jun 2026 00:00:00 +0800</pubDate>
+      <guid>https://benlai.me/reading/%E7%AC%AC%E4%BA%8C%E6%9C%9F_%E4%BD%A0%E7%9A%84%E6%89%8B%E6%9C%BA%E4%BD%A0%E7%9A%84%E5%AE%B6%E4%BD%A0%E5%AD%A9%E5%AD%90%E7%9A%84%E7%8E%A9%E5%85%B7/</guid>
+      <description>&lt;h2 id=&#34;你的手机你的家你孩子的玩具&#34;&gt;&amp;ldquo;你的手机、你的家、你孩子的玩具&amp;rdquo;&lt;/h2&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;我最近有一个经历，相信很多人都有过。&lt;/p&gt;&#xA;&lt;p&gt;我在某个平台上搜索了一个话题——就随手搜了一下，也没有特别深入去看。然后接下来几天，不管我打开哪个App，相关的视频、文章、推送，一个接一个地出现在我面前。&lt;/p&gt;&#xA;&lt;p&gt;我没有要求。但它们就来了。&lt;/p&gt;&#xA;&lt;p&gt;还有一种更奇怪的感觉，我身边有朋友跟我说过：他们明明没有搜索任何东西，只是跟朋友聊天提到了某样东西，或者只是心里想了一下，然后手机上就推送出来了。&lt;/p&gt;&#xA;&lt;p&gt;很多人的第一反应是——我的手机在监听我吗？&lt;/p&gt;&#xA;&lt;p&gt;答案比这个更复杂，也更令人不安。不是因为它在偷听你说话，而是因为它对你的了解，已经深到不需要偷听了。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;上一期我们讲了监控资本主义的三个核心概念——行为剩余、预测产品、行为修正。我们看到了这套逻辑是怎么在Google身上诞生的。&lt;/p&gt;&#xA;&lt;p&gt;但Google只是起点。&lt;/p&gt;&#xA;&lt;p&gt;这套逻辑一旦被证明有效，就开始向四面八方扩展。今天我们要聊的，是它扩展到了哪里——从你的手机，到你的家，到你孩子的玩具，再到你的身体。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;你的手机知道的比你想象的多得多&#34;&gt;你的手机知道的，比你想象的多得多&lt;/h2&gt;&#xA;&lt;p&gt;我们先从手机说起。&lt;/p&gt;&#xA;&lt;p&gt;大多数人知道手机会收集位置数据。但Zuboff在书里引用的研究，让我重新认识了这件事的规模。&lt;/p&gt;&#xA;&lt;p&gt;2013年，MIT和哈佛的研究团队做了一项研究。他们发现，由于每个人的移动轨迹都有独特的规律性——你每天上班的路线，你周末去的地方，你习惯在哪里吃饭——任何一个有工具的分析师，都可以从一个大型匿名位置数据集里，精确提取出某一个特定个人的移动模式。&lt;/p&gt;&#xA;&lt;p&gt;位置数据根本无法真正匿名化。普林斯顿的两位计算机科学家直接说：目前没有任何已知的有效方法可以做到这一点。&lt;/p&gt;&#xA;&lt;p&gt;但位置数据只是开始。&lt;/p&gt;&#xA;&lt;p&gt;你手机里的传感器——加速度计、陀螺仪、磁力计——这些看起来无害的东西，可以用来推断你在做什么，你的情绪状态，甚至你的健康状况。研究显示，这些传感器数据可以用来识别你是在走路还是在跑步，你今天是不是睡眠不足，你现在是不是在开车。&lt;/p&gt;&#xA;&lt;p&gt;而且这一切，不需要你连接网络。有公司已经开发出了芯片，可以在你完全离线的状态下，追踪你的位置、你走了多少步、你在哪个楼层、朝哪个方向移动。&lt;/p&gt;&#xA;&lt;p&gt;这一切只依赖一件东西——那个你手里拿着的设备。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;你的家也不再是你的避风港&#34;&gt;你的家，也不再是你的避风港&lt;/h2&gt;&#xA;&lt;p&gt;手机还只是随身携带的设备。更深的渗透，发生在你家里。&lt;/p&gt;&#xA;&lt;p&gt;Google Home、Amazon Echo这类智能音箱，被设计成一个永远在线、永远在听的助手。Google CEO Sundar Pichai在介绍Google Assistant的时候说，他们希望跟用户建立一种&amp;quot;持续的双向对话&amp;quot;，帮你处理生活里的每一件事。&lt;/p&gt;&#xA;&lt;p&gt;听起来很方便。但Zuboff问了一个问题：这种便利的代价是什么？&lt;/p&gt;&#xA;&lt;p&gt;她在书里写道——曾经是你搜索Google，现在是Google搜索你。&lt;/p&gt;&#xA;&lt;p&gt;这句话我第一次读到的时候停了很久。&lt;/p&gt;&#xA;&lt;p&gt;智能家居设备会记录你家里的对话、你的日常习惯、你几点起床、你喜欢把房间保持在什么温度、你的购物习惯、你的健康状况。这些数据拼在一起，描绘出的是一个比任何调查问卷都完整的你。&lt;/p&gt;&#xA;&lt;p&gt;Zuboff把这个过程叫做&amp;quot;rendition&amp;quot;——你的生活被一点一点地提取出来，转化成数据，进入这个系统。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;你孩子的玩具&#34;&gt;你孩子的玩具&lt;/h2&gt;&#xA;&lt;p&gt;这是书里让我感觉最不舒服的部分之一。&lt;/p&gt;&#xA;&lt;p&gt;有一款叫做Cayla的智能娃娃，可以跟孩子对话，回答问题，讲故事。听起来很有趣，很有教育意义。&lt;/p&gt;&#xA;&lt;p&gt;但这款娃娃在收集什么？孩子跟它说的每一句话。孩子的声音、孩子的问题、孩子在想什么、孩子喜欢什么——这些数据都被传输出去，用于商业目的。&lt;/p&gt;&#xA;&lt;p&gt;2017年，德国联邦网络局把这款娃娃定性为非法监控设备，要求家长销毁手中的产品。&lt;/p&gt;&#xA;&lt;p&gt;美国的监管机构当时没有采取行动。&lt;/p&gt;&#xA;&lt;p&gt;Zuboff写道，这些联网玩具、智能娃娃屋，正在为下一代做准备——让他们从小就习惯生活在一个自我和市场之间没有边界的世界里。等他们长大，他们不会觉得这有什么问题。因为他们从来不知道另一种世界是什么样子的。&lt;/p&gt;&#xA;&lt;p&gt;读到这里，我想到一件事——这不只是隐私问题，这是关于下一代人会以什么样的方式理解&amp;quot;正常&amp;quot;的问题。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;你的身体&#34;&gt;你的身体&lt;/h2&gt;&#xA;&lt;p&gt;监控的边界继续往里推。&lt;/p&gt;&#xA;&lt;p&gt;保险公司开始对这套逻辑产生了浓厚的兴趣。&lt;/p&gt;&#xA;&lt;p&gt;可穿戴设备可以追踪你的心率、睡眠质量、运动量、饮食习惯。这些数据对保险公司来说极有价值——他们可以更精准地评估你的风险，调整你的保费，甚至在你&amp;quot;不健康&amp;quot;的时候拒绝赔付。&lt;/p&gt;&#xA;&lt;p&gt;Zuboff引用了咨询公司的内部报告，里面写道：消费者对这种监控的抗拒，可以通过提供足够大的价格优惠来克服——只要折扣够大，人们愿意做出隐私上的妥协，尽管心里还有顾虑。&lt;/p&gt;&#xA;&lt;p&gt;如果折扣不够，就把监控包装成&amp;quot;有趣&amp;quot;、&amp;ldquo;互动&amp;rdquo;、&amp;ldquo;有竞争性&amp;quot;的游戏——让司机参加驾驶行为竞赛，让病人追踪自己的健康数据。这种方式叫做&amp;quot;游戏化&amp;rdquo;（gamification）。&lt;/p&gt;&#xA;&lt;p&gt;换句话说，当你觉得自己在玩游戏的时候，你其实在被研究。&lt;/p&gt;&#xA;&lt;p&gt;新冠疫情期间，这套逻辑得到了一次大规模的实践机会。健康码、疫苗通行证，让政府和平台第一次有了追踪大规模人口行为和健康状态的基础设施。而且这套基础设施，在很多地方疫情结束之后并没有消失。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;我自己的感受&#34;&gt;我自己的感受&lt;/h2&gt;&#xA;&lt;p&gt;读到这里，我想分享一个我自己的感受。&lt;/p&gt;&#xA;&lt;p&gt;这本书里描述的每一件事，单独拿出来，好像都有一个合理的解释。智能音箱让生活更方便，可穿戴设备帮你管理健康，个性化推送帮你发现感兴趣的内容。&lt;/p&gt;&#xA;&lt;p&gt;每一步都有道理。&lt;/p&gt;&#xA;&lt;p&gt;但Zuboff让我意识到的是，这些单独看起来合理的步骤，合在一起构成了一个整体——一个系统性的、大规模的、对人类行为的提取和塑造。&lt;/p&gt;&#xA;&lt;p&gt;而这个整体，从来没有人征求过你的同意。&lt;/p&gt;&#xA;&lt;p&gt;你点击了&amp;quot;同意&amp;quot;那个按钮，但你同意的是几十页没有人会读完的条款，不是这个整体。&lt;/p&gt;&#xA;&lt;p&gt;书里有一句话，我觉得说得非常准确——监控资本主义领导者们相信，我们会接受这一切，把它当成自然规律。因为Google成功了，因为这套系统有效，所以它的规则一定是对的，一定是不可避免的。&lt;/p&gt;&#xA;&lt;p&gt;但Zuboff说：不是的。这是人做出来的，人可以选择不这样做。他们只是选择了不去改变。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;好，第二期到这里。&lt;/p&gt;&#xA;&lt;p&gt;我们看到了监控的版图——从你手里的手机，到你家里的每一个角落，到你孩子的玩具，到你的身体数据。这套逻辑的扩张没有自然的边界，只要有新的数据可以提取，它就会继续往前走。&lt;/p&gt;&#xA;&lt;p&gt;但还有一件事我们没有谈到——你可能会想，至少我的数据是匿名的吧？至少他们不知道这是我吧？&lt;/p&gt;&#xA;&lt;p&gt;下一期，我们来聊这个问题。答案，可能会让你不太舒服。&lt;/p&gt;&#xA;&lt;p&gt;这里是《跟我一起读书吧》，我是Allen。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Let&#39;s Read Together — Episode 1</title>
+      <link>https://benlai.me/reading/ep1-you-think-youre-using-google/</link>
+      <pubDate>Tue, 02 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://benlai.me/reading/ep1-you-think-youre-using-google/</guid>
+      <description>&lt;h2 id=&#34;you-think-youre-using-google-google-is-using-you&#34;&gt;&amp;ldquo;You Think You&amp;rsquo;re Using Google. Google Is Using You.&amp;rdquo;&lt;/h2&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;Let me start with a question.&lt;/p&gt;&#xA;&lt;p&gt;When did you last search for something online? Today? An hour ago?&lt;/p&gt;&#xA;&lt;p&gt;Maybe you don&amp;rsquo;t even use Google that much anymore. More and more people go straight to ChatGPT, Gemini, or some other AI tool — just type a question, get an answer, have a conversation.&lt;/p&gt;&#xA;&lt;p&gt;But whichever one you use — do you know what happens the moment you hit send? Beyond returning an answer, these platforms are doing something else.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>《跟我一起读书吧》第一期</title>
+      <link>https://benlai.me/reading/%E7%AC%AC%E4%B8%80%E6%9C%9F_%E4%BD%A0%E4%BB%A5%E4%B8%BA%E4%BD%A0%E5%9C%A8%E7%94%A8google%E5%85%B6%E5%AE%9Egoogle%E5%9C%A8%E7%94%A8%E4%BD%A0/</link>
+      <pubDate>Tue, 02 Jun 2026 00:00:00 +0800</pubDate>
+      <guid>https://benlai.me/reading/%E7%AC%AC%E4%B8%80%E6%9C%9F_%E4%BD%A0%E4%BB%A5%E4%B8%BA%E4%BD%A0%E5%9C%A8%E7%94%A8google%E5%85%B6%E5%AE%9Egoogle%E5%9C%A8%E7%94%A8%E4%BD%A0/</guid>
+      <description>&lt;h2 id=&#34;你以为你在用google其实google在用你&#34;&gt;&amp;ldquo;你以为你在用Google，其实Google在用你&amp;rdquo;&lt;/h2&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://benlai.me/images/Image_book_cover.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;我想从一个问题开始——&lt;/p&gt;&#xA;&lt;p&gt;你上一次搜索信息是什么时候？今天？一小时前？&lt;/p&gt;&#xA;&lt;p&gt;可能你已经不太用Google了。越来越多的人直接打开ChatGPT、Gemini，或者其他AI工具，直接问问题，直接对话。&lt;/p&gt;&#xA;&lt;p&gt;但不管你用的是哪个，你知不知道，在你按下发送键的那一刻，除了给你返回答案，这些平台还做了另一件事？&lt;/p&gt;&#xA;&lt;p&gt;它在研究你。&lt;/p&gt;&#xA;&lt;p&gt;不只是你问了什么，而是&lt;strong&gt;你这个人&lt;/strong&gt;——你怎么问，问完之后怎么反应，追问了什么，在哪里停下来。这些数据加在一起，拼出的不是一次对话记录，而是一幅关于你的画像。&lt;/p&gt;&#xA;&lt;p&gt;而且说实话，你跟AI说的话，比你输入搜索框的关键词，要真实得多。关键词你还会想想怎么措辞，但跟AI对话，你说的往往是你真正在想的事。&lt;/p&gt;&#xA;&lt;p&gt;这幅画像，被拿去做什么了？&lt;/p&gt;&#xA;&lt;p&gt;这就是今天我们要聊的问题。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;这本书是什么&#34;&gt;这本书是什么&lt;/h2&gt;&#xA;&lt;p&gt;Shoshana Zuboff是哈佛商学院的教授。她花了将近十年时间研究一个问题：我们所处的这个数字世界，底层的商业逻辑到底是什么？&lt;/p&gt;&#xA;&lt;p&gt;2019年她出版了这本书——&lt;em&gt;The Age of Surveillance Capitalism&lt;/em&gt;，七百多页，非常厚。中文版有出版，但坦白说，原著有些关键的论述在翻译过程中有所流失，所以今天我们聊的是原著。&lt;/p&gt;&#xA;&lt;p&gt;这本书的核心论点，用一句话说就是：&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;我们的个人经历、行为、情绪，在我们不知情的情况下，被系统性地提取出来，变成了可以买卖的商品。&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;这不是阴谋论。这是一套有具体历史、具体机制、具体参与者的商业逻辑。Zuboff用大量的调查和文件把这套逻辑还原出来。&lt;/p&gt;&#xA;&lt;p&gt;我们今天先把基础建立好——三个核心概念，加上这一切是怎么开始的。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;第一个概念行为剩余behavioral-surplus&#34;&gt;第一个概念：行为剩余（Behavioral Surplus）&lt;/h2&gt;&#xA;&lt;p&gt;故事要从Google的早期说起。&lt;/p&gt;&#xA;&lt;p&gt;1998年，Larry Page和Sergey Brin在斯坦福大学创立了Google。最初的使命很简单：把全世界的信息组织起来，让任何人都能找到。&lt;/p&gt;&#xA;&lt;p&gt;为了让搜索结果更准确，Google开始收集用户数据——你搜了什么，点了哪个结果，没点哪个。这些信息反馈回来，帮助系统不断改进。这个逻辑完全说得通，数据是为了改善产品。&lt;/p&gt;&#xA;&lt;p&gt;但有一天，Google的工程师们发现了一件事：用户产生的数据，远远超过改善搜索所需要的量。&lt;/p&gt;&#xA;&lt;p&gt;打个比方——你去买咖啡，店家为了改善服务，记录了你点了什么，喝完之后满不满意。这些信息是有用的。但如果同时还记录了你进门前在外面站了多久，你跟谁一起来，你进门的时候看起来心情怎么样，你走的时候往哪个方向走——这些信息跟改善咖啡没有任何关系，但它们描述了一个更完整的你。&lt;/p&gt;&#xA;&lt;p&gt;Google发现的，就是这种&amp;quot;多出来的&amp;quot;数据。Zuboff把它叫做&lt;strong&gt;行为剩余（Behavioral Surplus）&lt;/strong&gt;。&lt;/p&gt;&#xA;&lt;p&gt;这些剩余数据本来可以丢掉。没有人会追究。但Google没有丢。&lt;/p&gt;&#xA;&lt;p&gt;因为他们发现，这些数据可以用来预测你下一步会做什么。而这个预测，对广告商来说，价值连城。&lt;/p&gt;&#xA;&lt;p&gt;这是整个故事的起点。一个本来可以被丢弃的&amp;quot;副产品&amp;quot;，变成了一个全新商业模式的基础。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;第二个概念预测产品prediction-products&#34;&gt;第二个概念：预测产品（Prediction Products）&lt;/h2&gt;&#xA;&lt;p&gt;当Google意识到行为剩余的价值之后，他们做了一件事——建立了一套把这些数据转化成预测的系统。&lt;/p&gt;&#xA;&lt;p&gt;被卖给广告商的，不是你的原始数据，而是基于你的数据生成的&lt;strong&gt;预测&lt;/strong&gt;——你有多大概率会点击某个广告，你有多大概率在接下来的24小时内购买某样东西，你现在的情绪状态适合接收什么类型的信息。&lt;/p&gt;&#xA;&lt;p&gt;Zuboff把这些预测叫做&lt;strong&gt;预测产品（Prediction Products）&lt;/strong&gt;。&lt;/p&gt;&#xA;&lt;p&gt;广告商买的，是你的未来行为。&lt;/p&gt;&#xA;&lt;p&gt;Zuboff进一步把这个市场命名为&lt;strong&gt;行为期货市场（Behavioral Futures Markets）&lt;/strong&gt;。这个类比非常精准——金融市场里，期货是对未来价格的投注；这里，被投注的是你未来会做什么。&lt;/p&gt;&#xA;&lt;p&gt;交易的不是大豆，不是原油，而是你。&lt;/p&gt;&#xA;&lt;p&gt;Google内部把这门新科学叫做&amp;quot;点击物理学&amp;quot;（the physics of clicks）。他们招募了来自人工智能、统计学、机器学习、行为科学各个领域最顶尖的人才，目标只有一个：把对人类行为的预测做到极致精准。&lt;/p&gt;&#xA;&lt;p&gt;经济学家Hal Varian是Google的首席经济学家，他把这套系统的逻辑说得很清楚：数据只能测量相关性，不能测量因果关系。数据告诉你发生了什么，但不告诉你为什么发生。所以如果真的想理解因果，就必须做实验——不断地、大规模地、自动化地做实验。&lt;/p&gt;&#xA;&lt;p&gt;而Google拥有的，正是做这种实验的完美条件：数以亿计的用户，每天产生的海量数据，以及在用户完全不知情的情况下调整他们看到的内容的能力。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;第三个概念行为修正behavioral-modification&#34;&gt;第三个概念：行为修正（Behavioral Modification）&lt;/h2&gt;&#xA;&lt;p&gt;预测行为是第一步。但这个体系真正的野心，比预测更大。&lt;/p&gt;&#xA;&lt;p&gt;下一步，是主动&lt;strong&gt;塑造&lt;/strong&gt;行为。&lt;/p&gt;&#xA;&lt;p&gt;这是Zuboff在书里着墨最多，也是最让我感到不安的部分。&lt;/p&gt;&#xA;&lt;p&gt;算法不只是猜你会做什么，而是被设计来让你做某些特定的事——让你多停留，多点击，多购买，多分享，多愤怒，多焦虑。你以为你在自由地刷手机，其实每一个推送、每一个通知、每一个&amp;quot;猜你喜欢&amp;quot;，都是经过精密计算的干预。&lt;/p&gt;&#xA;&lt;p&gt;书里引用了一位硅谷教育公司首席数据科学家说的话，他说：&amp;ldquo;大规模的条件反射，是这门新科学的核心。智能手机、可穿戴设备、以及所有这些永远在线的网络节点，让我们有能力影响和管理大量用户的行为。&amp;rdquo;&lt;/p&gt;&#xA;&lt;p&gt;条件反射。这个词让我停下来想了很久。&lt;/p&gt;&#xA;&lt;p&gt;这是巴甫洛夫的实验——铃声响了，狗就流口水。经过足够多次的重复，行为被固化了，变成了反射。&lt;/p&gt;&#xA;&lt;p&gt;只不过现在，铃声是算法，狗是我们。&lt;/p&gt;&#xA;&lt;p&gt;而且这个过程必须在我们不知情的情况下进行。Zuboff说得很直接：个人意识是行为操控的敌人。一旦你意识到自己在被影响，你就会产生抵抗。所以这套系统的设计，从一开始就把&amp;quot;让你不知道&amp;quot;作为核心要求之一。&lt;/p&gt;&#xA;&lt;p&gt;Facebook在2014年做过一个实验——他们在用户不知情的情况下，调整了将近七十万用户看到的内容，一部分人看到更多正面的帖子，另一部分人看到更多负面的。结果发现，看到负面内容的用户，自己发的内容也变得更负面。&lt;/p&gt;&#xA;&lt;p&gt;情绪是可以传染的，而且可以被人为操控。&lt;/p&gt;&#xA;&lt;p&gt;这个实验后来被曝光，引发了很大的争议。但Zuboff指出，这种实验在各大平台上从来没有停止过，只是大多数时候我们不知道。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;这一切是怎么开始的&#34;&gt;这一切是怎么开始的&lt;/h2&gt;&#xA;&lt;p&gt;我想在这里讲一个很多人不知道的故事，因为它揭示了一件重要的事：这一切不是从一开始就被计划好的。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Let&#39;s Read Together — Episode 0</title>
+      <link>https://benlai.me/reading/ep0-why-i-am-starting-this-podcast/</link>
+      <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://benlai.me/reading/ep0-why-i-am-starting-this-podcast/</guid>
+      <description>&lt;h2 id=&#34;why-im-starting-this-podcast&#34;&gt;&amp;ldquo;Why I&amp;rsquo;m Starting This Podcast&amp;rdquo;&lt;/h2&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;I want to start with a question.&lt;/p&gt;&#xA;&lt;p&gt;How much time do you spend on your phone every day?&lt;/p&gt;&#xA;&lt;p&gt;Scrolling through short videos, tapping through notifications, clicking one thing after another. Sometimes it&amp;rsquo;s just for fun, just to unwind — and that&amp;rsquo;s fine. But let me ask you this: out of everything you scrolled through last month, was there a single video that genuinely changed the way you think about something?&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>《跟我一起读书吧》第零期</title>
+      <link>https://benlai.me/reading/%E7%AC%AC%E9%9B%B6%E6%9C%9F_%E4%B8%BA%E4%BB%80%E4%B9%88%E6%88%91%E8%A6%81%E5%81%9A%E8%BF%99%E4%B8%AA%E8%8A%82%E7%9B%AE/</link>
+      <pubDate>Mon, 01 Jun 2026 00:00:00 +0800</pubDate>
+      <guid>https://benlai.me/reading/%E7%AC%AC%E9%9B%B6%E6%9C%9F_%E4%B8%BA%E4%BB%80%E4%B9%88%E6%88%91%E8%A6%81%E5%81%9A%E8%BF%99%E4%B8%AA%E8%8A%82%E7%9B%AE/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://benlai.me/images/Image_cover.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;为什么我要做这个节目&#34;&gt;&amp;ldquo;为什么我要做这个节目&amp;rdquo;&lt;/h2&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;我最近在想一个问题——我们每天花多少时间在手机上？&lt;/p&gt;&#xA;&lt;p&gt;刷短视频，看推送，点开一个又一个。有时候放松一下，just for fun，没什么问题。但如果我问你：上个月你刷过的那些视频，有哪一条，真正改变了你对某件事的看法？&lt;/p&gt;&#xA;&lt;p&gt;大概很难想起来。&lt;/p&gt;&#xA;&lt;p&gt;我自己也会刷。但我越来越清楚地感觉到，短视频是快餐——吃的时候觉得满足，吃完什么都没留下。它给你刺激，给你消遣，但它给不了你一样东西：&lt;strong&gt;真正的思考&lt;/strong&gt;。&lt;/p&gt;&#xA;&lt;p&gt;真正的思考需要时间。需要你跟着一个人的论述走很长一段路，走到你开始质疑，开始对话，开始形成自己的观点。这个过程，只有读书能给你。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;这个节目，叫**《跟我一起读书吧》**。&lt;/p&gt;&#xA;&lt;p&gt;我会读书，然后用中文把书里真正重要的东西讲给你听。&lt;/p&gt;&#xA;&lt;p&gt;我要特别说一点：很多我读的书，是英文原著。有些有中文版，但中文版有时候删节，有时候翻译质量参差不齐，有时候因为各种原因，把最关键的内容丢掉了。读者拿到手的，可能只是原著的一个影子。&lt;/p&gt;&#xA;&lt;p&gt;所以我想做的，是直接读原著，然后用中文告诉你，这本书&lt;strong&gt;真正&lt;/strong&gt;说了什么。&lt;/p&gt;&#xA;&lt;p&gt;有时候是很严肃的非虚构，有时候可能就是一本小说，轻松聊聊，没有固定的框架，跟着感觉走。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;第一本书，我选了Shoshana Zuboff的《监控资本主义时代》——&lt;em&gt;The Age of Surveillance Capitalism&lt;/em&gt;。&lt;/p&gt;&#xA;&lt;p&gt;这本书出版于2019年，到今天依然是理解我们所处数字世界最重要的著作之一。它回答一个问题：&lt;strong&gt;为什么那些免费的App，其实一点都不免费？&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;你有没有想过，为什么你刚刚跟朋友聊到某个东西，手机上就出现了相关广告？为什么你的每一次点击、每一次停留、每一次搜索，都在被人记录、分析、出售？&lt;/p&gt;&#xA;&lt;p&gt;这不是巧合，这是一套完整的商业逻辑。而这本书，把这套逻辑彻底解剖给你看。&lt;/p&gt;&#xA;&lt;p&gt;我们很多人早就隐约知道这些事情在发生。但&amp;quot;隐约知道&amp;quot;和&amp;quot;真正理解&amp;quot;之间，有一本书的距离。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;最后我想说——&lt;/p&gt;&#xA;&lt;p&gt;做这个节目，也不是要你放弃短视频。&lt;/p&gt;&#xA;&lt;p&gt;是因为我相信，真正的阅读给你的东西，没有任何算法能替代。&lt;/p&gt;&#xA;&lt;p&gt;它给你的是你自己的思考。&lt;/p&gt;&#xA;&lt;p&gt;在一个越来越多的平台想要替你思考、替你选择、替你决定的时代，能够坐下来，认真读完一本书，本身就是一种清醒。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;好，我们开始吧。&lt;/p&gt;&#xA;&lt;p&gt;这里是《跟我一起读书吧》，我是Allen。下一期，我们正式进入《监控资本主义时代》。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

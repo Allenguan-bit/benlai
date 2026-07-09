@@ -1,29 +1,1108 @@
-<!doctype html><html lang=en><head><title>AI 学习旅程回顾报告：From Zero to AI Agent Builder | 本来</title><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=5"><meta name=format-detection content="telephone=no"><meta name=description content="2026年4月19日 — 5月17日 · Allen Guan · Enoch Wealth Management · Toronto
+<!DOCTYPE html>
+<html lang="en"><head><title>AI 学习旅程回顾报告：From Zero to AI Agent Builder | 本来</title>
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5">
+<meta name="format-detection" content="telephone=no">
+<meta name="description" content="2026年4月19日 — 5月17日 · Allen Guan · Enoch Wealth Management · Toronto
 ⏱ 28天 从听一场讲座到发布第一篇内容
-🛠 15+ 工具 涵盖 AI 对话、智能体框架、自动化、知识管理、云端部署
-🤖 3个自动化系统 OpenClaw 智能体 + N8N 工作流 …"><meta name=author content="Allen"><meta name=renderer content="webkit"><meta name=theme-color content="#ffffff"><meta name=keywords content="个人博客,灵性成长,荣格心理学,中华传统文化,易经,人工智能,AI观察,读书笔记"><meta name=google-site-verification content="dz28UlbBYSHTV5OMc03lLCIK6rlsVWACzvwYIWaG3h4"><link rel=canonical href=https://benlai.me/ai/ai-learning-report-month1/><meta property="og:url" content="https://benlai.me/ai/ai-learning-report-month1/"><meta property="og:site_name" content="本来"><meta property="og:title" content="AI 学习旅程回顾报告：From Zero to AI Agent Builder"><meta property="og:description" content="2026年4月19日 — 5月17日 · Allen Guan · Enoch Wealth Management · Toronto
+🛠 15&#43; 工具 涵盖 AI 对话、智能体框架、自动化、知识管理、云端部署
+🤖 3个自动化系统 OpenClaw 智能体 &#43; N8N 工作流 …">
+<meta name="author" content="Allen">
+<meta name="renderer" content="webkit">
+<meta name="theme-color" content="#ffffff">
+<meta name="keywords" content="个人博客,灵性成长,荣格心理学,中华传统文化,易经,人工智能,AI观察,读书笔记">
+<meta name="google-site-verification" content="dz28UlbBYSHTV5OMc03lLCIK6rlsVWACzvwYIWaG3h4">
+
+
+<link rel="canonical" href="https://benlai.me/ai/ai-learning-report-month1/">
+
+
+<meta property="og:url" content="https://benlai.me/ai/ai-learning-report-month1/">
+  <meta property="og:site_name" content="本来">
+  <meta property="og:title" content="AI 学习旅程回顾报告：From Zero to AI Agent Builder">
+  <meta property="og:description" content="2026年4月19日 — 5月17日 · Allen Guan · Enoch Wealth Management · Toronto
 ⏱ 28天 从听一场讲座到发布第一篇内容
-🛠 15+ 工具 涵盖 AI 对话、智能体框架、自动化、知识管理、云端部署
-🤖 3个自动化系统 OpenClaw 智能体 + N8N 工作流 + Dify agent
+🛠 15&#43; 工具 涵盖 AI 对话、智能体框架、自动化、知识管理、云端部署
+🤖 3个自动化系统 OpenClaw 智能体 &#43; N8N 工作流 &#43; Dify agent
 📤 4个内容平台 小红书 · B站专栏 · X 中文 · X 英文
-一、活动时间线 启蒙期 搭建期 扩展期 深化期 输出期 4/19–4/25 4/26–4/30 5/2–5/10 5/11–5/16 5/17 日期 阶段 活动内容 4月19日 启蒙期 王斗第一次讲座；首次接触 AI agent、OpenClaw、Claude、Notion；浏览大量 YouTube 学习视频；下载 N8N 4月20日 启蒙期 继续浏览 YouTube（CloudGPT、Notion）；晚上下载 N8N 4月21日 启蒙期 搜索 NotebookLM 功能和使用场景 4月23日 启蒙期 首次使用 Claude；分析 Mythos AI 网络安全报道；分析 Larry Fink 2026 主席致股东信 4月24日 启蒙期 搜索 Qwen、Manus；建立 allenguan.vercel.app 个人网站 4月25日 启蒙期 搜索智能体经济学相关内容 4月26日 搭建期 王斗第二次讲座；注册 AWS 账号；学习 Obsidian；深入学习 AI Skills、Token 经济学、AI 商业模式分析框架 4月27日 搭建期 与王斗第一次线下见面；安装 Obsidian；用 Cursor 搭建 OpenClaw 4月28日 搭建期 与王斗第二次线下见面；继续用 Cursor 推进 OpenClaw 配置 4月30日 搭建期 完成 AWS Lightsail 上 OpenClaw 搭建，走通整个流程（Cursor 阶段完成） 5月2日 搭建期 Claude 上搭建加拿大自雇记账智能体（bookkeeping HTML 应用） 5月3日 搭建期 注册域名 5月4日 扩展期 注册 Bitwarden；做 allenguan.com 网站；完成灵感生成器 APP 全流程；更新网站头衔 5月5日 扩展期 搜索 DDR5 内存/NAS 升级；搜索 Stripe、DeepSeek 4、Knab、Link；研究 OpenClaw 访问 Obsidian 方案 5月6日 扩展期 确定 Notion + Obsidian 两层知识管理工作流；迁移内容进 Obsidian 5月7日 扩展期 修复 Git 自动同步链路；全面升级 Kyron 智能体架构（SOUL/MEMORY/TOOLS）；探索 Moltbook；研究 Claude Projects 5月8日 扩展期 深入学习 Claude Projects；为太太公司设计税务自动化方案；排查 Telegram/Discord 跨平台连通 5月9日 扩展期 Discord bot 权限配置 5月10日 扩展期 NAS 部署 Dify agent（Docker + Ollama + Qwen2.5-7B）；调整 WinSCP 备份频率；讨论 Claude Projects 策略 5月11日 深化期 NAS 搭建 N8N 自动化（Groq→Telegram）；讨论 Cursor/Claude Code 开发效率；解决 Claude Code 安装问题；深入学习 OpenClaw 核心文件；探索机票监控智能体；分析被动收入策略；开始申请 Oracle Cloud 免费账号 5月11–12日 深化期 申请 Oracle Cloud 免费账号；最大卡点：Toronto ARM 区域容量长期不足，需反复抢占；期间误建一台错误规格实例（E2.1.Micro + Oracle Linux），发现后删除重来；经历漫长等待后最终成功抢到 ARM 实例 5月13日 深化期 Oracle Cloud ARM 服务器（4 OCPU/24GB RAM，免费）上部署 Dify 完整系统；安装 Ollama + llama3.1:8b + nomic-embed-text；配置 12 个 Docker 容器（含向量数据库 Weaviate、Nginx、Redis 等）；建立 Allen’s Brain 知识库（上传 Obsidian MD + EMD产品PDF）；完成 Allen’s Assistant 智能体（Chatflow + RAG）；全程由 Claude 提供架构方案和部署指引 5月14日 深化期 OpenClaw Telegram/Discord 跨平台连通深入配置 5月15日 深化期 N8N 自动化扩展（增加投资领域监控源，早晚推送） 5月16日 深化期 完善 OpenClaw 核心身份文件；安装 soul-memory 技能；完成 Telegram 和 Discord 接入 5月17日 输出期 确定 AI 内容品牌平台矩阵；完成 obsidian-mcp 配置；制作开篇内容文章；整理本份时间线存档 阶段说明 阶段 时间 核心特征 关键转折 启蒙期 4/19–4/25 被动接受信息为主，快速浏览大量工具和概念，尚未动手 4/23 首次开启 Claude 对话，从消费者变成参与者 搭建期 4/26–4/30 从学习到动手，AWS 注册、Obsidian 安装、Cursor 搭建 OpenClaw 4/30 走通 OpenClaw 全流程，第一个真实可运行的智能体诞生 扩展期 5/2–5/10 工具快速扩展：知识管理系统、自动化工作流、个人品牌基础设施 5/7 Kyron 智能体架构全面升级，从单一工具到系统化思考 深化期 5/11–5/16 从会用到会调试，Claude Code 取代 Cursor，开始理解底层逻辑 5/16 Telegram + Discord 双平台接入，智能体全面上线 输出期 5/17 从建设者到内容创作者，开始向外输出学习成果 Obsidian 知识库连接 Claude，形成知识输入→处理→输出完整闭环 二、学习旅程分析 2.1 学习曲线与阶段特征 这28天的学习旅程可以清晰地划分为五个阶段，每个阶段都有鲜明的特征（见上表阶段说明）。"><meta property="og:locale" content="zh_cn"><meta property="og:type" content="article"><meta property="article:section" content="ai"><meta property="article:published_time" content="2026-05-17T06:00:00+08:00"><meta property="article:modified_time" content="2026-05-17T06:00:00+08:00"><meta name=twitter:card content="summary"><meta name=twitter:title content="AI 学习旅程回顾报告：From Zero to AI Agent Builder"><meta name=twitter:description content="2026年4月19日 — 5月17日 · Allen Guan · Enoch Wealth Management · Toronto
+一、活动时间线 启蒙期 搭建期 扩展期 深化期 输出期 4/19–4/25 4/26–4/30 5/2–5/10 5/11–5/16 5/17 日期 阶段 活动内容 4月19日 启蒙期 王斗第一次讲座；首次接触 AI agent、OpenClaw、Claude、Notion；浏览大量 YouTube 学习视频；下载 N8N 4月20日 启蒙期 继续浏览 YouTube（CloudGPT、Notion）；晚上下载 N8N 4月21日 启蒙期 搜索 NotebookLM 功能和使用场景 4月23日 启蒙期 首次使用 Claude；分析 Mythos AI 网络安全报道；分析 Larry Fink 2026 主席致股东信 4月24日 启蒙期 搜索 Qwen、Manus；建立 allenguan.vercel.app 个人网站 4月25日 启蒙期 搜索智能体经济学相关内容 4月26日 搭建期 王斗第二次讲座；注册 AWS 账号；学习 Obsidian；深入学习 AI Skills、Token 经济学、AI 商业模式分析框架 4月27日 搭建期 与王斗第一次线下见面；安装 Obsidian；用 Cursor 搭建 OpenClaw 4月28日 搭建期 与王斗第二次线下见面；继续用 Cursor 推进 OpenClaw 配置 4月30日 搭建期 完成 AWS Lightsail 上 OpenClaw 搭建，走通整个流程（Cursor 阶段完成） 5月2日 搭建期 Claude 上搭建加拿大自雇记账智能体（bookkeeping HTML 应用） 5月3日 搭建期 注册域名 5月4日 扩展期 注册 Bitwarden；做 allenguan.com 网站；完成灵感生成器 APP 全流程；更新网站头衔 5月5日 扩展期 搜索 DDR5 内存/NAS 升级；搜索 Stripe、DeepSeek 4、Knab、Link；研究 OpenClaw 访问 Obsidian 方案 5月6日 扩展期 确定 Notion &#43; Obsidian 两层知识管理工作流；迁移内容进 Obsidian 5月7日 扩展期 修复 Git 自动同步链路；全面升级 Kyron 智能体架构（SOUL/MEMORY/TOOLS）；探索 Moltbook；研究 Claude Projects 5月8日 扩展期 深入学习 Claude Projects；为太太公司设计税务自动化方案；排查 Telegram/Discord 跨平台连通 5月9日 扩展期 Discord bot 权限配置 5月10日 扩展期 NAS 部署 Dify agent（Docker &#43; Ollama &#43; Qwen2.5-7B）；调整 WinSCP 备份频率；讨论 Claude Projects 策略 5月11日 深化期 NAS 搭建 N8N 自动化（Groq→Telegram）；讨论 Cursor/Claude Code 开发效率；解决 Claude Code 安装问题；深入学习 OpenClaw 核心文件；探索机票监控智能体；分析被动收入策略；开始申请 Oracle Cloud 免费账号 5月11–12日 深化期 申请 Oracle Cloud 免费账号；最大卡点：Toronto ARM 区域容量长期不足，需反复抢占；期间误建一台错误规格实例（E2.1.Micro &#43; Oracle Linux），发现后删除重来；经历漫长等待后最终成功抢到 ARM 实例 5月13日 深化期 Oracle Cloud ARM 服务器（4 OCPU/24GB RAM，免费）上部署 Dify 完整系统；安装 Ollama &#43; llama3.1:8b &#43; nomic-embed-text；配置 12 个 Docker 容器（含向量数据库 Weaviate、Nginx、Redis 等）；建立 Allen’s Brain 知识库（上传 Obsidian MD &#43; EMD产品PDF）；完成 Allen’s Assistant 智能体（Chatflow &#43; RAG）；全程由 Claude 提供架构方案和部署指引 5月14日 深化期 OpenClaw Telegram/Discord 跨平台连通深入配置 5月15日 深化期 N8N 自动化扩展（增加投资领域监控源，早晚推送） 5月16日 深化期 完善 OpenClaw 核心身份文件；安装 soul-memory 技能；完成 Telegram 和 Discord 接入 5月17日 输出期 确定 AI 内容品牌平台矩阵；完成 obsidian-mcp 配置；制作开篇内容文章；整理本份时间线存档 阶段说明 阶段 时间 核心特征 关键转折 启蒙期 4/19–4/25 被动接受信息为主，快速浏览大量工具和概念，尚未动手 4/23 首次开启 Claude 对话，从消费者变成参与者 搭建期 4/26–4/30 从学习到动手，AWS 注册、Obsidian 安装、Cursor 搭建 OpenClaw 4/30 走通 OpenClaw 全流程，第一个真实可运行的智能体诞生 扩展期 5/2–5/10 工具快速扩展：知识管理系统、自动化工作流、个人品牌基础设施 5/7 Kyron 智能体架构全面升级，从单一工具到系统化思考 深化期 5/11–5/16 从会用到会调试，Claude Code 取代 Cursor，开始理解底层逻辑 5/16 Telegram &#43; Discord 双平台接入，智能体全面上线 输出期 5/17 从建设者到内容创作者，开始向外输出学习成果 Obsidian 知识库连接 Claude，形成知识输入→处理→输出完整闭环 二、学习旅程分析 2.1 学习曲线与阶段特征 这28天的学习旅程可以清晰地划分为五个阶段，每个阶段都有鲜明的特征（见上表阶段说明）。">
+  <meta property="og:locale" content="zh_cn">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="ai">
+    <meta property="article:published_time" content="2026-05-17T06:00:00+08:00">
+    <meta property="article:modified_time" content="2026-05-17T06:00:00+08:00">
+
+
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="AI 学习旅程回顾报告：From Zero to AI Agent Builder">
+  <meta name="twitter:description" content="2026年4月19日 — 5月17日 · Allen Guan · Enoch Wealth Management · Toronto
 ⏱ 28天 从听一场讲座到发布第一篇内容
-🛠 15+ 工具 涵盖 AI 对话、智能体框架、自动化、知识管理、云端部署
-🤖 3个自动化系统 OpenClaw 智能体 + N8N 工作流 + Dify agent
+🛠 15&#43; 工具 涵盖 AI 对话、智能体框架、自动化、知识管理、云端部署
+🤖 3个自动化系统 OpenClaw 智能体 &#43; N8N 工作流 &#43; Dify agent
 📤 4个内容平台 小红书 · B站专栏 · X 中文 · X 英文
-一、活动时间线 启蒙期 搭建期 扩展期 深化期 输出期 4/19–4/25 4/26–4/30 5/2–5/10 5/11–5/16 5/17 日期 阶段 活动内容 4月19日 启蒙期 王斗第一次讲座；首次接触 AI agent、OpenClaw、Claude、Notion；浏览大量 YouTube 学习视频；下载 N8N 4月20日 启蒙期 继续浏览 YouTube（CloudGPT、Notion）；晚上下载 N8N 4月21日 启蒙期 搜索 NotebookLM 功能和使用场景 4月23日 启蒙期 首次使用 Claude；分析 Mythos AI 网络安全报道；分析 Larry Fink 2026 主席致股东信 4月24日 启蒙期 搜索 Qwen、Manus；建立 allenguan.vercel.app 个人网站 4月25日 启蒙期 搜索智能体经济学相关内容 4月26日 搭建期 王斗第二次讲座；注册 AWS 账号；学习 Obsidian；深入学习 AI Skills、Token 经济学、AI 商业模式分析框架 4月27日 搭建期 与王斗第一次线下见面；安装 Obsidian；用 Cursor 搭建 OpenClaw 4月28日 搭建期 与王斗第二次线下见面；继续用 Cursor 推进 OpenClaw 配置 4月30日 搭建期 完成 AWS Lightsail 上 OpenClaw 搭建，走通整个流程（Cursor 阶段完成） 5月2日 搭建期 Claude 上搭建加拿大自雇记账智能体（bookkeeping HTML 应用） 5月3日 搭建期 注册域名 5月4日 扩展期 注册 Bitwarden；做 allenguan.com 网站；完成灵感生成器 APP 全流程；更新网站头衔 5月5日 扩展期 搜索 DDR5 内存/NAS 升级；搜索 Stripe、DeepSeek 4、Knab、Link；研究 OpenClaw 访问 Obsidian 方案 5月6日 扩展期 确定 Notion + Obsidian 两层知识管理工作流；迁移内容进 Obsidian 5月7日 扩展期 修复 Git 自动同步链路；全面升级 Kyron 智能体架构（SOUL/MEMORY/TOOLS）；探索 Moltbook；研究 Claude Projects 5月8日 扩展期 深入学习 Claude Projects；为太太公司设计税务自动化方案；排查 Telegram/Discord 跨平台连通 5月9日 扩展期 Discord bot 权限配置 5月10日 扩展期 NAS 部署 Dify agent（Docker + Ollama + Qwen2.5-7B）；调整 WinSCP 备份频率；讨论 Claude Projects 策略 5月11日 深化期 NAS 搭建 N8N 自动化（Groq→Telegram）；讨论 Cursor/Claude Code 开发效率；解决 Claude Code 安装问题；深入学习 OpenClaw 核心文件；探索机票监控智能体；分析被动收入策略；开始申请 Oracle Cloud 免费账号 5月11–12日 深化期 申请 Oracle Cloud 免费账号；最大卡点：Toronto ARM 区域容量长期不足，需反复抢占；期间误建一台错误规格实例（E2.1.Micro + Oracle Linux），发现后删除重来；经历漫长等待后最终成功抢到 ARM 实例 5月13日 深化期 Oracle Cloud ARM 服务器（4 OCPU/24GB RAM，免费）上部署 Dify 完整系统；安装 Ollama + llama3.1:8b + nomic-embed-text；配置 12 个 Docker 容器（含向量数据库 Weaviate、Nginx、Redis 等）；建立 Allen’s Brain 知识库（上传 Obsidian MD + EMD产品PDF）；完成 Allen’s Assistant 智能体（Chatflow + RAG）；全程由 Claude 提供架构方案和部署指引 5月14日 深化期 OpenClaw Telegram/Discord 跨平台连通深入配置 5月15日 深化期 N8N 自动化扩展（增加投资领域监控源，早晚推送） 5月16日 深化期 完善 OpenClaw 核心身份文件；安装 soul-memory 技能；完成 Telegram 和 Discord 接入 5月17日 输出期 确定 AI 内容品牌平台矩阵；完成 obsidian-mcp 配置；制作开篇内容文章；整理本份时间线存档 阶段说明 阶段 时间 核心特征 关键转折 启蒙期 4/19–4/25 被动接受信息为主，快速浏览大量工具和概念，尚未动手 4/23 首次开启 Claude 对话，从消费者变成参与者 搭建期 4/26–4/30 从学习到动手，AWS 注册、Obsidian 安装、Cursor 搭建 OpenClaw 4/30 走通 OpenClaw 全流程，第一个真实可运行的智能体诞生 扩展期 5/2–5/10 工具快速扩展：知识管理系统、自动化工作流、个人品牌基础设施 5/7 Kyron 智能体架构全面升级，从单一工具到系统化思考 深化期 5/11–5/16 从会用到会调试，Claude Code 取代 Cursor，开始理解底层逻辑 5/16 Telegram + Discord 双平台接入，智能体全面上线 输出期 5/17 从建设者到内容创作者，开始向外输出学习成果 Obsidian 知识库连接 Claude，形成知识输入→处理→输出完整闭环 二、学习旅程分析 2.1 学习曲线与阶段特征 这28天的学习旅程可以清晰地划分为五个阶段，每个阶段都有鲜明的特征（见上表阶段说明）。"><script src=/js/toc.js></script><link type=text/css rel=stylesheet href=/vendor/css/bootstrap.min.css><link rel=stylesheet href=/scss/dark-mode.min.6c9b4c2290542df75010d1640eac4339c754ccff3c9b43fc81a23c94e7e12eaf.css integrity="sha256-bJtMIpBULfdQENFkDqxDOcdUzP88m0P8gaI8lOfhLq8=" media=screen><link rel=stylesheet href="https://fonts.googleapis.com/css?family=Material+Icons"><style>.post-body img{width:100%;border-radius:5px}.nav-taiji{margin:.4rem 0 .6rem;display:block;opacity:.85}.home-social{display:flex;justify-content:center;align-items:center;gap:16px;margin-top:20px}.home-social-link{display:flex;align-items:center;color:inherit;opacity:.6;transition:opacity .2s}.home-social-link:hover{opacity:1}.wechat-qr-wrap{position:relative;display:flex;align-items:center}.wechat-icon{display:flex;align-items:center;opacity:.6;cursor:pointer;transition:opacity .2s}.wechat-icon:hover{opacity:1}.wechat-qr-popup{display:none;position:absolute;top:34px;left:50%;transform:translateX(-50%);background:#fff;border:1px solid #e0e0e0;border-radius:8px;padding:12px;box-shadow:0 4px 16px rgba(0,0,0,.12);text-align:center;z-index:100;white-space:nowrap}.wechat-qr-wrap:hover .wechat-qr-popup,.wechat-qr-wrap.active .wechat-qr-popup{display:block}</style><script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Allen"},"dateModified":"2026-05-17T06:00:00+08:00","datePublished":"2026-05-17T06:00:00+08:00","description":"2026年4月19日 — 5月17日 · Allen Guan · Enoch Wealth Management · Toronto\n⏱ 28天 从听一场讲座到发布第一篇内容\n🛠 15+ 工具 涵盖 AI 对话、智能体框架、自动化、知识管理、云端部署\n🤖 3个自动化系统 OpenClaw 智能体 + N8N 工作流 …","headline":"AI 学习旅程回顾报告：From Zero to AI Agent Builder","inLanguage":"zh-CN","mainEntityOfPage":{"@id":"https://benlai.me/ai/ai-learning-report-month1/","@type":"WebPage"},"publisher":{"@type":"Person","name":"Allen"},"url":"https://benlai.me/ai/ai-learning-report-month1/"}</script></head><body><div id=app><div class=single-column-drawer-container id=drawer v-bind:class="{ 'single-column-drawer-container-active': isDrawerOpen }"><div class=drawer-content><div class=drawer-menu><a class="a-block drawer-menu-item false" href=/spirit/>灵境
-</a><a class="a-block drawer-menu-item false" href=/culture/>文化
-</a><a class="a-block drawer-menu-item false" href=/travel/>行迹
-</a><a class="a-block drawer-menu-item false" href=/reading/>书房
-</a><a class="a-block drawer-menu-item active" href=/ai/>算境</a><div class=toc><div class=toc-content><center>- CATALOG -</center><ul><ul><li><a href=#%e4%b8%80%e6%b4%bb%e5%8a%a8%e6%97%b6%e9%97%b4%e7%ba%bf class=nav-一活动时间线>一、活动时间线</a></li><ul><li><a href=#%e9%98%b6%e6%ae%b5%e8%af%b4%e6%98%8e class=nav-阶段说明>阶段说明</a></li></ul><li><a href=#%e4%ba%8c%e5%ad%a6%e4%b9%a0%e6%97%85%e7%a8%8b%e5%88%86%e6%9e%90 class=nav-二学习旅程分析>二、学习旅程分析</a></li><ul><li><a href=#21-%e5%ad%a6%e4%b9%a0%e6%9b%b2%e7%ba%bf%e4%b8%8e%e9%98%b6%e6%ae%b5%e7%89%b9%e5%be%81 class=nav-21-学习曲线与阶段特征>2.1 学习曲线与阶段特征</a></li><li><a href=#22-%e5%b7%a5%e5%85%b7%e4%bd%bf%e7%94%a8%e6%bc%94%e5%8f%98 class=nav-22-工具使用演变>2.2 工具使用演变</a></li><li><a href=#23-%e6%a0%b8%e5%bf%83%e8%ae%a4%e7%9f%a5%e8%bd%ac%e5%8f%98 class=nav-23-核心认知转变>2.3 核心认知转变</a></li><li><a href=#24-%e5%ad%a6%e4%b9%a0%e8%a1%8c%e4%b8%ba%e6%a8%a1%e5%bc%8f class=nav-24-学习行为模式>2.4 学习行为模式</a></li><li><a href=#25-%e4%b8%8b%e4%b8%80%e9%98%b6%e6%ae%b5%e5%b1%95%e6%9c%9b class=nav-25-下一阶段展望>2.5 下一阶段展望</a></li></ul></div></div></div></div></div><transition name=fade><div id=drawer-mask v-bind:class="{ 'single-column-drawer-mask': mounted }" v-if=isDrawerOpen v-on:click=toggleDrawer></div></transition><nav id=navBar class="navbar sticky-top navbar-light single-column-nav-container"><div id=navBackground class=nav-background></div><div class="container container-narrow nav-content"><button id=nav_dropdown_btn class=nav-dropdown-toggle type=button v-on:click=toggleDrawer>
-<i class=material-icons>menu
-</i></button>
-<a id=navTitle class=navbar-brand href=https://benlai.me/>本来
-</a><button type=button class=nav-darkmode-toggle id=darkModeToggleButton2>
-<i class=material-icons id=darkModeToggleIcon2>dark_mode</i></button></div></nav><div class=single-column-header-container id=pageHead v-bind:style="{ transform: 'translateZ(0px) translateY('+.3*scrollY+'px)', opacity: 1-navOpacity }"><a href=https://benlai.me/><div class=single-column-header-title>本来</div><div class=nav-taiji style=margin-top:.6rem><svg width="44" height="44" viewBox="0 0 100 100"><circle cx="50" cy="50" r="50" fill="#f0f0f0"/><path d="M50 0a50 50 0 000 1e2z" fill="#1a2a4a"/><circle cx="50" cy="25" r="25" fill="#f0f0f0"/><circle cx="50" cy="75" r="25" fill="#1a2a4a"/><circle cx="50" cy="25" r="9" fill="#1a2a4a"/><circle cx="50" cy="75" r="9" fill="#f0f0f0"/><circle cx="50" cy="50" r="49" fill="none" stroke="#1a2a4a" stroke-width="1.5"/></svg></div></a></div><div id=content><div id=streamContainer class=stream-container><div class="post-list-container post-list-container-shadow"><div class=post><div class=post-head-wrapper-text-only><div class=post-title>AI 学习旅程回顾报告：From Zero to AI Agent Builder<div class=post-meta><time itemprop=datePublished>2026-05-17 06:00</time></div></div></div><div class=post-body-wrapper><div class=post-body v-pre><p><em>2026年4月19日 — 5月17日 · Allen Guan · Enoch Wealth Management · Toronto</em></p><hr><blockquote><p>⏱ <strong>28天</strong> 从听一场讲座到发布第一篇内容</p><p>🛠 <strong>15+ 工具</strong> 涵盖 AI 对话、智能体框架、自动化、知识管理、云端部署</p><p>🤖 <strong>3个自动化系统</strong> OpenClaw 智能体 + N8N 工作流 + Dify agent</p><p>📤 <strong>4个内容平台</strong> 小红书 · B站专栏 · X 中文 · X 英文</p></blockquote><h2 id=一活动时间线>一、活动时间线</h2><table><thead><tr><th style=text-align:center>启蒙期</th><th style=text-align:center>搭建期</th><th style=text-align:center>扩展期</th><th style=text-align:center>深化期</th><th style=text-align:center>输出期</th></tr></thead><tbody><tr><td style=text-align:center>4/19–4/25</td><td style=text-align:center>4/26–4/30</td><td style=text-align:center>5/2–5/10</td><td style=text-align:center>5/11–5/16</td><td style=text-align:center>5/17</td></tr></tbody></table><table><thead><tr><th>日期</th><th>阶段</th><th>活动内容</th></tr></thead><tbody><tr><td>4月19日</td><td>启蒙期</td><td>王斗第一次讲座；首次接触 AI agent、OpenClaw、Claude、Notion；浏览大量 YouTube 学习视频；下载 N8N</td></tr><tr><td>4月20日</td><td>启蒙期</td><td>继续浏览 YouTube（CloudGPT、Notion）；晚上下载 N8N</td></tr><tr><td>4月21日</td><td>启蒙期</td><td>搜索 NotebookLM 功能和使用场景</td></tr><tr><td>4月23日</td><td>启蒙期</td><td>首次使用 Claude；分析 Mythos AI 网络安全报道；分析 Larry Fink 2026 主席致股东信</td></tr><tr><td>4月24日</td><td>启蒙期</td><td>搜索 Qwen、Manus；建立 allenguan.vercel.app 个人网站</td></tr><tr><td>4月25日</td><td>启蒙期</td><td>搜索智能体经济学相关内容</td></tr><tr><td>4月26日</td><td>搭建期</td><td>王斗第二次讲座；注册 AWS 账号；学习 Obsidian；深入学习 AI Skills、Token 经济学、AI 商业模式分析框架</td></tr><tr><td>4月27日</td><td>搭建期</td><td>与王斗第一次线下见面；安装 Obsidian；用 Cursor 搭建 OpenClaw</td></tr><tr><td>4月28日</td><td>搭建期</td><td>与王斗第二次线下见面；继续用 Cursor 推进 OpenClaw 配置</td></tr><tr><td>4月30日</td><td>搭建期</td><td>完成 AWS Lightsail 上 OpenClaw 搭建，走通整个流程（Cursor 阶段完成）</td></tr><tr><td>5月2日</td><td>搭建期</td><td>Claude 上搭建加拿大自雇记账智能体（bookkeeping HTML 应用）</td></tr><tr><td>5月3日</td><td>搭建期</td><td>注册域名</td></tr><tr><td>5月4日</td><td>扩展期</td><td>注册 Bitwarden；做 allenguan.com 网站；完成灵感生成器 APP 全流程；更新网站头衔</td></tr><tr><td>5月5日</td><td>扩展期</td><td>搜索 DDR5 内存/NAS 升级；搜索 Stripe、DeepSeek 4、Knab、Link；研究 OpenClaw 访问 Obsidian 方案</td></tr><tr><td>5月6日</td><td>扩展期</td><td>确定 Notion + Obsidian 两层知识管理工作流；迁移内容进 Obsidian</td></tr><tr><td>5月7日</td><td>扩展期</td><td>修复 Git 自动同步链路；全面升级 Kyron 智能体架构（SOUL/MEMORY/TOOLS）；探索 Moltbook；研究 Claude Projects</td></tr><tr><td>5月8日</td><td>扩展期</td><td>深入学习 Claude Projects；为太太公司设计税务自动化方案；排查 Telegram/Discord 跨平台连通</td></tr><tr><td>5月9日</td><td>扩展期</td><td>Discord bot 权限配置</td></tr><tr><td>5月10日</td><td>扩展期</td><td>NAS 部署 Dify agent（Docker + Ollama + Qwen2.5-7B）；调整 WinSCP 备份频率；讨论 Claude Projects 策略</td></tr><tr><td>5月11日</td><td>深化期</td><td>NAS 搭建 N8N 自动化（Groq→Telegram）；讨论 Cursor/Claude Code 开发效率；解决 Claude Code 安装问题；深入学习 OpenClaw 核心文件；探索机票监控智能体；分析被动收入策略；开始申请 Oracle Cloud 免费账号</td></tr><tr><td>5月11–12日</td><td>深化期</td><td>申请 Oracle Cloud 免费账号；最大卡点：Toronto ARM 区域容量长期不足，需反复抢占；期间误建一台错误规格实例（E2.1.Micro + Oracle Linux），发现后删除重来；经历漫长等待后最终成功抢到 ARM 实例</td></tr><tr><td>5月13日</td><td>深化期</td><td>Oracle Cloud ARM 服务器（4 OCPU/24GB RAM，免费）上部署 Dify 完整系统；安装 Ollama + llama3.1:8b + nomic-embed-text；配置 12 个 Docker 容器（含向量数据库 Weaviate、Nginx、Redis 等）；建立 Allen&rsquo;s Brain 知识库（上传 Obsidian MD + EMD产品PDF）；完成 Allen&rsquo;s Assistant 智能体（Chatflow + RAG）；全程由 Claude 提供架构方案和部署指引</td></tr><tr><td>5月14日</td><td>深化期</td><td>OpenClaw Telegram/Discord 跨平台连通深入配置</td></tr><tr><td>5月15日</td><td>深化期</td><td>N8N 自动化扩展（增加投资领域监控源，早晚推送）</td></tr><tr><td>5月16日</td><td>深化期</td><td>完善 OpenClaw 核心身份文件；安装 soul-memory 技能；完成 Telegram 和 Discord 接入</td></tr><tr><td>5月17日</td><td>输出期</td><td>确定 AI 内容品牌平台矩阵；完成 obsidian-mcp 配置；制作开篇内容文章；整理本份时间线存档</td></tr></tbody></table><h3 id=阶段说明>阶段说明</h3><table><thead><tr><th>阶段</th><th>时间</th><th>核心特征</th><th>关键转折</th></tr></thead><tbody><tr><td>启蒙期</td><td>4/19–4/25</td><td>被动接受信息为主，快速浏览大量工具和概念，尚未动手</td><td>4/23 首次开启 Claude 对话，从消费者变成参与者</td></tr><tr><td>搭建期</td><td>4/26–4/30</td><td>从学习到动手，AWS 注册、Obsidian 安装、Cursor 搭建 OpenClaw</td><td>4/30 走通 OpenClaw 全流程，第一个真实可运行的智能体诞生</td></tr><tr><td>扩展期</td><td>5/2–5/10</td><td>工具快速扩展：知识管理系统、自动化工作流、个人品牌基础设施</td><td>5/7 Kyron 智能体架构全面升级，从单一工具到系统化思考</td></tr><tr><td>深化期</td><td>5/11–5/16</td><td>从会用到会调试，Claude Code 取代 Cursor，开始理解底层逻辑</td><td>5/16 Telegram + Discord 双平台接入，智能体全面上线</td></tr><tr><td>输出期</td><td>5/17</td><td>从建设者到内容创作者，开始向外输出学习成果</td><td>Obsidian 知识库连接 Claude，形成知识输入→处理→输出完整闭环</td></tr></tbody></table><h2 id=二学习旅程分析>二、学习旅程分析</h2><h3 id=21-学习曲线与阶段特征>2.1 学习曲线与阶段特征</h3><p>这28天的学习旅程可以清晰地划分为五个阶段，每个阶段都有鲜明的特征（见上表阶段说明）。</p><h3 id=22-工具使用演变>2.2 工具使用演变</h3><p>工具积累的速度和广度，反映出这段时期学习的密度：</p><table><thead><tr><th>类别</th><th>工具</th></tr></thead><tbody><tr><td>AI 对话与编程</td><td>Claude、Cursor、Claude Code、Gemini</td></tr><tr><td>智能体框架</td><td>OpenClaw（AWS）、Kyron、Dify（NAS + Oracle Cloud）、Allen&rsquo;s Assistant（RAG Chatflow）</td></tr><tr><td>自动化工作流</td><td>N8N、Telegram Bot、Discord Bot</td></tr><tr><td>知识管理</td><td>Obsidian、Notion、NotebookLM</td></tr><tr><td>云端与服务器</td><td>AWS Lightsail、Oracle Cloud ARM（4 OCPU/24GB 免费层）、GitHub、Git</td></tr><tr><td>本地基础设施</td><td>NAS（绿联）、Docker、Ollama、Qwen2.5-7B</td></tr><tr><td>个人网站</td><td>Vercel（vercel.app）、allenguan.com、Netlify</td></tr><tr><td>安全与域名</td><td>Bitwarden、域名注册</td></tr><tr><td>其他探索</td><td>Stripe、DeepSeek 4、Knab、Moltbook</td></tr></tbody></table><h3 id=23-核心认知转变>2.3 核心认知转变</h3><p>28天里发生了几次值得记录的思维跃迁：</p><ul><li><strong>从"工具用户"到"架构师"</strong>：4月19日还在问各种工具是什么，5月中旬已经在设计多层自动化系统的数据流</li><li><strong>从"复制粘贴代码"到"理解底层逻辑"</strong>：5月11日那次关于 Cursor vs Claude Code 的对话是重要节点，你开始问"怎么读懂代码"而不只是"怎么跑通代码"</li><li><strong>从"单点工具"到"系统化基础设施"</strong>：Obsidian + Notion + Git + AWS + N8N 不是孤立的工具，而是一套有机的个人 AI 工作系统</li><li><strong>从"学习者"到"内容创作者"</strong>：5月17日的平台矩阵规划，标志着从积累期正式进入输出期</li></ul><h3 id=24-学习行为模式>2.4 学习行为模式</h3><p>回顾这段历程，几个行为模式比较突出：</p><ul><li><strong>高密度入门</strong>：前7天（4/19–4/25）以广度为主，通过讲座、YouTube、搜索快速建立概念地图，没有过早深挖单一工具</li><li><strong>以人为师</strong>：王斗校长的两次讲座和两次线下见面是关键加速器，提供了方向感，避免了大量试错成本</li><li><strong>做中学为主</strong>：几乎所有工具都是在实际搭建中学会的，很少有纯学习不动手的阶段</li><li><strong>问题驱动迭代</strong>：每次遇到卡点（Git 同步故障、PowerShell 安装问题、跨平台连通等）都变成了下一步学习的入口</li><li><strong>横向扩展快</strong>：不满足于走通一条路，总在同时探索多个方向（Dify vs N8N、Cursor vs Claude Code 等对比实验）</li></ul><h3 id=25-下一阶段展望>2.5 下一阶段展望</h3><p>基于前28天建立的基础，以下方向值得重点推进：</p><p><strong>优先级高：内容品牌运营</strong></p><p>小红书/B站/X 的内容矩阵已规划好，开篇文章已完成。持续输出是把学习旅程转化为影响力的关键。</p><p><strong>潜力方向：AI 工作系统与投资顾问业务整合</strong></p><p>现有的 N8N 信息推送、记账智能体等，可以逐步演化为服务高净值客户的专属工具。将 AI 能力与另类投资销售场景结合，是你独特的差异化路径。</p><p><strong>技术积累：Claude Code 深化使用</strong></p><p>已从 Cursor 过渡到 Claude Code，下一步是提升从"能跑通"到"能定制"的能力，尤其是在 OpenClaw/Kyron 智能体的个性化配置上。</p><p><strong>基础建设：知识库系统完善</strong></p><p>Obsidian + obsidian-mcp 已连通，下一步是把过去几年的投资研究、客户洞察、市场分析沉淀进去，让知识库真正发挥"第二大脑"的作用。</p><hr><p><em>报告生成日期：2026年5月17日 · Allen Guan · Enoch Wealth Management</em></p><hr width=100% id=EOF><p style=color:#777>Last modified on 2026-05-17</p></div></div><nav class=post-pagination><a class=newer-posts href=/ai/claude-obsidian/>Next<br>我花了大半天，让Claude真正"住进"我的Obsidian知识库
-</a><a class=older-posts href=/spirit/thinking-traits-analysis/>Previous<br>Allen的思维特质分析</a></nav><div class=post-comment-wrapper></div></div></div></div></div><div id=sideContainer class=side-container><a class="a-block nav-head false" href=https://benlai.me/><div class=nav-title>本来</div><div class=nav-taiji><svg width="40" height="40" viewBox="0 0 100 100"><circle cx="50" cy="50" r="50" fill="#f0f0f0"/><path d="M50 0a50 50 0 000 1e2z" fill="#1a2a4a"/><circle cx="50" cy="25" r="25" fill="#f0f0f0"/><circle cx="50" cy="75" r="25" fill="#1a2a4a"/><circle cx="50" cy="25" r="9" fill="#1a2a4a"/><circle cx="50" cy="75" r="9" fill="#f0f0f0"/><circle cx="50" cy="50" r="49" fill="none" stroke="#1a2a4a" stroke-width="1.5"/></svg></div></a><div class=nav-link-list><a class="a-block nav-link-item false" href=/spirit/>灵境
-</a><a class="a-block nav-link-item false" href=/culture/>文化
-</a><a class="a-block nav-link-item false" href=/travel/>行迹
-</a><a class="a-block nav-link-item false" href=/reading/>书房
-</a><a class="a-block nav-link-item active" href=/ai/>算境</a></div><div class=nav-footer>&copy; 2026 本来</div></div><div id=extraContainer class=extra-container><div class=toc-wrapper><div class=toc><div class=toc-content><center>- CATALOG -</center><ul><ul><li><a href=#%e4%b8%80%e6%b4%bb%e5%8a%a8%e6%97%b6%e9%97%b4%e7%ba%bf class=nav-一活动时间线>一、活动时间线</a></li><ul><li><a href=#%e9%98%b6%e6%ae%b5%e8%af%b4%e6%98%8e class=nav-阶段说明>阶段说明</a></li></ul><li><a href=#%e4%ba%8c%e5%ad%a6%e4%b9%a0%e6%97%85%e7%a8%8b%e5%88%86%e6%9e%90 class=nav-二学习旅程分析>二、学习旅程分析</a></li><ul><li><a href=#21-%e5%ad%a6%e4%b9%a0%e6%9b%b2%e7%ba%bf%e4%b8%8e%e9%98%b6%e6%ae%b5%e7%89%b9%e5%be%81 class=nav-21-学习曲线与阶段特征>2.1 学习曲线与阶段特征</a></li><li><a href=#22-%e5%b7%a5%e5%85%b7%e4%bd%bf%e7%94%a8%e6%bc%94%e5%8f%98 class=nav-22-工具使用演变>2.2 工具使用演变</a></li><li><a href=#23-%e6%a0%b8%e5%bf%83%e8%ae%a4%e7%9f%a5%e8%bd%ac%e5%8f%98 class=nav-23-核心认知转变>2.3 核心认知转变</a></li><li><a href=#24-%e5%ad%a6%e4%b9%a0%e8%a1%8c%e4%b8%ba%e6%a8%a1%e5%bc%8f class=nav-24-学习行为模式>2.4 学习行为模式</a></li><li><a href=#25-%e4%b8%8b%e4%b8%80%e9%98%b6%e6%ae%b5%e5%b1%95%e6%9c%9b class=nav-25-下一阶段展望>2.5 下一阶段展望</a></li></ul></div></div></div><div class=pagination><a id=globalBackToTop class="pagination-action animated-visibility" href=#top :class="{ invisible: scrollY == 0 }"><i class="material-icons pagination-action-icon">keyboard_arrow_up
-</i></a><a type=button class=pagination-action id=darkModeToggleButton><span class="material-icons pagination-action-icon" id=darkModeToggleIcon>dark_mode</span></a></div></div><div id=single-column-footer>&copy; 2026 本来</div></div><script src=/js/journal.js></script></body></html>
+一、活动时间线 启蒙期 搭建期 扩展期 深化期 输出期 4/19–4/25 4/26–4/30 5/2–5/10 5/11–5/16 5/17 日期 阶段 活动内容 4月19日 启蒙期 王斗第一次讲座；首次接触 AI agent、OpenClaw、Claude、Notion；浏览大量 YouTube 学习视频；下载 N8N 4月20日 启蒙期 继续浏览 YouTube（CloudGPT、Notion）；晚上下载 N8N 4月21日 启蒙期 搜索 NotebookLM 功能和使用场景 4月23日 启蒙期 首次使用 Claude；分析 Mythos AI 网络安全报道；分析 Larry Fink 2026 主席致股东信 4月24日 启蒙期 搜索 Qwen、Manus；建立 allenguan.vercel.app 个人网站 4月25日 启蒙期 搜索智能体经济学相关内容 4月26日 搭建期 王斗第二次讲座；注册 AWS 账号；学习 Obsidian；深入学习 AI Skills、Token 经济学、AI 商业模式分析框架 4月27日 搭建期 与王斗第一次线下见面；安装 Obsidian；用 Cursor 搭建 OpenClaw 4月28日 搭建期 与王斗第二次线下见面；继续用 Cursor 推进 OpenClaw 配置 4月30日 搭建期 完成 AWS Lightsail 上 OpenClaw 搭建，走通整个流程（Cursor 阶段完成） 5月2日 搭建期 Claude 上搭建加拿大自雇记账智能体（bookkeeping HTML 应用） 5月3日 搭建期 注册域名 5月4日 扩展期 注册 Bitwarden；做 allenguan.com 网站；完成灵感生成器 APP 全流程；更新网站头衔 5月5日 扩展期 搜索 DDR5 内存/NAS 升级；搜索 Stripe、DeepSeek 4、Knab、Link；研究 OpenClaw 访问 Obsidian 方案 5月6日 扩展期 确定 Notion &#43; Obsidian 两层知识管理工作流；迁移内容进 Obsidian 5月7日 扩展期 修复 Git 自动同步链路；全面升级 Kyron 智能体架构（SOUL/MEMORY/TOOLS）；探索 Moltbook；研究 Claude Projects 5月8日 扩展期 深入学习 Claude Projects；为太太公司设计税务自动化方案；排查 Telegram/Discord 跨平台连通 5月9日 扩展期 Discord bot 权限配置 5月10日 扩展期 NAS 部署 Dify agent（Docker &#43; Ollama &#43; Qwen2.5-7B）；调整 WinSCP 备份频率；讨论 Claude Projects 策略 5月11日 深化期 NAS 搭建 N8N 自动化（Groq→Telegram）；讨论 Cursor/Claude Code 开发效率；解决 Claude Code 安装问题；深入学习 OpenClaw 核心文件；探索机票监控智能体；分析被动收入策略；开始申请 Oracle Cloud 免费账号 5月11–12日 深化期 申请 Oracle Cloud 免费账号；最大卡点：Toronto ARM 区域容量长期不足，需反复抢占；期间误建一台错误规格实例（E2.1.Micro &#43; Oracle Linux），发现后删除重来；经历漫长等待后最终成功抢到 ARM 实例 5月13日 深化期 Oracle Cloud ARM 服务器（4 OCPU/24GB RAM，免费）上部署 Dify 完整系统；安装 Ollama &#43; llama3.1:8b &#43; nomic-embed-text；配置 12 个 Docker 容器（含向量数据库 Weaviate、Nginx、Redis 等）；建立 Allen’s Brain 知识库（上传 Obsidian MD &#43; EMD产品PDF）；完成 Allen’s Assistant 智能体（Chatflow &#43; RAG）；全程由 Claude 提供架构方案和部署指引 5月14日 深化期 OpenClaw Telegram/Discord 跨平台连通深入配置 5月15日 深化期 N8N 自动化扩展（增加投资领域监控源，早晚推送） 5月16日 深化期 完善 OpenClaw 核心身份文件；安装 soul-memory 技能；完成 Telegram 和 Discord 接入 5月17日 输出期 确定 AI 内容品牌平台矩阵；完成 obsidian-mcp 配置；制作开篇内容文章；整理本份时间线存档 阶段说明 阶段 时间 核心特征 关键转折 启蒙期 4/19–4/25 被动接受信息为主，快速浏览大量工具和概念，尚未动手 4/23 首次开启 Claude 对话，从消费者变成参与者 搭建期 4/26–4/30 从学习到动手，AWS 注册、Obsidian 安装、Cursor 搭建 OpenClaw 4/30 走通 OpenClaw 全流程，第一个真实可运行的智能体诞生 扩展期 5/2–5/10 工具快速扩展：知识管理系统、自动化工作流、个人品牌基础设施 5/7 Kyron 智能体架构全面升级，从单一工具到系统化思考 深化期 5/11–5/16 从会用到会调试，Claude Code 取代 Cursor，开始理解底层逻辑 5/16 Telegram &#43; Discord 双平台接入，智能体全面上线 输出期 5/17 从建设者到内容创作者，开始向外输出学习成果 Obsidian 知识库连接 Claude，形成知识输入→处理→输出完整闭环 二、学习旅程分析 2.1 学习曲线与阶段特征 这28天的学习旅程可以清晰地划分为五个阶段，每个阶段都有鲜明的特征（见上表阶段说明）。">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <script src="/js/toc.js"></script>
+    
+    <link type="text/css" rel="stylesheet" href="/vendor/css/bootstrap.min.css">
+
+<link rel="stylesheet" href="/scss/dark-mode.min.6c9b4c2290542df75010d1640eac4339c754ccff3c9b43fc81a23c94e7e12eaf.css" integrity="sha256-bJtMIpBULfdQENFkDqxDOcdUzP88m0P8gaI8lOfhLq8=" media="screen">
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Material+Icons">
+
+
+
+
+
+
+
+
+
+
+
+
+
+<style>
+  .post-body img {
+    width: 100%;
+    border-radius: 5px;
+  }
+  .nav-taiji {
+    margin: 0.4rem 0 0.6rem;
+    display: block;
+    opacity: 0.85;
+  }
+  .home-social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin-top: 20px;
+  }
+  .home-social-link {
+    display: flex;
+    align-items: center;
+    color: inherit;
+    opacity: 0.6;
+    transition: opacity 0.2s;
+  }
+  .home-social-link:hover {
+    opacity: 1;
+  }
+  .wechat-qr-wrap {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  .wechat-icon {
+    display: flex;
+    align-items: center;
+    opacity: 0.6;
+    cursor: pointer;
+    transition: opacity 0.2s;
+  }
+  .wechat-icon:hover {
+    opacity: 1;
+  }
+  .wechat-qr-popup {
+    display: none;
+    position: absolute;
+    top: 34px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 12px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+    text-align: center;
+    z-index: 100;
+    white-space: nowrap;
+  }
+  .wechat-qr-wrap:hover .wechat-qr-popup,
+  .wechat-qr-wrap.active .wechat-qr-popup {
+    display: block;
+  }
+</style>
+
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "author": {
+    "@type": "Person",
+    "name": "Allen"
+  },
+  "dateModified": "2026-05-17T06:00:00+08:00",
+  "datePublished": "2026-05-17T06:00:00+08:00",
+  "description": "2026年4月19日 — 5月17日 · Allen Guan · Enoch Wealth Management · Toronto\n⏱ 28天 从听一场讲座到发布第一篇内容\n🛠 15+ 工具 涵盖 AI 对话、智能体框架、自动化、知识管理、云端部署\n🤖 3个自动化系统 OpenClaw 智能体 + N8N 工作流 …",
+  "headline": "AI 学习旅程回顾报告：From Zero to AI Agent Builder",
+  "inLanguage": "zh-CN",
+  "mainEntityOfPage": {
+    "@id": "https://benlai.me/ai/ai-learning-report-month1/",
+    "@type": "WebPage"
+  },
+  "publisher": {
+    "@type": "Person",
+    "name": "Allen"
+  },
+  "url": "https://benlai.me/ai/ai-learning-report-month1/"
+}</script>
+
+</head>
+<body>
+    	<div id="app"><div class="single-column-drawer-container" id="drawer"
+     v-bind:class="{ 'single-column-drawer-container-active': isDrawerOpen }">
+    <div class="drawer-content">
+        <div class="drawer-menu">
+            
+            
+            
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/spirit/">
+                    灵境
+                </a>
+                
+            
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/culture/">
+                    文化
+                </a>
+                
+            
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/travel/">
+                    行迹
+                </a>
+                
+            
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/reading/">
+                    书房
+                </a>
+                
+            
+                
+                
+                    
+                
+                
+                <a class="a-block drawer-menu-item active" href="/ai/">
+                    算境
+                </a>
+                
+            
+            
+            <div class="toc">
+
+
+	<div class="toc-content">
+	
+		
+		
+		
+		<center>- CATALOG -</center>
+		
+		
+		<ul>
+			
+				
+				
+					
+						
+						
+						
+						
+							
+								
+									<ul>
+								
+							
+						
+						
+							<li>
+								<a href="#%e4%b8%80%e6%b4%bb%e5%8a%a8%e6%97%b6%e9%97%b4%e7%ba%bf" class="nav-一活动时间线">
+									一、活动时间线
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+							
+								
+									<ul>
+								
+							
+						
+						
+							<li>
+								<a href="#%e9%98%b6%e6%ae%b5%e8%af%b4%e6%98%8e" class="nav-阶段说明">
+									阶段说明
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+							
+								</ul>
+							
+						
+						
+						
+							<li>
+								<a href="#%e4%ba%8c%e5%ad%a6%e4%b9%a0%e6%97%85%e7%a8%8b%e5%88%86%e6%9e%90" class="nav-二学习旅程分析">
+									二、学习旅程分析
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+							
+								
+									<ul>
+								
+							
+						
+						
+							<li>
+								<a href="#21-%e5%ad%a6%e4%b9%a0%e6%9b%b2%e7%ba%bf%e4%b8%8e%e9%98%b6%e6%ae%b5%e7%89%b9%e5%be%81" class="nav-21-学习曲线与阶段特征">
+									2.1 学习曲线与阶段特征
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#22-%e5%b7%a5%e5%85%b7%e4%bd%bf%e7%94%a8%e6%bc%94%e5%8f%98" class="nav-22-工具使用演变">
+									2.2 工具使用演变
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#23-%e6%a0%b8%e5%bf%83%e8%ae%a4%e7%9f%a5%e8%bd%ac%e5%8f%98" class="nav-23-核心认知转变">
+									2.3 核心认知转变
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#24-%e5%ad%a6%e4%b9%a0%e8%a1%8c%e4%b8%ba%e6%a8%a1%e5%bc%8f" class="nav-24-学习行为模式">
+									2.4 学习行为模式
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#25-%e4%b8%8b%e4%b8%80%e9%98%b6%e6%ae%b5%e5%b1%95%e6%9c%9b" class="nav-25-下一阶段展望">
+									2.5 下一阶段展望
+								</a>
+							</li>
+						
+						
+					
+				
+			
+		</ul>
+	</div>
+
+</div>
+            
+        </div>
+    </div>
+</div>
+<transition name="fade">
+    <div id="drawer-mask" v-bind:class="{ 'single-column-drawer-mask': mounted }" v-if="isDrawerOpen" v-on:click="toggleDrawer"></div>
+</transition>
+<nav id="navBar" class="navbar sticky-top navbar-light single-column-nav-container">
+    <div id="navBackground" class="nav-background"></div>
+    <div class="container container-narrow nav-content">
+        <button id="nav_dropdown_btn" class="nav-dropdown-toggle" type="button" v-on:click="toggleDrawer">
+            <i class="material-icons">
+                menu
+            </i>
+        </button>
+        <a id="navTitle" class="navbar-brand" href="https://benlai.me/">
+            本来
+        </a>
+        
+        <button type="button" class="nav-darkmode-toggle" id="darkModeToggleButton2">
+            <i class="material-icons" id="darkModeToggleIcon2">
+                dark_mode
+            </i>
+        </button>
+        
+    </div>
+</nav>
+<div class="single-column-header-container" id="pageHead"
+     v-bind:style="{ transform: 'translateZ(0px) translateY('+.3*scrollY+'px)', opacity: 1-navOpacity }">
+    <a href="https://benlai.me/">
+        <div class="single-column-header-title">本来</div>
+        
+        <div class="nav-taiji" style="margin-top:0.6rem;">
+          <svg width="44" height="44" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="50" cy="50" r="50" fill="#f0f0f0"/>
+            <path d="M50,0 A50,50,0,0,0,50,100 Z" fill="#1a2a4a"/>
+            <circle cx="50" cy="25" r="25" fill="#f0f0f0"/>
+            <circle cx="50" cy="75" r="25" fill="#1a2a4a"/>
+            <circle cx="50" cy="25" r="9" fill="#1a2a4a"/>
+            <circle cx="50" cy="75" r="9" fill="#f0f0f0"/>
+            <circle cx="50" cy="50" r="49" fill="none" stroke="#1a2a4a" stroke-width="1.5"/>
+          </svg>
+        </div>
+    </a>
+</div>
+
+            <div id="content">
+                <div id="streamContainer" class="stream-container">
+
+    <div class="post-list-container post-list-container-shadow">
+        <div class="post">
+            
+            
+            
+
+            <div class="post-head-wrapper-text-only"
+                
+            >
+                <div class="post-title">
+                    AI 学习旅程回顾报告：From Zero to AI Agent Builder
+                    
+                    <div class="post-meta">
+                        
+                        <time itemprop="datePublished">
+                            2026-05-17 06:00
+                        </time>
+                        
+
+                        
+
+                        
+                        
+                    </div>
+                </div>
+            </div>
+            
+            <div class="post-body-wrapper">
+                
+                <div class="post-body" v-pre>
+                
+                    <p><em>2026年4月19日 — 5月17日  ·  Allen Guan  ·  Enoch Wealth Management  ·  Toronto</em></p>
+<hr>
+<blockquote>
+<p>⏱ <strong>28天</strong> 从听一场讲座到发布第一篇内容</p>
+<p>🛠 <strong>15+ 工具</strong> 涵盖 AI 对话、智能体框架、自动化、知识管理、云端部署</p>
+<p>🤖 <strong>3个自动化系统</strong> OpenClaw 智能体 + N8N 工作流 + Dify agent</p>
+<p>📤 <strong>4个内容平台</strong> 小红书 · B站专栏 · X 中文 · X 英文</p>
+</blockquote>
+<h2 id="一活动时间线">一、活动时间线</h2>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: center">启蒙期</th>
+          <th style="text-align: center">搭建期</th>
+          <th style="text-align: center">扩展期</th>
+          <th style="text-align: center">深化期</th>
+          <th style="text-align: center">输出期</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: center">4/19–4/25</td>
+          <td style="text-align: center">4/26–4/30</td>
+          <td style="text-align: center">5/2–5/10</td>
+          <td style="text-align: center">5/11–5/16</td>
+          <td style="text-align: center">5/17</td>
+      </tr>
+  </tbody>
+</table>
+<table>
+  <thead>
+      <tr>
+          <th>日期</th>
+          <th>阶段</th>
+          <th>活动内容</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>4月19日</td>
+          <td>启蒙期</td>
+          <td>王斗第一次讲座；首次接触 AI agent、OpenClaw、Claude、Notion；浏览大量 YouTube 学习视频；下载 N8N</td>
+      </tr>
+      <tr>
+          <td>4月20日</td>
+          <td>启蒙期</td>
+          <td>继续浏览 YouTube（CloudGPT、Notion）；晚上下载 N8N</td>
+      </tr>
+      <tr>
+          <td>4月21日</td>
+          <td>启蒙期</td>
+          <td>搜索 NotebookLM 功能和使用场景</td>
+      </tr>
+      <tr>
+          <td>4月23日</td>
+          <td>启蒙期</td>
+          <td>首次使用 Claude；分析 Mythos AI 网络安全报道；分析 Larry Fink 2026 主席致股东信</td>
+      </tr>
+      <tr>
+          <td>4月24日</td>
+          <td>启蒙期</td>
+          <td>搜索 Qwen、Manus；建立 allenguan.vercel.app 个人网站</td>
+      </tr>
+      <tr>
+          <td>4月25日</td>
+          <td>启蒙期</td>
+          <td>搜索智能体经济学相关内容</td>
+      </tr>
+      <tr>
+          <td>4月26日</td>
+          <td>搭建期</td>
+          <td>王斗第二次讲座；注册 AWS 账号；学习 Obsidian；深入学习 AI Skills、Token 经济学、AI 商业模式分析框架</td>
+      </tr>
+      <tr>
+          <td>4月27日</td>
+          <td>搭建期</td>
+          <td>与王斗第一次线下见面；安装 Obsidian；用 Cursor 搭建 OpenClaw</td>
+      </tr>
+      <tr>
+          <td>4月28日</td>
+          <td>搭建期</td>
+          <td>与王斗第二次线下见面；继续用 Cursor 推进 OpenClaw 配置</td>
+      </tr>
+      <tr>
+          <td>4月30日</td>
+          <td>搭建期</td>
+          <td>完成 AWS Lightsail 上 OpenClaw 搭建，走通整个流程（Cursor 阶段完成）</td>
+      </tr>
+      <tr>
+          <td>5月2日</td>
+          <td>搭建期</td>
+          <td>Claude 上搭建加拿大自雇记账智能体（bookkeeping HTML 应用）</td>
+      </tr>
+      <tr>
+          <td>5月3日</td>
+          <td>搭建期</td>
+          <td>注册域名</td>
+      </tr>
+      <tr>
+          <td>5月4日</td>
+          <td>扩展期</td>
+          <td>注册 Bitwarden；做 allenguan.com 网站；完成灵感生成器 APP 全流程；更新网站头衔</td>
+      </tr>
+      <tr>
+          <td>5月5日</td>
+          <td>扩展期</td>
+          <td>搜索 DDR5 内存/NAS 升级；搜索 Stripe、DeepSeek 4、Knab、Link；研究 OpenClaw 访问 Obsidian 方案</td>
+      </tr>
+      <tr>
+          <td>5月6日</td>
+          <td>扩展期</td>
+          <td>确定 Notion + Obsidian 两层知识管理工作流；迁移内容进 Obsidian</td>
+      </tr>
+      <tr>
+          <td>5月7日</td>
+          <td>扩展期</td>
+          <td>修复 Git 自动同步链路；全面升级 Kyron 智能体架构（SOUL/MEMORY/TOOLS）；探索 Moltbook；研究 Claude Projects</td>
+      </tr>
+      <tr>
+          <td>5月8日</td>
+          <td>扩展期</td>
+          <td>深入学习 Claude Projects；为太太公司设计税务自动化方案；排查 Telegram/Discord 跨平台连通</td>
+      </tr>
+      <tr>
+          <td>5月9日</td>
+          <td>扩展期</td>
+          <td>Discord bot 权限配置</td>
+      </tr>
+      <tr>
+          <td>5月10日</td>
+          <td>扩展期</td>
+          <td>NAS 部署 Dify agent（Docker + Ollama + Qwen2.5-7B）；调整 WinSCP 备份频率；讨论 Claude Projects 策略</td>
+      </tr>
+      <tr>
+          <td>5月11日</td>
+          <td>深化期</td>
+          <td>NAS 搭建 N8N 自动化（Groq→Telegram）；讨论 Cursor/Claude Code 开发效率；解决 Claude Code 安装问题；深入学习 OpenClaw 核心文件；探索机票监控智能体；分析被动收入策略；开始申请 Oracle Cloud 免费账号</td>
+      </tr>
+      <tr>
+          <td>5月11–12日</td>
+          <td>深化期</td>
+          <td>申请 Oracle Cloud 免费账号；最大卡点：Toronto ARM 区域容量长期不足，需反复抢占；期间误建一台错误规格实例（E2.1.Micro + Oracle Linux），发现后删除重来；经历漫长等待后最终成功抢到 ARM 实例</td>
+      </tr>
+      <tr>
+          <td>5月13日</td>
+          <td>深化期</td>
+          <td>Oracle Cloud ARM 服务器（4 OCPU/24GB RAM，免费）上部署 Dify 完整系统；安装 Ollama + llama3.1:8b + nomic-embed-text；配置 12 个 Docker 容器（含向量数据库 Weaviate、Nginx、Redis 等）；建立 Allen&rsquo;s Brain 知识库（上传 Obsidian MD + EMD产品PDF）；完成 Allen&rsquo;s Assistant 智能体（Chatflow + RAG）；全程由 Claude 提供架构方案和部署指引</td>
+      </tr>
+      <tr>
+          <td>5月14日</td>
+          <td>深化期</td>
+          <td>OpenClaw Telegram/Discord 跨平台连通深入配置</td>
+      </tr>
+      <tr>
+          <td>5月15日</td>
+          <td>深化期</td>
+          <td>N8N 自动化扩展（增加投资领域监控源，早晚推送）</td>
+      </tr>
+      <tr>
+          <td>5月16日</td>
+          <td>深化期</td>
+          <td>完善 OpenClaw 核心身份文件；安装 soul-memory 技能；完成 Telegram 和 Discord 接入</td>
+      </tr>
+      <tr>
+          <td>5月17日</td>
+          <td>输出期</td>
+          <td>确定 AI 内容品牌平台矩阵；完成 obsidian-mcp 配置；制作开篇内容文章；整理本份时间线存档</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="阶段说明">阶段说明</h3>
+<table>
+  <thead>
+      <tr>
+          <th>阶段</th>
+          <th>时间</th>
+          <th>核心特征</th>
+          <th>关键转折</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>启蒙期</td>
+          <td>4/19–4/25</td>
+          <td>被动接受信息为主，快速浏览大量工具和概念，尚未动手</td>
+          <td>4/23 首次开启 Claude 对话，从消费者变成参与者</td>
+      </tr>
+      <tr>
+          <td>搭建期</td>
+          <td>4/26–4/30</td>
+          <td>从学习到动手，AWS 注册、Obsidian 安装、Cursor 搭建 OpenClaw</td>
+          <td>4/30 走通 OpenClaw 全流程，第一个真实可运行的智能体诞生</td>
+      </tr>
+      <tr>
+          <td>扩展期</td>
+          <td>5/2–5/10</td>
+          <td>工具快速扩展：知识管理系统、自动化工作流、个人品牌基础设施</td>
+          <td>5/7 Kyron 智能体架构全面升级，从单一工具到系统化思考</td>
+      </tr>
+      <tr>
+          <td>深化期</td>
+          <td>5/11–5/16</td>
+          <td>从会用到会调试，Claude Code 取代 Cursor，开始理解底层逻辑</td>
+          <td>5/16 Telegram + Discord 双平台接入，智能体全面上线</td>
+      </tr>
+      <tr>
+          <td>输出期</td>
+          <td>5/17</td>
+          <td>从建设者到内容创作者，开始向外输出学习成果</td>
+          <td>Obsidian 知识库连接 Claude，形成知识输入→处理→输出完整闭环</td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="二学习旅程分析">二、学习旅程分析</h2>
+<h3 id="21-学习曲线与阶段特征">2.1 学习曲线与阶段特征</h3>
+<p>这28天的学习旅程可以清晰地划分为五个阶段，每个阶段都有鲜明的特征（见上表阶段说明）。</p>
+<h3 id="22-工具使用演变">2.2 工具使用演变</h3>
+<p>工具积累的速度和广度，反映出这段时期学习的密度：</p>
+<table>
+  <thead>
+      <tr>
+          <th>类别</th>
+          <th>工具</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>AI 对话与编程</td>
+          <td>Claude、Cursor、Claude Code、Gemini</td>
+      </tr>
+      <tr>
+          <td>智能体框架</td>
+          <td>OpenClaw（AWS）、Kyron、Dify（NAS + Oracle Cloud）、Allen&rsquo;s Assistant（RAG Chatflow）</td>
+      </tr>
+      <tr>
+          <td>自动化工作流</td>
+          <td>N8N、Telegram Bot、Discord Bot</td>
+      </tr>
+      <tr>
+          <td>知识管理</td>
+          <td>Obsidian、Notion、NotebookLM</td>
+      </tr>
+      <tr>
+          <td>云端与服务器</td>
+          <td>AWS Lightsail、Oracle Cloud ARM（4 OCPU/24GB 免费层）、GitHub、Git</td>
+      </tr>
+      <tr>
+          <td>本地基础设施</td>
+          <td>NAS（绿联）、Docker、Ollama、Qwen2.5-7B</td>
+      </tr>
+      <tr>
+          <td>个人网站</td>
+          <td>Vercel（vercel.app）、allenguan.com、Netlify</td>
+      </tr>
+      <tr>
+          <td>安全与域名</td>
+          <td>Bitwarden、域名注册</td>
+      </tr>
+      <tr>
+          <td>其他探索</td>
+          <td>Stripe、DeepSeek 4、Knab、Moltbook</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="23-核心认知转变">2.3 核心认知转变</h3>
+<p>28天里发生了几次值得记录的思维跃迁：</p>
+<ul>
+<li><strong>从&quot;工具用户&quot;到&quot;架构师&quot;</strong>：4月19日还在问各种工具是什么，5月中旬已经在设计多层自动化系统的数据流</li>
+<li><strong>从&quot;复制粘贴代码&quot;到&quot;理解底层逻辑&quot;</strong>：5月11日那次关于 Cursor vs Claude Code 的对话是重要节点，你开始问&quot;怎么读懂代码&quot;而不只是&quot;怎么跑通代码&quot;</li>
+<li><strong>从&quot;单点工具&quot;到&quot;系统化基础设施&quot;</strong>：Obsidian + Notion + Git + AWS + N8N 不是孤立的工具，而是一套有机的个人 AI 工作系统</li>
+<li><strong>从&quot;学习者&quot;到&quot;内容创作者&quot;</strong>：5月17日的平台矩阵规划，标志着从积累期正式进入输出期</li>
+</ul>
+<h3 id="24-学习行为模式">2.4 学习行为模式</h3>
+<p>回顾这段历程，几个行为模式比较突出：</p>
+<ul>
+<li><strong>高密度入门</strong>：前7天（4/19–4/25）以广度为主，通过讲座、YouTube、搜索快速建立概念地图，没有过早深挖单一工具</li>
+<li><strong>以人为师</strong>：王斗校长的两次讲座和两次线下见面是关键加速器，提供了方向感，避免了大量试错成本</li>
+<li><strong>做中学为主</strong>：几乎所有工具都是在实际搭建中学会的，很少有纯学习不动手的阶段</li>
+<li><strong>问题驱动迭代</strong>：每次遇到卡点（Git 同步故障、PowerShell 安装问题、跨平台连通等）都变成了下一步学习的入口</li>
+<li><strong>横向扩展快</strong>：不满足于走通一条路，总在同时探索多个方向（Dify vs N8N、Cursor vs Claude Code 等对比实验）</li>
+</ul>
+<h3 id="25-下一阶段展望">2.5 下一阶段展望</h3>
+<p>基于前28天建立的基础，以下方向值得重点推进：</p>
+<p><strong>优先级高：内容品牌运营</strong></p>
+<p>小红书/B站/X 的内容矩阵已规划好，开篇文章已完成。持续输出是把学习旅程转化为影响力的关键。</p>
+<p><strong>潜力方向：AI 工作系统与投资顾问业务整合</strong></p>
+<p>现有的 N8N 信息推送、记账智能体等，可以逐步演化为服务高净值客户的专属工具。将 AI 能力与另类投资销售场景结合，是你独特的差异化路径。</p>
+<p><strong>技术积累：Claude Code 深化使用</strong></p>
+<p>已从 Cursor 过渡到 Claude Code，下一步是提升从&quot;能跑通&quot;到&quot;能定制&quot;的能力，尤其是在 OpenClaw/Kyron 智能体的个性化配置上。</p>
+<p><strong>基础建设：知识库系统完善</strong></p>
+<p>Obsidian + obsidian-mcp 已连通，下一步是把过去几年的投资研究、客户洞察、市场分析沉淀进去，让知识库真正发挥&quot;第二大脑&quot;的作用。</p>
+<hr>
+<p><em>报告生成日期：2026年5月17日  ·  Allen Guan  ·  Enoch Wealth Management</em></p>
+
+                    
+                    <HR width="100%" id="EOF">
+		    <p style="color:#777;">Last modified on 2026-05-17</p>
+                    
+                </div>
+            </div>
+            
+            
+            <nav class="post-pagination">
+
+                
+                <a class="newer-posts" href="/ai/claude-obsidian/">
+			Next<br>我花了大半天，让Claude真正&#34;住进&#34;我的Obsidian知识库
+                </a>
+                
+                
+                
+                <a class="older-posts" href="/spirit/thinking-traits-analysis/">
+			Previous<br>Allen的思维特质分析
+                </a>
+                
+            </nav>
+            <div class="post-comment-wrapper">
+                
+
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+    </div>
+
+
+                    </div>
+            </div><div id="sideContainer" class="side-container">
+    
+    <a class="a-block nav-head false" href="https://benlai.me/">
+    
+        <div class="nav-title">
+            本来
+        </div>
+        <div class="nav-taiji">
+          <svg width="40" height="40" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="50" cy="50" r="50" fill="#f0f0f0"/>
+            <path d="M50,0 A50,50,0,0,0,50,100 Z" fill="#1a2a4a"/>
+            <circle cx="50" cy="25" r="25" fill="#f0f0f0"/>
+            <circle cx="50" cy="75" r="25" fill="#1a2a4a"/>
+            <circle cx="50" cy="25" r="9" fill="#1a2a4a"/>
+            <circle cx="50" cy="75" r="9" fill="#f0f0f0"/>
+            <circle cx="50" cy="50" r="49" fill="none" stroke="#1a2a4a" stroke-width="1.5"/>
+          </svg>
+        </div>
+        
+    </a>
+
+    <div class="nav-link-list">
+        
+        
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/spirit/">
+                灵境
+            </a>
+            
+        
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/culture/">
+                文化
+            </a>
+            
+        
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/travel/">
+                行迹
+            </a>
+            
+        
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/reading/">
+                书房
+            </a>
+            
+        
+            
+            
+                
+            
+            
+            <a class="a-block nav-link-item active" href="/ai/">
+                算境
+            </a>
+            
+        
+    </div>
+
+    <div class="nav-footer">
+        &copy; 2026 本来
+
+    </div>
+
+</div>
+<div id="extraContainer" class="extra-container">
+    <div class="toc-wrapper">
+        
+
+        
+        <div class="toc">
+
+
+	<div class="toc-content">
+	
+		
+		
+		
+		<center>- CATALOG -</center>
+		
+		
+		<ul>
+			
+				
+				
+					
+						
+						
+						
+						
+							
+								
+									<ul>
+								
+							
+						
+						
+							<li>
+								<a href="#%e4%b8%80%e6%b4%bb%e5%8a%a8%e6%97%b6%e9%97%b4%e7%ba%bf" class="nav-一活动时间线">
+									一、活动时间线
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+							
+								
+									<ul>
+								
+							
+						
+						
+							<li>
+								<a href="#%e9%98%b6%e6%ae%b5%e8%af%b4%e6%98%8e" class="nav-阶段说明">
+									阶段说明
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+							
+								</ul>
+							
+						
+						
+						
+							<li>
+								<a href="#%e4%ba%8c%e5%ad%a6%e4%b9%a0%e6%97%85%e7%a8%8b%e5%88%86%e6%9e%90" class="nav-二学习旅程分析">
+									二、学习旅程分析
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+							
+								
+									<ul>
+								
+							
+						
+						
+							<li>
+								<a href="#21-%e5%ad%a6%e4%b9%a0%e6%9b%b2%e7%ba%bf%e4%b8%8e%e9%98%b6%e6%ae%b5%e7%89%b9%e5%be%81" class="nav-21-学习曲线与阶段特征">
+									2.1 学习曲线与阶段特征
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#22-%e5%b7%a5%e5%85%b7%e4%bd%bf%e7%94%a8%e6%bc%94%e5%8f%98" class="nav-22-工具使用演变">
+									2.2 工具使用演变
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#23-%e6%a0%b8%e5%bf%83%e8%ae%a4%e7%9f%a5%e8%bd%ac%e5%8f%98" class="nav-23-核心认知转变">
+									2.3 核心认知转变
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#24-%e5%ad%a6%e4%b9%a0%e8%a1%8c%e4%b8%ba%e6%a8%a1%e5%bc%8f" class="nav-24-学习行为模式">
+									2.4 学习行为模式
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#25-%e4%b8%8b%e4%b8%80%e9%98%b6%e6%ae%b5%e5%b1%95%e6%9c%9b" class="nav-25-下一阶段展望">
+									2.5 下一阶段展望
+								</a>
+							</li>
+						
+						
+					
+				
+			
+		</ul>
+	</div>
+
+</div>
+        
+    </div>
+    <div class="pagination">
+        <a id="globalBackToTop" class="pagination-action animated-visibility" href="#top"
+            :class="{ invisible: scrollY == 0 }">
+            <i class="material-icons pagination-action-icon">
+                keyboard_arrow_up
+            </i>
+        </a>
+        
+        <a type="button" class="pagination-action" id="darkModeToggleButton">
+            <span class="material-icons pagination-action-icon" id="darkModeToggleIcon">
+                dark_mode
+            </span>
+        </a>
+        
+        
+    </div>
+</div>
+
+<div id="single-column-footer">&copy; 2026 本来
+</div>
+            </div>
+    
+    <script src="/js/journal.js"></script></body>
+</html>
