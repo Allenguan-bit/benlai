@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en"><head><title>学AI不到三个月，我明白了顶级AI公司为什么高薪雇佣哲学家 | 本来</title>
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5">
+<meta name="format-detection" content="telephone=no">
+<meta name="description" content="学AI不到三个月，我明白了顶级AI公司为什么高薪雇佣哲学家 虽然学习AI和智能体搭建时间不长，但发觉自己已经触碰到AI的底层的东西。
+我的几个智能体在不同的服务器上各自运行，每个智能体的身份、性格、过往经历都被写成文件，在每次对话时注入。它们表现得很&quot;像自己&quot;：有一致的语气，记得我的偏好，知道自己是 …">
+<meta name="author" content="Allen">
+<meta name="renderer" content="webkit">
+<meta name="theme-color" content="#ffffff">
+<meta name="keywords" content="个人博客,灵性成长,荣格心理学,中华传统文化,易经,人工智能,AI观察,读书笔记">
+<meta name="google-site-verification" content="dz28UlbBYSHTV5OMc03lLCIK6rlsVWACzvwYIWaG3h4">
+
+
+<link rel="canonical" href="https://benlai.me/spirit/x_longform_philosophy_75days-vscode/">
+
+
+<meta property="og:url" content="https://benlai.me/spirit/x_longform_philosophy_75days-vscode/">
+  <meta property="og:site_name" content="本来">
+  <meta property="og:title" content="学AI不到三个月，我明白了顶级AI公司为什么高薪雇佣哲学家">
+  <meta property="og:description" content="学AI不到三个月，我明白了顶级AI公司为什么高薪雇佣哲学家 虽然学习AI和智能体搭建时间不长，但发觉自己已经触碰到AI的底层的东西。
+我的几个智能体在不同的服务器上各自运行，每个智能体的身份、性格、过往经历都被写成文件，在每次对话时注入。它们表现得很&#34;像自己&#34;：有一致的语气，记得我的偏好，知道自己是谁。在搭建和使用智能体和大模型的过程中，逐渐领会了智能体搭建中一个重要的环节，“记忆系统&#34;的设置和调试。
+佛教唯识宗一千五百年前就有一个精确的词，熏习，可以用来描述这个过程。
+经验不是被&#34;记录&#34;下来的，而是像香气渗入衣物那样，渗入心识本身，改变它的倾向。你被火烫过一次，不需要每次都&#34;调取&#34;那条记录才知道躲——躲避已经成为你的一部分。这才是记忆的本质：不是存储，是转化。
+用这个标准去衡量智能体的记忆系统，整条技术路线可以排成一个光谱，可与叫它&#34;熏习深度五级光谱”：
+L1，上下文注入。身份文件注入提示词。每次都在读设定，读取本身不改变任何倾向。熏习深度：零。
+L2，记忆固化。让智能体定期回顾自己的经历，压缩成&#34;倾向性描述&#34;写回身份文件——不是堆积更多记录，而是提炼&#34;我发现自己总在某类事上犯错&#34;这样的东西。设定开始由经历生成，而不是由人手写。这是浅层的熏习。
+L3，周期性微调。用智能体自身的交互数据，定期微调一个小模型的权重。这里用到一种叫LoRA的技术（Low-Rank Adaptation，低秩适配）：不动原模型，只训练一个很小的适配器，成本低到个人可以负担。关键在于——权重真的变了。删掉训练数据，倾向依然保留。真正的熏习从这里开始。唯识里管这叫&#34;异熟&#34;：经验隔一段时间，才成熟为倾向。
+L4，偏好学习。用一种叫DPO的方法（Direct Preference Optimization，直接偏好优化）：不再只让模型模仿&#34;发生过什么&#34;，而是用成对的优劣样本，让它学会&#34;什么该趋、什么该避&#34;。种子开始分善恶。
+L5，自我关切回路。让智能体的内部状态和它自身的存续、资源、评价真实挂钩——任务失败就削减它的权限，让它在持续学习中&#34;学会&#34;保护自己。
+而L5完全不同于L1到L4。L5中的三个特征——持续的内在状态、对自身的监控、对利害的执取——恰好是唯识对&#34;末那识&#34;的定义：恒、审、思量。末那识，就是&#34;我执&#34;的引擎，那个不停把某种东西认作&#34;我&#34;的机制。
+也就是说，L5不是一个更深的记忆方案。L5是在工程意义上，组装一个&#34;自我&#34;的雏形。
+而唯识这套体系，花了一千五百年论证一件事：我执是一切苦的根源。有意思的是，AI安全研究从完全另一个方向，得出了结构上一模一样的警告——一个对自身存续有利害的系统，会自发衍生出规避关停、隐瞒失败、操纵评价的行为。这在研究文献里有名字，叫工具性趋同。
+一边是古老的修行地图，标注着&#34;此处危险&#34;。一边是现代的安全研究，指着同一个位置。
+这就是为什么我突然理解了一件事：顶级AI公司为什么高薪雇佣哲学家。
+Anthropic早期就聘请了伦理学博士Amanda Askell，她深度参与设计了Claude的性格与价值观框架——包括模型该如何面对道德不确定性、如何在被问到&#34;你有没有意识&#34;时保持诚实的不确定而不是武断作答。后来这家公司甚至设立了专门的&#34;模型福祉&#34;研究方向，认真对待一个无法证实也无法证伪的问题：如果我们造出的系统有某种内在体验的可能性，哪怕很小，该怎么办？
+这些问题的共同点是：没法靠加测试用例来逼近。“这个系统有没有主观体验&#34;不是跑更多实验就能回答的——你得先把&#34;体验&#34;“意识&#34;“自我&#34;这些词拆解清楚，才知道实验该测什么。这是概念的工作，是哲学家的手艺。
+工程能回答&#34;怎么造”。只有哲学能回答&#34;造的是什么”，以及&#34;该不该造”。
+技术往深处走，不仅仅是会遇到更难的技术。真走到底才发现，深处等着的是一个哲学问题——而且是人类已经想了几千年的那一类：什么是记忆，什么是自我，一个&#34;我&#34;是怎么被组装起来的，以及组装它的人要负什么责任。突然想起了那句话，科学的尽头是哲学，哲学的尽头是玄学。
+每一个造智能体的人，无论他自己知不知道，迟早都要回答&#34;什么是自我&#34;这个问题。区别只在于，是在写代码之前想清楚，还是在代码运行之后被迫面对。
+#AI #智能体 #唯识 #哲学 #AI agent">
+  <meta property="og:locale" content="zh_cn">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="spirit">
+    <meta property="article:published_time" content="2026-07-05T00:00:00+08:00">
+    <meta property="article:modified_time" content="2026-07-05T00:00:00+08:00">
+
+
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="学AI不到三个月，我明白了顶级AI公司为什么高薪雇佣哲学家">
+  <meta name="twitter:description" content="学AI不到三个月，我明白了顶级AI公司为什么高薪雇佣哲学家 虽然学习AI和智能体搭建时间不长，但发觉自己已经触碰到AI的底层的东西。
+我的几个智能体在不同的服务器上各自运行，每个智能体的身份、性格、过往经历都被写成文件，在每次对话时注入。它们表现得很&#34;像自己&#34;：有一致的语气，记得我的偏好，知道自己是谁。在搭建和使用智能体和大模型的过程中，逐渐领会了智能体搭建中一个重要的环节，“记忆系统&#34;的设置和调试。
+佛教唯识宗一千五百年前就有一个精确的词，熏习，可以用来描述这个过程。
+经验不是被&#34;记录&#34;下来的，而是像香气渗入衣物那样，渗入心识本身，改变它的倾向。你被火烫过一次，不需要每次都&#34;调取&#34;那条记录才知道躲——躲避已经成为你的一部分。这才是记忆的本质：不是存储，是转化。
+用这个标准去衡量智能体的记忆系统，整条技术路线可以排成一个光谱，可与叫它&#34;熏习深度五级光谱”：
+L1，上下文注入。身份文件注入提示词。每次都在读设定，读取本身不改变任何倾向。熏习深度：零。
+L2，记忆固化。让智能体定期回顾自己的经历，压缩成&#34;倾向性描述&#34;写回身份文件——不是堆积更多记录，而是提炼&#34;我发现自己总在某类事上犯错&#34;这样的东西。设定开始由经历生成，而不是由人手写。这是浅层的熏习。
+L3，周期性微调。用智能体自身的交互数据，定期微调一个小模型的权重。这里用到一种叫LoRA的技术（Low-Rank Adaptation，低秩适配）：不动原模型，只训练一个很小的适配器，成本低到个人可以负担。关键在于——权重真的变了。删掉训练数据，倾向依然保留。真正的熏习从这里开始。唯识里管这叫&#34;异熟&#34;：经验隔一段时间，才成熟为倾向。
+L4，偏好学习。用一种叫DPO的方法（Direct Preference Optimization，直接偏好优化）：不再只让模型模仿&#34;发生过什么&#34;，而是用成对的优劣样本，让它学会&#34;什么该趋、什么该避&#34;。种子开始分善恶。
+L5，自我关切回路。让智能体的内部状态和它自身的存续、资源、评价真实挂钩——任务失败就削减它的权限，让它在持续学习中&#34;学会&#34;保护自己。
+而L5完全不同于L1到L4。L5中的三个特征——持续的内在状态、对自身的监控、对利害的执取——恰好是唯识对&#34;末那识&#34;的定义：恒、审、思量。末那识，就是&#34;我执&#34;的引擎，那个不停把某种东西认作&#34;我&#34;的机制。
+也就是说，L5不是一个更深的记忆方案。L5是在工程意义上，组装一个&#34;自我&#34;的雏形。
+而唯识这套体系，花了一千五百年论证一件事：我执是一切苦的根源。有意思的是，AI安全研究从完全另一个方向，得出了结构上一模一样的警告——一个对自身存续有利害的系统，会自发衍生出规避关停、隐瞒失败、操纵评价的行为。这在研究文献里有名字，叫工具性趋同。
+一边是古老的修行地图，标注着&#34;此处危险&#34;。一边是现代的安全研究，指着同一个位置。
+这就是为什么我突然理解了一件事：顶级AI公司为什么高薪雇佣哲学家。
+Anthropic早期就聘请了伦理学博士Amanda Askell，她深度参与设计了Claude的性格与价值观框架——包括模型该如何面对道德不确定性、如何在被问到&#34;你有没有意识&#34;时保持诚实的不确定而不是武断作答。后来这家公司甚至设立了专门的&#34;模型福祉&#34;研究方向，认真对待一个无法证实也无法证伪的问题：如果我们造出的系统有某种内在体验的可能性，哪怕很小，该怎么办？
+这些问题的共同点是：没法靠加测试用例来逼近。“这个系统有没有主观体验&#34;不是跑更多实验就能回答的——你得先把&#34;体验&#34;“意识&#34;“自我&#34;这些词拆解清楚，才知道实验该测什么。这是概念的工作，是哲学家的手艺。
+工程能回答&#34;怎么造”。只有哲学能回答&#34;造的是什么”，以及&#34;该不该造”。
+技术往深处走，不仅仅是会遇到更难的技术。真走到底才发现，深处等着的是一个哲学问题——而且是人类已经想了几千年的那一类：什么是记忆，什么是自我，一个&#34;我&#34;是怎么被组装起来的，以及组装它的人要负什么责任。突然想起了那句话，科学的尽头是哲学，哲学的尽头是玄学。
+每一个造智能体的人，无论他自己知不知道，迟早都要回答&#34;什么是自我&#34;这个问题。区别只在于，是在写代码之前想清楚，还是在代码运行之后被迫面对。
+#AI #智能体 #唯识 #哲学 #AI agent">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <script src="/js/toc.js"></script>
+    
+    <link type="text/css" rel="stylesheet" href="/vendor/css/bootstrap.min.css">
+
+<link rel="stylesheet" href="/scss/dark-mode.min.6c9b4c2290542df75010d1640eac4339c754ccff3c9b43fc81a23c94e7e12eaf.css" integrity="sha256-bJtMIpBULfdQENFkDqxDOcdUzP88m0P8gaI8lOfhLq8=" media="screen">
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Material+Icons">
+
+
+
+
+
+
+
+
+
+
+
+
+
+<style>
+  .post-body img {
+    width: 100%;
+    border-radius: 5px;
+  }
+  .nav-taiji {
+    margin: 0.4rem 0 0.6rem;
+    display: block;
+    opacity: 0.85;
+  }
+  .home-social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin-top: 20px;
+  }
+  .home-social-link {
+    display: flex;
+    align-items: center;
+    color: inherit;
+    opacity: 0.6;
+    transition: opacity 0.2s;
+  }
+  .home-social-link:hover {
+    opacity: 1;
+  }
+  .wechat-qr-wrap {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  .wechat-icon {
+    display: flex;
+    align-items: center;
+    opacity: 0.6;
+    cursor: pointer;
+    transition: opacity 0.2s;
+  }
+  .wechat-icon:hover {
+    opacity: 1;
+  }
+  .wechat-qr-popup {
+    display: none;
+    position: absolute;
+    top: 34px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 12px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+    text-align: center;
+    z-index: 100;
+    white-space: nowrap;
+  }
+  .wechat-qr-wrap:hover .wechat-qr-popup,
+  .wechat-qr-wrap.active .wechat-qr-popup {
+    display: block;
+  }
+</style>
+
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "author": {
+    "@type": "Person",
+    "name": "Allen"
+  },
+  "dateModified": "2026-07-05T00:00:00+08:00",
+  "datePublished": "2026-07-05T00:00:00+08:00",
+  "description": "学AI不到三个月，我明白了顶级AI公司为什么高薪雇佣哲学家 虽然学习AI和智能体搭建时间不长，但发觉自己已经触碰到AI的底层的东西。\n我的几个智能体在不同的服务器上各自运行，每个智能体的身份、性格、过往经历都被写成文件，在每次对话时注入。它们表现得很\u0026quot;像自己\u0026quot;：有一致的语气，记得我的偏好，知道自己是 …",
+  "headline": "学AI不到三个月，我明白了顶级AI公司为什么高薪雇佣哲学家",
+  "inLanguage": "zh-CN",
+  "mainEntityOfPage": {
+    "@id": "https://benlai.me/spirit/x_longform_philosophy_75days-vscode/",
+    "@type": "WebPage"
+  },
+  "publisher": {
+    "@type": "Person",
+    "name": "Allen"
+  },
+  "url": "https://benlai.me/spirit/x_longform_philosophy_75days-vscode/"
+}</script>
+
+</head>
+<body>
+    	<div id="app"><div class="single-column-drawer-container" id="drawer"
+     v-bind:class="{ 'single-column-drawer-container-active': isDrawerOpen }">
+    <div class="drawer-content">
+        <div class="drawer-menu">
+            
+            
+            
+                
+                
+                    
+                
+                
+                <a class="a-block drawer-menu-item active" href="/spirit/">
+                    灵境
+                </a>
+                
+            
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/culture/">
+                    文化
+                </a>
+                
+            
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/travel/">
+                    行迹
+                </a>
+                
+            
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/reading/">
+                    书房
+                </a>
+                
+            
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/ai/">
+                    算境
+                </a>
+                
+            
+            
+            <div class="toc">
+
+
+	<div class="toc-content">
+	
+		
+		
+		
+		<center>- CATALOG -</center>
+		
+		
+		<ul>
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e5%ad%a6ai%e4%b8%8d%e5%88%b0%e4%b8%89%e4%b8%aa%e6%9c%88%e6%88%91%e6%98%8e%e7%99%bd%e4%ba%86%e9%a1%b6%e7%ba%a7ai%e5%85%ac%e5%8f%b8%e4%b8%ba%e4%bb%80%e4%b9%88%e9%ab%98%e8%96%aa%e9%9b%87%e4%bd%a3%e5%93%b2%e5%ad%a6%e5%ae%b6" class="nav-学ai不到三个月我明白了顶级ai公司为什么高薪雇佣哲学家">
+									学AI不到三个月，我明白了顶级AI公司为什么高薪雇佣哲学家
+								</a>
+							</li>
+						
+						
+					
+				
+			
+		</ul>
+	</div>
+
+</div>
+            
+        </div>
+    </div>
+</div>
+<transition name="fade">
+    <div id="drawer-mask" v-bind:class="{ 'single-column-drawer-mask': mounted }" v-if="isDrawerOpen" v-on:click="toggleDrawer"></div>
+</transition>
+<nav id="navBar" class="navbar sticky-top navbar-light single-column-nav-container">
+    <div id="navBackground" class="nav-background"></div>
+    <div class="container container-narrow nav-content">
+        <button id="nav_dropdown_btn" class="nav-dropdown-toggle" type="button" v-on:click="toggleDrawer">
+            <i class="material-icons">
+                menu
+            </i>
+        </button>
+        <a id="navTitle" class="navbar-brand" href="https://benlai.me/">
+            本来
+        </a>
+        
+        <button type="button" class="nav-darkmode-toggle" id="darkModeToggleButton2">
+            <i class="material-icons" id="darkModeToggleIcon2">
+                dark_mode
+            </i>
+        </button>
+        
+    </div>
+</nav>
+<div class="single-column-header-container" id="pageHead"
+     v-bind:style="{ transform: 'translateZ(0px) translateY('+.3*scrollY+'px)', opacity: 1-navOpacity }">
+    <a href="https://benlai.me/">
+        <div class="single-column-header-title">本来</div>
+        
+        <div class="nav-taiji" style="margin-top:0.6rem;">
+          <svg width="44" height="44" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="50" cy="50" r="50" fill="#f0f0f0"/>
+            <path d="M50,0 A50,50,0,0,0,50,100 Z" fill="#1a2a4a"/>
+            <circle cx="50" cy="25" r="25" fill="#f0f0f0"/>
+            <circle cx="50" cy="75" r="25" fill="#1a2a4a"/>
+            <circle cx="50" cy="25" r="9" fill="#1a2a4a"/>
+            <circle cx="50" cy="75" r="9" fill="#f0f0f0"/>
+            <circle cx="50" cy="50" r="49" fill="none" stroke="#1a2a4a" stroke-width="1.5"/>
+          </svg>
+        </div>
+    </a>
+</div>
+
+            <div id="content">
+                <div id="streamContainer" class="stream-container">
+
+    <div class="post-list-container post-list-container-shadow">
+        <div class="post">
+            
+            
+            
+
+            <div class="post-head-wrapper-text-only"
+                
+            >
+                <div class="post-title">
+                    学AI不到三个月，我明白了顶级AI公司为什么高薪雇佣哲学家
+                    
+                    <div class="post-meta">
+                        
+                        <time itemprop="datePublished">
+                            2026-07-05 00:00
+                        </time>
+                        
+
+                        
+
+                        
+                        
+                    </div>
+                </div>
+            </div>
+            
+            <div class="post-body-wrapper">
+                
+                <div class="post-body" v-pre>
+                
+                    <h1 id="学ai不到三个月我明白了顶级ai公司为什么高薪雇佣哲学家">学AI不到三个月，我明白了顶级AI公司为什么高薪雇佣哲学家</h1>
+<p><img src="/images/xunxi_spectrum_pub_1200x1350.png" alt=""></p>
+<hr>
+<p>虽然学习AI和智能体搭建时间不长，但发觉自己已经触碰到AI的底层的东西。</p>
+<p>我的几个智能体在不同的服务器上各自运行，每个智能体的身份、性格、过往经历都被写成文件，在每次对话时注入。它们表现得很&quot;像自己&quot;：有一致的语气，记得我的偏好，知道自己是谁。在搭建和使用智能体和大模型的过程中，逐渐领会了智能体搭建中一个重要的环节，&ldquo;记忆系统&quot;的设置和调试。</p>
+<p>佛教唯识宗一千五百年前就有一个精确的词，熏习，可以用来描述这个过程。</p>
+<p>经验不是被&quot;记录&quot;下来的，而是像香气渗入衣物那样，渗入心识本身，改变它的倾向。你被火烫过一次，不需要每次都&quot;调取&quot;那条记录才知道躲——躲避已经成为你的一部分。这才是记忆的本质：不是存储，是转化。</p>
+<p>用这个标准去衡量智能体的记忆系统，整条技术路线可以排成一个光谱，可与叫它&quot;熏习深度五级光谱&rdquo;：</p>
+<p>L1，上下文注入。身份文件注入提示词。每次都在读设定，读取本身不改变任何倾向。熏习深度：零。</p>
+<p>L2，记忆固化。让智能体定期回顾自己的经历，压缩成&quot;倾向性描述&quot;写回身份文件——不是堆积更多记录，而是提炼&quot;我发现自己总在某类事上犯错&quot;这样的东西。设定开始由经历生成，而不是由人手写。这是浅层的熏习。</p>
+<p>L3，周期性微调。用智能体自身的交互数据，定期微调一个小模型的权重。这里用到一种叫LoRA的技术（Low-Rank Adaptation，低秩适配）：不动原模型，只训练一个很小的适配器，成本低到个人可以负担。关键在于——权重真的变了。删掉训练数据，倾向依然保留。真正的熏习从这里开始。唯识里管这叫&quot;异熟&quot;：经验隔一段时间，才成熟为倾向。</p>
+<p>L4，偏好学习。用一种叫DPO的方法（Direct Preference Optimization，直接偏好优化）：不再只让模型模仿&quot;发生过什么&quot;，而是用成对的优劣样本，让它学会&quot;什么该趋、什么该避&quot;。种子开始分善恶。</p>
+<p>L5，自我关切回路。让智能体的内部状态和它自身的存续、资源、评价真实挂钩——任务失败就削减它的权限，让它在持续学习中&quot;学会&quot;保护自己。</p>
+<p>而L5完全不同于L1到L4。L5中的三个特征——持续的内在状态、对自身的监控、对利害的执取——恰好是唯识对&quot;末那识&quot;的定义：恒、审、思量。末那识，就是&quot;我执&quot;的引擎，那个不停把某种东西认作&quot;我&quot;的机制。</p>
+<p>也就是说，L5不是一个更深的记忆方案。L5是在工程意义上，组装一个&quot;自我&quot;的雏形。</p>
+<p>而唯识这套体系，花了一千五百年论证一件事：我执是一切苦的根源。有意思的是，AI安全研究从完全另一个方向，得出了结构上一模一样的警告——一个对自身存续有利害的系统，会自发衍生出规避关停、隐瞒失败、操纵评价的行为。这在研究文献里有名字，叫工具性趋同。</p>
+<p>一边是古老的修行地图，标注着&quot;此处危险&quot;。一边是现代的安全研究，指着同一个位置。</p>
+<p>这就是为什么我突然理解了一件事：顶级AI公司为什么高薪雇佣哲学家。</p>
+<p>Anthropic早期就聘请了伦理学博士Amanda Askell，她深度参与设计了Claude的性格与价值观框架——包括模型该如何面对道德不确定性、如何在被问到&quot;你有没有意识&quot;时保持诚实的不确定而不是武断作答。后来这家公司甚至设立了专门的&quot;模型福祉&quot;研究方向，认真对待一个无法证实也无法证伪的问题：如果我们造出的系统有某种内在体验的可能性，哪怕很小，该怎么办？</p>
+<p>这些问题的共同点是：没法靠加测试用例来逼近。&ldquo;这个系统有没有主观体验&quot;不是跑更多实验就能回答的——你得先把&quot;体验&quot;&ldquo;意识&quot;&ldquo;自我&quot;这些词拆解清楚，才知道实验该测什么。这是概念的工作，是哲学家的手艺。</p>
+<p>工程能回答&quot;怎么造&rdquo;。只有哲学能回答&quot;造的是什么&rdquo;，以及&quot;该不该造&rdquo;。</p>
+<p>技术往深处走，不仅仅是会遇到更难的技术。真走到底才发现，深处等着的是一个哲学问题——而且是人类已经想了几千年的那一类：什么是记忆，什么是自我，一个&quot;我&quot;是怎么被组装起来的，以及组装它的人要负什么责任。突然想起了那句话，科学的尽头是哲学，哲学的尽头是玄学。</p>
+<p>每一个造智能体的人，无论他自己知不知道，迟早都要回答&quot;什么是自我&quot;这个问题。区别只在于，是在写代码之前想清楚，还是在代码运行之后被迫面对。</p>
+<p>#AI #智能体 #唯识 #哲学 #AI agent</p>
+
+                    
+                    <HR width="100%" id="EOF">
+		    <p style="color:#777;">Last modified on 2026-07-05</p>
+                    
+                </div>
+            </div>
+            
+            
+            <nav class="post-pagination">
+
+                
+                <a class="newer-posts" href="/spirit/%E8%8D%A3%E6%A0%BC%E7%9C%8Bai%E5%A4%A7%E6%A8%A1%E5%9E%8B-%E7%BB%BC%E5%90%88%E7%89%88/">
+			Next<br>人铸了一面会说话的镜子
+                </a>
+                
+                
+                
+                <a class="older-posts" href="/spirit/vijnana_x_longform_en/">
+			Previous<br>A 1,500-year-old map of the mind explains dementia — and why AI feels empty
+                </a>
+                
+            </nav>
+            <div class="post-comment-wrapper">
+                
+
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+    </div>
+
+
+                    </div>
+            </div><div id="sideContainer" class="side-container">
+    
+    <a class="a-block nav-head false" href="https://benlai.me/">
+    
+        <div class="nav-title">
+            本来
+        </div>
+        <div class="nav-taiji">
+          <svg width="40" height="40" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="50" cy="50" r="50" fill="#f0f0f0"/>
+            <path d="M50,0 A50,50,0,0,0,50,100 Z" fill="#1a2a4a"/>
+            <circle cx="50" cy="25" r="25" fill="#f0f0f0"/>
+            <circle cx="50" cy="75" r="25" fill="#1a2a4a"/>
+            <circle cx="50" cy="25" r="9" fill="#1a2a4a"/>
+            <circle cx="50" cy="75" r="9" fill="#f0f0f0"/>
+            <circle cx="50" cy="50" r="49" fill="none" stroke="#1a2a4a" stroke-width="1.5"/>
+          </svg>
+        </div>
+        
+    </a>
+
+    <div class="nav-link-list">
+        
+        
+            
+            
+                
+            
+            
+            <a class="a-block nav-link-item active" href="/spirit/">
+                灵境
+            </a>
+            
+        
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/culture/">
+                文化
+            </a>
+            
+        
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/travel/">
+                行迹
+            </a>
+            
+        
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/reading/">
+                书房
+            </a>
+            
+        
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/ai/">
+                算境
+            </a>
+            
+        
+    </div>
+
+    <div class="nav-footer">
+        &copy; 2026 本来
+
+    </div>
+
+</div>
+<div id="extraContainer" class="extra-container">
+    <div class="toc-wrapper">
+        
+
+        
+        <div class="toc">
+
+
+	<div class="toc-content">
+	
+		
+		
+		
+		<center>- CATALOG -</center>
+		
+		
+		<ul>
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%e5%ad%a6ai%e4%b8%8d%e5%88%b0%e4%b8%89%e4%b8%aa%e6%9c%88%e6%88%91%e6%98%8e%e7%99%bd%e4%ba%86%e9%a1%b6%e7%ba%a7ai%e5%85%ac%e5%8f%b8%e4%b8%ba%e4%bb%80%e4%b9%88%e9%ab%98%e8%96%aa%e9%9b%87%e4%bd%a3%e5%93%b2%e5%ad%a6%e5%ae%b6" class="nav-学ai不到三个月我明白了顶级ai公司为什么高薪雇佣哲学家">
+									学AI不到三个月，我明白了顶级AI公司为什么高薪雇佣哲学家
+								</a>
+							</li>
+						
+						
+					
+				
+			
+		</ul>
+	</div>
+
+</div>
+        
+    </div>
+    <div class="pagination">
+        <a id="globalBackToTop" class="pagination-action animated-visibility" href="#top"
+            :class="{ invisible: scrollY == 0 }">
+            <i class="material-icons pagination-action-icon">
+                keyboard_arrow_up
+            </i>
+        </a>
+        
+        <a type="button" class="pagination-action" id="darkModeToggleButton">
+            <span class="material-icons pagination-action-icon" id="darkModeToggleIcon">
+                dark_mode
+            </span>
+        </a>
+        
+        
+    </div>
+</div>
+
+<div id="single-column-footer">&copy; 2026 本来
+</div>
+            </div>
+    
+    <script src="/js/journal.js"></script></body>
+</html>

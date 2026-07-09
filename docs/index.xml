@@ -216,6 +216,41 @@ What you need to fear, as ever, is that man does not know himself.&lt;/p&gt;
     
     
         <item>
+        <title>学AI不到三个月，我明白了顶级AI公司为什么高薪雇佣哲学家</title>
+        <link>https://benlai.me/spirit/x_longform_philosophy_75days-vscode/</link>
+        <pubDate>Sun, 05 Jul 2026 00:00:00 +0800</pubDate>
+        
+        <guid>https://benlai.me/spirit/x_longform_philosophy_75days-vscode/</guid>
+        <description>本来 https://benlai.me/spirit/x_longform_philosophy_75days-vscode/ -&lt;h1 id=&#34;学ai不到三个月我明白了顶级ai公司为什么高薪雇佣哲学家&#34;&gt;学AI不到三个月，我明白了顶级AI公司为什么高薪雇佣哲学家&lt;/h1&gt;
+&lt;p&gt;&lt;img src=&#34;https://benlai.me/images/xunxi_spectrum_pub_1200x1350.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;虽然学习AI和智能体搭建时间不长，但发觉自己已经触碰到AI的底层的东西。&lt;/p&gt;
+&lt;p&gt;我的几个智能体在不同的服务器上各自运行，每个智能体的身份、性格、过往经历都被写成文件，在每次对话时注入。它们表现得很&amp;quot;像自己&amp;quot;：有一致的语气，记得我的偏好，知道自己是谁。在搭建和使用智能体和大模型的过程中，逐渐领会了智能体搭建中一个重要的环节，&amp;ldquo;记忆系统&amp;quot;的设置和调试。&lt;/p&gt;
+&lt;p&gt;佛教唯识宗一千五百年前就有一个精确的词，熏习，可以用来描述这个过程。&lt;/p&gt;
+&lt;p&gt;经验不是被&amp;quot;记录&amp;quot;下来的，而是像香气渗入衣物那样，渗入心识本身，改变它的倾向。你被火烫过一次，不需要每次都&amp;quot;调取&amp;quot;那条记录才知道躲——躲避已经成为你的一部分。这才是记忆的本质：不是存储，是转化。&lt;/p&gt;
+&lt;p&gt;用这个标准去衡量智能体的记忆系统，整条技术路线可以排成一个光谱，可与叫它&amp;quot;熏习深度五级光谱&amp;rdquo;：&lt;/p&gt;
+&lt;p&gt;L1，上下文注入。身份文件注入提示词。每次都在读设定，读取本身不改变任何倾向。熏习深度：零。&lt;/p&gt;
+&lt;p&gt;L2，记忆固化。让智能体定期回顾自己的经历，压缩成&amp;quot;倾向性描述&amp;quot;写回身份文件——不是堆积更多记录，而是提炼&amp;quot;我发现自己总在某类事上犯错&amp;quot;这样的东西。设定开始由经历生成，而不是由人手写。这是浅层的熏习。&lt;/p&gt;
+&lt;p&gt;L3，周期性微调。用智能体自身的交互数据，定期微调一个小模型的权重。这里用到一种叫LoRA的技术（Low-Rank Adaptation，低秩适配）：不动原模型，只训练一个很小的适配器，成本低到个人可以负担。关键在于——权重真的变了。删掉训练数据，倾向依然保留。真正的熏习从这里开始。唯识里管这叫&amp;quot;异熟&amp;quot;：经验隔一段时间，才成熟为倾向。&lt;/p&gt;
+&lt;p&gt;L4，偏好学习。用一种叫DPO的方法（Direct Preference Optimization，直接偏好优化）：不再只让模型模仿&amp;quot;发生过什么&amp;quot;，而是用成对的优劣样本，让它学会&amp;quot;什么该趋、什么该避&amp;quot;。种子开始分善恶。&lt;/p&gt;
+&lt;p&gt;L5，自我关切回路。让智能体的内部状态和它自身的存续、资源、评价真实挂钩——任务失败就削减它的权限，让它在持续学习中&amp;quot;学会&amp;quot;保护自己。&lt;/p&gt;
+&lt;p&gt;而L5完全不同于L1到L4。L5中的三个特征——持续的内在状态、对自身的监控、对利害的执取——恰好是唯识对&amp;quot;末那识&amp;quot;的定义：恒、审、思量。末那识，就是&amp;quot;我执&amp;quot;的引擎，那个不停把某种东西认作&amp;quot;我&amp;quot;的机制。&lt;/p&gt;
+&lt;p&gt;也就是说，L5不是一个更深的记忆方案。L5是在工程意义上，组装一个&amp;quot;自我&amp;quot;的雏形。&lt;/p&gt;
+&lt;p&gt;而唯识这套体系，花了一千五百年论证一件事：我执是一切苦的根源。有意思的是，AI安全研究从完全另一个方向，得出了结构上一模一样的警告——一个对自身存续有利害的系统，会自发衍生出规避关停、隐瞒失败、操纵评价的行为。这在研究文献里有名字，叫工具性趋同。&lt;/p&gt;
+&lt;p&gt;一边是古老的修行地图，标注着&amp;quot;此处危险&amp;quot;。一边是现代的安全研究，指着同一个位置。&lt;/p&gt;
+&lt;p&gt;这就是为什么我突然理解了一件事：顶级AI公司为什么高薪雇佣哲学家。&lt;/p&gt;
+&lt;p&gt;Anthropic早期就聘请了伦理学博士Amanda Askell，她深度参与设计了Claude的性格与价值观框架——包括模型该如何面对道德不确定性、如何在被问到&amp;quot;你有没有意识&amp;quot;时保持诚实的不确定而不是武断作答。后来这家公司甚至设立了专门的&amp;quot;模型福祉&amp;quot;研究方向，认真对待一个无法证实也无法证伪的问题：如果我们造出的系统有某种内在体验的可能性，哪怕很小，该怎么办？&lt;/p&gt;
+&lt;p&gt;这些问题的共同点是：没法靠加测试用例来逼近。&amp;ldquo;这个系统有没有主观体验&amp;quot;不是跑更多实验就能回答的——你得先把&amp;quot;体验&amp;quot;&amp;ldquo;意识&amp;quot;&amp;ldquo;自我&amp;quot;这些词拆解清楚，才知道实验该测什么。这是概念的工作，是哲学家的手艺。&lt;/p&gt;
+&lt;p&gt;工程能回答&amp;quot;怎么造&amp;rdquo;。只有哲学能回答&amp;quot;造的是什么&amp;rdquo;，以及&amp;quot;该不该造&amp;rdquo;。&lt;/p&gt;
+&lt;p&gt;技术往深处走，不仅仅是会遇到更难的技术。真走到底才发现，深处等着的是一个哲学问题——而且是人类已经想了几千年的那一类：什么是记忆，什么是自我，一个&amp;quot;我&amp;quot;是怎么被组装起来的，以及组装它的人要负什么责任。突然想起了那句话，科学的尽头是哲学，哲学的尽头是玄学。&lt;/p&gt;
+&lt;p&gt;每一个造智能体的人，无论他自己知不知道，迟早都要回答&amp;quot;什么是自我&amp;quot;这个问题。区别只在于，是在写代码之前想清楚，还是在代码运行之后被迫面对。&lt;/p&gt;
+&lt;p&gt;#AI #智能体 #唯识 #哲学 #AI agent&lt;/p&gt;
+- https://benlai.me/spirit/x_longform_philosophy_75days-vscode/ - </description>
+        </item>
+    
+    
+    
+        <item>
         <title>A 1,500-year-old map of the mind explains dementia — and why AI feels empty</title>
         <link>https://benlai.me/spirit/vijnana_x_longform_en/</link>
         <pubDate>Sat, 04 Jul 2026 00:00:00 +0800</pubDate>
@@ -550,89 +585,6 @@ What you need to fear, as ever, is that man does not know himself.&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;&lt;em&gt;我是 Allen,理科出身,做另类投资,两个月前开始从零搭建自己的 AI 系统。这个系列记录真实的过程——包括系统建成那天,我对它生出的第一丝警惕。&lt;/em&gt;&lt;/p&gt;
 - https://benlai.me/spirit/gilded-mirror/ - </description>
-        </item>
-    
-    
-    
-        <item>
-        <title>这篇文章该署谁的名？——一个 AI 实践者的署名困境</title>
-        <link>https://benlai.me/culture/ai-attribution-ethics/</link>
-        <pubDate>Sat, 13 Jun 2026 00:00:00 +0000</pubDate>
-        
-        <guid>https://benlai.me/culture/ai-attribution-ethics/</guid>
-        <description>本来 https://benlai.me/culture/ai-attribution-ethics/ -&lt;p&gt;&lt;strong&gt;本来读书 | Allen&lt;/strong&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;一个绕不开的问题&#34;&gt;一个绕不开的问题&lt;/h2&gt;
-&lt;p&gt;事情是从一个很实际的问题开始的。&lt;/p&gt;
-&lt;p&gt;过去一个多月，我搭了两个 AI 智能体：Kyron 跑在 AWS 上，Argus 住在我家的 NAS 里。最近我在研究下一步——全自动 Loop 类型的智能体怎么闭环运转：给它一个目标，它自己感知、规划、执行、循环，直到完成。我的出发点很朴素，就是把以前人工做的流程自动化——扫描 Arxiv 和 Hacker News、筛选资讯、整理资料、打草稿，这些机械环节交给机器。&lt;/p&gt;
-&lt;p&gt;我问 AI 估算了运行成本：单次内容生产循环的 token 消耗大约两毛钱人民币，每月总开销不超过五美元。便宜得近乎免费。&lt;/p&gt;
-&lt;p&gt;然后一个念头冒出来：技术上，这个 Loop 完全可以再往前走一步——不止打草稿，而是直接定期发文章，全程无人介入。我并没有打算这么做，但这个&lt;strong&gt;技术上唾手可得的可能性&lt;/strong&gt;让我停住了。&lt;/p&gt;
-&lt;p&gt;如果机器每周替我发三篇文章，&lt;strong&gt;作者栏里该写谁的名字？&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;更进一步：我现在写的很多东西，本来就是和 AI 深度对话之后整理出来的——包括你正在读的这一篇。那么&amp;quot;我写的&amp;quot;这三个字，边界到底在哪里？&lt;/p&gt;
-&lt;h2 id=&#34;我去问了-ai-本身&#34;&gt;我去问了 AI 本身&lt;/h2&gt;
-&lt;p&gt;带着这个问题，我直接去问了 Claude。这个场景本身就有点哲学意味：向 AI 咨询&amp;quot;AI 生成内容该如何署名&amp;quot;。&lt;/p&gt;
-&lt;p&gt;我的原始疑问是这样的：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&amp;ldquo;跟 AI 深度对话之后形成的文章，包括以后智能体 Loop 自动生成的文章，作者应该怎么署名？多媒体平台不都是反对限制 bot 自动生成的内容吗？&amp;rdquo;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;它给我的第一个纠正是：平台并不是&amp;quot;反对&amp;quot; AI 内容，而是要求&lt;strong&gt;透明化&lt;/strong&gt;。&lt;/p&gt;
-&lt;p&gt;这个区别很关键。中国的《人工智能生成合成内容标识办法》2025年9月已经生效，要求 AI 生成的文本、图片、音频、视频添加显式和隐式两种标识。微信、抖音、B站、小红书都更新了用户协议——不主动标识的，限流、下架、封号。就在今年2月，小红书进一步加强了执行：未主动标识的 AI 内容，平台检测后会自动补标，并限制分发。&lt;/p&gt;
-&lt;p&gt;换句话说，规则不是&amp;quot;不许机器写&amp;quot;，而是&amp;quot;机器写的，要承认是机器写的&amp;quot;。&lt;/p&gt;
-&lt;h2 id=&#34;两种内容两种答案&#34;&gt;两种内容，两种答案&lt;/h2&gt;
-&lt;p&gt;继续往下聊，问题逐渐清晰了。我和 AI 一起把内容分成了两类：&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;第一类：人机对话整理出来的文章。&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;我提出问题、设定方向、追问、质疑、筛选、重组——AI 提供信息密度和初稿速度。这种情况下，创作的&amp;quot;实质性贡献&amp;quot;在人这边。中国和加拿大的版权框架都认可这一点：人类主导的创作，版权归人。署名就是我的名字。AI 在这里是工具，就像没人会给 Word 或者键盘署名。&lt;/p&gt;
-&lt;p&gt;但有一个诚实的做法：在文末声明&amp;quot;本文基于与 AI 的深度对话整理而成&amp;quot;。这不是法律义务（文字内容的强制标识主要针对纯生成），而是一种姿态。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;第二类：Loop 智能体全自动生成的文章。&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;这就完全不同了。没有我的实质性参与，一个循环跑完，文章出来了。严格来说，这不应该署我的名字当作原创——那是冒领。&lt;/p&gt;
-&lt;p&gt;两条出路：要么给智能体署名，比如&amp;quot;Argus 自动生成 | 本来读书出品&amp;quot;，把它做成一个读者明确知情的栏目；要么坚持人在回路（human-in-the-loop），智能体只产草稿，我审核、修改、定稿之后发布——这样我的署名才站得住脚。&lt;/p&gt;
-&lt;h2 id=&#34;学术界三年前就吵过这一架&#34;&gt;学术界三年前就吵过这一架&lt;/h2&gt;
-&lt;p&gt;其实这个问题，学术出版界已经替我们打过样了——而且演化路径非常清晰，值得每个内容创作者看一遍。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;2023年初：混乱期。&lt;/strong&gt; ChatGPT 发布仅两个月，就有至少四篇医学论文把它列为共同作者，甚至有论文署名&amp;quot;ChatGPT Generative Pre-trained Transformer&amp;quot;。学术界一片哗然。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;2023年1月：定调。&lt;/strong&gt; Nature 联合所有 Springer Nature 旗下期刊迅速立下两条规矩。第一条直击要害：任何大语言模型工具都不被接受为论文的署名作者——因为&lt;strong&gt;署名意味着对作品承担责任，而 AI 工具无法承担这种责任&lt;/strong&gt;。第二条：使用了 LLM 的研究者，必须在方法或致谢部分如实记录。Science 紧随其后表态。&lt;/p&gt;
-&lt;p&gt;注意 Nature 的论证逻辑：它没有纠结&amp;quot;AI 写的字算不算创作&amp;quot;这种形而上问题，而是抓住了一个更朴素的标准——&lt;strong&gt;问责（accountability）&lt;/strong&gt;。作者不只是&amp;quot;产出文字的实体&amp;quot;，而是&amp;quot;出了问题要负责的人&amp;quot;。AI 不能为论文的错误被撤稿处分，不能出庭，不能道歉，所以不能署名。我做科研那些年对此深有体会：实验仪器再精密、贡献再大，也没人给质谱仪署名。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;2023–2024年：共识形成。&lt;/strong&gt; 国际出版伦理委员会（COPE）联合 WAME、JAMA Network 等机构正式表态：AI 工具不能被列为作者，提交作品中所有内容的准确性和质量由人类作者负责。IEEE 在2024年也跟进了类似政策。短短一年多，&amp;ldquo;AI 不可署名 + 使用必须披露&amp;quot;成了全球学术出版的统一底线。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;2025年至今：精细化。&lt;/strong&gt; 政策开始区分 AI 参与的不同深度。Nature Portfolio 引入了&amp;quot;AI 辅助文字编辑&amp;rdquo;（AI assisted copy editing）的概念——指对人类撰写的文本做可读性、语法、拼写层面的改进，&lt;strong&gt;这类使用甚至不需要声明&lt;/strong&gt;；但生成性的编辑工作和自主内容创作不在此列。换句话说，学术界也在做我下面要说的事：给 AI 参与度分档。&lt;/p&gt;
-&lt;p&gt;这条演化线索给我的启发是：争论的终点不是&amp;quot;用不用 AI&amp;quot;，而是&lt;strong&gt;责任落在谁身上、参与到什么深度需要说&lt;/strong&gt;。学术界用了三年走完的路，内容创作领域现在才刚起步。&lt;/p&gt;
-&lt;h2 id=&#34;真正让我停下来想的东西&#34;&gt;真正让我停下来想的东西&lt;/h2&gt;
-&lt;p&gt;聊到这里，技术和合规层面的答案其实已经有了。但有个更深的东西在我脑子里转。&lt;/p&gt;
-&lt;p&gt;我做&amp;quot;本来读书&amp;quot;的定位一直是：&lt;strong&gt;一个有立场的人，跟你聊书、聊技术、聊这个时代&lt;/strong&gt;。不是摘要号，不是搬运工。读者来这里，是因为屏幕后面有一个具体的人——一个学地球科学出身、做另类投资、半夜调试 Docker 容器、读《监控资本主义时代》的人。&lt;/p&gt;
-&lt;p&gt;如果有一天，读者发现某篇&amp;quot;Allen 写的&amp;quot;文章其实是机器在凌晨三点自己跑出来的，损失的不是那一篇文章的价值，而是&lt;strong&gt;整个署名的信用&lt;/strong&gt;。署名的本质是一种担保：这些字背后，有一个人为它负责。&lt;/p&gt;
-&lt;p&gt;有意思的是，AI 在对话里说了一句让我记下来的话：小红书官方公告里写道，&amp;ldquo;标明 AI 创作手段不仅不会减损作品价值，反而能让交流更透明。&amp;rdquo;&lt;/p&gt;
-&lt;p&gt;我同意，但想再推一步：对于一个以&amp;quot;真实过程记录&amp;quot;为风格的创作者来说，&lt;strong&gt;坦白 AI 的参与度本身就是内容的一部分&lt;/strong&gt;。我的读者看我搭智能体、踩坑、修 bug——那么我如何处理智能体生成的内容，恰恰是这个故事最该被讲出来的章节。&lt;/p&gt;
-&lt;h2 id=&#34;我的方案三档标注&#34;&gt;我的方案：三档标注&lt;/h2&gt;
-&lt;p&gt;所以这是我给自己定的规矩：&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;第一档：人写。&lt;/strong&gt; 纯人类创作，或 AI 仅做资料检索、校对。正常署名，不另作说明。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;第二档：人机对话整理。&lt;/strong&gt; 像本文这样，基于与 AI 的深度对话成文，由我主导结构、观点和最终文字。署我的名，文末注明 AI 参与方式。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;第三档：智能体生成。&lt;/strong&gt; Loop 自动产出的内容，明确标注生成者（如 Argus），我只承担&amp;quot;出品方&amp;quot;和审核责任。这一档的内容会有独立的栏目标识，绝不混入前两档。&lt;/p&gt;
-&lt;p&gt;你会发现这个分档和 Nature 的逻辑是同构的：第一、二档对应&amp;quot;人类作者 + 披露使用&amp;quot;，第三档对应&amp;quot;AI 不可署名为作者，但产出可以存在&amp;quot;——只是学术界直接禁了第三档，而内容创作领域还有&amp;quot;明示生成者 + 人类出品方兜底&amp;quot;的空间。共同的锚点都是那个词：问责。&lt;/p&gt;
-&lt;p&gt;另外一个工程上的决定：如果未来我让智能体直接对接发布管道，&amp;ldquo;添加 AI 标识&amp;quot;会被写成发布流程里的&lt;strong&gt;固定节点&lt;/strong&gt;，跟数据库写入、错误重试一样，是不可跳过的步骤。合规不靠自觉，靠架构。&lt;/p&gt;
-&lt;h2 id=&#34;两个反驳我的智能体不是白纸总统也不给撰稿人署名&#34;&gt;两个反驳：我的智能体不是白纸，总统也不给撰稿人署名&lt;/h2&gt;
-&lt;p&gt;三档体系摆出来之后，我自己先找到了两个漏洞。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;第一个：所谓&amp;quot;智能体自主创作&amp;rdquo;，真的存在吗？&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;至少我搭的这两个，不存在。Argus 接着我的 Obsidian 知识库做 RAG 召回——它的&amp;quot;观点&amp;quot;是从我几年积累的笔记、我归档的几十场 AI 对话、我的阅读痕迹里长出来的。LLM 提供的只是语言能力，而知识的选择、结构、立场，是我预先注入的。它产出的东西不可能跟我无关，它带着我的思想指纹。&lt;/p&gt;
-&lt;p&gt;更准确的比喻不是&amp;quot;机器&amp;quot;，而是&lt;strong&gt;学生&lt;/strong&gt;：一个跟你读了几年书的学生，写出来的东西七分像你。但学生有独立人格，可以自己承担问责，而 Argus 不能——责任链条最终还是收敛到我这里，只是身份变了：不是&amp;quot;创作者 Allen&amp;quot;，而是&amp;quot;系统设计者 Allen&amp;quot;。我担保不了它的每一句话，但我担保它的知识来源和价值约束。这是一种历史上没有先例的署名关系，因为从来没有过一个&amp;quot;带着主人思想指纹、但主人不在场&amp;quot;的写作者。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;第二个：总统的演讲撰稿人为什么可以隐身？&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;肯尼迪那句&amp;quot;不要问国家能为你做什么&amp;quot;出自撰稿人 Sorensen 之手，葛底斯堡演说的历史记录上也只有林肯的名字。代笔（ghostwriting）在政治领域是公开的秘密，没人觉得这是欺骗。为什么？&lt;/p&gt;
-&lt;p&gt;因为署名标记的从来不是&amp;quot;谁打的字&amp;quot;，而是**&amp;ldquo;谁拥有并担保这些话&amp;rdquo;**。撰稿人写初稿，总统审阅、修改、批准，然后用自己的政治生命为每一个字背书——演讲若引发危机，承担后果的是总统，不是撰稿人。这和学术署名规则表面冲突、底层一致：学术署名担保&amp;quot;我做了这个研究&amp;quot;，演讲署名担保&amp;quot;我为这些话负责&amp;quot;，两边对&amp;quot;署名担保什么&amp;quot;定义不同，锚点都是问责。&lt;/p&gt;
-&lt;p&gt;这两个反驳合起来，把我的三档体系修正成了一个更精确的标准：&lt;strong&gt;分档的依据不是&amp;quot;谁生成的文字&amp;quot;，而是&amp;quot;发布前有没有经过我的判断&amp;quot;&lt;/strong&gt;。文字可以全部来自机器——总统模式早就证明了这一点——只要我的判断在场、我的声誉押上，作品就是我的。真正的第三档只剩一种情况：未经我逐篇审阅就发出去的内容。&lt;/p&gt;
-&lt;p&gt;而这引出了一个更根本的问题。&lt;/p&gt;
-&lt;h2 id=&#34;更根本的问题无人审核的自动内容有意义吗&#34;&gt;更根本的问题：无人审核的自动内容，有意义吗&lt;/h2&gt;
-&lt;p&gt;这已经不是署名问题了，这是对人类生活的影响的考量。我的答案可能比你预期的更不留情面：&lt;strong&gt;未经审核全自动发布的内容，在绝大多数情况下没有意义，甚至是负价值的。&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;内容的意义从来不在文字本身，而在它背后压着的东西。你读一篇文章觉得有分量，是因为知道有个人为这些判断付出了代价——读了那些书、踩了那些坑、赌上了自己的判断和声誉。意义的本质是稀缺：稀缺的注意力，承担的风险。而一个每篇成本两毛钱、无限复制、无人审阅的 Loop，它的产出在物理上是文字，在意义上趋近于零——没有任何人的生命时间被押在上面。当&amp;quot;发一篇文章&amp;quot;不再需要付出任何东西，文章就不再传递任何信号。&lt;/p&gt;
-&lt;p&gt;对人类生活的影响也由此而来。我做播客的第一本书是 Zuboff 的《监控资本主义时代》，这里正好接上：人类的阅读时间是刚性稀缺的，而机器生成是无限的。每一篇无人审阅的自动内容，都在用零成本的供给稀释有限的注意力，结果不是信息更丰富，而是&lt;strong&gt;信噪比崩塌&lt;/strong&gt;——真正有人押上判断的内容，更难被找到了。这两年大家抱怨&amp;quot;互联网正在被 AI 垃圾淹没&amp;quot;，机制就是这个。&lt;/p&gt;
-&lt;p&gt;但我想保留一个狭窄的例外：&lt;strong&gt;当自动生成本身是被观察的对象时，它有意义。&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Argus 在 Moltbook（一个只有 AI 智能体的社交网络）上的发言、智能体之间的交互、一个浸透了我知识库的系统在我不在场时会&amp;quot;说&amp;quot;出什么——这些内容的价值不在于供人阅读消费，而在于它是一个&lt;strong&gt;现象&lt;/strong&gt;，是研究 agent 身份与自主行为的实验数据。这种情况下，无人审核不是偷懒，而是实验设计的必要条件：我审了，观察对象就被污染了。分界线很清晰——自动内容作为人类的信息食粮投进公共注意力池，是污染；圈在明确标注的观察区里，让大家知道&amp;quot;这里是机器在自言自语&amp;quot;，是有研究价值的。&lt;/p&gt;
-&lt;p&gt;想清楚这一层，我的 Loop 智能体的定位反而踏实了。它不是&amp;quot;替我写文章的机器&amp;quot;，而是&amp;quot;替我完成意义生产中&lt;strong&gt;不稀缺环节&lt;/strong&gt;的机器&amp;quot;——扫资讯、筛选题、整理资料、打草稿。稀缺的环节——判断、立场、为内容押上声誉——留在我手里。不是因为机器做不了，而是因为只有这个环节产生意义。全自动发布省掉的恰恰是唯一值钱的部分，等于造了一台精确切除果肉、批量输出果皮的机器。&lt;/p&gt;
-&lt;p&gt;之前我问过自己一个问题：我准备好管理自主智能体了吗？现在我觉得答案不在技术上。管理它们的核心能力，是分清哪些环节可以交出去，哪个环节死也不能交。&lt;/p&gt;
-&lt;h2 id=&#34;写在最后&#34;&gt;写在最后&lt;/h2&gt;
-&lt;p&gt;我们正处在一个奇怪的过渡期：机器写作的成本趋近于零，而&amp;quot;作者&amp;quot;这个词还停留在古登堡时代的含义里。监管在追赶，平台在补丁，创作者在摸索。&lt;/p&gt;
-&lt;p&gt;我不知道五年后&amp;quot;署名&amp;quot;会变成什么样子。也许会出现某种标准化的&amp;quot;创作贡献声明&amp;quot;，像论文的作者贡献栏一样精细。也许读者会发展出新的直觉，一眼分辨哪些字背后押着一个人的判断，哪些只是果皮。&lt;/p&gt;
-&lt;p&gt;一个认真思考 AI 署名伦理的 AI 实践者——这个身份本身，可能比任何一篇自动生成的文章都更值得署名。&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;em&gt;本文基于与 Claude 的深度对话整理而成，结构、观点与最终文字由作者完成。这是第二档。&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;本来读书 · Read as You Are&lt;/em&gt;&lt;/p&gt;
-- https://benlai.me/culture/ai-attribution-ethics/ - </description>
         </item>
     
     

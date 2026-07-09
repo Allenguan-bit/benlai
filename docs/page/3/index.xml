@@ -13,6 +13,79 @@
     
     
         <item>
+        <title>Let&#39;s Read Together — Episode 4</title>
+        <link>https://benlai.me/reading/ep4-same-logic-different-hands/</link>
+        <pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
+        
+        <guid>https://benlai.me/reading/ep4-same-logic-different-hands/</guid>
+        <description>本来 https://benlai.me/reading/ep4-same-logic-different-hands/ -&lt;h2 id=&#34;same-logic-different-hands&#34;&gt;&amp;ldquo;Same Logic, Different Hands&amp;rdquo;&lt;/h2&gt;
+&lt;hr&gt;
+&lt;p&gt;I want to start with an observation.&lt;/p&gt;
+&lt;p&gt;Over the past few episodes, we&amp;rsquo;ve been focused on Silicon Valley — Google, Facebook, Amazon. But reading this book, I kept feeling something: the logic Zuboff describes isn&amp;rsquo;t specific to one place.&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s a technical infrastructure, combined with a particular way of understanding and extracting value from human behavioral data.&lt;/p&gt;
+&lt;p&gt;That infrastructure exists in different places. It&amp;rsquo;s been taken up by different actors. And it&amp;rsquo;s being used toward different ends.&lt;/p&gt;
+&lt;p&gt;That&amp;rsquo;s what we&amp;rsquo;re looking at today.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;back-to-a-basic-question&#34;&gt;Back to a Basic Question&lt;/h2&gt;
+&lt;p&gt;The framework we&amp;rsquo;ve built: surveillance capitalism extracts human behavioral data, converts it into prediction products, and uses those products to influence and shape behavior.&lt;/p&gt;
+&lt;p&gt;In the West, what drives this system is primarily commercial logic — advertising revenue, behavioral futures markets, shareholder returns.&lt;/p&gt;
+&lt;p&gt;But Zuboff poses a question in the book: what does this infrastructure look like when the goal isn&amp;rsquo;t selling ads?&lt;/p&gt;
+&lt;p&gt;Different parts of the world have already started answering that question.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;where-does-commercial-surveillance-end&#34;&gt;Where Does Commercial Surveillance End?&lt;/h2&gt;
+&lt;p&gt;Let&amp;rsquo;s be clear about how the Western model works.&lt;/p&gt;
+&lt;p&gt;In the Silicon Valley version, data flows primarily toward the advertising market. Platforms collect your behavioral data, sell it to advertisers, and advertisers use it to push more precisely targeted content. The goal is to keep you buying more, clicking more, staying on screen longer.&lt;/p&gt;
+&lt;p&gt;Does this system have a natural limit?&lt;/p&gt;
+&lt;p&gt;Zuboff&amp;rsquo;s answer: no.&lt;/p&gt;
+&lt;p&gt;Wherever there&amp;rsquo;s a new source of data, the system expands toward it. From search histories to location data, from social media to smart homes, from wearables to children&amp;rsquo;s toys. Every expansion comes with a plausible justification — better service, more personalization, more convenience.&lt;/p&gt;
+&lt;p&gt;But the direction of expansion is never decided by users.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;when-the-same-technology-meets-different-needs&#34;&gt;When the Same Technology Meets Different Needs&lt;/h2&gt;
+&lt;p&gt;Now consider a different situation.&lt;/p&gt;
+&lt;p&gt;The same technical infrastructure — large-scale data collection, behavioral analysis, predictive modeling, real-time intervention — what happens when the people using it aren&amp;rsquo;t trying to sell ads?&lt;/p&gt;
+&lt;p&gt;Here&amp;rsquo;s an example worth considering.&lt;/p&gt;
+&lt;p&gt;In 2016, a major Chinese search engine announced that its big data lab was using location data from 600 million users to track and predict the dynamics of an entire national economy — employment indexes, consumption indexes, even specific corporate earnings predictions.&lt;/p&gt;
+&lt;p&gt;The researchers wrote that they were the first team to measure a major economy by mining data of such unprecedented scale and spatial-temporal granularity.&lt;/p&gt;
+&lt;p&gt;Sit with that for a moment. A private company, by tracking the daily movements of 600 million people, built an economic monitoring system more real-time and more precise than official government statistics.&lt;/p&gt;
+&lt;p&gt;This is not a science fiction scenario. This already happened.&lt;/p&gt;
+&lt;p&gt;And what that capability means depends entirely on who holds it. For a company, it means sharper business decisions. For a government, it means real-time visibility into population movement, social mood, and economic activity.&lt;/p&gt;
+&lt;p&gt;The data is neutral. The people using it determine its meaning.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;the-pandemic-a-large-scale-experiment&#34;&gt;The Pandemic: A Large-Scale Experiment&lt;/h2&gt;
+&lt;p&gt;The COVID-19 pandemic opened a rare window through which to watch this logic operate at scale.&lt;/p&gt;
+&lt;p&gt;Within a very short period, many countries and regions built phone-based population tracking systems — health codes, travel records, contact tracing.&lt;/p&gt;
+&lt;p&gt;Technically, these systems overlap substantially with surveillance capitalism&amp;rsquo;s infrastructure: large-scale location data collection, real-time behavioral analysis, access granted or restricted based on what the analysis produces.&lt;/p&gt;
+&lt;p&gt;In a public health emergency, some of these measures had clear justification. Many people accepted the trade-off willingly — some privacy in exchange for a safer collective environment.&lt;/p&gt;
+&lt;p&gt;But Zuboff returns to a point she makes throughout the book: infrastructure built in states of emergency tends not to disappear when the emergency ends.&lt;/p&gt;
+&lt;p&gt;This tracking infrastructure didn&amp;rsquo;t exist before the pandemic. It was built rapidly during it. After the pandemic, in different forms, in different places, it remained.&lt;/p&gt;
+&lt;p&gt;The pattern echoes Google&amp;rsquo;s story with unsettling precision — a &amp;ldquo;temporary&amp;rdquo; measure born of crisis that quietly became a permanent fixture.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;two-models-one-common-structure&#34;&gt;Two Models, One Common Structure&lt;/h2&gt;
+&lt;p&gt;Reading this, something became clear to me.&lt;/p&gt;
+&lt;p&gt;Western commercial surveillance and other forms of surveillance look different on the surface — one sells ads, the other serves different purposes. But they share a deep structural feature:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Ordinary people&amp;rsquo;s behavioral data is used, without genuine informed consent, to serve goals that are not the people&amp;rsquo;s own.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;In the commercial model, your data serves advertisers. In other models, it serves other ends. But in both cases, you are not the beneficiary. You are the raw material.&lt;/p&gt;
+&lt;p&gt;Zuboff&amp;rsquo;s framing cuts to it: surveillance capitalism unilaterally claims human experience as free raw material.&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;Unilaterally.&amp;rdquo; That word matters. No negotiation. No consent. No meaningful choice offered.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;a-question-worth-sitting-with&#34;&gt;A Question Worth Sitting With&lt;/h2&gt;
+&lt;p&gt;I want to end this episode with a question — not an answer, just something to think about.&lt;/p&gt;
+&lt;p&gt;We tend to frame privacy as a personal issue — my data, my privacy, my choice. Zuboff argues that framing is itself a trap.&lt;/p&gt;
+&lt;p&gt;Because the real impact of surveillance isn&amp;rsquo;t only personal. When a system can track, predict, and shape behavior across entire populations, it changes not just individual choices — it changes how a society forms opinions, makes decisions, understands what&amp;rsquo;s normal.&lt;/p&gt;
+&lt;p&gt;She calls this new form of power &lt;strong&gt;instrumentarian power&lt;/strong&gt; — not exercised through violence or ideology, but through the precise environmental management of behavior, reshaping society from the inside.&lt;/p&gt;
+&lt;p&gt;This power looks one way in the hands of commercial companies. In other hands, it may look quite different.&lt;/p&gt;
+&lt;p&gt;But regardless of whose hands it&amp;rsquo;s in, Zuboff&amp;rsquo;s question stays the same: &lt;strong&gt;who authorized this? Who gave them the right?&lt;/strong&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;That&amp;rsquo;s Episode 4.&lt;/p&gt;
+&lt;p&gt;We stepped back from Silicon Valley and looked at a wider picture — the same technical logic, operating in different places, in the hands of different forces. Commercial surveillance and other forms of surveillance have different stated goals, but share the same underlying structure: ordinary people&amp;rsquo;s behavior, without their knowledge, becomes raw material in service of someone else&amp;rsquo;s objectives.&lt;/p&gt;
+&lt;p&gt;Next episode is the last one for this book. Zuboff ends with a question: what can we do? Her answer — and mine — coming up.&lt;/p&gt;
+&lt;p&gt;This is &lt;em&gt;Let&amp;rsquo;s Read Together&lt;/em&gt;. I&amp;rsquo;m Allen.&lt;/p&gt;
+- https://benlai.me/reading/ep4-same-logic-different-hands/ - </description>
+        </item>
+    
+    
+    
+        <item>
         <title>我在免费云服务器上部署了一个真正的 AI Agent——过程、原理和实际用途全记录</title>
         <link>https://benlai.me/ai/hermes-agent-deploy/</link>
         <pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
@@ -773,46 +846,6 @@
 &lt;hr&gt;
 &lt;p&gt;This is &lt;em&gt;Let&amp;rsquo;s Read Together&lt;/em&gt;. I&amp;rsquo;m Allen. Next episode, we dive into &lt;em&gt;The Age of Surveillance Capitalism&lt;/em&gt;.&lt;/p&gt;
 - https://benlai.me/reading/ep0-why-i-am-starting-this-podcast/ - </description>
-        </item>
-    
-    
-    
-        <item>
-        <title>《跟我一起读书吧》第零期</title>
-        <link>https://benlai.me/reading/%E7%AC%AC%E9%9B%B6%E6%9C%9F_%E4%B8%BA%E4%BB%80%E4%B9%88%E6%88%91%E8%A6%81%E5%81%9A%E8%BF%99%E4%B8%AA%E8%8A%82%E7%9B%AE/</link>
-        <pubDate>Mon, 01 Jun 2026 00:00:00 +0800</pubDate>
-        
-        <guid>https://benlai.me/reading/%E7%AC%AC%E9%9B%B6%E6%9C%9F_%E4%B8%BA%E4%BB%80%E4%B9%88%E6%88%91%E8%A6%81%E5%81%9A%E8%BF%99%E4%B8%AA%E8%8A%82%E7%9B%AE/</guid>
-        <description>本来 https://benlai.me/reading/%E7%AC%AC%E9%9B%B6%E6%9C%9F_%E4%B8%BA%E4%BB%80%E4%B9%88%E6%88%91%E8%A6%81%E5%81%9A%E8%BF%99%E4%B8%AA%E8%8A%82%E7%9B%AE/ -&lt;p&gt;&lt;img src=&#34;https://benlai.me/images/Image_cover.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;h2 id=&#34;为什么我要做这个节目&#34;&gt;&amp;ldquo;为什么我要做这个节目&amp;rdquo;&lt;/h2&gt;
-&lt;hr&gt;
-&lt;p&gt;我最近在想一个问题——我们每天花多少时间在手机上？&lt;/p&gt;
-&lt;p&gt;刷短视频，看推送，点开一个又一个。有时候放松一下，just for fun，没什么问题。但如果我问你：上个月你刷过的那些视频，有哪一条，真正改变了你对某件事的看法？&lt;/p&gt;
-&lt;p&gt;大概很难想起来。&lt;/p&gt;
-&lt;p&gt;我自己也会刷。但我越来越清楚地感觉到，短视频是快餐——吃的时候觉得满足，吃完什么都没留下。它给你刺激，给你消遣，但它给不了你一样东西：&lt;strong&gt;真正的思考&lt;/strong&gt;。&lt;/p&gt;
-&lt;p&gt;真正的思考需要时间。需要你跟着一个人的论述走很长一段路，走到你开始质疑，开始对话，开始形成自己的观点。这个过程，只有读书能给你。&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;这个节目，叫**《跟我一起读书吧》**。&lt;/p&gt;
-&lt;p&gt;我会读书，然后用中文把书里真正重要的东西讲给你听。&lt;/p&gt;
-&lt;p&gt;我要特别说一点：很多我读的书，是英文原著。有些有中文版，但中文版有时候删节，有时候翻译质量参差不齐，有时候因为各种原因，把最关键的内容丢掉了。读者拿到手的，可能只是原著的一个影子。&lt;/p&gt;
-&lt;p&gt;所以我想做的，是直接读原著，然后用中文告诉你，这本书&lt;strong&gt;真正&lt;/strong&gt;说了什么。&lt;/p&gt;
-&lt;p&gt;有时候是很严肃的非虚构，有时候可能就是一本小说，轻松聊聊，没有固定的框架，跟着感觉走。&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;第一本书，我选了Shoshana Zuboff的《监控资本主义时代》——&lt;em&gt;The Age of Surveillance Capitalism&lt;/em&gt;。&lt;/p&gt;
-&lt;p&gt;这本书出版于2019年，到今天依然是理解我们所处数字世界最重要的著作之一。它回答一个问题：&lt;strong&gt;为什么那些免费的App，其实一点都不免费？&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;你有没有想过，为什么你刚刚跟朋友聊到某个东西，手机上就出现了相关广告？为什么你的每一次点击、每一次停留、每一次搜索，都在被人记录、分析、出售？&lt;/p&gt;
-&lt;p&gt;这不是巧合，这是一套完整的商业逻辑。而这本书，把这套逻辑彻底解剖给你看。&lt;/p&gt;
-&lt;p&gt;我们很多人早就隐约知道这些事情在发生。但&amp;quot;隐约知道&amp;quot;和&amp;quot;真正理解&amp;quot;之间，有一本书的距离。&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;最后我想说——&lt;/p&gt;
-&lt;p&gt;做这个节目，也不是要你放弃短视频。&lt;/p&gt;
-&lt;p&gt;是因为我相信，真正的阅读给你的东西，没有任何算法能替代。&lt;/p&gt;
-&lt;p&gt;它给你的是你自己的思考。&lt;/p&gt;
-&lt;p&gt;在一个越来越多的平台想要替你思考、替你选择、替你决定的时代，能够坐下来，认真读完一本书，本身就是一种清醒。&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;好，我们开始吧。&lt;/p&gt;
-&lt;p&gt;这里是《跟我一起读书吧》，我是Allen。下一期，我们正式进入《监控资本主义时代》。&lt;/p&gt;
-- https://benlai.me/reading/%E7%AC%AC%E9%9B%B6%E6%9C%9F_%E4%B8%BA%E4%BB%80%E4%B9%88%E6%88%91%E8%A6%81%E5%81%9A%E8%BF%99%E4%B8%AA%E8%8A%82%E7%9B%AE/ - </description>
         </item>
     
     
