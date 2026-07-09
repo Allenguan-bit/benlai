@@ -1,10 +1,10 @@
 +++
 date = '2026-07-04T00:00:00+08:00'
 draft = false
-title = "\"X long-form (English): A 1,500-year-old map of the mind explains dementia — and why AI feels empty\""
+title = "A 1,500-year-old map of the mind explains dementia — and why AI feels empty"
 +++
 
-# X long-form (English): A 1,500-year-old map of the mind explains dementia — and why AI feels empty
+# A 1,500-year-old map of the mind explains dementia — and why AI feels empty
 
 ![](/images/stratigraphy_of_mind_x_cover_1200x600.png)
 
