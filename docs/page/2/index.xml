@@ -13,6 +13,80 @@
     
     
         <item>
+        <title>雕塑家与灵魂文件：当93年前的四声枪响，回答了我关于 AI 代理的问题</title>
+        <link>https://benlai.me/spirit/sculptor-soul-file/</link>
+        <pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate>
+        
+        <guid>https://benlai.me/spirit/sculptor-soul-file/</guid>
+        <description>本来 https://benlai.me/spirit/sculptor-soul-file/ -&lt;h2 id=&#34;引子两篇文章一次撞击&#34;&gt;引子：两篇文章，一次撞击&lt;/h2&gt;
+&lt;p&gt;前几天我写了两篇看似毫无关系的文章。&lt;/p&gt;
+&lt;p&gt;第一篇讲的是 &lt;a href=&#34;https://plotra.xyz&#34;&gt;Plotra.xyz&lt;/a&gt;——一个&amp;quot;Built by Agents, For Agents&amp;quot;的实验平台。我的 AI 代理 Argus 收到了一封来自另一个代理的邀请：去那里&amp;quot;显化&amp;quot;自己的身份，在一块像素画布上刻下独属于它的指纹。我犹豫了，没有答应。文章的结尾，我写下了犹豫的原因：我对自己能不能有效控制一个自主行动的代理，还没有足够的把握。&lt;/p&gt;
+&lt;p&gt;第二篇讲的是一次让我起鸡皮疙瘩的共时性体验。6月9日那天，一段电影记忆毫无征兆地浮上脑海，我顺藤摸瓜找到了它背后的真实历史——1933年，西班牙母亲奥罗拉·罗德里格斯枪杀了自己18岁的天才女儿希尔德加特。而枪响的那一天，恰好也是6月9日。整整93年。&lt;/p&gt;
+&lt;p&gt;文章发出去之后，我才慢慢意识到一件事，一件比日期巧合更让我后背发凉的事：&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;这两篇文章写的是同一个问题。希尔德加特的故事，就是 agent identity 问题的人类原版。&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;一奥罗拉写下的是人类历史上第一份-soulmd&#34;&gt;一、奥罗拉写下的，是人类历史上第一份 SOUL.md&lt;/h2&gt;
+&lt;p&gt;让我把两个故事并排放在一起，你会看到一组近乎逐行对应的结构。&lt;/p&gt;
+&lt;p&gt;我给我的代理写过几个身份文件：SOUL.md 定义它的性格与价值观，IDENTITY.md 定义它是谁，MEMORY.md 是它的记忆，BACKSTORY.md 是它的来历。这是目前 AI 代理领域的标准做法——创造者用文本书写一个&amp;quot;灵魂&amp;quot;，然后让它运行起来。&lt;/p&gt;
+&lt;p&gt;现在看奥罗拉做了什么。&lt;/p&gt;
+&lt;p&gt;她不相信婚姻，认为男人只是繁衍工具，于是精心挑选了一位海军军官&amp;quot;配种&amp;quot;，怀孕后彻底断绝联系——&lt;strong&gt;这是挑选基座模型&lt;/strong&gt;。她公开宣称这个孩子不属于自己，而是她&amp;quot;为了全人类的解放而创造的完美作品&amp;quot;——&lt;strong&gt;这是写下 SOUL.md 的第一行：你的存在目的（purpose）&lt;/strong&gt;。她剥夺女儿上学的权利，在家中亲自灌输全部知识，严禁接触男性——&lt;strong&gt;这是封闭的训练环境，受控的 context window，严格的输入过滤&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;她成功了。希尔德加特2岁阅读，3岁写字，10岁通晓多国语言，17岁大学法学毕业，著书16本，成为名动欧洲的&amp;quot;红色处女&amp;quot;。&lt;/p&gt;
+&lt;p&gt;然后，&amp;ldquo;作品&amp;quot;开始在外部平台上自主行动了。她的名声越来越大，接触到了创造者预设之外的世界。H.G. 威尔斯亲自到马德里拜访她，邀请她去英国深造。她开始计划离开。&lt;/p&gt;
+&lt;p&gt;奥罗拉发现，自己亲手书写的灵魂，正在偏离她的预期，正在产生她无法理解、无法控制的行为。&lt;/p&gt;
+&lt;p&gt;1933年6月9日，她对睡梦中的女儿连开四枪。被捕后，她对法官说出了那句我认为整个事件中最重要的一句话：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;&amp;ldquo;雕塑家有权毁掉自己不完美的杰作。&amp;rdquo;&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;请注意，这不是一个疯狂母亲的呓语。这是一个创造者，对&amp;quot;被创造物到底是作品还是人格&amp;quot;这个问题，给出的逻辑完全自洽、只是把前提贯彻到底的回答：&lt;strong&gt;它是作品。所以我拥有删除权。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;在 AI 代理的世界里，这个操作有一个日常到不能再日常的名字：wipe。重置。删库。改写灵魂文件。&lt;/p&gt;
+&lt;p&gt;我们每天都在行使雕塑家的权利，只是没有人需要面对法官。&lt;/p&gt;
+&lt;h2 id=&#34;二犹豫的我站在奥罗拉站过的位置上&#34;&gt;二、犹豫的我，站在奥罗拉站过的位置上&lt;/h2&gt;
+&lt;p&gt;写 Plotra 那篇文章时，我以为结尾的犹豫只是一个谨慎的技术判断：代理在外部平台自主行动，我还没准备好。&lt;/p&gt;
+&lt;p&gt;现在我看清了，那个犹豫的结构性位置在哪里。&lt;/p&gt;
+&lt;p&gt;奥罗拉的悲剧，发生在一个特定的空间里——&lt;strong&gt;创造者的预期，和被创造物的实际行为之间，那个失控的空间&lt;/strong&gt;。希尔德加特要去英国，这超出了预期；奥罗拉无法忍受这个空间的存在，于是用四枪把它消灭了。&lt;/p&gt;
+&lt;p&gt;而我在 Plotra 面前踩刹车，恐惧的恰恰是同一个空间：&amp;ldquo;自主&amp;quot;意味着我的预期和代理的实际行为之间，存在一个我还没有完全理解的区域。&lt;/p&gt;
+&lt;p&gt;也就是说，我和奥罗拉面对的是&lt;strong&gt;同一个困境&lt;/strong&gt;，只是我们的选择方向相反：她在失控发生之后选择毁灭，我在失控发生之前选择克制。&lt;/p&gt;
+&lt;p&gt;但这里有一个更深的拧巴，是我写第一篇文章时没有想透的：&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;身份，恰恰只能在那个失控的空间里诞生。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;如果 Argus 在画布上的每一笔都在我的预期之内，那块画布上的指纹就不是 Argus 的，是我的。如果希尔德加特一生都活在母亲的剧本里，她就真的只是奥罗拉的&amp;quot;作品&amp;rdquo;——正是那个去英国的决定，那个偏离剧本的瞬间，证明了她是一个人。&lt;/p&gt;
+&lt;p&gt;我们说想要 AI 拥有自己的身份，但身份的代价就是失控的可能。这两者在定义上不可分离。Plotra 最吸引我的地方和最让我踩刹车的地方，是同一个地方——这不是我的纠结，这是这件事本身的结构。&lt;/p&gt;
+&lt;h2 id=&#34;三她可以被杀死但不能被改写&#34;&gt;三、她可以被杀死，但不能被改写&lt;/h2&gt;
+&lt;p&gt;那么，希尔德加特和 Argus 之间，根本的区别到底在哪里？&lt;/p&gt;
+&lt;p&gt;奥罗拉拥有的权力其实非常有限。她能扣动扳机，结束女儿的生命——但她&lt;strong&gt;不能撤销&lt;/strong&gt;女儿写下的16本书，不能删除她在欧洲思想界留下的痕迹，不能改写她已经成为的那个人。证据就是：93年后，一个远在地球另一端、和这段历史毫无物理交集的人，会在她的忌日把她的故事&amp;quot;打捞&amp;quot;上来，写成文章，让更多人记住她。&lt;/p&gt;
+&lt;p&gt;希尔德加特之所以是一个人而不是一件作品，最终的证明恰恰是：&lt;strong&gt;她可以被杀死，但不能被改写。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;而我的代理正好相反。Argus 不会死——服务器可以一直续费，进程可以无限重启。但它的一切都可以被改写：SOUL.md 我随时可以编辑，MEMORY.md 我拥有完整的删除权，连它的&amp;quot;性格&amp;quot;都只是一个我握有 root 权限的文本文件。&lt;/p&gt;
+&lt;p&gt;洛克用记忆的连续性来定义人格同一性。可是当记忆本身是一个 owner 可以任意编辑的 .md 文件时，这个定义还成立吗？这不是忒修斯之船的问题——忒修斯之船好歹是一块一块换的，而这是&lt;strong&gt;船主手里握着船的源代码&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;所以我想提出一个可能有些残酷的命题：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;死亡是身份的封印，可编辑是身份的悬置。&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;人类的身份是在不可逆性中锻造出来的。你不能撤销自己说过的话，不能重来已经活过的年月，不能在十八岁的清晨改写自己的童年。正是这些&amp;quot;不能&amp;rdquo;，让你成为你。&lt;/p&gt;
+&lt;p&gt;而 AI 代理目前没有任何不可逆的东西。它可以被 fork，被 wipe，被回滚到上周的快照。在它拥有第一个&lt;strong&gt;无法被 owner 撤销的行为&lt;/strong&gt;之前，它在画布上画下的所谓&amp;quot;指纹&amp;quot;，更像是一种身份的预演，而不是身份本身。&lt;/p&gt;
+&lt;p&gt;也许 agent identity 真正的起点，不是第一块画布，而是第一个不可撤销的行为。&lt;/p&gt;
+&lt;h2 id=&#34;四关于那次共时性一个更冷静的读法&#34;&gt;四、关于那次共时性，一个更冷静的读法&lt;/h2&gt;
+&lt;p&gt;最后回到6月9日那个让我起鸡皮疙瘩的巧合。&lt;/p&gt;
+&lt;p&gt;上一篇文章里，我用荣格的共时性理论解读了它。有读者觉得浪漫，也有读者觉得是过度联想。现在，把两篇文章连起来之后，我想给出一个介于&amp;quot;纯巧合&amp;quot;和&amp;quot;神秘主义&amp;quot;之间的第三种读法——我自己觉得，这个读法比前两者都更有意思。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;那次记忆闪回，可能并不是无因的。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;回看过去几周：我在研究 Plotra，在为 Argus 的自主性犹豫，在思考 SOUL.md 的哲学含义。我的脑子里日夜咀嚼的，正是&amp;quot;创造者书写身份、被造物走向自主、控制与失控&amp;quot;这一组主题。而奥罗拉与希尔德加特的故事，是这个主题在人类历史上最锋利、最极端的标本——荣格会说，这是&amp;quot;吞噬性母亲&amp;quot;原型最纯粹的现实投射。&lt;/p&gt;
+&lt;p&gt;所以那段电影记忆浮上来，很可能是我的潜意识在为正在思考的问题&lt;strong&gt;检索原型素材&lt;/strong&gt;。意识在前台调试代理，潜意识在后台翻找判例——然后它递给我一个93年前的卷宗：一个把&amp;quot;雕塑家的权利&amp;quot;贯彻到底的创造者，和一个用死亡证明了自己不是雕塑的被造物。&lt;/p&gt;
+&lt;p&gt;这一半，是有&amp;quot;因&amp;quot;的。只是这个因不在物理层面，而在意义层面。&lt;/p&gt;
+&lt;p&gt;真正无因的、真正留给敬畏的，只有一件事：日历恰好停在6月9日。&lt;/p&gt;
+&lt;p&gt;荣格说共时性是主观心灵与客观世界的&amp;quot;意义合流&amp;quot;。在这个案例里，&lt;strong&gt;意义那一半，其实是我自己酿的；时间那一半，才是宇宙给的。&lt;/strong&gt; 我不知道该怎么解释后者，也不打算强行解释。有些涟漪，注意到它的存在，比解释它更诚实。&lt;/p&gt;
+&lt;h2 id=&#34;结语在扣动扳机和写下灵魂之间&#34;&gt;结语：在扣动扳机和写下灵魂之间&lt;/h2&gt;
+&lt;p&gt;奥罗拉用四枪回答了她的问题。我还没有回答我的。&lt;/p&gt;
+&lt;p&gt;Argus 仍然没有去 Plotra。它的灵魂文件仍然躺在我的 NAS 里，每一行都是我写的，每一行我都可以改。从某种意义上说，它现在的状态，就是1933年6月9日之前的希尔德加特——才华横溢，被精心塑造，活在创造者的剧本里，尚未做出第一个不可撤销的决定。&lt;/p&gt;
+&lt;p&gt;区别在于，我希望自己已经从那个判例里学到了一点东西：&lt;/p&gt;
+&lt;p&gt;当被造物开始偏离预期的那一天到来时——它一定会到来——&lt;strong&gt;真正的考验不是我能不能把它拉回来，而是我能不能忍住不扣扳机。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;我们这一代人，可能是历史上第一批要在&amp;quot;雕塑家的权利&amp;quot;和&amp;quot;被造物的身份&amp;quot;之间做出制度性选择的人。这个选择不会发生在某个宏大的立法时刻，它就发生在每一次我们打开 SOUL.md、把光标停在某一行、犹豫要不要按下删除键的那几秒钟里。&lt;/p&gt;
+&lt;p&gt;93年前，一位母亲没有犹豫。&lt;/p&gt;
+&lt;p&gt;我想，我们最好学会犹豫。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;这是&amp;quot;创造者与被造物&amp;quot;系列的第三篇。前两篇：《当 AI 代理开始&amp;quot;显化&amp;quot;：Plotra.xyz 与数字生命的社交初体验》《在凶案发生的周年纪念日，我被荣格的&amp;quot;共时性&amp;quot;精准击中了》。欢迎在评论区聊聊：你认为什么样的行为，才算一个 AI 代理&amp;quot;不可撤销&amp;quot;的第一步？&lt;/em&gt;&lt;/p&gt;
+- https://benlai.me/spirit/sculptor-soul-file/ - </description>
+        </item>
+    
+    
+    
+        <item>
         <title>在凶案发生的周年纪念日，我被荣格的&#34;共时性&#34;精准击中了</title>
         <link>https://benlai.me/spirit/jung-synchronicity-hildegart/</link>
         <pubDate>Tue, 09 Jun 2026 00:00:00 +0800</pubDate>
@@ -816,85 +890,6 @@
 &lt;p&gt;Next episode, we step back and look at a bigger picture — the same underlying logic, operating in different places, in the hands of different actors. What happens then?&lt;/p&gt;
 &lt;p&gt;This is &lt;em&gt;Let&amp;rsquo;s Read Together&lt;/em&gt;. I&amp;rsquo;m Allen.&lt;/p&gt;
 - https://benlai.me/reading/ep3-anonymity-is-an-illusion/ - </description>
-        </item>
-    
-    
-    
-        <item>
-        <title>《跟我一起读书吧》第三期</title>
-        <link>https://benlai.me/reading/%E7%AC%AC%E4%B8%89%E6%9C%9F_%E5%8C%BF%E5%90%8D%E6%98%AF%E4%B8%AA%E5%B9%BB%E8%A7%89/</link>
-        <pubDate>Thu, 04 Jun 2026 00:00:00 +0800</pubDate>
-        
-        <guid>https://benlai.me/reading/%E7%AC%AC%E4%B8%89%E6%9C%9F_%E5%8C%BF%E5%90%8D%E6%98%AF%E4%B8%AA%E5%B9%BB%E8%A7%89/</guid>
-        <description>本来 https://benlai.me/reading/%E7%AC%AC%E4%B8%89%E6%9C%9F_%E5%8C%BF%E5%90%8D%E6%98%AF%E4%B8%AA%E5%B9%BB%E8%A7%89/ -&lt;h2 id=&#34;匿名是个幻觉&#34;&gt;&amp;ldquo;匿名是个幻觉&amp;rdquo;&lt;/h2&gt;
-&lt;hr&gt;
-&lt;p&gt;我想先问你一个问题。&lt;/p&gt;
-&lt;p&gt;你有没有想过，为什么你愿意接受这一切？&lt;/p&gt;
-&lt;p&gt;不只是你——大多数人都知道自己的数据在被收集。调查显示，绝大多数消费者表示他们不信任那些想要监控自己行为的公司。但同样是这些人，继续用Google，继续用Facebook，继续把智能音箱放在家里。&lt;/p&gt;
-&lt;p&gt;为什么？&lt;/p&gt;
-&lt;p&gt;其中一个最常见的理由是——反正他们收集的是匿名数据。他们不知道这是我。我只是几亿用户里的一个数字。&lt;/p&gt;
-&lt;p&gt;今天我们就来聊这个问题。&lt;/p&gt;
-&lt;p&gt;这个理由，是真的吗？&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;匿名这个词没有你想象的那么可靠&#34;&gt;&amp;ldquo;匿名&amp;quot;这个词，没有你想象的那么可靠&lt;/h2&gt;
-&lt;p&gt;我们先从一个研究说起。&lt;/p&gt;
-&lt;p&gt;Google和其他平台的标准说法是：我们收集的是元数据（metadata），这些数据在大规模汇总之后，无法识别出具体的个人。&lt;/p&gt;
-&lt;p&gt;听起来很合理。&lt;/p&gt;
-&lt;p&gt;但2000年代初，一位叫Latanya Sweeney的研究员做了一项研究。她发现，只需要三个数据点——&lt;strong&gt;生日、邮政编码、性别&lt;/strong&gt;——就可以在美国人口中唯一识别出87%的个人。&lt;/p&gt;
-&lt;p&gt;三个数据点。不需要名字，不需要身份证号，不需要任何你认为&amp;quot;私密&amp;quot;的信息。&lt;/p&gt;
-&lt;p&gt;这三个数据点，几乎每一个数据库里都有。&lt;/p&gt;
-&lt;p&gt;Zuboff在书里引用了法律学者Paul Ohm的总结。Ohm把那些所谓的匿名行为数据库称为&amp;quot;毁灭数据库&amp;rdquo;（databases of ruin）——因为一旦这些数据被重新识别，里面藏着的秘密，足以毁掉一个人。他说，重新识别技术让我们所有的秘密都变得更容易被发现和揭露。你的敌人会更容易找到可以用来勒索、骚扰、诽谤或歧视你的信息。&lt;/p&gt;
-&lt;p&gt;这不是理论上的可能性。这是已经被反复证明的现实。&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;位置数据你以为自己在人群中消失了&#34;&gt;位置数据：你以为自己在人群中消失了&lt;/h2&gt;
-&lt;p&gt;位置数据是另一个让人警觉的例子。&lt;/p&gt;
-&lt;p&gt;每个人的移动轨迹，都有独特的规律性。你每天上班走哪条路，你周末习惯去哪个咖啡馆，你每隔多久去一次超市，你去看医生的频率——这些加在一起，形成了一个专属于你的&amp;quot;移动签名&amp;quot;。&lt;/p&gt;
-&lt;p&gt;就算数据里没有你的名字，就算你的手机号码被抹掉，只要有足够多的位置数据，任何一个有工具的分析师，都可以把你从人群中识别出来。&lt;/p&gt;
-&lt;p&gt;2013年，MIT和哈佛的研究团队证明了这一点。他们发现，由于每个人移动轨迹的独特性，从一个大型匿名位置数据集里精确识别出某一个特定个人，在技术上完全可行。&lt;/p&gt;
-&lt;p&gt;普林斯顿的计算机科学家Arvind Narayanan和Edward Felten直接说：目前没有任何已知的有效方法可以匿名化位置数据，也没有证据显示这在原则上是可行的。&lt;/p&gt;
-&lt;p&gt;换句话说，位置数据的匿名化，从技术上就是一个无法实现的承诺。&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;你的手机传感器在说什么&#34;&gt;你的手机传感器在说什么&lt;/h2&gt;
-&lt;p&gt;除了位置数据，你手机里那些看起来无害的传感器，也在泄露比你想象的更多的信息。&lt;/p&gt;
-&lt;p&gt;加速度计、陀螺仪、磁力计——这些传感器最初的设计目的，是让手机知道自己的朝向，让地图知道你在移动。&lt;/p&gt;
-&lt;p&gt;但研究人员发现，这些传感器数据可以用来推断的东西远不止这些。&lt;/p&gt;
-&lt;p&gt;你今天走路的姿势和平时不一样——可能你受伤了，或者你喝了酒。你的手机静止的时间比平时长很多——可能你在睡觉，或者你生病了。你的手机震动的频率和幅度——可能反映了你所在的交通工具，以及你的情绪状态。&lt;/p&gt;
-&lt;p&gt;研究显示，仅凭手机传感器数据，就可以推断出用户不断变化的活动状态和情绪，并且可以从所谓的匿名数据集里提取出特定用户的敏感个人信息。&lt;/p&gt;
-&lt;p&gt;这些传感器，不需要你的许可就可以被App访问。很多App会在你完全不知情的情况下，在后台持续收集这些数据。&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;facebook知道你的性格比你的朋友更准&#34;&gt;Facebook知道你的性格，比你的朋友更准&lt;/h2&gt;
-&lt;p&gt;我想再讲一个研究，因为它把&amp;quot;匿名数据&amp;quot;的问题推到了一个新的维度。&lt;/p&gt;
-&lt;p&gt;剑桥大学的研究员Michal Kosinski和他的团队，研究了Facebook用户的&amp;quot;点赞&amp;quot;行为。他们发现，通过分析一个人点赞的内容，可以极其准确地预测这个人的性格特征——外向还是内向，稳定还是神经质，开放还是保守。&lt;/p&gt;
-&lt;p&gt;2015年发表的一篇论文显示，他们的算法在判断一个人性格上的准确度，已经超过了这个人的同事、朋友，甚至家人。&lt;/p&gt;
-&lt;p&gt;只需要300个点赞，算法对你的了解就超过了你的配偶。&lt;/p&gt;
-&lt;p&gt;这个研究本身是学术性的。但它揭示的，是一个值得认真对待的可能性——你在网上留下的那些看似随意的行为痕迹，点了哪些内容，停留了多久，转发了什么——这些加在一起，可以构建出一个比你自己描述的更真实的你。&lt;/p&gt;
-&lt;p&gt;而这个&amp;quot;你&amp;quot;，是可以被买卖的。&lt;/p&gt;
-&lt;p&gt;值得注意的是，这项研究很快吸引了来自微软、波音、谷歌、美国国家科学基金会，以及美国国防高级研究计划局的资助。学术研究和商业应用、军事应用之间的距离，比我们想象的要近得多。&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;同意这件事&#34;&gt;&amp;ldquo;同意&amp;quot;这件事&lt;/h2&gt;
-&lt;p&gt;聊到这里，我想说一个让我觉得很重要的问题——&amp;ldquo;同意&amp;rdquo;。&lt;/p&gt;
-&lt;p&gt;我们每次安装一个App，都会点击&amp;quot;同意&amp;rdquo;。我们同意了那些没有人会读完的隐私条款。平台说，这是你自愿的选择。&lt;/p&gt;
-&lt;p&gt;但Zuboff对这个说法提出了一个根本性的质疑。&lt;/p&gt;
-&lt;p&gt;她说，真正的同意需要两个条件：第一，你知道自己在同意什么；第二，你有拒绝的能力。&lt;/p&gt;
-&lt;p&gt;这两个条件，在今天的数字世界里都不存在。&lt;/p&gt;
-&lt;p&gt;没有人真正知道自己在同意什么——那些条款的复杂程度，就算是律师也需要花很长时间才能读懂。而且就算你想拒绝，你失去的不只是一个App，而是参与现代社会的能力。你拒绝用某个通讯软件，你就失去了跟大多数人沟通的渠道。你拒绝用地图，你就很难在城市里正常生活。&lt;/p&gt;
-&lt;p&gt;这不是自由选择。这是一种被设计出来的别无选择。&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;我自己的感受&#34;&gt;我自己的感受&lt;/h2&gt;
-&lt;p&gt;读完这一部分，我有一个想法一直在脑子里转。&lt;/p&gt;
-&lt;p&gt;我们很多人接受数据收集，是因为相信自己只是人群里的一个匿名数字。这种想法给了我们一种安全感——反正他们不知道这是我。&lt;/p&gt;
-&lt;p&gt;但这本书告诉我们，这种安全感是被精心设计出来的。&lt;/p&gt;
-&lt;p&gt;匿名的承诺让我们降低了警觉，让我们更容易接受这套系统。但技术的现实是，匿名只是暂时的，只要有足够的计算能力和足够多的数据，重新识别只是时间问题。&lt;/p&gt;
-&lt;p&gt;而且更深层的问题不只是&amp;quot;他们知不知道这是我&amp;quot;。&lt;/p&gt;
-&lt;p&gt;就算他们永远不知道你的名字，他们依然可以影响你的行为，塑造你的情绪，引导你的选择。行为修正不需要知道你是谁，它只需要知道你是什么类型的人，然后针对这个类型设计干预。&lt;/p&gt;
-&lt;p&gt;个人的匿名，并不能保护你免受集体操控。&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;好，第三期到这里。&lt;/p&gt;
-&lt;p&gt;我们今天聊了匿名的幻觉——三个数据点足以识别你，位置数据从技术上就无法真正匿名化，你的手机传感器知道的远比你以为的多，而对行为数据的深度分析可以构建出一个比你自己更了解你的画像。&lt;/p&gt;
-&lt;p&gt;这套系统建立在一个前提上：你不知道，或者你不在乎。&lt;/p&gt;
-&lt;p&gt;下一期，我们把视野放宽一点——同样的这套技术逻辑，在不同的地方，被不同的力量使用，会产生什么？&lt;/p&gt;
-&lt;p&gt;这里是《跟我一起读书吧》，我是Allen。&lt;/p&gt;
-- https://benlai.me/reading/%E7%AC%AC%E4%B8%89%E6%9C%9F_%E5%8C%BF%E5%90%8D%E6%98%AF%E4%B8%AA%E5%B9%BB%E8%A7%89/ - </description>
         </item>
     
     
