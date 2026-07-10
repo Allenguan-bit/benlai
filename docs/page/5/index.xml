@@ -6,9 +6,113 @@
     <description>Recent content on 本来</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 08 Jul 2026 00:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 09 Jul 2026 09:00:00 +0800</lastBuildDate>
     
         <atom:link href="https://benlai.me/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+        <item>
+        <title>我在云端养了一个AI</title>
+        <link>https://benlai.me/ai/ai-in-the-cloud/</link>
+        <pubDate>Wed, 20 May 2026 20:00:00 +0800</pubDate>
+        
+        <guid>https://benlai.me/ai/ai-in-the-cloud/</guid>
+        <description>本来 https://benlai.me/ai/ai-in-the-cloud/ -&lt;p&gt;&lt;em&gt;2026年5月14日，多伦多，阴天&lt;/em&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;今天下午，多伦多飘着雨，气温11度。我坐在电脑前，做了一件一个月前还觉得遥不可及的事——在自己的服务器上，从零开始，搭建了一个完全属于自己的AI智能体。&lt;/p&gt;
+&lt;p&gt;没有订阅费。没有数据泄露的顾虑。没有哪家公司的服务器在背后偷看我的投资文件。&lt;/p&gt;
+&lt;p&gt;一切，都跑在我自己的机器上。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;起点一台在多伦多机房里沉睡的服务器&#34;&gt;起点：一台在多伦多机房里沉睡的服务器&lt;/h2&gt;
+&lt;p&gt;这一切都是我在Oracle Cloud上申请到一台ARM架构的云服务器开始的。&lt;/p&gt;
+&lt;p&gt;刚刚，我成功地在Oracle Cloud上申请了一台ARM架构的云服务器，规格不算差——4个CPU核心，24GB内存，装着Ubuntu 22.04。它有一个正式的名字：&lt;strong&gt;ai-agent-server&lt;/strong&gt;，公网IP是155.248.218.216，安静地待在多伦多的某个机房里。&lt;/p&gt;
+&lt;p&gt;Docker装好了，防火墙配好了，端口开着。一切就绪，现在开始一个真正的任务。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;第一步给服务器做个体检&#34;&gt;第一步：给服务器做个体检&lt;/h2&gt;
+&lt;p&gt;打开Windows的PowerShell，输入那行熟悉的命令：&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;ssh ubuntu@***.***.***.*** -i ~/.ssh/id_ed25519
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;屏幕上滚出一串欢迎文字。服务器还活着，内存使用率2%，磁盘只用了7%。像一个精力充沛却无事可做的员工，等着被分配工作。&lt;/p&gt;
+&lt;p&gt;先做系统更新。内核从1049升到了1050，重启，重新连接。一切正常。&lt;/p&gt;
+&lt;p&gt;体检通过。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;第二步请一个会说话的大脑入驻&#34;&gt;第二步：请一个会说话的大脑入驻&lt;/h2&gt;
+&lt;p&gt;接下来要做的，是在这台服务器上安装一个本地大模型。&lt;/p&gt;
+&lt;p&gt;不是调用OpenAI的API，不是付费给某家云服务，而是把模型本身下载到自己的机器上，让它在自己的CPU上思考，用自己的内存呼吸。&lt;/p&gt;
+&lt;p&gt;工具叫&amp;quot;Ollama&amp;quot;。一行命令，官方安装脚本跑完，它就安静地住进了服务器。&lt;/p&gt;
+&lt;p&gt;然后是拉模型。我选的是Llama 3.1 8B Q4——Meta开源的大语言模型，80亿参数，经过4-bit量化压缩，体积约4.9GB。对于纯CPU推理来说，它是速度和质量最甜蜜的平衡点。24GB内存跑它，绰绰有余。&lt;/p&gt;
+&lt;p&gt;进度条慢慢走完。&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;success
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;一个字。但那一刻，服务器里有了第一个会思考的大脑。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;第三步搭一个让ai工作的平台&#34;&gt;第三步：搭一个让AI工作的平台&lt;/h2&gt;
+&lt;p&gt;光有大脑还不够，还需要一个让它工作的环境。&lt;/p&gt;
+&lt;p&gt;这个环境叫Dify——一个开源的AI智能体平台，可以把大模型、知识库、工作流、对话界面全部整合在一起。它的后面跑着PostgreSQL存数据，Redis做缓存，Weaviate做向量搜索，Nginx做反向代理。&lt;/p&gt;
+&lt;p&gt;一条命令，12个Docker容器同时启动：&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;docker compose up -d
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;屏幕上滚出一行行&amp;quot;Started&amp;quot;。两分钟后，打开浏览器，输入服务器IP，出现了一个干净的注册页面。&lt;/p&gt;
+&lt;p&gt;我注册了管理员账号。&lt;/p&gt;
+&lt;p&gt;这台服务器，正式有了自己的AI控制台。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;第四步让平台认识大脑&#34;&gt;第四步：让平台认识大脑&lt;/h2&gt;
+&lt;p&gt;Dify装好了，Ollama装好了，但它们还不认识彼此。&lt;/p&gt;
+&lt;p&gt;需要告诉Dify：去找那个地址，那里住着一个会说话的模型。&lt;/p&gt;
+&lt;p&gt;Docker容器和宿主机之间有一道网络的墙。我需要找到那道墙的门——Docker网关的IP地址，&lt;code&gt;***.**.*.*&lt;/code&gt;。但第一次连接失败了：防火墙挡住了。&lt;/p&gt;
+&lt;p&gt;加一条规则，重启Ollama，再试：&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Ollama is running
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;门打开了。&lt;/p&gt;
+&lt;p&gt;在Dify的插件市场里找到Ollama插件，安装，配置：模型名称&lt;code&gt;llama3.1:8b&lt;/code&gt;，地址&lt;code&gt;http://***.**.*.*:11434&lt;/code&gt;。保存。&lt;/p&gt;
+&lt;p&gt;界面上出现了一个绿色的开关，亮着。&lt;/p&gt;
+&lt;p&gt;两个系统，握手成功。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;第五步给ai一个记忆&#34;&gt;第五步：给AI一个记忆&lt;/h2&gt;
+&lt;p&gt;一个没有记忆的AI，每次对话都是从零开始。它不知道你读过什么书，不知道你关注哪类投资产品，不知道你曾经写下过什么随想。&lt;/p&gt;
+&lt;p&gt;我需要给它一个记忆——一个知识库。&lt;/p&gt;
+&lt;p&gt;我的Obsidian笔记库里，存着多年积累的东西：读过的书目、碎片随想、投资产品的研究笔记。都是Claude帮我整理过的Markdown文件，结构清晰，标题层级分明。&lt;/p&gt;
+&lt;p&gt;还需要一个专门做向量化的小模型，把文字转成机器能检索的数字。&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;ollama pull nomic-embed-text
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;274MB。轻巧，专业。&lt;/p&gt;
+&lt;p&gt;模型就位后，在Dify里建了知识库，把文件一批批拖进去。系统开始向量化，把每一段文字变成高维空间里的一个点，等待被检索。&lt;/p&gt;
+&lt;p&gt;知识库有了。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;第六步捏出一个助手&#34;&gt;第六步：捏出一个助手&lt;/h2&gt;
+&lt;p&gt;现在，材料全齐了：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;一个会推理的大脑（llama3.1:8b）&lt;/li&gt;
+&lt;li&gt;一个会检索的记忆（知识库 + nomic-embed-text）&lt;/li&gt;
+&lt;li&gt;一个运行它们的平台（Dify）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;该捏出一个真正的助手了。&lt;/p&gt;
+&lt;p&gt;在Dify的Studio里，新建一个Chatflow，把节点一个个连起来：&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;用户提问 → 知识库检索 → LLM思考 → 输出回答
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;然后给它写了一段身份说明——System Prompt，告诉它自己是谁，该怎么工作：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;你是 Allen 的私人知识助理和投资分析伙伴。在回答时优先引用知识库中的具体内容。熟悉一级市场投资逻辑，包括 Private Equity、私募基金、另类资产。直接、精准，不废话。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;按下Preview。&lt;/p&gt;
+&lt;p&gt;输入一个问题，关于知识库里的某个投资产品。&lt;/p&gt;
+&lt;p&gt;它回答了。引用了正确的文件内容，分析有条理，语气简洁。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;结尾今天之后&#34;&gt;结尾：今天之后&lt;/h2&gt;
+&lt;p&gt;晚上九点，窗外多伦多的雨还在下。&lt;/p&gt;
+&lt;p&gt;我看着浏览器里那个刚刚发布的聊天页面——Allen&amp;rsquo;s Assistant，想到以后随时可以用手机打开它，问它&amp;quot;我对某类资产的看法是什么&amp;quot;，或者&amp;quot;我读过哪些关于不确定性的书&amp;quot;，它会从我自己的笔记里找答案，用我熟悉的方式说出来。&lt;/p&gt;
+&lt;p&gt;这不是什么遥远的科技。&lt;/p&gt;
+&lt;p&gt;是一台ARM服务器，24GB内存，一个开源模型，一个开源平台，一个下午。&lt;/p&gt;
+&lt;p&gt;数据在自己手里。思考在自己的机器上。&lt;/p&gt;
+&lt;p&gt;这就够了。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;下一步：配置HTTPS，把更多投资研究文件喂进知识库，让它越来越了解我在想什么。&lt;/em&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;技术栈备注&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;服务器：Oracle Cloud ARM Ubuntu 22.04，4 OCPU / 24GB RAM&lt;/li&gt;
+&lt;li&gt;大模型：Ollama + Llama 3.1 8B Q4&lt;/li&gt;
+&lt;li&gt;Embedding：nomic-embed-text&lt;/li&gt;
+&lt;li&gt;平台：Dify 1.14.1（Docker部署）&lt;/li&gt;
+&lt;li&gt;向量数据库：Weaviate&lt;/li&gt;
+&lt;/ul&gt;
+- https://benlai.me/ai/ai-in-the-cloud/ - </description>
+        </item>
     
     
     
