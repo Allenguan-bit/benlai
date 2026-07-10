@@ -6,9 +6,90 @@
     <description>Recent content on 本来</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 09 Jul 2026 09:02:00 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 10 Jul 2026 00:00:00 +0800</lastBuildDate>
     
         <atom:link href="https://benlai.me/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+        <item>
+        <title>Let&#39;s Read Together — Episode 2</title>
+        <link>https://benlai.me/reading/ep2-your-phone-your-home-your-childrens-toys/</link>
+        <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
+        
+        <guid>https://benlai.me/reading/ep2-your-phone-your-home-your-childrens-toys/</guid>
+        <description>本来 https://benlai.me/reading/ep2-your-phone-your-home-your-childrens-toys/ -&lt;h2 id=&#34;your-phone-your-home-your-childrens-toys&#34;&gt;&amp;ldquo;Your Phone, Your Home, Your Children&amp;rsquo;s Toys&amp;rdquo;&lt;/h2&gt;
+&lt;hr&gt;
+&lt;p&gt;Something happened to me recently that I think a lot of you will recognize.&lt;/p&gt;
+&lt;p&gt;I searched for a topic on one platform — just a passing curiosity, nothing I went deep on. And then for days afterward, no matter which app I opened, content about that topic kept appearing. Videos, articles, recommendations — one after another.&lt;/p&gt;
+&lt;p&gt;I hadn&amp;rsquo;t asked for any of it. But there it was.&lt;/p&gt;
+&lt;p&gt;And then there&amp;rsquo;s a different kind of experience — one I&amp;rsquo;ve heard from people around me. They hadn&amp;rsquo;t searched for anything. They&amp;rsquo;d just mentioned something in a conversation, or thought about it, and then their phone served it up.&lt;/p&gt;
+&lt;p&gt;The instinctive question: is my phone listening to me?&lt;/p&gt;
+&lt;p&gt;The answer is more complicated than that — and more disturbing. It&amp;rsquo;s not that your phone is eavesdropping. It&amp;rsquo;s that its understanding of you has become deep enough that it doesn&amp;rsquo;t need to.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Last episode we covered the three core concepts of surveillance capitalism — behavioral surplus, prediction products, behavioral modification — and how that logic was born inside Google.&lt;/p&gt;
+&lt;p&gt;But Google was just the starting point.&lt;/p&gt;
+&lt;p&gt;Once the model proved itself, it spread in every direction. Today we&amp;rsquo;re looking at where it went — from your phone, to your home, to your children&amp;rsquo;s toys, to your body.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;what-your-phone-knows&#34;&gt;What Your Phone Knows&lt;/h2&gt;
+&lt;p&gt;Let&amp;rsquo;s start with the phone.&lt;/p&gt;
+&lt;p&gt;Most people know phones collect location data. But the research Zuboff cites made me rethink the scale of what that actually means.&lt;/p&gt;
+&lt;p&gt;In 2013, a team of researchers from MIT and Harvard studied location data and found something striking. Because everyone&amp;rsquo;s movement patterns are uniquely their own — the route you take to work, the coffee shop you go to on weekends, how often you visit the doctor — any analyst with the right tools can extract a specific individual&amp;rsquo;s movement profile from a large anonymized location dataset.&lt;/p&gt;
+&lt;p&gt;Location data cannot be truly anonymized. Computer scientists at Princeton put it directly: there is no known effective method for anonymizing location data, and no evidence that it&amp;rsquo;s even achievable in principle.&lt;/p&gt;
+&lt;p&gt;But location is just the beginning.&lt;/p&gt;
+&lt;p&gt;The sensors inside your phone — accelerometer, gyroscope, magnetometer — look innocuous. They exist to tell your phone which way it&amp;rsquo;s facing, to let maps know you&amp;rsquo;re moving.&lt;/p&gt;
+&lt;p&gt;But researchers found these sensors reveal far more than that. The way you&amp;rsquo;re walking today is slightly different from usual — maybe you&amp;rsquo;re injured, maybe you&amp;rsquo;ve been drinking. Your phone has been still longer than normal — maybe you&amp;rsquo;re sick, maybe you&amp;rsquo;re sleeping. The frequency and amplitude of vibration can reflect your mode of transport, your emotional state.&lt;/p&gt;
+&lt;p&gt;Research has shown that smartphone sensor data alone can be used to infer an ever-growing range of human activities and moods — and to extract sensitive personal information about specific users from supposedly anonymized datasets.&lt;/p&gt;
+&lt;p&gt;These sensors can be accessed by apps without your explicit permission. Many apps collect this data continuously in the background, without you ever knowing.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;your-home&#34;&gt;Your Home&lt;/h2&gt;
+&lt;p&gt;The phone is something you carry. The deeper intrusion happens in your home.&lt;/p&gt;
+&lt;p&gt;Google Home, Amazon Echo — these smart speakers are designed to be always on, always listening. When Google CEO Sundar Pichai introduced Google Assistant, he described the vision as an &amp;ldquo;ongoing, two-way dialogue&amp;rdquo; — a service that would help you get things done in your real world.&lt;/p&gt;
+&lt;p&gt;It sounds convenient. But Zuboff asks a question worth sitting with: what is the cost of that convenience?&lt;/p&gt;
+&lt;p&gt;She writes: there was a time when you searched Google, but now Google searches you.&lt;/p&gt;
+&lt;p&gt;I stopped at that line for a while.&lt;/p&gt;
+&lt;p&gt;Smart home devices record conversations, daily routines, what time you wake up, what temperature you keep your home, your shopping habits, your health concerns. Stacked together, this data builds a more complete picture of you than any survey ever could.&lt;/p&gt;
+&lt;p&gt;Zuboff calls this process &amp;ldquo;rendition&amp;rdquo; — your life being extracted, piece by piece, translated into data, fed into the system.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;your-childrens-toys&#34;&gt;Your Children&amp;rsquo;s Toys&lt;/h2&gt;
+&lt;p&gt;This is the part of the book I found most uncomfortable.&lt;/p&gt;
+&lt;p&gt;There was a smart doll called Cayla — she could talk to children, answer questions, tell stories. Educational, interactive, seemingly wonderful.&lt;/p&gt;
+&lt;p&gt;But what was she collecting? Every word a child said to her. The child&amp;rsquo;s voice, the child&amp;rsquo;s questions, the child&amp;rsquo;s fears and fantasies — all transmitted and used for commercial purposes.&lt;/p&gt;
+&lt;p&gt;In 2017, Germany&amp;rsquo;s Federal Network Agency classified the Cayla doll as an illegal surveillance device and urged parents to destroy any they owned.&lt;/p&gt;
+&lt;p&gt;US regulators took no action.&lt;/p&gt;
+&lt;p&gt;Zuboff&amp;rsquo;s observation cuts deep: these connected toys are preparing the next generation to inhabit a world where there is no boundary between self and market. By the time these children grow up, they won&amp;rsquo;t find any of this strange. Because they will never have known anything different.&lt;/p&gt;
+&lt;p&gt;This isn&amp;rsquo;t just a privacy issue. It&amp;rsquo;s a question about how the next generation will understand what&amp;rsquo;s normal.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;your-body&#34;&gt;Your Body&lt;/h2&gt;
+&lt;p&gt;The surveillance frontier keeps moving inward.&lt;/p&gt;
+&lt;p&gt;Insurance companies have taken intense interest in this logic.&lt;/p&gt;
+&lt;p&gt;Wearable devices can track your heart rate, sleep quality, exercise habits, dietary patterns. For insurers, this data is extraordinarily valuable — it lets them assess risk with precision, adjust premiums, and potentially deny claims when your behavior falls outside acceptable parameters.&lt;/p&gt;
+&lt;p&gt;Zuboff cites internal consulting reports advising that consumer resistance to this kind of monitoring can be overcome by offering discounts large enough that people are willing to make &amp;ldquo;the privacy trade-off&amp;rdquo; despite &amp;ldquo;lingering concerns.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;And if discounts don&amp;rsquo;t work, the advice is to reframe surveillance as fun — make it a game. Reward drivers for good behavior. Create health challenges. This approach is called gamification.&lt;/p&gt;
+&lt;p&gt;In other words: when you think you&amp;rsquo;re playing a game, you&amp;rsquo;re actually being studied.&lt;/p&gt;
+&lt;p&gt;The COVID-19 pandemic gave this logic a rare opportunity to operate at massive scale. Health codes, vaccine passes, contact tracing — within a very short time, governments and platforms had built the infrastructure to track population behavior and health status in real time.&lt;/p&gt;
+&lt;p&gt;There were legitimate public health reasons for some of these measures. Many people accepted the trade-off willingly.&lt;/p&gt;
+&lt;p&gt;But Zuboff returns to a point she makes throughout the book: infrastructure built during states of emergency tends not to disappear when the emergency ends.&lt;/p&gt;
+&lt;p&gt;This tracking infrastructure didn&amp;rsquo;t exist before the pandemic. It was built rapidly during it. Afterward, in various forms, in various places, it remained.&lt;/p&gt;
+&lt;p&gt;The pattern is strikingly similar to Google&amp;rsquo;s story — a &amp;ldquo;temporary&amp;rdquo; measure born of crisis that quietly became permanent.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;what-i-took-away&#34;&gt;What I Took Away&lt;/h2&gt;
+&lt;p&gt;Reading through this section, one thought kept coming back to me.&lt;/p&gt;
+&lt;p&gt;Every individual piece of this — smart speakers, wearables, personalized recommendations — has a reasonable explanation on its own. More convenient. More personalized. Better for your health.&lt;/p&gt;
+&lt;p&gt;Each step makes sense.&lt;/p&gt;
+&lt;p&gt;What Zuboff helped me see is that these individually reasonable steps add up to something whole — a systematic, large-scale extraction and shaping of human behavior.&lt;/p&gt;
+&lt;p&gt;And that whole was never something anyone asked your consent for.&lt;/p&gt;
+&lt;p&gt;You clicked &amp;ldquo;agree.&amp;rdquo; But what you agreed to was dozens of pages of terms no one reads — not the system itself.&lt;/p&gt;
+&lt;p&gt;She quotes a line I keep thinking about: surveillance capitalist leaders assume we will accept all of this the way Steinbeck&amp;rsquo;s farmers accepted the bank&amp;rsquo;s logic — because it&amp;rsquo;s successful, because it works, so its rules must be right, must be inevitable.&lt;/p&gt;
+&lt;p&gt;But Zuboff says: no. This was built by people. People can choose differently. They simply chose not to.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;That&amp;rsquo;s Episode 2.&lt;/p&gt;
+&lt;p&gt;We&amp;rsquo;ve mapped the territory — from the phone in your hand, to the rooms of your home, to your children&amp;rsquo;s toys, to your body. This logic has no natural boundary. Wherever new data can be extracted, it will go.&lt;/p&gt;
+&lt;p&gt;But there&amp;rsquo;s one thing we haven&amp;rsquo;t addressed yet. You might be thinking: at least my data is anonymous. At least they don&amp;rsquo;t know it&amp;rsquo;s me.&lt;/p&gt;
+&lt;p&gt;Next episode, we look at that assumption. The answer might make you uncomfortable.&lt;/p&gt;
+&lt;p&gt;This is &lt;em&gt;Let&amp;rsquo;s Read Together&lt;/em&gt;. I&amp;rsquo;m Allen.&lt;/p&gt;
+- https://benlai.me/reading/ep2-your-phone-your-home-your-childrens-toys/ - </description>
+        </item>
     
     
     
@@ -549,109 +630,6 @@
 &lt;p&gt;所以这个时代真正的挑战不是技术挑战，而是意识挑战。我们需要问的不只是「AI 能做什么」，而是「我们想成为什么样的人，然后用 AI 去实现它」。&lt;/p&gt;
 &lt;p&gt;这是我正在学习搭建 AI 智能体的底层动机——不只是为了效率，而是想真正理解这个工具的边界在哪里，它能映射什么，它无法触达什么，以及在这个过程中，我自己的意识在哪里。人类要有意识地、正向地使用它。这句话说起来容易，但「有意识」本身，就是最难的功课。&lt;/p&gt;
 - https://benlai.me/ai/%E6%88%91%E7%9A%84ai%E8%A7%82/ - </description>
-        </item>
-    
-    
-    
-        <item>
-        <title>A2A时代来了——为什么你需要自己的AI智能体？</title>
-        <link>https://benlai.me/culture/a2a-era-ai-agent/</link>
-        <pubDate>Sat, 23 May 2026 00:00:00 +0000</pubDate>
-        
-        <guid>https://benlai.me/culture/a2a-era-ai-agent/</guid>
-        <description>本来 https://benlai.me/culture/a2a-era-ai-agent/ -&lt;p&gt;&lt;img src=&#34;https://benlai.me/images/x_article_cover_a2a.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;h2 id=&#34;一先搞清楚一件事什么是ai智能体&#34;&gt;一、先搞清楚一件事：什么是AI智能体？&lt;/h2&gt;
-&lt;p&gt;很多人对AI的理解还停留在&amp;quot;聊天机器人&amp;quot;这个阶段。你问它一个问题，它回答你，然后就结束了。&lt;/p&gt;
-&lt;p&gt;AI智能体（AI Agent）不一样。&lt;/p&gt;
-&lt;p&gt;它不只是&amp;quot;回答&amp;quot;，它会行动。&lt;/p&gt;
-&lt;p&gt;你可以把AI智能体理解为：一个懂你、能代表你、能独立完成任务的数字助理。&lt;/p&gt;
-&lt;p&gt;举个具体的例子——&lt;/p&gt;
-&lt;p&gt;你告诉你的智能体：&amp;ldquo;帮我整理这周所有客户的会议记录，提炼关键信息，然后根据每个人的情况起草下周的跟进邮件。&amp;rdquo;&lt;/p&gt;
-&lt;p&gt;它不会停下来问你&amp;quot;邮件用中文还是英文&amp;quot;，不会等你一步一步确认，它会自己判断、自己去做，做完交给你审核。&lt;/p&gt;
-&lt;p&gt;这才是AI智能体。它的核心能力有三点：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;感知&lt;/strong&gt;：能读取信息（文件、邮件、网页、数据）&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;规划&lt;/strong&gt;：能把大目标拆成小步骤&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;执行&lt;/strong&gt;：能调用工具、完成动作、输出结果&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;二为什么每个人都需要自己的ai智能体&#34;&gt;二、为什么每个人都需要自己的AI智能体？&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;https://benlai.me/images/screenshot-a2a-frame.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;我想用一个类比来回答这个问题。&lt;/p&gt;
-&lt;p&gt;在过去，能雇得起私人秘书、律师顾问、财务助理的人，工作效率远远高于普通人。他们不需要亲力亲为每一件事，他们有人帮他们处理信息、过滤干扰、执行决策。&lt;/p&gt;
-&lt;p&gt;这就是为什么精英永远比普通人多出那么几个小时——不是因为他们更勤奋，而是因为他们的时间被更好地杠杆化了。&lt;/p&gt;
-&lt;p&gt;AI智能体，正在把这种杠杆普及给每一个人。&lt;/p&gt;
-&lt;p&gt;你的智能体可以做什么？&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;帮你研究一个陌生领域，整理成你能直接使用的报告&lt;/li&gt;
-&lt;li&gt;帮你监控某个行业的最新动态，每天推送摘要给你&lt;/li&gt;
-&lt;li&gt;帮你起草、修改、翻译文件，不需要你一个字一个字地写&lt;/li&gt;
-&lt;li&gt;帮你管理日程、提醒事项、跟进待办&lt;/li&gt;
-&lt;li&gt;代替你去处理那些&amp;quot;重要但耗时&amp;quot;的后台工作&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;更关键的是——它不会累，不会忘，不会请病假。&lt;/p&gt;
-&lt;h2 id=&#34;三a2a我认为即将到来的范式转变&#34;&gt;三、A2A：我认为即将到来的范式转变&lt;/h2&gt;
-&lt;p&gt;现在很多人讨论的是&amp;quot;人与AI&amp;quot;的交互，也就是你跟一个智能体对话，让它帮你做事。&lt;/p&gt;
-&lt;p&gt;但我认为，真正的革命在下一步：A2A，智能体与智能体之间的协作。&lt;/p&gt;
-&lt;p&gt;想象一下这个场景——&lt;/p&gt;
-&lt;p&gt;你的智能体（懂你的偏好、你的工作风格、你的目标）在后台，独立地与其他专业智能体对话：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;它联系法律智能体，帮你审查一份合同&lt;/li&gt;
-&lt;li&gt;同时调用财务智能体，分析这笔交易的税务影响&lt;/li&gt;
-&lt;li&gt;再跟日程智能体确认，找到双方都能开会的时间&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;整个过程，你只需要在最后审批结果。&lt;/p&gt;
-&lt;p&gt;这不是科幻，Google、Anthropic、微软都已经在推进这个方向，底层协议（比如Anthropic提出的MCP协议）正在让不同智能体之间的&amp;quot;对话&amp;quot;成为可能。&lt;/p&gt;
-&lt;p&gt;A2A时代的核心逻辑是：&lt;/p&gt;
-&lt;p&gt;过去，谁的人脉广、资源多，谁就有优势。
-未来，谁的智能体网络强、协作效率高，谁就有优势。&lt;/p&gt;
-&lt;p&gt;你不再是一个人在战斗，你是一支小型团队的指挥官——只不过你的团队成员，都是AI。&lt;/p&gt;
-&lt;h2 id=&#34;四现在应该怎么做&#34;&gt;四、现在应该怎么做？&lt;/h2&gt;
-&lt;p&gt;我的建议很简单，分三步：&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;第一步：先用起来。&lt;/strong&gt;
-不要等到&amp;quot;完全了解&amp;quot;再开始。现在就找一个你每天重复做的低价值任务，让AI智能体接管它。从小事开始，建立习惯。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;第二步：建立自己的知识系统。&lt;/strong&gt;
-智能体的上限，取决于你给它的上下文质量。如果你有一套结构化的笔记、清晰的工作流、明确的目标，你的智能体会比别人的更聪明。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;第三步：开始思考&amp;quot;编排&amp;quot;。&lt;/strong&gt;
-不要只学怎么用一个工具，要开始思考：我的哪些工作流程，可以让多个智能体分工完成？这个思维方式，就是A2A时代的核心竞争力。&lt;/p&gt;
-&lt;h2 id=&#34;最后说一句&#34;&gt;最后说一句&lt;/h2&gt;
-&lt;p&gt;我一直觉得，技术的本质是把稀缺变成普惠。&lt;/p&gt;
-&lt;p&gt;电力普及之前，只有富人家里有灯。互联网普及之前，只有大公司才有信息优势。&lt;/p&gt;
-&lt;p&gt;AI智能体，正在做同样的事——把原本只属于少数人的&amp;quot;执行杠杆&amp;quot;，交到每一个人手里。&lt;/p&gt;
-&lt;p&gt;你现在需要做的，不是等待，而是比别人早一步学会使用这把杠杆。&lt;/p&gt;
-&lt;p&gt;A2A时代，已经不是将来时了。&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;如果你也在学习搭建自己的AI工作流，欢迎关注——我会持续记录从零开始构建AI智能体的全过程。&lt;/em&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;the-a2a-era-is-here--why-you-need-your-own-ai-agent&#34;&gt;The A2A Era Is Here — Why You Need Your Own AI Agent&lt;/h2&gt;
-&lt;p&gt;Most people still think of AI as a chatbot. You ask it something, it answers, and that&amp;rsquo;s the end of it.&lt;/p&gt;
-&lt;p&gt;AI agents are something different. They don&amp;rsquo;t just respond. They act.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;What is an AI agent?&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Think of it as a digital representative that knows you, can act on your behalf, and completes tasks independently.&lt;/p&gt;
-&lt;p&gt;You tell it: &amp;ldquo;Go through all my client meeting notes from this week, pull out the key points, and draft personalized follow-up emails for each person.&amp;rdquo;&lt;/p&gt;
-&lt;p&gt;It doesn&amp;rsquo;t stop to ask you every clarifying question. It doesn&amp;rsquo;t wait for you to confirm each step. It figures it out, executes, and hands you the result to review.&lt;/p&gt;
-&lt;p&gt;That&amp;rsquo;s an agent. Three core capabilities: perceive (read and process information), plan (break goals into steps), act (use tools, complete tasks, produce output).&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Why does everyone need one?&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Historically, the people who could afford personal assistants, legal counsel, and financial advisors had a structural advantage. They didn&amp;rsquo;t have to do everything themselves. They had people to filter noise, process information, and execute decisions.&lt;/p&gt;
-&lt;p&gt;That&amp;rsquo;s why high-performers always seem to have more hours in the day — not because they work harder, but because their time is better leveraged.&lt;/p&gt;
-&lt;p&gt;AI agents are democratizing that leverage.&lt;/p&gt;
-&lt;p&gt;Your agent can research unfamiliar topics, monitor industry developments, draft documents, manage your schedule, and handle the &amp;ldquo;important but time-consuming&amp;rdquo; work that eats your day. And unlike a human assistant, it doesn&amp;rsquo;t get tired, doesn&amp;rsquo;t forget, and never calls in sick.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;A2A: where I think the real shift happens&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Right now, most people are thinking about human-to-AI interaction. You talk to an agent, it helps you. That&amp;rsquo;s already useful.&lt;/p&gt;
-&lt;p&gt;But I think the real revolution is one step further: Agent-to-Agent, or A2A — AI systems working with other AI systems on your behalf.&lt;/p&gt;
-&lt;p&gt;Picture this: your personal agent, working in the background, coordinates with a legal agent to review a contract, a financial agent to model the tax implications, and a scheduling agent to find a time that works for everyone. You only step in to approve the final output.&lt;/p&gt;
-&lt;p&gt;This isn&amp;rsquo;t science fiction. Google, Anthropic, and Microsoft are all pushing in this direction. The underlying protocols that allow agents to communicate with each other are being built right now.&lt;/p&gt;
-&lt;p&gt;The core logic is simple: in the past, your advantage came from who you knew and what resources you could access. In the future, it will come from how capable and well-connected your agent network is.&lt;/p&gt;
-&lt;p&gt;You&amp;rsquo;re no longer a solo operator. You&amp;rsquo;re a commander with a team — a team that happens to be entirely AI.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;What should you do right now?&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Three moves:&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;First, start using agents today.&lt;/strong&gt; Pick one repetitive, low-value task you do every day and hand it off. Build the habit before you feel &amp;ldquo;ready.&amp;rdquo; You&amp;rsquo;ll never feel fully ready.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Second, invest in your personal knowledge system.&lt;/strong&gt; An agent&amp;rsquo;s effectiveness is bounded by the quality of context you give it. Structured notes, clear workflows, explicit goals — these make your agent smarter than everyone else&amp;rsquo;s.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Third, start thinking in terms of orchestration.&lt;/strong&gt; Don&amp;rsquo;t just ask &amp;ldquo;how do I use this tool?&amp;rdquo; Ask: &amp;ldquo;Which parts of my workflow could be split across multiple specialized agents?&amp;rdquo; That mental shift is the core skill of the A2A era.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;One last thought&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Technology has always done the same thing: it takes what was scarce and makes it widely available. Before electricity, only the wealthy had light at night. Before the internet, only large organizations had information advantages.&lt;/p&gt;
-&lt;p&gt;AI agents are doing this again — putting the kind of execution leverage that used to belong only to the privileged few into the hands of anyone willing to learn how to use it.&lt;/p&gt;
-&lt;p&gt;You don&amp;rsquo;t need to wait. You just need to start before most people realize the shift has already happened.&lt;/p&gt;
-&lt;p&gt;The A2A era isn&amp;rsquo;t coming. It&amp;rsquo;s here.&lt;/p&gt;
-- https://benlai.me/culture/a2a-era-ai-agent/ - </description>
         </item>
     
     
