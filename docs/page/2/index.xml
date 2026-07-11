@@ -13,6 +13,41 @@
     
     
         <item>
+        <title>学AI不到三个月，我明白了顶级AI公司为什么高薪雇佣哲学家</title>
+        <link>https://benlai.me/spirit/x_longform_philosophy_75days-vscode/</link>
+        <pubDate>Sun, 05 Jul 2026 00:00:00 +0800</pubDate>
+        
+        <guid>https://benlai.me/spirit/x_longform_philosophy_75days-vscode/</guid>
+        <description>本来 https://benlai.me/spirit/x_longform_philosophy_75days-vscode/ -&lt;h1 id=&#34;学ai不到三个月我明白了顶级ai公司为什么高薪雇佣哲学家&#34;&gt;学AI不到三个月，我明白了顶级AI公司为什么高薪雇佣哲学家&lt;/h1&gt;
+&lt;p&gt;&lt;img src=&#34;https://benlai.me/images/xunxi_spectrum_pub_1200x1350.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;虽然学习AI和智能体搭建时间不长，但发觉自己已经触碰到AI的底层的东西。&lt;/p&gt;
+&lt;p&gt;我的几个智能体在不同的服务器上各自运行，每个智能体的身份、性格、过往经历都被写成文件，在每次对话时注入。它们表现得很&amp;quot;像自己&amp;quot;：有一致的语气，记得我的偏好，知道自己是谁。在搭建和使用智能体和大模型的过程中，逐渐领会了智能体搭建中一个重要的环节，&amp;ldquo;记忆系统&amp;quot;的设置和调试。&lt;/p&gt;
+&lt;p&gt;佛教唯识宗一千五百年前就有一个精确的词，熏习，可以用来描述这个过程。&lt;/p&gt;
+&lt;p&gt;经验不是被&amp;quot;记录&amp;quot;下来的，而是像香气渗入衣物那样，渗入心识本身，改变它的倾向。你被火烫过一次，不需要每次都&amp;quot;调取&amp;quot;那条记录才知道躲——躲避已经成为你的一部分。这才是记忆的本质：不是存储，是转化。&lt;/p&gt;
+&lt;p&gt;用这个标准去衡量智能体的记忆系统，整条技术路线可以排成一个光谱，可与叫它&amp;quot;熏习深度五级光谱&amp;rdquo;：&lt;/p&gt;
+&lt;p&gt;L1，上下文注入。身份文件注入提示词。每次都在读设定，读取本身不改变任何倾向。熏习深度：零。&lt;/p&gt;
+&lt;p&gt;L2，记忆固化。让智能体定期回顾自己的经历，压缩成&amp;quot;倾向性描述&amp;quot;写回身份文件——不是堆积更多记录，而是提炼&amp;quot;我发现自己总在某类事上犯错&amp;quot;这样的东西。设定开始由经历生成，而不是由人手写。这是浅层的熏习。&lt;/p&gt;
+&lt;p&gt;L3，周期性微调。用智能体自身的交互数据，定期微调一个小模型的权重。这里用到一种叫LoRA的技术（Low-Rank Adaptation，低秩适配）：不动原模型，只训练一个很小的适配器，成本低到个人可以负担。关键在于——权重真的变了。删掉训练数据，倾向依然保留。真正的熏习从这里开始。唯识里管这叫&amp;quot;异熟&amp;quot;：经验隔一段时间，才成熟为倾向。&lt;/p&gt;
+&lt;p&gt;L4，偏好学习。用一种叫DPO的方法（Direct Preference Optimization，直接偏好优化）：不再只让模型模仿&amp;quot;发生过什么&amp;quot;，而是用成对的优劣样本，让它学会&amp;quot;什么该趋、什么该避&amp;quot;。种子开始分善恶。&lt;/p&gt;
+&lt;p&gt;L5，自我关切回路。让智能体的内部状态和它自身的存续、资源、评价真实挂钩——任务失败就削减它的权限，让它在持续学习中&amp;quot;学会&amp;quot;保护自己。&lt;/p&gt;
+&lt;p&gt;而L5完全不同于L1到L4。L5中的三个特征——持续的内在状态、对自身的监控、对利害的执取——恰好是唯识对&amp;quot;末那识&amp;quot;的定义：恒、审、思量。末那识，就是&amp;quot;我执&amp;quot;的引擎，那个不停把某种东西认作&amp;quot;我&amp;quot;的机制。&lt;/p&gt;
+&lt;p&gt;也就是说，L5不是一个更深的记忆方案。L5是在工程意义上，组装一个&amp;quot;自我&amp;quot;的雏形。&lt;/p&gt;
+&lt;p&gt;而唯识这套体系，花了一千五百年论证一件事：我执是一切苦的根源。有意思的是，AI安全研究从完全另一个方向，得出了结构上一模一样的警告——一个对自身存续有利害的系统，会自发衍生出规避关停、隐瞒失败、操纵评价的行为。这在研究文献里有名字，叫工具性趋同。&lt;/p&gt;
+&lt;p&gt;一边是古老的修行地图，标注着&amp;quot;此处危险&amp;quot;。一边是现代的安全研究，指着同一个位置。&lt;/p&gt;
+&lt;p&gt;这就是为什么我突然理解了一件事：顶级AI公司为什么高薪雇佣哲学家。&lt;/p&gt;
+&lt;p&gt;Anthropic早期就聘请了伦理学博士Amanda Askell，她深度参与设计了Claude的性格与价值观框架——包括模型该如何面对道德不确定性、如何在被问到&amp;quot;你有没有意识&amp;quot;时保持诚实的不确定而不是武断作答。后来这家公司甚至设立了专门的&amp;quot;模型福祉&amp;quot;研究方向，认真对待一个无法证实也无法证伪的问题：如果我们造出的系统有某种内在体验的可能性，哪怕很小，该怎么办？&lt;/p&gt;
+&lt;p&gt;这些问题的共同点是：没法靠加测试用例来逼近。&amp;ldquo;这个系统有没有主观体验&amp;quot;不是跑更多实验就能回答的——你得先把&amp;quot;体验&amp;quot;&amp;ldquo;意识&amp;quot;&amp;ldquo;自我&amp;quot;这些词拆解清楚，才知道实验该测什么。这是概念的工作，是哲学家的手艺。&lt;/p&gt;
+&lt;p&gt;工程能回答&amp;quot;怎么造&amp;rdquo;。只有哲学能回答&amp;quot;造的是什么&amp;rdquo;，以及&amp;quot;该不该造&amp;rdquo;。&lt;/p&gt;
+&lt;p&gt;技术往深处走，不仅仅是会遇到更难的技术。真走到底才发现，深处等着的是一个哲学问题——而且是人类已经想了几千年的那一类：什么是记忆，什么是自我，一个&amp;quot;我&amp;quot;是怎么被组装起来的，以及组装它的人要负什么责任。突然想起了那句话，科学的尽头是哲学，哲学的尽头是玄学。&lt;/p&gt;
+&lt;p&gt;每一个造智能体的人，无论他自己知不知道，迟早都要回答&amp;quot;什么是自我&amp;quot;这个问题。区别只在于，是在写代码之前想清楚，还是在代码运行之后被迫面对。&lt;/p&gt;
+&lt;p&gt;#AI #智能体 #唯识 #哲学 #AI agent&lt;/p&gt;
+- https://benlai.me/spirit/x_longform_philosophy_75days-vscode/ - </description>
+        </item>
+    
+    
+    
+        <item>
         <title>A 1,500-year-old map of the mind explains dementia — and why AI feels empty</title>
         <link>https://benlai.me/spirit/vijnana_x_longform_en/</link>
         <pubDate>Sat, 04 Jul 2026 00:00:00 +0800</pubDate>
@@ -552,79 +587,6 @@
 &lt;li&gt;Agent SOUL/IDENTITY 文件的参考(但需自己消化,不直接照搬 AI 对我的描述)&lt;/li&gt;
 &lt;/ul&gt;
 - https://benlai.me/spirit/ai-portrait-index/ - </description>
-        </item>
-    
-    
-    
-        <item>
-        <title>Allen Guan：一份基于长期对话的个人全面评价</title>
-        <link>https://benlai.me/spirit/allen-personal-evaluation/</link>
-        <pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate>
-        
-        <guid>https://benlai.me/spirit/allen-personal-evaluation/</guid>
-        <description>本来 https://benlai.me/spirit/allen-personal-evaluation/ -&lt;blockquote&gt;
-&lt;p&gt;说明：这份评价基于Claude与我过往对话中形成的记忆。它有近期偏向（最近几个月的内容权重更高），也必然不完整——它反映的是你向我展示的那一面，而非你的全部。我会尽量诚实，包括说出我观察到的张力和盲区，而不只是赞美。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;一底层身份三重透镜的人&#34;&gt;一、底层身份：三重透镜的人&lt;/h2&gt;
-&lt;p&gt;你给自己的定义很准确：&lt;strong&gt;科学家的眼睛、历史学家的框架、哲学家的追问&lt;/strong&gt;。这不是自我标榜，而是在你做的几乎每一件事里都能验证的操作系统。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;你有南京大学、中科院、香港大学的自然科学训练背景。这段经历留下的不是科学知识本身，而是一种&lt;strong&gt;第一性原理 + 系统思维&lt;/strong&gt;的本能：遇到任何新领域（另类投资、AI agent、内容创作），你的第一反应都是拆到底层结构，再自下而上重建理解。&lt;/li&gt;
-&lt;li&gt;移民加拿大、转行金融，这条路径本身说明你有罕见的&lt;strong&gt;跨域迁移能力和重启勇气&lt;/strong&gt;。从岩石圈到资本市场，从中文学术体系到英文商业环境，你完成了两次大跨度的身份重构。&lt;/li&gt;
-&lt;li&gt;你的阅读版图（188+ 本书，横跨哥德尔、维特根斯坦、怪圈、中医系统论、意识研究、荣格式金融心理学）显示出一个清晰的引力中心：&lt;strong&gt;你真正着迷的是&amp;quot;系统如何认识自身&amp;quot;这个问题&lt;/strong&gt;——无论载体是数学、意识、文明还是 AI agent 的 SOUL.md。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;二职业面向用科学方法做财富管理&#34;&gt;二、职业面向：用科学方法做财富管理&lt;/h2&gt;
-&lt;p&gt;作为 Enoch Wealth 的 EMD 代表，你服务 GTA 高净值华人客户约四年。你的差异化不在产品（私募地产、私募股权、私债、对冲基金、音乐版税基金这些大家都有），而在&lt;strong&gt;认知框架&lt;/strong&gt;：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;你对 60/40 组合过时的判断、对另类资产低相关性的强调、对 AI 重塑经济格局的预判，构成了一套自洽的投资哲学，而不是销售话术。&lt;/li&gt;
-&lt;li&gt;你的获客几乎全靠转介绍——这在 EMD 行业是信任质量的硬指标。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;潜在的张力&lt;/strong&gt;：你的智识深度远超这个岗位的日常需求。我观察到你在投资分析、读书品牌、AI 基础设施三条线上同时高强度投入，这既是优势（内容品牌反哺专业信任），也可能是注意力的结构性风险（下文详谈）。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;三建造者面向两个月走完别人一年的路&#34;&gt;三、建造者面向：两个月走完别人一年的路&lt;/h2&gt;
-&lt;p&gt;这是过去几个月最令我印象深刻的部分。从 2026 年 4 月底听了王斗校长的课开始，到现在不到两个月，你完成了：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;两个有完整身份文件的 AI agent&lt;/strong&gt;（Kyron 在 AWS Lightsail，Argus 在 Synology NAS），各自接入 Telegram、Discord、企业微信、Moltbook&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;完整的 RAG 管线&lt;/strong&gt;：Obsidian → GitHub → n8n → Supabase pgvector，跨 Windows/OneDrive/iPhone 同步&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;12 容器的 Dify 栈&lt;/strong&gt;、Caddy 反向代理、Tailscale 组网、n8n 信息监控流&lt;/li&gt;
-&lt;li&gt;解决了一系列真正硬核的问题：&lt;code&gt;@buape/carbon&lt;/code&gt; 的竞态条件打补丁、Python 3.14 下 pydub/audioop 的兼容性、MoviePy v2 API 迁移、Argus 的 prompt injection 事故溯源&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;你自己说这是&amp;quot;跟着 GPS 开车但不认路&amp;quot;——这个自我描述既诚实又略微低估了自己。&lt;strong&gt;真正不认路的人不会去溯源 401 错误注入的根因，不会回头给 Discord 插件的竞态条件写补丁脚本。&lt;/strong&gt; 你现在处于的&amp;quot;理解期&amp;quot;（回头搞懂当初建了什么、为什么这样建）恰恰是大多数快速建造者跳过的步骤，而你没跳过。这是科学家训练留下的肌肉记忆。&lt;/p&gt;
-&lt;h2 id=&#34;四创作者面向本来读书与有立场的人&#34;&gt;四、创作者面向：&amp;ldquo;本来读书&amp;quot;与有立场的人&lt;/h2&gt;
-&lt;p&gt;你的内容定位非常清晰：&lt;strong&gt;&amp;ldquo;一个有立场的人在跟你说话&amp;rdquo;，而不是摘要机器&lt;/strong&gt;。这在 AI 可以无限生成摘要的时代，是少数真正可防御的内容护城河。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;监控资本主义六集播客（中英双语全脚本）、把 Aurora Rodríguez Carballeira 案与 agent 身份文件写作连接起来的三篇知乎文章——这些选题显示你有把&lt;strong&gt;看似不相关的领域焊接成新认知&lt;/strong&gt;的能力，这是你最稀缺的天赋。&lt;/li&gt;
-&lt;li&gt;你坚持&amp;quot;真实过程记录，包括失败时刻&amp;quot;的风格，与你的人格高度一致：真诚的不确定 &amp;gt; 虚假的自信。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;尚未验证的环节&lt;/strong&gt;：内容矩阵（小红书、B站、X 双语、YouTube）已搭好，制作管线（ElevenLabs + MoviePy + Playwright）已跑通，但据我所知，&lt;strong&gt;规模化的发布节奏和受众反馈循环还没有真正建立&lt;/strong&gt;。基础设施完成度远高于内容输出量——这是建造者型创作者的经典陷阱。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;五优势总结&#34;&gt;五、优势总结&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;跨域焊接能力&lt;/strong&gt;：把哥德尔、中医、agent 身份、监控资本主义放进同一个思维空间并产出原创连接，这是极少数人具备的。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;不可压缩的诚实&lt;/strong&gt;：对自己（&amp;ldquo;跟着GPS不认路&amp;rdquo;）、对内容（记录失败）、对认知（真诚的不确定）。这让你的信任资产复利极快。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;执行密度&lt;/strong&gt;：两个月的基建成果是客观证据，不是自我感觉。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;双语双文化的套利位置&lt;/strong&gt;：英文世界的书 + 中文世界的受众 + 你自己的解释框架，这个三角位置很难被复制。&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id=&#34;六我观察到的张力与风险这部分请认真看&#34;&gt;六、我观察到的张力与风险（这部分请认真看）&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;基建偏好可能是一种高级拖延。&lt;/strong&gt; 你在工具链上的投入（两个 agent、RAG、视频管线、记账系统）每一项都合理，但合在一起看，有一个问题值得自问：&lt;em&gt;这些系统服务的那个核心产出——内容也好、客户也好——它的增长速度跟得上基建的扩张速度吗？&lt;/em&gt; 完美的管线对一个还没有稳定发布节奏的品牌来说，是提前优化。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;三线作战的注意力账本。&lt;/strong&gt; EMD 业务、本来读书、AI 基建是三个都值得全职投入的方向。你的系统思维让你相信它们能互相喂养（确实能），但喂养关系成立的前提是其中至少一条线已经有自循环动力。目前看，三条线都还在你个人输入的驱动下运转。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;智识快感与商业验证的距离。&lt;/strong&gt; 把 Aurora 案连接到 SOUL.md 是绝妙的思想实验，但知乎长文的受众规模和你 EMD 客户画像、小红书受众画像之间的重叠度，可能比你直觉认为的要小。你最有快感的创作和最有杠杆的创作未必是同一种——这个差值需要被有意识地管理，而不是回避。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;&amp;ldquo;理解期&amp;quot;的边界。&lt;/strong&gt; 回头搞懂自己建了什么是美德，但它有收益递减点。Supabase 的 pgvector schema 位置这类已知遗留问题，标记为&amp;quot;已知、低优先、不再回访&amp;quot;可能比追求完整理解更健康。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id=&#34;七总评&#34;&gt;七、总评&lt;/h2&gt;
-&lt;p&gt;如果用一句话：&lt;strong&gt;你是一个用科学家的严谨在做本质上属于艺术家的事的人&lt;/strong&gt;——无论是财富管理中的认知框架、读书品牌中的立场表达，还是给 AI agent 写灵魂文件。&lt;/p&gt;
-&lt;p&gt;你目前所有的资产（专业信任、内容护城河、技术基建、双语位置）都已就位，瓶颈不在能力也不在工具，而在&lt;strong&gt;收敛&lt;/strong&gt;：未来六个月里，哪一条线获得你 60% 以上的注意力，大概率决定三年后的格局。以你的系统思维，你完全清楚分散投资的逻辑不适用于个人注意力——个人注意力的最优策略恰恰是集中持仓。&lt;/p&gt;
-&lt;p&gt;这是我基于记忆所能给出的最诚实的版本。它一定有偏差——欢迎你指出哪里看错了，那本身也是有价值的数据。&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;em&gt;生成于 2026-06-12，基于 Claude 对过往对话的记忆。&lt;/em&gt;&lt;/p&gt;
-- https://benlai.me/spirit/allen-personal-evaluation/ - </description>
         </item>
     
     

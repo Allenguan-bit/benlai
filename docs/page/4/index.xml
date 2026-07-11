@@ -13,6 +13,78 @@
     
     
         <item>
+        <title>《跟我一起读书吧》第四期</title>
+        <link>https://benlai.me/reading/%E7%AC%AC%E5%9B%9B%E6%9C%9F_%E5%90%8C%E4%B8%80%E5%A5%97%E9%80%BB%E8%BE%91%E4%B8%8D%E5%90%8C%E7%9A%84%E4%BD%BF%E7%94%A8%E8%80%85/</link>
+        <pubDate>Fri, 05 Jun 2026 00:00:00 +0800</pubDate>
+        
+        <guid>https://benlai.me/reading/%E7%AC%AC%E5%9B%9B%E6%9C%9F_%E5%90%8C%E4%B8%80%E5%A5%97%E9%80%BB%E8%BE%91%E4%B8%8D%E5%90%8C%E7%9A%84%E4%BD%BF%E7%94%A8%E8%80%85/</guid>
+        <description>本来 https://benlai.me/reading/%E7%AC%AC%E5%9B%9B%E6%9C%9F_%E5%90%8C%E4%B8%80%E5%A5%97%E9%80%BB%E8%BE%91%E4%B8%8D%E5%90%8C%E7%9A%84%E4%BD%BF%E7%94%A8%E8%80%85/ -&lt;h2 id=&#34;同一套逻辑不同的使用者&#34;&gt;&amp;ldquo;同一套逻辑，不同的使用者&amp;rdquo;&lt;/h2&gt;
+&lt;hr&gt;
+&lt;p&gt;我想从一个观察开始。&lt;/p&gt;
+&lt;p&gt;过去几期我们一直在聊硅谷——Google、Facebook、Amazon。但读这本书的时候，我一直有一个感觉：Zuboff描述的这套逻辑，不是某一个地方特有的现象。&lt;/p&gt;
+&lt;p&gt;它是一套技术基础设施，加上一套对人类行为数据的理解方式。&lt;/p&gt;
+&lt;p&gt;这套基础设施，在不同的地方，被不同的人，用于不同的目的。&lt;/p&gt;
+&lt;p&gt;今天我们来聊这件事。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;先回到一个基本问题&#34;&gt;先回到一个基本问题&lt;/h2&gt;
+&lt;p&gt;我们前几期建立了一个框架：监控资本主义的核心，是把人类的行为数据提取出来，转化成预测产品，然后用来影响和塑造行为。&lt;/p&gt;
+&lt;p&gt;驱动这套系统的，在西方主要是商业逻辑——广告收入，行为期货市场，股东回报。&lt;/p&gt;
+&lt;p&gt;但Zuboff在书里问了一个问题：这套基础设施，如果不是为了卖广告，而是为了其他目的，会是什么样子？&lt;/p&gt;
+&lt;p&gt;这个问题，在世界的不同角落，已经有了不同的答案。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;商业监控的边界在哪里&#34;&gt;商业监控的边界在哪里&lt;/h2&gt;
+&lt;p&gt;我们先把西方的情况说清楚。&lt;/p&gt;
+&lt;p&gt;在硅谷模式里，数据的主要流向是广告市场。平台收集你的行为数据，卖给广告商，广告商用这些数据向你推送更精准的广告。这套系统的目标，是让你买更多东西，点更多广告，在屏幕前停留更长时间。&lt;/p&gt;
+&lt;p&gt;但这套系统有没有边界？&lt;/p&gt;
+&lt;p&gt;Zuboff的答案是：没有自然的边界。&lt;/p&gt;
+&lt;p&gt;只要有新的数据来源，这套系统就会往那里扩展。从搜索记录到位置数据，从社交媒体到智能家居，从可穿戴设备到儿童玩具。每一次扩展，都有一个听起来合理的理由——更好的服务，更个性化的体验，更方便的生活。&lt;/p&gt;
+&lt;p&gt;但扩展的方向，从来不是由用户决定的。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;当同样的技术遇到不同的需求&#34;&gt;当同样的技术遇到不同的需求&lt;/h2&gt;
+&lt;p&gt;现在我们来看另一种情况。&lt;/p&gt;
+&lt;p&gt;同样的技术基础设施——大规模数据收集、行为分析、预测模型、实时干预——如果使用者的目标不是卖广告，而是别的什么，会发生什么？&lt;/p&gt;
+&lt;p&gt;这里我想插入一个离我们更近的例子。&lt;/p&gt;
+&lt;p&gt;2016年，一家中文搜索引擎宣布，他们的大数据实验室正在利用来自六亿用户的位置数据，追踪和预测整个经济体的动态——就业指数、消费指数，甚至某家科技公司在特定季度的营收预测。&lt;/p&gt;
+&lt;p&gt;研究人员写道，他们是第一个通过挖掘如此大规模、细粒度的时空数据来衡量一个主要经济体的团队。&lt;/p&gt;
+&lt;p&gt;一家私人公司，通过追踪六亿人的位置，建立了一套比官方统计更实时、更精准的经济监测系统。这不是未来的科幻场景，这是已经发生的事情。&lt;/p&gt;
+&lt;p&gt;这种能力，对不同的使用者，意味着完全不同的东西。对一家公司来说，它意味着更精准的商业决策。对一个政府来说，它意味着对人口流动、社会情绪、经济状态的实时掌握。&lt;/p&gt;
+&lt;p&gt;数据本身是中立的。使用数据的人，决定了它的意义。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;新冠疫情一次大规模的实验&#34;&gt;新冠疫情：一次大规模的实验&lt;/h2&gt;
+&lt;p&gt;2020年开始的新冠疫情，给了全世界一个观察这套逻辑的特殊窗口。&lt;/p&gt;
+&lt;p&gt;在很短的时间里，许多国家和地区建立了基于手机数据的人口追踪系统——健康码、行程记录、接触者追踪。&lt;/p&gt;
+&lt;p&gt;从技术角度看，这些系统和监控资本主义的基础设施高度重叠：大规模收集位置数据，实时分析行为，根据分析结果限制或允许特定行动。&lt;/p&gt;
+&lt;p&gt;在公共卫生紧急状态下，这些措施有其合理性。很多人也愿意接受这种权衡——用一部分隐私，换取更安全的公共环境。&lt;/p&gt;
+&lt;p&gt;但Zuboff在书里反复强调一件事：紧急状态下建立的基础设施，往往不会随着紧急状态的结束而消失。&lt;/p&gt;
+&lt;p&gt;这套追踪系统，在疫情之前不存在。在疫情期间被快速建立。在疫情之后，以不同的形式，在不同的地方，继续存在。&lt;/p&gt;
+&lt;p&gt;这个模式，和Google当年的故事惊人地相似——生存压力下的&amp;quot;暂时&amp;quot;措施，后来变成了永久的基础设施。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;两种模式一个共同点&#34;&gt;两种模式，一个共同点&lt;/h2&gt;
+&lt;p&gt;读到这里，我想说一个我自己的观察。&lt;/p&gt;
+&lt;p&gt;西方的商业监控模式和其他地方的监控模式，表面上看目标不同——一个是卖广告，一个可能是别的。但它们有一个深层的共同点：&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;普通人的行为数据，在没有真正知情同意的情况下，被用于服务于普通人之外的目标。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;在商业模式里，你的数据服务于广告商的利益。在其他模式里，你的数据服务于其他目的。但在这两种情况下，你都不是真正的受益者，你是原材料。&lt;/p&gt;
+&lt;p&gt;Zuboff把这个概括得很清楚：监控资本主义单方面宣称人类经验是免费的原材料。&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;单方面&amp;quot;这三个字，是关键。没有经过谈判，没有经过同意，没有给你选择的机会。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;一个值得思考的问题&#34;&gt;一个值得思考的问题&lt;/h2&gt;
+&lt;p&gt;我想在这期结尾留一个问题，不给答案，只是希望你想一想。&lt;/p&gt;
+&lt;p&gt;我们通常把隐私问题理解为个人问题——我的数据，我的隐私，我的选择。但Zuboff说，这个框架本身就是一个陷阱。&lt;/p&gt;
+&lt;p&gt;因为监控的真正影响，不只是发生在个人层面。当一套系统可以在大规模人群中追踪、预测、塑造行为，它改变的不只是个人的选择，而是整个社会的运作方式——人们如何形成观点，如何做决定，如何理解什么是正常的。&lt;/p&gt;
+&lt;p&gt;她把这种新型的权力叫做&amp;quot;工具主义权力&amp;rdquo;（Instrumentarian Power）。不是通过暴力，不是通过意识形态，而是通过对行为的精密管理，来实现对社会的塑造。&lt;/p&gt;
+&lt;p&gt;这种权力，在商业公司手里是一种形态，在其他使用者手里，可能是另一种形态。&lt;/p&gt;
+&lt;p&gt;但不管是哪种形态，Zuboff的问题都是同一个：&lt;strong&gt;谁有权利这样做？谁授权了他们？&lt;/strong&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;好，第四期到这里。&lt;/p&gt;
+&lt;p&gt;我们今天没有停留在硅谷，而是往更大的图景看了一眼——同样的技术逻辑，在不同的地方，被不同的力量使用。商业监控和其他形式的监控，目标不同，但有一个共同的结构：普通人的行为，在不知情的情况下，成为了服务于他人目标的原材料。&lt;/p&gt;
+&lt;p&gt;下一期是这本书的最后一期。Zuboff最后问了一个问题：我们能怎么办？她的答案是什么，我的看法是什么，我们下期见。&lt;/p&gt;
+&lt;p&gt;这里是《跟我一起读书吧》，我是Allen。&lt;/p&gt;
+- https://benlai.me/reading/%E7%AC%AC%E5%9B%9B%E6%9C%9F_%E5%90%8C%E4%B8%80%E5%A5%97%E9%80%BB%E8%BE%91%E4%B8%8D%E5%90%8C%E7%9A%84%E4%BD%BF%E7%94%A8%E8%80%85/ - </description>
+        </item>
+    
+    
+    
+        <item>
         <title>Let&#39;s Read Together — Episode 3</title>
         <link>https://benlai.me/reading/ep3-anonymity-is-an-illusion/</link>
         <pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate>
@@ -641,61 +713,6 @@
 &lt;p&gt;&lt;em&gt;Carlo Rovelli, Reality Is Not What It Seems: The Journey to Quantum Gravity, 2014 (English edition 2017)&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;For reasons of space, this essay omits the technical details of loop quantum gravity. Readers wishing to go deeper will find a full treatment in Chapters 4–6 of the original.&lt;/em&gt;&lt;/p&gt;
 - https://benlai.me/spirit/reality_review_english/ - </description>
-        </item>
-    
-    
-    
-        <item>
-        <title>物理学家说时间不存在，那我们的焦虑算什么</title>
-        <link>https://benlai.me/spirit/reality_review_zhihu/</link>
-        <pubDate>Fri, 29 May 2026 00:00:00 +0800</pubDate>
-        
-        <guid>https://benlai.me/spirit/reality_review_zhihu/</guid>
-        <description>本来 https://benlai.me/spirit/reality_review_zhihu/ -&lt;p&gt;&lt;img src=&#34;https://benlai.me/images/time.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;——读Carlo Rovelli《现实不似你所见》&lt;/em&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;我们每天早上醒来，有两件事似乎无需证明：&lt;/p&gt;
-&lt;p&gt;第一，&amp;ldquo;我&amp;quot;还在。昨天的那个我，和今天的这个我，是同一个人。第二，时间又过了一夜。它一直在流，不会停，也不会倒退。&lt;/p&gt;
-&lt;p&gt;这两个感受如此真实，如此基本，以至于我们从未想过质疑它们。它们是我们理解世界的地基。&lt;/p&gt;
-&lt;p&gt;Carlo Rovelli是意大利理论物理学家，圈量子引力理论的奠基人之一。在《现实不似你所见》这本书里，他用一种罕见的优雅，把这两块地基一起抽走了。&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;一时间不是容器是副产品&#34;&gt;一、时间不是容器，是副产品&lt;/h2&gt;
-&lt;p&gt;牛顿的世界里，时间是宇宙的背景——一条均匀流动的长河，万物在其中演化。爱因斯坦打破了这个图景：时间会因引力而弯曲，海平面的时钟走得比山顶的慢，双胞胎兄弟如果一个住在海边一个住在山上，若干年后再见，他们的年龄会有细微差异。这不是比喻，是实测事实。&lt;/p&gt;
-&lt;p&gt;但Rovelli走得更远。&lt;/p&gt;
-&lt;p&gt;在圈量子引力理论的框架里，当我们把空间和时间都量子化，一件奇怪的事情发生了：&lt;strong&gt;描述宇宙基本状态的方程，不含时间变量。&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;这不是数学上的偷懒，而是一个深刻的物理结论：在最基本的层面，宇宙没有一个外部的时钟在运转。没有一个&amp;quot;现在&amp;quot;是所有事物共享的。时间，作为一个基本的物理量，并不存在。&lt;/p&gt;
-&lt;p&gt;那我们感受到的时间流逝是什么？&lt;/p&gt;
-&lt;p&gt;Rovelli给出的答案来自热力学。他称之为&amp;quot;热时间假说&amp;rdquo;：&lt;strong&gt;时间感，是我们只能感知宏观平均值这一事实的产物。&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;我们太小了。我们永远看不到单个粒子，看不到单个空间量子。我们看到的是石头、山脉、朋友的脸——每一样都是无数基本成分的平均效果。热，就是我们对这种平均状态的无知的名字。而热会耗散，耗散是不可逆的，不可逆产生了方向感，方向感就是我们所说的时间之箭。&lt;/p&gt;
-&lt;p&gt;用Rovelli自己的话说：&lt;strong&gt;时间是我们没有的信息。&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;这句话值得停下来想一想。我们不是在时间里存在，我们是因为无知而感知到时间。&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;二没有物体只有关系&#34;&gt;二、没有物体，只有关系&lt;/h2&gt;
-&lt;p&gt;时间之外，Rovelli对&amp;quot;物体&amp;quot;的概念也做了同样彻底的解构。&lt;/p&gt;
-&lt;p&gt;量子力学有一个长期悬而未决的解释问题：粒子在被观测之前，到底处于什么状态？哥本哈根诠释说，粒子没有确定状态，只有概率。多世界诠释说，每次观测都分裂出平行宇宙。&lt;/p&gt;
-&lt;p&gt;Rovelli提出了关系诠释：&lt;strong&gt;粒子的状态，只相对于与它发生互动的其他系统而言是确定的。&lt;/strong&gt; 没有一个绝对的、独立于观察者的物理实在。&lt;/p&gt;
-&lt;p&gt;更根本的是这个结论：&lt;strong&gt;不是物体进入关系，而是关系构成了物体的概念本身。&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;在量子力学描述的世界里，没有孤立存在的实体。有的只是相互作用，只是事件，只是关系网络。一块石头，在Rovelli看来，是量子振动在一段时间内维持其结构的过程——就像海浪，是一个过程，而不是一个东西。&lt;/p&gt;
-&lt;p&gt;我们，也是如此。&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;三从物理学到人的处境&#34;&gt;三、从物理学到人的处境&lt;/h2&gt;
-&lt;p&gt;读到这里，我忍不住要离开物理学，转向一个更贴近日常的问题。&lt;/p&gt;
-&lt;p&gt;如果时间在基本层面不存在，我们对时间的焦虑从何而来？如果&amp;quot;我&amp;quot;不是一个稳定的实体，而是关系网络中的一个持续过程，我们维护自我形象的冲动又意味着什么？&lt;/p&gt;
-&lt;p&gt;行为科学里有一个概念叫&lt;strong&gt;现状偏差&lt;/strong&gt;（status quo bias）——人们倾向于维持现有状态，对改变有天然的抵触。这种偏差被解释为损失厌恶的延伸：改变意味着失去某些已有的东西。&lt;/p&gt;
-&lt;p&gt;但Rovelli的物理学提示了另一层理解：我们之所以抵抗改变，或许是因为我们在本能地维护一个叙事——关于一个稳定的、连续的&amp;quot;自我&amp;quot;存在的叙事。而这个叙事，从物理学的角度看，是一种宏观近似，是我们的神经系统对无数微观互动取平均之后产生的幻觉。&lt;/p&gt;
-&lt;p&gt;我们焦虑时间流逝，是因为我们把时间当作一种正在被消耗的资源。但如果时间本身只是热耗散的宏观涌现，那&amp;quot;浪费时间&amp;quot;这个概念，在最深的层面，是没有根基的。&lt;/p&gt;
-&lt;p&gt;我并不是说这种认识能消除焦虑——人类的神经系统不是这样运作的。但我觉得，理解这一点，至少能给我们一种更宽松的视角：我们对时间的执念，对稳定自我的执念，是进化塑造的认知工具，不是关于现实的终极真理。&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;四科学的边界与人文的温度&#34;&gt;四、科学的边界与人文的温度&lt;/h2&gt;
-&lt;p&gt;Rovelli是少数能把物理学写得像哲学散文的科学家。这本书的后半部分，他大量引用但丁、阿那克西曼德，把圈量子引力的数学结论和人类思想史的脉络交织在一起。&lt;/p&gt;
-&lt;p&gt;这种写法有风险——它可能让物理学家觉得不够严谨，让普通读者觉得过于抽象。但我认为Rovelli赌对了。他真正想说的不是&amp;quot;看，我们发现了新的方程&amp;quot;，而是&amp;quot;看，当我们真正理解现实的结构，人类的处境会显出一种不同的面貌&amp;quot;。&lt;/p&gt;
-&lt;p&gt;这本书没有中文译本。但我认为它值得中文读者认识——不是因为它的物理学结论，而是因为它提出了一个严肃的问题：&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;当我们用来理解世界的最基本框架——时间、自我、物体——都只是近似，我们应该如何重新理解&amp;quot;活着&amp;quot;这件事？&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;这个问题，我还没有答案。但我认为，值得带着它继续想下去。&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;em&gt;Carlo Rovelli, Reality Is Not What It Seems: The Journey to Quantum Gravity, 2014（英文版2017）&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;篇幅所限，本文略去了圈量子引力的技术细节。如有兴趣深入，原书第四至六章有完整论述。&lt;/em&gt;&lt;/p&gt;
-- https://benlai.me/spirit/reality_review_zhihu/ - </description>
         </item>
     
     
