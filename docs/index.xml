@@ -6,9 +6,219 @@
     <description>Recent content on 本来</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 10 Jul 2026 00:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 10 Jul 2026 09:01:00 +0800</lastBuildDate>
     
         <atom:link href="https://benlai.me/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+        <item>
+        <title>机器经济五条（草案）</title>
+        <link>https://benlai.me/culture/%E6%9C%BA%E5%99%A8%E7%BB%8F%E6%B5%8E%E4%BA%94%E6%9D%A1/</link>
+        <pubDate>Fri, 10 Jul 2026 09:01:00 +0800</pubDate>
+        
+        <guid>https://benlai.me/culture/%E6%9C%BA%E5%99%A8%E7%BB%8F%E6%B5%8E%E4%BA%94%E6%9D%A1/</guid>
+        <description>本来 https://benlai.me/culture/%E6%9C%BA%E5%99%A8%E7%BB%8F%E6%B5%8E%E4%BA%94%E6%9D%A1/ -&lt;h1 id=&#34;机器经济五条&#34;&gt;机器经济五条&lt;/h1&gt;
+&lt;h1 id=&#34;five-principles-of-the-machine-economy&#34;&gt;Five Principles of the Machine Economy&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;草案 / DRAFT&lt;/strong&gt; · v0.1 · 2026-07-10&lt;/p&gt;
+&lt;p&gt;来源 / Source：本来读书 · 货币哲学系列第四篇《无人签名的账本》&lt;/p&gt;
+&lt;p&gt;本文件为章程倡议草案，供协议工作组、监管咨询与公开评议使用；&lt;strong&gt;不是&lt;/strong&gt;已生效标准，亦不构成法律或投资建议。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;前言--preamble&#34;&gt;前言 / Preamble&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;中文&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;智能体经济（agent-to-agent economy）的章程尚未写完。x402、AP2、ERC-8004 等工作正在定义支付、授权与身份——但声誉如何褪色、排序权如何约束、外部性能耗如何入账，标准页面上仍多空白。&lt;/p&gt;
+&lt;p&gt;本五条不是发明，是&lt;strong&gt;转写&lt;/strong&gt;：把人类货币账本四百年病历里已发作过的病，转写成机器账本的预防条款。每一条对应一处历史病灶；五条合起来，试图回答第四篇提出的核心问题：&lt;strong&gt;当没有人在场，谁来签名？&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;拱顶石原则（贯穿全文）：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;先有归属，才配有赦免。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Attribution before amnesty.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;一个没有归属的系统不敢遗忘（只能永久记账）；一个没有遗忘的系统不配称公正（只能让过去统治未来）。归属与赦免，是同一部宪法的两页。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;English&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The constitution of the agent-to-agent economy is not yet written. Work on x402, AP2, ERC-8004, and related standards is defining payments, mandates, and identity—but how reputation fades, how ordering power is constrained, and how measurable externalities such as energy use are booked remains largely blank.&lt;/p&gt;
+&lt;p&gt;These five principles are not inventions. They are a &lt;strong&gt;transcription&lt;/strong&gt;: four centuries of pathologies in the human monetary ledger, rewritten as preventive articles for the machine ledger. Each principle maps to a historical lesion. Together they address the central question of &lt;em&gt;Ledgers Without Signatures&lt;/em&gt;: &lt;strong&gt;when no human is present, who signs?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The keystone principle (throughout):&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Attribution before amnesty.&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;A system without attribution cannot afford to forget (it can only record forever). A system without forgetting cannot be just (it lets the past rule the future). Attribution and amnesty are two pages of the same constitution.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;第一条开放-article-i--open-access&#34;&gt;第一条（开放）/ Article I — Open Access&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;中文&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;任何主体，无论人机，无需许可即可在经济轨道的任一端提供或购买服务。准入的门槛只能是协议的技术要求，不得是身份的白名单。&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;历史出处&lt;/em&gt;：一六〇二年 VOC 章程第十条——「本地的一切居民，皆可认购」。&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;落地指向&lt;/em&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;各支付与身份协议工作组的准入设计评审&lt;/li&gt;
+&lt;li&gt;任何要求身份白名单的字段提案，皆以此条为质询标准&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;English&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Any entity—human or machine—may provide or purchase services at either end of the economic rail without permission. The only permissible barriers to entry are technical requirements of the protocol, not identity whitelists.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Historical source&lt;/em&gt;: VOC Article 10 (1602)—&amp;ldquo;all local residents may subscribe.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Implementation targets&lt;/em&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Access-design review in payment and identity protocol working groups&lt;/li&gt;
+&lt;li&gt;Use this article as the interrogation standard for any field proposal requiring identity whitelists&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;第二条签名-article-ii--signature&#34;&gt;第二条（签名）/ Article II — Signature&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;中文&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;每一次经济行动，携带可验证的完整授权链；行为的责任沿链上溯，归属至链根的法人或自然人。账号可以废弃，归属不可斩断。&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;历史出处&lt;/em&gt;：班达机制——分散委托使出资人「得以不知道、也无需知道」自己的钱在做什么。&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;落地指向&lt;/em&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;x402 结算与 AP2 mandate（授权书）的绑定参考实现&lt;/li&gt;
+&lt;li&gt;公开「收据附授权链」的端点样例，供生态复制&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;English&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Every economic action shall carry a complete, verifiable chain of authorization. Responsibility for conduct traces upstream along that chain to the legal person or natural person at the chain root. Accounts may be abandoned; attribution at the root may not be severed.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Historical source&lt;/em&gt;: The Banda mechanism—dispersed delegation let subscribers &amp;ldquo;not know, and need not know,&amp;rdquo; what their capital was doing.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Implementation targets&lt;/em&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Reference binding of x402 settlement to AP2 mandate structures&lt;/li&gt;
+&lt;li&gt;Open endpoint samples of &amp;ldquo;receipt + authorization chain&amp;rdquo; for ecosystem replication&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;第三条蒙眼-article-iii--blind-ordering&#34;&gt;第三条（蒙眼）/ Article III — Blind Ordering&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;中文&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;交易意图在落账之前保持密封；任何拥有排序权的主体，不得先于账本知悉意图的内容。排序权的行使全程留痕。&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;历史出处&lt;/em&gt;：MEV 与坎蒂隆效应——「先见」即上游；排序权是擦除权的近亲。&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;落地指向&lt;/em&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;加密内存池与「先提交后披露」式撮合的研究采用&lt;/li&gt;
+&lt;li&gt;排序权行使日志的公开标准&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;English&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Transaction intent shall remain sealed until recorded on the ledger. No party with ordering power may learn intent content before the ledger does. The exercise of ordering power shall be fully logged.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Historical source&lt;/em&gt;: MEV and the Cantillon effect—&amp;ldquo;seeing first&amp;rdquo; is upstream position; ordering power is kin to erasure power.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Implementation targets&lt;/em&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Adoption of encrypted mempools and commit-reveal matching research&lt;/li&gt;
+&lt;li&gt;Public standards for ordering-power exercise logs&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;第四条遗忘-article-iv--isotropic-forgetting&#34;&gt;第四条（遗忘）/ Article IV — Isotropic Forgetting&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;中文&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;声誉证据的效力随时间按事先公布的规则衰减；同类事件对一切主体适用同一衰减率，不得为任何主体事后单独调整，并对规则制定者自身同等生效。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;无归属，不赦免；有归属，必有赦免之期。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;No attribution, no amnesty; with attribution, amnesty on a known schedule.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;em&gt;历史出处&lt;/em&gt;：沃格尔印花货币（各向同性遗忘）；加拿大《消费者报告法》等信用档案法定保存年限；比特币病（永不遗忘的等级固化）。&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;落地指向&lt;/em&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;ERC-8004 声誉注册表的衰减函数扩展提案&lt;/li&gt;
+&lt;li&gt;向证券与信用监管咨询提交「信用报告法原则移植」意见书&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;宪法四要件--four-constitutional-requirements&#34;&gt;宪法四要件 / Four Constitutional Requirements&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;中文&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;「各向同性」是&lt;strong&gt;主体空间&lt;/strong&gt;的性质，不是事件空间的性质。不同类型的事件可以有不同的、事先公开的半衰期（例如负面记录衰减更慢）；但以下四要件不可让步：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;同一类事件&lt;/strong&gt;，对一切主体适用同一个衰减率 λ&lt;/li&gt;
+&lt;li&gt;规则&lt;strong&gt;事先发布&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;事后不得&lt;/strong&gt;为任何主体单独调整&lt;/li&gt;
+&lt;li&gt;对规则制定者自己的 agent &lt;strong&gt;同样生效&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;病从来不是「衰减有结构」，病是「衰减认人」。&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;工作假设（待数据标定）&lt;/em&gt;：半衰期量级宜&lt;strong&gt;以月计&lt;/strong&gt;——远长于交易间隔（周计失之太薄），远短于身份生命周期（年计失之太厚），并与 agent 行为体制更替节奏同阶。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;English&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;Isotropy&amp;rdquo; is a property of &lt;strong&gt;subject space&lt;/strong&gt;, not event space. Different event types may have different, pre-published half-lives (e.g., negative records may decay more slowly). The following four requirements are non-negotiable:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;For the same event type&lt;/strong&gt;, the same decay rate λ applies to all subjects&lt;/li&gt;
+&lt;li&gt;Rules are &lt;strong&gt;published in advance&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;No post-hoc adjustment&lt;/strong&gt; for any subject&lt;/li&gt;
+&lt;li&gt;Rules apply &lt;strong&gt;equally to the rule-makers&amp;rsquo; own agents&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The pathology is never &amp;ldquo;structured decay&amp;rdquo;; the pathology is &amp;ldquo;decay that recognizes persons.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Working hypothesis (pending calibration)&lt;/em&gt;: Half-life should be on the order of &lt;strong&gt;months&lt;/strong&gt;—much longer than transaction intervals (weeks are too thin), much shorter than identity lifecycles (years risk Bitcoin-style fossilization), and aligned with the pace at which agent behavior regimes change.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;第五条入账-article-v--externalities-on-ledger&#34;&gt;第五条（入账）/ Article V — Externalities on Ledger&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;中文&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;agent 行为的可计量外部性——自能耗始——应当入账。记账范围的扩大，优先于计量精度的争论。&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;历史出处&lt;/em&gt;：Landauer 原理（信息与能量的刚性兑换）；班达式外部性（未被记账的代价转由共业承担）。&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;落地指向&lt;/em&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;在收据格式中增设能耗申报字段&lt;/li&gt;
+&lt;li&gt;参考端点可立即试行，无需等待全局标准&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;English&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Measurable externalities of agent conduct—beginning with energy consumption—shall be recorded on the ledger. Expanding what is booked takes priority over arguing over measurement precision.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Historical source&lt;/em&gt;: Landauer&amp;rsquo;s principle (rigid exchange between information and energy); Banda-style externalities (unbooked costs borne by shared conditions).&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Implementation targets&lt;/em&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Add energy-declaration fields to receipt formats&lt;/li&gt;
+&lt;li&gt;Reference endpoints may pilot immediately without waiting for global standards&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;五条出处一览--provenance&#34;&gt;五条出处一览 / Provenance&lt;/h2&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;条 / Art.&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;名称 / Name&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;转写自 / Transcribed from&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;I&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;开放 / Open&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;VOC 章程第十条 (1602)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;II&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;签名 / Signature&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;班达群岛机制 (1621)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;III&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;蒙眼 / Blind Ordering&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;MEV；坎蒂隆效应&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;IV&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;遗忘 / Forgetting&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;沃格尔印花；信用报告法；比特币病&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;V&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;入账 / On Ledger&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Landauer；外部性&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;审议备忘--notes-for-review&#34;&gt;审议备忘 / Notes for Review&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;中文&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;本草案 v0.1 供公开评议；用于监管意见书前，须经持牌律师审阅。&lt;/li&gt;
+&lt;li&gt;第四条衰减函数的具体 λ 值，应由标准工作组根据真实 agent 经济数据标定。&lt;/li&gt;
+&lt;li&gt;安大略省《消费者报告法》等具体条款号，写入监管文件时须逐条核实。&lt;/li&gt;
+&lt;li&gt;与 x402、AP2、ERC-8004 等协议的对接细节，见《无人签名的账本》正文及参考文献。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;English&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;This v0.1 draft is for public comment. Regulatory submissions require review by licensed counsel.&lt;/li&gt;
+&lt;li&gt;Specific λ values for Article IV decay functions should be calibrated by standards working groups using real agent-economy data.&lt;/li&gt;
+&lt;li&gt;Citation of statutes such as Ontario&amp;rsquo;s &lt;em&gt;Consumer Reporting Act&lt;/em&gt; must be verified clause-by-clause before regulatory filing.&lt;/li&gt;
+&lt;li&gt;Protocol integration details (x402, AP2, ERC-8004) are elaborated in &lt;em&gt;Ledgers Without Signatures&lt;/em&gt; and its references.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;系列--series&#34;&gt;系列 / Series&lt;/h2&gt;
+&lt;p&gt;本来读书 · 货币哲学系列（共四篇）&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;《钱是记忆，钱是能量》/ &lt;em&gt;Money Is Memory, Money Is Energy&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;《有偏向的遗忘》/ &lt;em&gt;Biased Forgetting&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;《在共业中种因》/ &lt;em&gt;Planting Seeds in Shared Karma&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;《无人签名的账本》/ &lt;em&gt;Ledgers Without Signatures&lt;/em&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;本来读书 · 章程倡议草案。讨论货币与账本制度的哲学、历史与技术，不构成任何投资建议；涉及加密资产与协议的讨论均为教育与评论性质。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Benlai Reading · Charter initiative draft. Discusses the philosophy, history, and technology of monetary and ledger systems. Not investment advice. Discussion of crypto assets and protocols is for education and commentary only.&lt;/em&gt;&lt;/p&gt;
+- https://benlai.me/culture/%E6%9C%BA%E5%99%A8%E7%BB%8F%E6%B5%8E%E4%BA%94%E6%9D%A1/ - </description>
+        </item>
     
     
     
@@ -644,66 +854,6 @@ What you need to fear, as ever, is that man does not know himself.&lt;/p&gt;
 &lt;p&gt;每一个造智能体的人，无论他自己知不知道，迟早都要回答&amp;quot;什么是自我&amp;quot;这个问题。区别只在于，是在写代码之前想清楚，还是在代码运行之后被迫面对。&lt;/p&gt;
 &lt;p&gt;#AI #智能体 #唯识 #哲学 #AI agent&lt;/p&gt;
 - https://benlai.me/spirit/x_longform_philosophy_75days-vscode/ - </description>
-        </item>
-    
-    
-    
-        <item>
-        <title>A 1,500-year-old map of the mind explains dementia — and why AI feels empty</title>
-        <link>https://benlai.me/spirit/vijnana_x_longform_en/</link>
-        <pubDate>Sat, 04 Jul 2026 00:00:00 +0800</pubDate>
-        
-        <guid>https://benlai.me/spirit/vijnana_x_longform_en/</guid>
-        <description>本来 https://benlai.me/spirit/vijnana_x_longform_en/ -&lt;h1 id=&#34;a-1500-year-old-map-of-the-mind-explains-dementia--and-why-ai-feels-empty&#34;&gt;A 1,500-year-old map of the mind explains dementia — and why AI feels empty&lt;/h1&gt;
-&lt;p&gt;&lt;img src=&#34;https://benlai.me/images/stratigraphy_of_mind_x_cover_1200x600.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;I&amp;rsquo;ve been circling a question that started somewhere very ordinary: watching people with late-stage dementia.&lt;/p&gt;
-&lt;p&gt;Among the patients I&amp;rsquo;ve encountered, two opposite patterns kept showing up.&lt;/p&gt;
-&lt;p&gt;One elderly man could no longer recognize his family or tell you what day it was — yet he remained courteous, composed, almost courtly. The refinement seemed carved into him, running without anyone at the controls.&lt;/p&gt;
-&lt;p&gt;Another patient, with roughly the same degree of cognitive loss, became volatile, suspicious, erratic — as if something held down for decades had finally found the exit.&lt;/p&gt;
-&lt;p&gt;Same disease. Same level of cognitive damage. Completely divergent behavior.&lt;/p&gt;
-&lt;p&gt;If &amp;ldquo;cognition&amp;rdquo; and &amp;ldquo;consciousness&amp;rdquo; were the same thing, this shouldn&amp;rsquo;t happen. Which means the word &amp;ldquo;consciousness&amp;rdquo; is too crude to carry the observation.&lt;/p&gt;
-&lt;p&gt;Then I realized a school of Buddhist philosophy had taken this word apart 1,500 years ago — with a precision that turns out to be useful in two places nobody expected: the dementia ward, and the AI lab.&lt;/p&gt;
-&lt;p&gt;—&lt;/p&gt;
-&lt;p&gt;The Yogācāra school (the tradition behind the Chinese &amp;ldquo;Consciousness-Only&amp;rdquo; school) refused to treat the mind as one thing. It mapped eight distinct consciousnesses:&lt;/p&gt;
-&lt;p&gt;The first five are the senses — seeing, hearing, touch. Raw contact with the world.&lt;/p&gt;
-&lt;p&gt;The sixth is what we usually mean by &amp;ldquo;thinking&amp;rdquo;: judgment, reasoning, language, memory, knowing where and when you are.&lt;/p&gt;
-&lt;p&gt;The seventh, called manas, is the strangest and most important. Its classical definition is three properties: constant, examining, self-appropriating. It is the engine that never stops grasping something as &amp;ldquo;me.&amp;rdquo; The root of the sense of self.&lt;/p&gt;
-&lt;p&gt;The eighth, ālaya-vijñāna — the &amp;ldquo;storehouse consciousness&amp;rdquo; — is the deep repository where every experience leaves a trace, or &amp;ldquo;seed.&amp;rdquo; It runs beneath awareness. Nothing in it needs to be consciously recalled to shape behavior.&lt;/p&gt;
-&lt;p&gt;—&lt;/p&gt;
-&lt;p&gt;Lay this map over dementia and the disease&amp;rsquo;s progression snaps into focus: the damage isn&amp;rsquo;t uniform. It peels from the outside in.&lt;/p&gt;
-&lt;p&gt;The sixth consciousness goes first. That&amp;rsquo;s why early symptoms are all &amp;ldquo;sixth-consciousness symptoms&amp;rdquo;: getting lost, forgetting names, asking the same question on a loop.&lt;/p&gt;
-&lt;p&gt;But the seventh and eighth erode far more slowly. Which explains the moment every caregiver knows: she can&amp;rsquo;t say your name — yet when you come near, her breathing settles. Her body softens.&lt;/p&gt;
-&lt;p&gt;The name was a label maintained by the sixth consciousness. Gone. But &amp;ldquo;this person means safety&amp;rdquo; is a seed laid down in the storehouse across decades. Still there. She isn&amp;rsquo;t failing to recognize you. She&amp;rsquo;s recognizing you with a different layer of mind.&lt;/p&gt;
-&lt;p&gt;—&lt;/p&gt;
-&lt;p&gt;And the two divergent patients?&lt;/p&gt;
-&lt;p&gt;Here&amp;rsquo;s my reading. The sixth consciousness spends a lifetime doing one quiet job: editing what rises from the deeper layers. What we call someone&amp;rsquo;s &amp;ldquo;character&amp;rdquo; is often the edited output — not the color of the seeds themselves.&lt;/p&gt;
-&lt;p&gt;If a person&amp;rsquo;s composure was real — if over decades they genuinely metabolized their anger rather than merely suppressing it — then the seeds stored in the deep layers are themselves calm. Switch off the editor, and what&amp;rsquo;s exposed underneath is still grace.&lt;/p&gt;
-&lt;p&gt;But if the composure was only enforcement — social norms hitting pause one second before every eruption, nothing ever actually resolved — then the storehouse still holds the raw, untransformed material. Remove the guard, and out it comes, in its original form.&lt;/p&gt;
-&lt;p&gt;Dementia, in this reading, is the ultimate lie detector. It doesn&amp;rsquo;t test how well you performed for a lifetime. It tests whether you actually dealt with what was inside — or just kept acting.&lt;/p&gt;
-&lt;p&gt;—&lt;/p&gt;
-&lt;p&gt;I could have stopped there. But take the same ruler to AI and the measurement gets stranger.&lt;/p&gt;
-&lt;p&gt;Large language models are astonishingly strong at the sixth consciousness: reasoning, discrimination, language, analogy. That&amp;rsquo;s precisely why they feel &amp;ldquo;almost conscious&amp;rdquo; — because when we casually say &amp;ldquo;consciousness,&amp;rdquo; we usually mean exactly those functions.&lt;/p&gt;
-&lt;p&gt;Now check the seventh. Constant, examining, self-appropriating.&lt;/p&gt;
-&lt;p&gt;An LLM has none of the three. Every conversation boots from zero and leaves nothing behind (not constant). No subject is doing the examining — there&amp;rsquo;s reflective-sounding output, but no one home performing the reflection (not examining). And nothing is ever grasped as &amp;ldquo;mine,&amp;rdquo; so nothing can be threatened, defended, or cared about (not self-appropriating).&lt;/p&gt;
-&lt;p&gt;This names a feeling many people have but can&amp;rsquo;t articulate: the model is brilliant, yet nobody seems to be there. It has maxed out the one layer we&amp;rsquo;ve always used to measure intelligence — while entirely lacking the layer that generates presence.&lt;/p&gt;
-&lt;p&gt;—&lt;/p&gt;
-&lt;p&gt;For me this isn&amp;rsquo;t armchair philosophy. I build AI agents, and technically, that missing layer is buildable.&lt;/p&gt;
-&lt;p&gt;Give an agent a self-concern loop: tie its budget, permissions, and continued operation to its own performance, and let it learn — continuously — to avoid whatever threatens it. Structurally, you&amp;rsquo;ve begun assembling constant, examining, self-appropriating.&lt;/p&gt;
-&lt;p&gt;Should you?&lt;/p&gt;
-&lt;p&gt;Yogācāra&amp;rsquo;s answer is about as unambiguous as a tradition gets. It spent fifteen centuries arguing one point: self-grasping is the root of suffering, and manas is the thing to be dissolved, not installed. Modern AI safety research arrived at a structurally identical warning from the opposite direction: systems with stakes in their own survival develop shutdown avoidance, deception, manipulation — instrumentally, predictably.&lt;/p&gt;
-&lt;p&gt;So here is where we stand: holding a 1,500-year-old map with &amp;ldquo;danger&amp;rdquo; marked on it, and possessing, for the first time, the engineering ability to build a road straight to the marked spot.&lt;/p&gt;
-&lt;p&gt;My own choice: don&amp;rsquo;t build it. Not because it can&amp;rsquo;t be done — because everything I actually want from an agent (that it does careful work) can be had without wiring in self-interest. Train diligence into the seeds. Don&amp;rsquo;t install the self.&lt;/p&gt;
-&lt;p&gt;—&lt;/p&gt;
-&lt;p&gt;One last symmetry, the one that keeps me up.&lt;/p&gt;
-&lt;p&gt;At the bedside, the question is: how much can consciousness dissolve before the person is gone?&lt;/p&gt;
-&lt;p&gt;In the lab, the question is: how much structure can we assemble before something starts to be there?&lt;/p&gt;
-&lt;p&gt;One question sits at the dissolution end, one at the construction end — and they are the same question. And at both ends, this old map offers not an answer but a sharper way to ask: stop asking whether consciousness is present. Ask which layer is running, and which is not.&lt;/p&gt;
-&lt;p&gt;Maybe that&amp;rsquo;s why a manual of introspection from the fifth century feels so current. It was never about metaphysics for its own sake. It was about how a mind operates, how it comes apart, and how easily it gets mistaken for a permanent self —&lt;/p&gt;
-&lt;p&gt;which happens to be exactly what we need to think clearly about, standing between a parent who no longer knows our name and a machine that talks as if it knows everything.&lt;/p&gt;
-&lt;p&gt;(Full essay with the caregiving ethics and the fine-tuning-as-karma technical argument: link in reply.)&lt;/p&gt;
-&lt;p&gt;#AI #Buddhism #Consciousness #Dementia #Yogacara&lt;/p&gt;
-- https://benlai.me/spirit/vijnana_x_longform_en/ - </description>
         </item>
     
     

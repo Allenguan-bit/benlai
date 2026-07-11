@@ -6,8 +6,15 @@
     <description>Recent content in 文化 on 本来</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 09 Jul 2026 09:02:00 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 10 Jul 2026 09:01:00 +0800</lastBuildDate>
     <atom:link href="https://benlai.me/culture/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>机器经济五条（草案）</title>
+      <link>https://benlai.me/culture/%E6%9C%BA%E5%99%A8%E7%BB%8F%E6%B5%8E%E4%BA%94%E6%9D%A1/</link>
+      <pubDate>Fri, 10 Jul 2026 09:01:00 +0800</pubDate>
+      <guid>https://benlai.me/culture/%E6%9C%BA%E5%99%A8%E7%BB%8F%E6%B5%8E%E4%BA%94%E6%9D%A1/</guid>
+      <description>&lt;h1 id=&#34;机器经济五条&#34;&gt;机器经济五条&lt;/h1&gt;&#xA;&lt;h1 id=&#34;five-principles-of-the-machine-economy&#34;&gt;Five Principles of the Machine Economy&lt;/h1&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;草案 / DRAFT&lt;/strong&gt; · v0.1 · 2026-07-10&lt;/p&gt;&#xA;&lt;p&gt;来源 / Source：本来读书 · 货币哲学系列第四篇《无人签名的账本》&lt;/p&gt;&#xA;&lt;p&gt;本文件为章程倡议草案，供协议工作组、监管咨询与公开评议使用；&lt;strong&gt;不是&lt;/strong&gt;已生效标准，亦不构成法律或投资建议。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;前言--preamble&#34;&gt;前言 / Preamble&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;中文&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;智能体经济（agent-to-agent economy）的章程尚未写完。x402、AP2、ERC-8004 等工作正在定义支付、授权与身份——但声誉如何褪色、排序权如何约束、外部性能耗如何入账，标准页面上仍多空白。&lt;/p&gt;&#xA;&lt;p&gt;本五条不是发明，是&lt;strong&gt;转写&lt;/strong&gt;：把人类货币账本四百年病历里已发作过的病，转写成机器账本的预防条款。每一条对应一处历史病灶；五条合起来，试图回答第四篇提出的核心问题：&lt;strong&gt;当没有人在场，谁来签名？&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;拱顶石原则（贯穿全文）：&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;先有归属，才配有赦免。&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;Attribution before amnesty.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;一个没有归属的系统不敢遗忘（只能永久记账）；一个没有遗忘的系统不配称公正（只能让过去统治未来）。归属与赦免，是同一部宪法的两页。&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;English&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;The constitution of the agent-to-agent economy is not yet written. Work on x402, AP2, ERC-8004, and related standards is defining payments, mandates, and identity—but how reputation fades, how ordering power is constrained, and how measurable externalities such as energy use are booked remains largely blank.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>在共业中种因</title>
       <link>https://benlai.me/culture/%E5%9C%A8%E5%85%B1%E4%B8%9A%E4%B8%AD%E7%A7%8D%E5%9B%A0/</link>
