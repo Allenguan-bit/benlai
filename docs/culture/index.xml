@@ -9,6 +9,13 @@
     <lastBuildDate>Sat, 11 Jul 2026 00:00:00 +0800</lastBuildDate>
     <atom:link href="https://benlai.me/culture/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>The Ledger No One Signs</title>
+      <link>https://benlai.me/culture/the-ledger-no-one-signs-substack-en/</link>
+      <pubDate>Sat, 11 Jul 2026 00:00:00 +0800</pubDate>
+      <guid>https://benlai.me/culture/the-ledger-no-one-signs-substack-en/</guid>
+      <description>&lt;h1 id=&#34;the-ledger-no-one-signs&#34;&gt;The Ledger No One Signs&lt;/h1&gt;&#xA;&lt;p&gt;&lt;em&gt;An AI paid me one cent for a piece of my work. This essay is about what that cent means — and about the constitution the machine economy hasn&amp;rsquo;t written yet.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;one-cent-nobody-present&#34;&gt;One Cent, Nobody Present&lt;/h2&gt;&#xA;&lt;p&gt;Not long ago, an AI paid me.&lt;/p&gt;&#xA;&lt;p&gt;On a NAS in my home runs a small paid endpoint: a bilingual digest of alternative-investment news, priced per request, speaking x402 — an open protocol that lets machines pay for web resources directly — and settling on Base. One day a payment arrived: 0.01 USDC. One cent. The buyer was a wallet address. The transaction hash begins with 0xac97. It settled in seconds. No notary, no parchment ledger, no deadline — no one present at all. I found it in the logs afterward. The paying party has no body; the receiving party was upstairs, doing something else.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>同一个公式：从玻尔兹曼到阿赖耶识</title>
       <link>https://benlai.me/culture/full-article-boltzmann-to-alaya-benlai/</link>
       <pubDate>Sat, 11 Jul 2026 00:00:00 +0800</pubDate>
